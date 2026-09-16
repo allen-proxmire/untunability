@@ -2,7 +2,7 @@
 
 **Event Density (ED)** is a way of picturing how the world works underneath. It starts from one simple conviction: **time only runs one way.** Once something has really happened, it can't be undone.
 
-This repository holds ED's one proved result and the full record of a first attempt to turn the picture into working rules and test them.
+This repository holds ED's one proved result, and a note on how ED's ideas connect to Jacobson's derivation of gravity.
 
 ## The idea
 
@@ -67,8 +67,7 @@ A lot, and every failure is written down.
 | | |
 |---|---|
 | **The theorem** | [Result.md](Result.md) (one page), [Paper.md](Paper.md) (full proof and limits), [Assumptions.md](Assumptions.md) (what it assumes), [tools/check_result.py](tools/check_result.py) (checks it) |
-| **The first attempt** | [ED_Attempt_01](ED_Attempt_01/README.md): the rules, every test, the running record of claims and decisions, and the write-up |
-| **Start reading here** | [Plain-language version](ED_Attempt_01/06_Write_Up/ED_Plain_Language.md), [definitions of the terms](ED_Attempt_01/06_Write_Up/Definitions.md), [full write-up](ED_Attempt_01/06_Write_Up/ED_Interpretation_Draft2.md) |
+| **Gravity's area law** | [Jacobson_Area_Law.md](Jacobson_Area_Law.md): how ED's ideas supply the one physical assumption in Jacobson's derivation of Einstein's equations, and exactly what that does and doesn't show |
 
 ## Check the theorem yourself
 
