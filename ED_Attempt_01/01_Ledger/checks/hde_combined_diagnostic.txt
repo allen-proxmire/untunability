@@ -1,8 +1,0 @@
-BAO only           REF chi2 10.294 (Om 0.298) | HDE chi2 10.030 (Om 0.272, c 0.93) | Delta -0.264
-SN only            REF chi2 23.960 (Om 0.356) | HDE chi2 22.303 (Om 0.240, c 1.38) | Delta -1.657
-BAO + SN           REF chi2 38.859 (Om 0.304) | HDE chi2 33.983 (Om 0.272, c 1.08) | Delta -4.876
-BAO + SN + CMB R   REF chi2 40.058 (Om 0.310) | HDE chi2 72.810 (Om 0.306, c 0.67) | Delta 32.752
-SN + CMB R         REF chi2 26.022 (Om 0.320) | HDE chi2 25.752 (Om 0.352, c 0.75) | Delta -0.270
-BAO + CMB R        REF chi2 12.857 (Om 0.308) | HDE chi2 28.162 (Om 0.276, c 0.55) | Delta 15.305
-HDE best (Om 0.306, c 0.67): dark energy fraction at z* = 6.509e-05; at z=1: 0.227
-exit 0
