@@ -1,0 +1,14 @@
+P0: REF R at Omega_m 0.315 = 1.7495 (z* 1090.6); HDE equation identity error 2.2e-16
+REF best: chi^2 40.058 at Omega_m 0.310 (BAO 12.41, SN 27.05, CMB R 0.60)
+HDE best: chi^2 72.810 at Omega_m 0.306, c 0.67 (BAO 30.95, SN 34.51, CMB R 7.34); w today -1.162
+Delta chi^2 (HDE - REF) 32.752; Delta AIC 34.752
+
+RIGHT  P0 REF R at 0.315 in [1.73, 1.77] and HDE equation identity
+RIGHT  P1 REF combined chi^2 between 25 and 50
+RIGHT  P2 REF best Omega_m between 0.29 and 0.33
+RIGHT  P3 HDE best c between 0.5 and 1.5
+WRONG  P4 HDE chi^2 within 6 of REF
+RIGHT  P5 HDE best Omega_m above 0.272
+RIGHT  P6 Delta AIC positive (HDE not preferred)
+SOME PREDICTIONS WRONG
+exit 1

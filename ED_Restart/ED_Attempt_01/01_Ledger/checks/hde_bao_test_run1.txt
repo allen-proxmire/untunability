@@ -1,0 +1,11 @@
+P0: w(Omega 0.73, c 1) = -0.9029; c = 1e6 vs constant dark energy max relative difference 2.2e-01
+constant dark energy (no radiation): best chi^2 10.275 at Omega_m 0.298
+HDE (future event horizon): best chi^2 10.045 at Omega_m 0.272, c 0.93; w today -0.945
+Delta chi^2 (HDE - constant) -0.230; Delta AIC (one extra parameter) 1.770
+
+WRONG  P0 w formula matches Li's -0.90 and c -> infinity gives constant dark energy
+RIGHT  P1 constant dark energy best chi^2 between 9 and 12
+RIGHT  P2 HDE best-fit c between 0.5 and 1.5
+RIGHT  P3 HDE best chi^2 within 4 of constant dark energy
+RIGHT  P4 w today between -1.1 and -0.85
+SOME PREDICTIONS WRONG

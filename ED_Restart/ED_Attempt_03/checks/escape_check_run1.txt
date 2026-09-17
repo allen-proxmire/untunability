@@ -1,0 +1,15 @@
+X1 released heat at the core edge (far-away units): 0.632121
+X2 grid minimum of n(r) r at r = 2.00002 m, value 5.436564 m; critical sin(alpha) = 0.735759 (2/e = 0.735759)
+X3 escaping share of directions: outward-only 0.16176 (closed form 0.16138); all directions 0.32292 (closed form 0.32276)
+X4 f1 (single, outward) = 0.1023; f2 (single, all, transparent core) = 0.2041; f3 (steady state) = 0.6321; f_min = 0.1023
+
+Exit rule (RD6): f_min = 0.1023 > 0.004
+VERDICT: the rule fires: a full locus with ED's current rate law conflicts with the horizon evidence; ED's strong-field line closes
+
+Expected results:
+  AS EXPECTED      X1 released heat 1 - 1/e
+  AS EXPECTED      X2 barrier at 2m, critical sin 2/e
+  AS EXPECTED      X3 escaping shares
+  AS EXPECTED      X4 fractions and f_min
+  AS EXPECTED      Exit: the rule fires
+exit 0

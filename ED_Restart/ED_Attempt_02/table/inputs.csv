@@ -1,0 +1,43 @@
+id,name,sector,class,value,uncertainty,unit,status,source
+S01,strong coupling alpha_s(M_Z),gauge,gradient,0.1180,0.0009,,measured,PDG 2024 (value not rechecked this session)
+S02,fine-structure constant alpha(0),gauge,gradient,0.0072973525693,,,measured,CODATA (value not rechecked this session)
+S03,weak coupling (via sin^2 theta_W),gauge,gradient,0.23122,0.00004,,measured,PDG 2024 (value not rechecked this session)
+S04,Higgs vacuum value v,Higgs,boundary,246.22,,GeV,measured,v = (sqrt2 G_F)^(-1/2); search listing (C18)
+S05,Higgs self-coupling lambda (via m_H),Higgs,gradient,125.2,0.1,GeV (m_H),measured,PDG 2024 (value not rechecked this session)
+S06,electron mass,Yukawa,relation,0.51099895,0.00000000015,MeV,measured,PDG (search listing; C3)
+S07,muon mass,Yukawa,relation,105.6583755,0.0000023,MeV,measured,PDG (search listing; C3)
+S08,tau mass,Yukawa,relation,1776.93,0.09,MeV,measured,PDG 2024 (search listing; C14)
+S09,up quark mass,Yukawa,relation,,,MeV,measured,enters through m_u/m_d (S21)
+S10,down quark mass,Yukawa,relation,,,MeV,measured,enters through m_s/m_ud and m_u/m_d (S20; S21)
+S11,strange quark mass,Yukawa,relation,,,MeV,measured,enters through m_s/m_ud (S20)
+S12,charm quark mass,Yukawa,relation,1.273,0.0046,GeV,measured,PDG 2024 (value not rechecked this session)
+S13,bottom quark mass,Yukawa,relation,4.183,0.007,GeV,measured,PDG 2024 (value not rechecked this session)
+S14,top quark mass,Yukawa,relation,172.57,0.29,GeV,measured,PDG 2024 direct (search listing; C14)
+S15,CKM |V_us| (Cabibbo),mixing,relation,0.2243,0.0008,,measured,PDG 2024 CKM review (search listing; C16)
+S16,CKM |V_cb|,mixing,relation,0.0408,0.0014,,measured,PDG 2024 (value not rechecked this session)
+S17,CKM |V_ub|,mixing,relation,0.00382,0.00020,,measured,PDG 2024 (value not rechecked this session)
+S18,CKM phase delta,mixing,relation,1.144,0.027,rad,measured,PDG 2024 (value not rechecked this session)
+S19,strong-CP angle theta-bar,phase,relation,0,1e-10,rad,bound,neutron EDM bound (Abel et al. 2020; search listing; C19)
+S20,ratio m_s / m_ud,Yukawa,relation,27.23,0.10,,measured,FLAG 2024 (search listing; C17)
+S21,ratio m_u / m_d,Yukawa,relation,0.455,0.008,,measured,FLAG-based (search listing; C17)
+N01,neutrino mass scale (lightest),neutrino,relation,,,eV,unknown,not measured
+N02,neutrino splitting Delta m^2_21,neutrino,relation,7.49e-5,0.19e-5,eV^2,measured,NuFIT (value not rechecked this session)
+N03,neutrino splitting Delta m^2_3l,neutrino,relation,2.513e-3,0.021e-3,eV^2,measured,NuFIT (value not rechecked this session)
+N04,PMNS theta_12,mixing,relation,33.68,0.73,deg,measured,NuFIT 6.0 (search listing; C15)
+N05,PMNS theta_23,mixing,relation,48.5,0.9,deg,measured,NuFIT (value not rechecked this session)
+N06,PMNS theta_13,mixing,relation,8.52,0.11,deg,measured,NuFIT (value not rechecked this session)
+N07,PMNS Dirac phase,mixing,relation,,,rad,poorly measured,NuFIT
+N08,Majorana phase 1,mixing,relation,,,rad,unknown,only if neutrinos are Majorana
+N09,Majorana phase 2,mixing,relation,,,rad,unknown,only if neutrinos are Majorana
+C01,cosmological constant (Lambda l_P^2),cosmology,boundary,2.85e-122,,,measured,A1-ledger C211
+C02,baryon-to-photon ratio eta,cosmology,boundary,6.1e-10,,,measured,A1-ledger C253
+T01,number of generations,structure,boundary,3,,,measured,light neutrino species 2.984 +- 0.008 (LEP; search listing; C21)
+T02,number of spatial dimensions,structure,boundary,3,,,measured,A1-ledger RD34; Ehrenfest argument (C22)
+T03,gauge group SU(3)xSU(2)xU(1),structure,boundary,,,,chosen,Standard Model structure
+E01,ED birth chance per Planck step,ED,boundary,2.92e-61,,,free (value),A1-ledger C211 RD43
+E02,ED standing phase (lane-loop phase),ED,relation,,,rad,free (unset),A1-ledger C288 C303
+E03,ED meeting interaction (motion into committed matter),ED,gradient,,,,free (chosen),A1-ledger C293
+E04,ED response strength of draws to flow,ED,gradient,,,,free (tuned),A1-ledger C288
+E05,reason for GR's feedback weights,ED,gradient,,,,free (reason),A1-ledger RD37
+E06,reason for the Pythagorean moving/ticking split,ED,gradient,,,,free (reason),A1-ledger RD17 G26
+E07,ED mirror-symmetric rules,ED,relation,,,,free (a reading),A1-ledger A1

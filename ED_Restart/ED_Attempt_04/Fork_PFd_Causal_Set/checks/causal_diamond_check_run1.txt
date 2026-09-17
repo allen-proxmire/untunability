@@ -1,0 +1,11 @@
+P1 (pairing count)^2 = 2 x diamond area for all n_R, n_L <= 100: True
+P2 related pairs before boost 995719, after boost 995719
+P3 N = 2500: mean longest chain 92.60, per sqrt(N) 1.8520
+P3 N = 10000: mean longest chain 191.95, per sqrt(N) 1.9195
+P4 doubling proper time (N x 4): longest chain grows by 2.073
+
+Expected results:
+  AS EXPECTED      P1 pairings squared = 2 x area
+  AS EXPECTED      P2 boost leaves order unchanged
+  AS EXPECTED      P3 longest chain / sqrt(N) in [1.89, 1.95] at 10,000, above 2,500
+  AS EXPECTED      P4 longest chain doubles when proper time doubles

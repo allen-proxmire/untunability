@@ -1,0 +1,6 @@
+stalled=True at tick 192941: loci 50, relations 263, mean degree 10.52
+degree counts: {2: 4, 3: 1, 4: 1, 6: 2, 7: 1, 12: 41}
+counts: {'births': 47, 'birth_fail': 19248, 'pull_prop': 678, 'pull_acc': 166, 'rew_att': 192941, 'rew_cand': 192939, 'rew_acc': 25247, 'lp': 11205}
+birth sites: {'cap': 263}
+curvature failures by worst relation: {}
+exit 0

@@ -1,0 +1,4 @@
+# claim IDs | working directory | command
+C7 | ../checks | python crossing_count_check.py
+C7 (diagnostic) | ../checks | python crossing_count_k4_diagnostic.py
+C23 | ../checks | python dispersion_check.py

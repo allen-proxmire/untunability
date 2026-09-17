@@ -1,0 +1,113 @@
+done Fourier g +0.9 gain  1.5 start 0: hand
+done Fourier g +0.9 gain  1.5 start 4: hand
+done Fourier g +0.9 gain  1.5 start 1: hand
+done Fourier g +0.9 gain  1.5 start 5: hand
+done Fourier g +0.9 gain  1.5 start 2: hand
+done Fourier g +0.9 gain  1.5 start 3: hand
+done Fourier g +0.9 gain  2.0 start 0: hand
+done Fourier g +0.9 gain  2.0 start 1: hand
+done Fourier g +0.9 gain  2.0 start 4: hand
+done Fourier g +0.9 gain  2.0 start 5: hand
+done Fourier g +0.9 gain  2.0 start 2: hand
+done Fourier g +0.9 gain  2.0 start 3: hand
+done Fourier g +0.9 gain  3.0 start 0: hand
+done Fourier g +0.9 gain  3.0 start 1: hand
+done Fourier g +0.9 gain  3.0 start 2: hand
+done Fourier g +0.9 gain  3.0 start 3: hand
+done Fourier g +0.9 gain  3.0 start 4: hand
+done Fourier g +0.9 gain  3.0 start 5: hand
+done Fourier g +0.9 gain  5.0 start 1: hand
+done Fourier g +0.9 gain  5.0 start 0: hand
+done Fourier g +0.9 gain  5.0 start 2: hand
+done Fourier g +0.9 gain  5.0 start 3: hand
+done Fourier g +0.9 gain  5.0 start 4: hand
+done Fourier g +0.9 gain  5.0 start 5: hand
+done Fourier g +0.9 gain 10.0 start 0: hand
+done Fourier g +0.9 gain 10.0 start 1: hand
+done Fourier g +0.9 gain 10.0 start 2: hand
+done Fourier g +0.9 gain 10.0 start 3: hand
+done Grover g +0.9 gain  1.5 start 0: dead
+done Grover g +0.9 gain  1.5 start 1: dead
+done Grover g +0.9 gain  1.5 start 2: dead
+done Grover g +0.9 gain  1.5 start 3: dead
+done Grover g +0.9 gain  1.5 start 4: dead
+done Fourier g +0.9 gain 10.0 start 4: hand
+done Fourier g +0.9 gain 10.0 start 5: hand
+done Grover g +0.9 gain  2.0 start 1: dead
+done Grover g +0.9 gain  2.0 start 0: dead
+done Grover g +0.9 gain  1.5 start 5: dead
+done Grover g +0.9 gain  2.0 start 2: dead
+done Grover g +0.9 gain  2.0 start 3: dead
+done Grover g +0.9 gain  2.0 start 4: dead
+done Grover g +0.9 gain  2.0 start 5: dead
+done Grover g +0.9 gain  3.0 start 0: dead
+done Grover g +0.9 gain  3.0 start 1: dead
+done Grover g +0.9 gain  3.0 start 2: dead
+done Grover g +0.9 gain  3.0 start 3: dead
+done Grover g +0.9 gain  3.0 start 4: dead
+done Grover g +0.9 gain  3.0 start 5: dead
+done Grover g +0.9 gain  5.0 start 0: dead
+done Grover g +0.9 gain  5.0 start 1: unsteady
+done Grover g +0.9 gain  5.0 start 2: unsteady
+done Grover g +0.9 gain  5.0 start 3: unsteady
+done Grover g +0.9 gain  5.0 start 4: unsteady
+done Grover g +0.9 gain  5.0 start 5: unsteady
+done Grover g +0.9 gain 10.0 start 0: dead
+done Grover g +0.9 gain 10.0 start 1: unsteady
+done Grover g +0.9 gain 10.0 start 2: unsteady
+done Grover g +0.9 gain 10.0 start 3: unsteady
+done Grover g +0.9 gain 10.0 start 4: unsteady
+done Grover g +0.9 gain 10.0 start 5: unsteady
+done Grover g -0.9 gain  1.5 start 0: dead
+done Grover g -0.9 gain  1.5 start 1: patterned
+done Grover g -0.9 gain  1.5 start 2: patterned
+done Grover g -0.9 gain  1.5 start 3: patterned
+done Grover g -0.9 gain  1.5 start 4: patterned
+done Grover g -0.9 gain  1.5 start 5: patterned
+done Grover g -0.9 gain  2.0 start 0: patterned
+done Grover g -0.9 gain  2.0 start 1: patterned
+done Grover g -0.9 gain  2.0 start 2: patterned
+done Grover g -0.9 gain  2.0 start 3: patterned
+done Grover g -0.9 gain  2.0 start 4: patterned
+done Grover g -0.9 gain  2.0 start 5: patterned
+done Grover g -0.9 gain  3.0 start 0: patterned
+done Grover g -0.9 gain  3.0 start 1: patterned
+done Grover g -0.9 gain  3.0 start 2: patterned
+done Grover g -0.9 gain  3.0 start 3: patterned
+done Grover g -0.9 gain  3.0 start 4: patterned
+done Grover g -0.9 gain  3.0 start 5: patterned
+done Grover g -0.9 gain  5.0 start 0: patterned
+done Grover g -0.9 gain  5.0 start 1: patterned
+done Grover g -0.9 gain  5.0 start 2: patterned
+done Grover g -0.9 gain  5.0 start 3: patterned
+done Grover g -0.9 gain  5.0 start 4: patterned
+done Grover g -0.9 gain  5.0 start 5: patterned
+done Grover g -0.9 gain 10.0 start 0: dead
+done Grover g -0.9 gain 10.0 start 1: patterned
+done Grover g -0.9 gain 10.0 start 2: patterned
+done Grover g -0.9 gain 10.0 start 3: patterned
+done Grover g -0.9 gain 10.0 start 4: patterned
+done Grover g -0.9 gain 10.0 start 5: patterned
+
+By setting:
+Fourier g +0.9 gain  1.5: kinds ['hand', 'hand', 'hand', 'hand', 'hand', 'hand']; v -2.2369e-01 -2.2369e-01 -2.2369e-01 -2.2369e-01 +2.2369e-01 +2.2369e-01; largest |v| watched 2.2e-01 2.2e-01 2.2e-01 2.2e-01 2.2e-01 2.2e-01; change 2e-17 2e-17 2e-17 2e-17 2e-17 2e-17; sign changes [0, 0, 0, 0, 0, 0]; amount spread 2e-17 1e-17 1e-17 2e-17 1e-17 2e-17; windings of hands [1, 1, 1, 1, 1, 1]; fingerprint spread of hands 4.2e-14
+Fourier g +0.9 gain  2.0: kinds ['hand', 'hand', 'hand', 'hand', 'hand', 'hand']; v +2.3915e-01 -2.3915e-01 -2.3915e-01 -2.3915e-01 -2.3915e-01 +2.3915e-01; largest |v| watched 2.4e-01 2.4e-01 2.4e-01 2.4e-01 2.4e-01 2.4e-01; change 3e-17 2e-17 2e-17 1e-17 2e-17 2e-17; sign changes [0, 0, 0, 0, 0, 0]; amount spread 1e-17 1e-17 1e-17 3e-17 3e-17 6e-17; windings of hands [1, 1, 1, 1, 1, 1]; fingerprint spread of hands 5.1e-14
+Fourier g +0.9 gain  3.0: kinds ['hand', 'hand', 'hand', 'hand', 'hand', 'hand']; v +2.4271e-01 +2.4271e-01 -2.4271e-01 -2.4271e-01 -2.4271e-01 -2.4271e-01; largest |v| watched 2.4e-01 2.4e-01 2.4e-01 2.4e-01 2.4e-01 2.4e-01; change 2e-17 2e-17 2e-17 1e-17 1e-17 2e-17; sign changes [0, 0, 0, 0, 0, 0]; amount spread 2e-17 1e-17 2e-17 2e-17 1e-17 1e-17; windings of hands [1, 1, 1, 1, 1, 1]; fingerprint spread of hands 5.3e-14
+Fourier g +0.9 gain  5.0: kinds ['hand', 'hand', 'hand', 'hand', 'hand', 'hand']; v +2.4288e-01 +2.4288e-01 -2.4288e-01 +2.4288e-01 -2.4288e-01 -2.4288e-01; largest |v| watched 2.4e-01 2.4e-01 2.4e-01 2.4e-01 2.4e-01 2.4e-01; change 2e-17 2e-17 2e-17 2e-17 2e-17 2e-17; sign changes [0, 0, 0, 0, 0, 0]; amount spread 2e-17 1e-17 2e-17 2e-17 2e-17 2e-17; windings of hands [1, 1, 1, 1, 1, 1]; fingerprint spread of hands 5.4e-14
+Fourier g +0.9 gain 10.0: kinds ['hand', 'hand', 'hand', 'hand', 'hand', 'hand']; v -2.4288e-01 +2.4288e-01 +2.4288e-01 +2.4288e-01 +2.4288e-01 -2.4288e-01; largest |v| watched 2.4e-01 2.4e-01 2.4e-01 2.4e-01 2.4e-01 2.4e-01; change 2e-17 2e-17 2e-17 2e-17 2e-17 2e-17; sign changes [0, 0, 0, 0, 0, 0]; amount spread 1e-17 7e-18 1e-17 1e-17 1e-17 1e-17; windings of hands [1, 1, 1, 1, 1, 1]; fingerprint spread of hands 5.4e-14
+Grover g +0.9 gain  1.5: kinds ['dead', 'dead', 'dead', 'dead', 'dead', 'dead']; v +3.4694e-18 +1.7347e-18 +1.7347e-18 -3.4694e-18 +1.5613e-17 -2.7756e-17; largest |v| watched 1.2e-16 1.4e-16 1.6e-16 1.1e-16 1.8e-16 1.3e-16; change 1e-17 1e-17 1e-17 1e-17 1e-17 1e-17; sign changes [0, 0, 0, 0, 0, 0]; amount spread 1e-17 1e-17 3e-17 7e-18 2e-17 2e-17; windings of hands []; fingerprint spread of hands nan
+Grover g +0.9 gain  2.0: kinds ['dead', 'dead', 'dead', 'dead', 'dead', 'dead']; v +1.0408e-17 -1.9082e-17 -1.5613e-17 +3.4694e-18 -8.5001e-17 -2.0817e-17; largest |v| watched 1.7e-16 1.6e-16 1.7e-16 8.5e-17 1.6e-16 1.2e-16; change 2e-17 2e-17 1e-17 1e-17 2e-17 1e-17; sign changes [0, 0, 0, 0, 0, 0]; amount spread 2e-17 1e-17 2e-17 1e-17 3e-17 2e-17; windings of hands []; fingerprint spread of hands nan
+Grover g +0.9 gain  3.0: kinds ['dead', 'dead', 'dead', 'dead', 'dead', 'dead']; v +8.7871e-07 -2.8612e-06 -3.1543e-06 -1.7112e-06 +3.5774e-06 +3.2109e-06; largest |v| watched 1.9e-06 6.3e-06 6.9e-06 3.7e-06 7.8e-06 7.0e-06; change 3e-11 1e-10 1e-10 7e-11 1e-10 1e-10; sign changes [0, 0, 0, 0, 0, 0]; amount spread 2e-17 2e-17 1e-17 3e-17 1e-17 2e-17; windings of hands []; fingerprint spread of hands nan
+Grover g +0.9 gain  5.0: kinds ['dead', 'unsteady', 'unsteady', 'unsteady', 'unsteady', 'unsteady']; v -2.6021e-17 -1.9825e-02 +2.3870e-02 +1.8144e-02 +9.4253e-04 +1.7978e-02; largest |v| watched 1.0e-16 3.1e-02 3.1e-02 3.1e-02 3.1e-02 3.1e-02; change 7e-03 7e-03 7e-03 7e-03 7e-03 7e-03; sign changes [12, 0, 24, 0, 24, 0]; amount spread 3e-03 1e-17 2e-17 7e-18 2e-17 2e-17; windings of hands []; fingerprint spread of hands nan
+Grover g +0.9 gain 10.0: kinds ['dead', 'unsteady', 'unsteady', 'unsteady', 'unsteady', 'unsteady']; v -3.4694e-17 +2.9083e-02 -6.2721e-03 -2.7714e-02 -3.1961e-02 +4.0374e-02; largest |v| watched 6.2e-16 4.7e-02 8.5e-03 4.7e-02 4.7e-02 4.7e-02; change 8e-03 8e-03 8e-03 8e-03 8e-03 8e-03; sign changes [12, 0, 6, 0, 0, 0]; amount spread 3e-03 2e-17 4e-03 2e-17 1e-17 6e-17; windings of hands []; fingerprint spread of hands nan
+Grover g -0.9 gain  1.5: kinds ['dead', 'patterned', 'patterned', 'patterned', 'patterned', 'patterned']; v +3.8128e-04 +6.2150e-03 +1.0889e-02 +1.1297e-02 -6.3220e-03 +6.4030e-03; largest |v| watched 3.8e-04 6.2e-03 1.1e-02 1.1e-02 6.3e-03 6.4e-03; change 1e-17 1e-17 1e-17 1e-13 1e-17 1e-17; sign changes [18, 16, 20, 16, 16, 18]; amount spread 4e-02 4e-02 3e-02 4e-02 4e-02 3e-02; windings of hands []; fingerprint spread of hands nan
+Grover g -0.9 gain  2.0: kinds ['patterned', 'patterned', 'patterned', 'patterned', 'patterned', 'patterned']; v +1.6649e-02 -3.2712e-02 -3.2960e-02 +3.4473e-02 -3.4440e-02 +3.4517e-02; largest |v| watched 1.7e-02 3.3e-02 3.3e-02 3.4e-02 3.4e-02 3.5e-02; change 1e-17 9e-14 2e-17 1e-17 1e-17 1e-17; sign changes [20, 20, 20, 18, 18, 20]; amount spread 3e-02 5e-02 5e-02 4e-02 3e-02 3e-02; windings of hands []; fingerprint spread of hands nan
+Grover g -0.9 gain  3.0: kinds ['patterned', 'patterned', 'patterned', 'patterned', 'patterned', 'patterned']; v +1.6623e-02 -3.2674e-02 -3.2832e-02 +5.3350e-02 -3.4265e-02 +3.4367e-02; largest |v| watched 1.7e-02 3.3e-02 3.3e-02 5.3e-02 3.4e-02 3.4e-02; change 1e-17 1e-17 1e-17 1e-17 1e-17 1e-17; sign changes [20, 20, 20, 20, 18, 20]; amount spread 3e-02 4e-02 5e-02 5e-02 3e-02 3e-02; windings of hands []; fingerprint spread of hands nan
+Grover g -0.9 gain  5.0: kinds ['patterned', 'patterned', 'patterned', 'patterned', 'patterned', 'patterned']; v +1.6623e-02 -3.2670e-02 -3.2826e-02 +3.4035e-02 -3.4257e-02 +3.4360e-02; largest |v| watched 1.7e-02 3.3e-02 3.3e-02 3.4e-02 3.4e-02 3.4e-02; change 1e-17 2e-17 1e-17 1e-17 1e-17 1e-17; sign changes [20, 20, 20, 18, 18, 20]; amount spread 3e-02 4e-02 5e-02 4e-02 3e-02 3e-02; windings of hands []; fingerprint spread of hands nan
+Grover g -0.9 gain 10.0: kinds ['dead', 'patterned', 'patterned', 'patterned', 'patterned', 'patterned']; v +6.9389e-18 -3.2670e-02 -1.6316e-02 +3.4035e-02 -1.6567e-02 +1.6790e-02; largest |v| watched 4.2e-17 3.3e-02 1.6e-02 3.4e-02 1.7e-02 1.7e-02; change 1e-17 2e-17 1e-17 1e-17 1e-17 1e-17; sign changes [18, 20, 18, 18, 16, 18]; amount spread 4e-02 4e-02 4e-02 4e-02 5e-02 3e-02; windings of hands []; fingerprint spread of hands nan
+
+Expected results:
+  AS EXPECTED      S1 Fourier g +0.9: hands at every gain, winding 1, one state and its mirror, |v| not decreasing
+  NOT AS EXPECTED  S2 Grover g +0.9: dead at every gain
+  AS EXPECTED      S3 Grover g -0.9: no hand at any gain
+exit 0

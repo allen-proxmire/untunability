@@ -1,0 +1,15 @@
+graph                     pieces     largest piece     mean distance               d_s squares per locus     perfect share      links spread
+control                   1.0000            1.0000           11.2033            3.0461           12.0000            1.0000            0.0000
+random start              7.0000            0.9982            4.7461            4.4220            0.2027            0.0000            2.4139
+R1                      417.0000            0.0056            2.2164            0.3350           77.7588            0.0000            2.1184
+R2                        7.0000            0.9982            7.3052            3.3745           11.8459            0.0033            0.4856
+acceptance: R1 0.087, R2 0.051
+
+RIGHT  P0 control perfect lattice, distance 11.20332
+RIGHT  P1 R1 squares above 5 x start
+RIGHT  P1 R1 not 3D (distance < 0.6 x control or largest piece < 0.9)
+RIGHT  P2a R2 squares per locus within 3 of 12
+RIGHT  P2b R2 distance above 1.5 x random start
+WRONG  P2c R2 3D-like (d_s within 0.5, distance within 30% of control)
+RIGHT  P2d R2 not a perfect crystal (perfect share below 0.9)
+SOME PREDICTIONS WRONG

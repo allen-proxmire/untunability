@@ -1,0 +1,112 @@
+2026-09-15 18:34:21 start: 456 jobs, largest 16000
+19:52:32 done 1/456 (1.30 h): constrained_K10_c1_k12_kap-0.1_N4000_s1.json
+19:52:38 done 2/456 (1.30 h): constrained_K10_c1_k12_kap-0.1_N4000_s0.json
+19:53:12 done 3/456 (1.31 h): constrained_K10_c1_k12_kap-0.1_N4000_s2.json
+20:06:50 done 4/456 (1.54 h): constrained_K10_c1_k12_kap-0.1_N1000_s0.json
+20:19:02 done 5/456 (1.74 h): constrained_K10_c1_k12_kap-0.1_N1000_s1.json
+20:31:19 done 6/456 (1.95 h): constrained_K10_c1_k12_kap-0.1_N1000_s2.json
+2026-09-15 20:35:48 reduced plan start: 233 jobs, 227 to run
+20:47:42 reduced done 1/227 (0.20 h): constrained_K10_c1_k12_kap-0.1_N1000_s4.json
+20:47:54 reduced done 2/227 (0.20 h): constrained_K10_c1_k12_kap-0.1_N1000_s3.json
+20:52:36 reduced done 3/227 (0.28 h): control_K10_c1_k12_kapnone_N1000_s0.json
+20:53:00 reduced done 4/227 (0.29 h): control_K10_c1_k12_kapnone_N4000_s1.json
+20:53:24 reduced done 5/227 (0.29 h): control_K10_c1_k12_kapnone_N4000_s2.json
+20:54:25 reduced done 6/227 (0.31 h): control_K10_c1_k12_kapnone_N4000_s3.json
+20:54:27 reduced done 7/227 (0.31 h): control_K10_c1_k12_kapnone_N4000_s0.json
+20:57:03 reduced done 8/227 (0.35 h): control_K10_c1_k12_kapnone_N1000_s1.json
+20:57:27 reduced done 9/227 (0.36 h): control_K10_c1_k12_kapnone_N1000_s2.json
+20:57:36 reduced done 10/227 (0.36 h): control_K10_c1_k12_kapnone_N1000_s3.json
+20:58:49 reduced done 11/227 (0.38 h): control_K10_c1_k12_kapnone_N1000_s4.json
+21:04:30 reduced done 12/227 (0.48 h): control_K10_c1_k12_kapnone_N4000_s4.json
+21:07:34 reduced done 13/227 (0.53 h): control_K1_c0.5_k8_kapnone_N4000_s0.json
+21:08:04 reduced done 14/227 (0.54 h): control_K1_c0.5_k8_kapnone_N4000_s1.json
+21:14:58 reduced done 15/227 (0.65 h): control_K1_c0.5_k8_kapnone_N4000_s2.json
+21:19:02 reduced done 16/227 (0.72 h): constrained_K10_c1_k12_kap-0.1_N4000_s3.json
+21:19:04 reduced done 17/227 (0.72 h): constrained_K10_c1_k12_kap-0.1_N4000_s4.json
+21:30:29 reduced done 18/227 (0.91 h): control_K1_c0.5_k12_kapnone_N4000_s0.json
+21:40:14 reduced done 19/227 (1.07 h): control_K1_c0.5_k12_kapnone_N4000_s1.json
+21:52:13 reduced done 20/227 (1.27 h): control_K1_c0.5_k12_kapnone_N4000_s2.json
+21:54:36 reduced done 21/227 (1.31 h): constrained_K1_c0.5_k8_kap-0.2_N4000_s0.json
+21:58:53 reduced done 22/227 (1.38 h): constrained_K1_c0.5_k8_kap-0.2_N4000_s2.json
+22:01:20 reduced done 23/227 (1.43 h): constrained_K1_c0.5_k8_kap-0.2_N4000_s1.json
+22:36:46 reduced done 24/227 (2.02 h): control_K1_c0.5_k16_kapnone_N4000_s0.json
+22:40:07 reduced done 25/227 (2.07 h): control_K1_c0.5_k16_kapnone_N4000_s1.json
+23:16:52 reduced done 26/227 (2.68 h): control_K1_c0.5_k16_kapnone_N4000_s2.json
+23:25:44 reduced done 27/227 (2.83 h): control_K1_c1_k8_kapnone_N4000_s0.json
+23:32:32 reduced done 28/227 (2.95 h): constrained_K1_c1_k8_kap-0.2_N4000_s0.json
+23:39:35 reduced done 29/227 (3.06 h): constrained_K1_c0.5_k12_kap-0.2_N4000_s2.json
+23:41:29 reduced done 30/227 (3.09 h): control_K1_c1_k8_kapnone_N4000_s1.json
+23:50:26 reduced done 31/227 (3.24 h): control_K1_c1_k8_kapnone_N4000_s2.json
+23:51:10 reduced done 32/227 (3.26 h): constrained_K1_c0.5_k12_kap-0.2_N4000_s0.json
+23:56:42 reduced done 33/227 (3.35 h): constrained_K1_c0.5_k12_kap-0.2_N4000_s1.json
+00:09:46 reduced done 34/227 (3.57 h): control_K1_c1_k12_kapnone_N4000_s0.json
+00:12:40 reduced done 35/227 (3.61 h): constrained_K1_c1_k8_kap-0.2_N4000_s1.json
+00:26:40 reduced done 36/227 (3.85 h): constrained_K1_c1_k8_kap-0.2_N4000_s2.json
+00:28:42 reduced done 37/227 (3.88 h): control_K1_c1_k12_kapnone_N4000_s1.json
+00:45:01 reduced done 38/227 (4.15 h): control_K1_c1_k12_kapnone_N4000_s2.json
+01:13:39 reduced done 39/227 (4.63 h): control_K1_c1_k16_kapnone_N4000_s0.json
+2026-09-16 06:22:51 reduced plan start: 233 jobs, 188 to run
+08:54:59 reduced done 1/188 (2.54 h): constrained_K1_c1_k12_kap-0.2_N4000_s1.json
+09:06:25 reduced done 2/188 (2.73 h): constrained_K1_c1_k12_kap-0.2_N4000_s2.json
+09:24:02 reduced done 3/188 (3.02 h): control_K1_c1_k16_kapnone_N4000_s1.json
+09:27:31 reduced done 4/188 (3.08 h): constrained_K1_c1_k12_kap-0.2_N4000_s0.json
+09:53:54 reduced done 5/188 (3.52 h): control_K1_c1_k16_kapnone_N4000_s2.json
+09:54:16 reduced done 6/188 (3.52 h): constrained_K1_c2_k8_kap-0.2_N4000_s0.json
+10:00:05 reduced done 7/188 (3.62 h): control_K1_c2_k8_kapnone_N4000_s0.json
+10:06:10 reduced done 8/188 (3.72 h): control_K1_c2_k8_kapnone_N4000_s1.json
+2026-09-16 10:23:48 strong-sync plan start: 54 jobs, 54 to run
+10:36:32 strong-sync done 1/54 (0.21 h): constrained_K30_c1_k16_kap-0.2_N4000_s0.json
+10:42:09 strong-sync done 2/54 (0.31 h): control_K30_c1_k16_kapnone_N4000_s0.json
+10:49:04 strong-sync done 3/54 (0.42 h): constrained_K30_c0.5_k16_kap-0.2_N4000_s0.json
+10:59:05 strong-sync done 4/54 (0.59 h): control_K30_c0.5_k16_kapnone_N4000_s1.json
+10:59:18 strong-sync done 5/54 (0.59 h): constrained_K30_c1_k16_kap-0.2_N4000_s2.json
+10:59:40 strong-sync done 6/54 (0.60 h): control_K30_c0.5_k16_kapnone_N4000_s0.json
+11:00:03 strong-sync done 7/54 (0.60 h): control_K30_c1_k16_kapnone_N4000_s1.json
+11:00:39 strong-sync done 8/54 (0.61 h): control_K30_c0.5_k16_kapnone_N4000_s2.json
+11:04:24 strong-sync done 9/54 (0.68 h): control_K30_c2_k16_kapnone_N4000_s0.json
+11:05:32 strong-sync done 10/54 (0.70 h): control_K30_c2_k16_kapnone_N4000_s1.json
+11:10:27 strong-sync done 11/54 (0.78 h): control_K30_c2_k16_kapnone_N4000_s2.json
+11:15:00 strong-sync done 12/54 (0.85 h): constrained_K30_c2_k16_kap-0.2_N4000_s0.json
+11:16:21 strong-sync done 13/54 (0.88 h): constrained_K30_c0.5_k12_kap-0.2_N4000_s0.json
+11:17:53 strong-sync done 14/54 (0.90 h): control_K30_c1_k16_kapnone_N4000_s2.json
+11:21:15 strong-sync done 15/54 (0.96 h): constrained_K30_c2_k16_kap-0.2_N4000_s1.json
+11:21:26 strong-sync done 16/54 (0.96 h): constrained_K30_c2_k16_kap-0.2_N4000_s2.json
+11:29:35 strong-sync done 17/54 (1.10 h): constrained_K30_c0.5_k12_kap-0.2_N4000_s2.json
+11:35:02 strong-sync done 18/54 (1.19 h): control_K30_c0.5_k12_kapnone_N4000_s0.json
+11:36:56 strong-sync done 19/54 (1.22 h): constrained_K30_c0.5_k12_kap-0.2_N4000_s1.json
+11:38:43 strong-sync done 20/54 (1.25 h): control_K30_c0.5_k12_kapnone_N4000_s1.json
+11:38:45 strong-sync done 21/54 (1.25 h): constrained_K30_c0.5_k16_kap-0.2_N4000_s2.json
+11:41:44 strong-sync done 22/54 (1.30 h): control_K30_c0.5_k12_kapnone_N4000_s2.json
+11:49:20 strong-sync done 23/54 (1.43 h): control_K30_c1_k12_kapnone_N4000_s0.json
+11:52:45 strong-sync done 24/54 (1.48 h): control_K30_c1_k12_kapnone_N4000_s1.json
+11:55:17 strong-sync done 25/54 (1.52 h): control_K30_c1_k12_kapnone_N4000_s2.json
+11:56:00 strong-sync done 26/54 (1.54 h): constrained_K30_c1_k12_kap-0.2_N4000_s2.json
+11:57:27 strong-sync done 27/54 (1.56 h): control_K30_c2_k12_kapnone_N4000_s0.json
+11:58:50 strong-sync done 28/54 (1.58 h): constrained_K30_c1_k16_kap-0.2_N4000_s1.json
+11:59:02 strong-sync done 29/54 (1.59 h): constrained_K30_c0.5_k16_kap-0.2_N4000_s1.json
+12:00:30 strong-sync done 30/54 (1.61 h): control_K30_c2_k12_kapnone_N4000_s1.json
+12:03:22 strong-sync done 31/54 (1.66 h): control_K30_c2_k12_kapnone_N4000_s2.json
+12:08:41 strong-sync done 32/54 (1.75 h): constrained_K30_c2_k12_kap-0.2_N4000_s0.json
+12:10:26 strong-sync done 33/54 (1.78 h): control_K30_c0.5_k8_kapnone_N4000_s0.json
+12:15:42 strong-sync done 34/54 (1.87 h): constrained_K30_c2_k12_kap-0.2_N4000_s1.json
+12:17:06 strong-sync done 35/54 (1.89 h): constrained_K30_c2_k12_kap-0.2_N4000_s2.json
+12:18:16 strong-sync done 36/54 (1.91 h): control_K30_c0.5_k8_kapnone_N4000_s1.json
+12:18:33 strong-sync done 37/54 (1.91 h): constrained_K30_c1_k12_kap-0.2_N4000_s0.json
+12:25:14 strong-sync done 38/54 (2.02 h): control_K30_c0.5_k8_kapnone_N4000_s2.json
+12:27:25 strong-sync done 39/54 (2.06 h): control_K30_c1_k8_kapnone_N4000_s0.json
+12:34:22 strong-sync done 40/54 (2.18 h): control_K30_c1_k8_kapnone_N4000_s1.json
+12:40:55 strong-sync done 41/54 (2.29 h): constrained_K30_c0.5_k8_kap-0.2_N4000_s1.json
+12:41:41 strong-sync done 42/54 (2.30 h): constrained_K30_c0.5_k8_kap-0.2_N4000_s2.json
+12:42:32 strong-sync done 43/54 (2.31 h): constrained_K30_c0.5_k8_kap-0.2_N4000_s0.json
+12:43:57 strong-sync done 44/54 (2.34 h): control_K30_c1_k8_kapnone_N4000_s2.json
+12:47:22 strong-sync done 45/54 (2.39 h): control_K30_c2_k8_kapnone_N4000_s0.json
+12:49:53 strong-sync done 46/54 (2.43 h): control_K30_c2_k8_kapnone_N4000_s1.json
+12:54:15 strong-sync done 47/54 (2.51 h): constrained_K30_c1_k8_kap-0.2_N4000_s1.json
+12:56:09 strong-sync done 48/54 (2.54 h): control_K30_c2_k8_kapnone_N4000_s2.json
+13:00:58 strong-sync done 49/54 (2.62 h): constrained_K30_c1_k12_kap-0.2_N4000_s1.json
+13:02:39 strong-sync done 50/54 (2.65 h): constrained_K30_c1_k8_kap-0.2_N4000_s0.json
+13:04:59 strong-sync done 51/54 (2.69 h): constrained_K30_c2_k8_kap-0.2_N4000_s0.json
+13:07:02 strong-sync done 52/54 (2.72 h): constrained_K30_c2_k8_kap-0.2_N4000_s2.json
+13:07:15 strong-sync done 53/54 (2.72 h): constrained_K30_c2_k8_kap-0.2_N4000_s1.json
+13:09:25 strong-sync done 54/54 (2.76 h): constrained_K30_c1_k8_kap-0.2_N4000_s2.json
+2026-09-16 13:09:25 strong-sync plan: all 54 jobs present

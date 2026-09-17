@@ -1,0 +1,10 @@
+Grover delta +0.001: eigenvalues within 1e-8 of 1: 1, within 1e-6: 1; next distance 6.12e-02; chosen |lambda-1| 5.3e-15; min eig of steady state 7.8e-09; v +2.2926e-04
+Grover delta -0.001: eigenvalues within 1e-8 of 1: 1, within 1e-6: 1; next distance 6.12e-02; chosen |lambda-1| 1.5e-15; min eig of steady state 7.8e-09; v -2.2926e-04
+Grover delta +0.000: eigenvalues within 1e-8 of 1: 1, within 1e-6: 1; next distance 6.12e-02; chosen |lambda-1| 3.7e-15; min eig of steady state -8.5e-17; v -1.3878e-17
+Grover delta +0.500: eigenvalues within 1e-8 of 1: 1, within 1e-6: 1; next distance 3.92e-02; chosen |lambda-1| 5.7e-15; min eig of steady state 1.4e-03; v +1.1942e-01
+Grover: chi 2.2926e-01; v(delta 0) -1.4e-17; winding of lossy step: symmetric rates 0, delta 0.5 1
+Fourier delta +0.001: eigenvalues within 1e-8 of 1: 0, within 1e-6: 1; next distance 3.93e-02; chosen |lambda-1| 2.8e-08; min eig of steady state 3.4e-10; v +1.6515e-04
+Fourier delta -0.001: eigenvalues within 1e-8 of 1: 0, within 1e-6: 1; next distance 3.93e-02; chosen |lambda-1| 2.8e-08; min eig of steady state 3.4e-10; v -1.6515e-04
+Fourier delta +0.000: eigenvalues within 1e-8 of 1: 1, within 1e-6: 1; next distance 3.93e-02; chosen |lambda-1| 2.4e-15; min eig of steady state -1.1e-16; v +2.0123e-16
+Fourier delta +0.500: eigenvalues within 1e-8 of 1: 0, within 1e-6: 0; next distance 3.11e-02; chosen |lambda-1| 7.2e-03; min eig of steady state 7.7e-05; v +8.2998e-02
+Fourier: chi 1.6515e-01; v(delta 0) 2.0e-16; winding of lossy step: symmetric rates 0, delta 0.5 0

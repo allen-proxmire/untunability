@@ -1,0 +1,8 @@
+reading B k=0.5 L*=100: survived 20/20; median offspring: average-of-ratios 1.0174, telescoped 0.9993, ratio-of-sums 0.9993
+reading B k=0.5 L*=200: survived 20/20; median offspring: average-of-ratios 1.0089, telescoped 0.9999, ratio-of-sums 0.9999
+reading B k=1.0 L*=100: survived 20/20; median offspring: average-of-ratios 1.0395, telescoped 0.9999, ratio-of-sums 0.9999
+reading B k=1.0 L*=200: survived 20/20; median offspring: average-of-ratios 1.0196, telescoped 1.0001, ratio-of-sums 1.0001
+reading B k=1.5 L*=100: survived 20/20; median offspring: average-of-ratios 1.1157, telescoped 1.0003, ratio-of-sums 1.0003
+reading B k=1.5 L*=200: survived 20/20; median offspring: average-of-ratios 1.0593, telescoped 1.0002, ratio-of-sums 1.0001
+reading B k=2.5 L*=100: survived 20/20; median offspring: average-of-ratios 1.3825, telescoped 0.9991, ratio-of-sums 0.9991
+reading B k=2.5 L*=200: survived 20/20; median offspring: average-of-ratios 1.1708, telescoped 1.0010, ratio-of-sums 1.0009

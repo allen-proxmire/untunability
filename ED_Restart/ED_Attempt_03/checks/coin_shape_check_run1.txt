@@ -1,0 +1,16 @@
+E1 20,000 random mirror-symmetric coins: unitarity 1.3e-15, mirror 0.0e+00, row/column sums 1.8e-15; chain-link failures 0; outside slice 0; smallest slack 8.36e-10
+E2 Grover odds (x, y) = (0.444444444444, 0.111111111111); link slacks 5.6e-17 5.6e-17 5.6e-17
+E3 fair rows 0,1: lengths 0.333333333333 0.333333333333 0.333333333333, sum of terms 1.1e-16, turning angles 240.000000000 240.000000000 240.000000000
+E3 fair rows 0,2: lengths 0.333333333333 0.333333333333 0.333333333333, sum of terms 2.4e-16, turning angles 120.000000000 120.000000000 120.000000000
+E3 fair rows 1,2: lengths 0.333333333333 0.333333333333 0.333333333333, sum of terms 1.1e-16, turning angles 240.000000000 240.000000000 240.000000000
+E4 beta sign +1: unitarity 8.3e-17, fairness 1.1e-16, mirror 0.0e+00; C_II^2/(C_LL C_RR) = 1.000000+0.000000i; equivalent to (family, phi, momentum m): [('A', 120, 12)]
+E4 beta sign -1: unitarity 8.3e-17, fairness 1.1e-16, mirror 0.0e+00; C_II^2/(C_LL C_RR) = 1.000000-0.000000i; equivalent to (family, phi, momentum m): [('B', 240, 0)]
+E5 channels-alike line: chain-link passes for x up to 0.444250; channels-alike coins I + (e^{i theta} - 1) J/3 reach x from 0.000 to 0.444444444444
+
+Expected results:
+  AS EXPECTED      E1 random mirror-symmetric coins fill the chain-link region only
+  AS EXPECTED      E2 Grover on the boundary
+  AS EXPECTED      E3 fair point: equilateral triangles, 120 degrees
+  AS EXPECTED      E4 fair channels-alike coins at phi 120 or conjugate
+  AS EXPECTED      E5 channels-alike coins exist exactly for x <= 4/9
+exit 0

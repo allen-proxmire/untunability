@@ -1,0 +1,68 @@
+[1/42] cal_F_n40.json 0 s (elapsed 2 s)
+[2/42] cal_F_n80.json 8 s (elapsed 10 s)
+[3/42] cal_R_n40.json 12 s (elapsed 13 s)
+[4/42] cal_R_n80.json 57 s (elapsed 59 s)
+[5/42] cal_F_n160.json 99 s (elapsed 100 s)
+[6/42] cal_R_n160.json 307 s (elapsed 308 s)
+[7/42] grow_Q2_n160_s0.json 4314 s (elapsed 4315 s)
+[8/42] grow_Q2_n160_s1.json 4331 s (elapsed 4341 s)
+[9/42] grow_Q2_n160_s2.json 4402 s (elapsed 4415 s)
+[10/42] grow_Q1_n160_s1.json 4322 s (elapsed 4422 s)
+[11/42] grow_Q1_n160_s0.json 4372 s (elapsed 4430 s)
+[12/42] grow_Q1_n160_s2.json 4182 s (elapsed 4491 s)
+[13/42] grow_U_n160_s1.json 1492 s (elapsed 5922 s)
+[14/42] grow_U_n160_s0.json 1618 s (elapsed 6040 s)
+[15/42] grow_U_n160_s2.json 1564 s (elapsed 6055 s)
+[16/42] grow_Q2_n80_s0.json 836 s (elapsed 6758 s)
+[17/42] grow_Q2_n80_s1.json 826 s (elapsed 6866 s)
+[18/42] grow_Q2_n80_s2.json 829 s (elapsed 6885 s)
+[19/42] grow_Q1_n80_s0.json 829 s (elapsed 7587 s)
+[20/42] grow_Q1_n80_s1.json 829 s (elapsed 7696 s)
+[21/42] grow_Q1_n80_s2.json 836 s (elapsed 7720 s)
+[22/42] grow_Q0.5_n160_s1.json 4019 s (elapsed 8359 s)
+[23/42] grow_Q0.5_n80_s0.json 829 s (elapsed 8417 s)
+[24/42] grow_Q0.5_n160_s0.json 4116 s (elapsed 8432 s)
+[25/42] grow_Q0.5_n160_s2.json 4067 s (elapsed 8482 s)
+[26/42] grow_Q0.5_n80_s1.json 836 s (elapsed 8532 s)
+[27/42] grow_Q0.5_n80_s2.json 845 s (elapsed 8566 s)
+[28/42] grow_U_n80_s0.json 291 s (elapsed 8650 s)
+[29/42] grow_U_n80_s1.json 291 s (elapsed 8707 s)
+[30/42] grow_U_n80_s2.json 285 s (elapsed 8717 s)
+[31/42] grow_Q2_n40_s0.json 957 s (elapsed 9439 s)
+[32/42] grow_Q2_n40_s2.json 921 s (elapsed 9487 s)
+[33/42] grow_Q2_n40_s1.json 971 s (elapsed 9502 s)
+[34/42] grow_Q1_n40_s1.json 803 s (elapsed 9510 s)
+[35/42] grow_Q1_n40_s0.json 915 s (elapsed 9565 s)
+[36/42] grow_Q1_n40_s2.json 911 s (elapsed 9629 s)
+[37/42] grow_U_n40_s0.json 492 s (elapsed 10002 s)
+[38/42] grow_U_n40_s1.json 568 s (elapsed 10134 s)
+[39/42] grow_Q0.5_n40_s0.json 767 s (elapsed 10207 s)
+[40/42] grow_U_n40_s2.json 578 s (elapsed 10207 s)
+[41/42] grow_Q0.5_n40_s1.json 742 s (elapsed 10229 s)
+[42/42] grow_Q0.5_n40_s2.json 786 s (elapsed 10289 s)
+calibration L*=1600: F d_H 1.7784164938109104, d_s 2.0018629388937237 (ok); R d_H 2.3790288032907574, d_s 1.8207537296389236, degree sd 3.17 (NOT ok); eccentricity F 26.00, R 13.60
+calibration L*=6400: F d_H 1.9014733846382332, d_s 2.0000637277346365 (ok); R d_H 2.690386714050072, d_s 1.8233677590360173, degree sd 3.20 (ok); eccentricity F 53.00, R 23.75
+calibration L*=25600: F d_H 1.9501799995624243, d_s 2.000003931702494 (ok); R d_H 3.1314943910537267, d_s 1.905193493974118, degree sd 3.26 (ok); eccentricity F 106.00, R 28.65
+U L*=1600: survived 3/3; median d_H 2.544, d_s 1.746 at T (d_H at 250/500/750/1000: nan, 2.638, nan, 2.544); settle change nan (NOT settled); flat False; mean (deg-6)^2 13.05, max degree 47; forced keeps/tick 0.00; late size/L* 1.003; eccentricity 14.35; spacetime d_H 3.474, d_s 3.053
+U L*=6400: survived 3/3; median d_H 2.983, d_s 1.893 at T (d_H at 250/500/750/1000: 3.014, 2.974, 2.989, 2.983); settle change 0.045 (settled); flat False; mean (deg-6)^2 12.71, max degree 58; forced keeps/tick 0.00; late size/L* 1.001; eccentricity 20.85
+U L*=25600: survived 3/3; median d_H 3.197, d_s 1.992 at T (d_H at 250/500/750/1000: 3.195, 3.209, 3.173, 3.197); settle change 0.131 (settled); flat False; mean (deg-6)^2 12.36, max degree 79; forced keeps/tick 0.00; late size/L* 1.000; eccentricity 32.50
+U: global D 3.392
+Q0.5 L*=1600: survived 3/3; median d_H 2.186, d_s 1.812 at T (d_H at 250/500/750/1000: 2.268, 2.215, 2.212, 2.186); settle change 0.046 (settled); flat True; mean (deg-6)^2 2.21, max degree 12; forced keeps/tick 0.00; late size/L* 1.000; eccentricity 22.90; spacetime d_H 3.387, d_s 2.812
+Q0.5 L*=6400: survived 3/3; median d_H 2.473, d_s 1.949 at T (d_H at 250/500/750/1000: 2.521, 2.480, 2.525, 2.473); settle change 0.006 (settled); flat False; mean (deg-6)^2 2.19, max degree 11; forced keeps/tick 0.00; late size/L* 1.001; eccentricity 33.65
+Q0.5 L*=25600: survived 3/3; median d_H 2.760, d_s 1.772 at T (d_H at 250/500/750/1000: 2.743, 2.713, 2.713, 2.760); settle change 0.023 (settled); flat False; mean (deg-6)^2 2.19, max degree 13; forced keeps/tick 0.00; late size/L* 1.000; eccentricity 50.40
+Q0.5: global D 3.515
+Q1 L*=1600: survived 3/3; median d_H 2.230, d_s 1.807 at T (d_H at 250/500/750/1000: 2.244, 2.238, 2.209, 2.230); settle change 0.038 (settled); flat True; mean (deg-6)^2 1.90, max degree 11; forced keeps/tick 0.00; late size/L* 1.001; eccentricity 21.00; spacetime d_H 3.296, d_s 2.836
+Q1 L*=6400: survived 3/3; median d_H 2.478, d_s 1.806 at T (d_H at 250/500/750/1000: 2.476, 2.445, 2.498, 2.478); settle change 0.034 (settled); flat False; mean (deg-6)^2 1.92, max degree 12; forced keeps/tick 0.00; late size/L* 1.000; eccentricity 35.50
+Q1 L*=25600: survived 3/3; median d_H 2.697, d_s 1.834 at T (d_H at 250/500/750/1000: 2.760, 2.686, 2.750, 2.697); settle change 0.056 (settled); flat False; mean (deg-6)^2 1.88, max degree 13; forced keeps/tick 0.00; late size/L* 1.000; eccentricity 61.40
+Q1: global D 2.584
+Q2 L*=1600: survived 3/3; median d_H 2.149, d_s 1.770 at T (d_H at 250/500/750/1000: 2.217, 2.225, 2.213, 2.149); settle change 0.027 (settled); flat True; mean (deg-6)^2 1.80, max degree 12; forced keeps/tick 0.00; late size/L* 0.997; eccentricity 25.05; spacetime d_H 3.175, d_s 2.583
+Q2 L*=6400: survived 3/3; median d_H 2.481, d_s 1.801 at T (d_H at 250/500/750/1000: 2.476, 2.470, 2.420, 2.481); settle change 0.048 (settled); flat False; mean (deg-6)^2 1.78, max degree 11; forced keeps/tick 0.00; late size/L* 1.000; eccentricity 38.30
+Q2 L*=25600: survived 3/3; median d_H 2.662, d_s 1.804 at T (d_H at 250/500/750/1000: 2.732, 2.720, 2.657, 2.662); settle change 0.031 (settled); flat False; mean (deg-6)^2 1.78, max degree 12; forced keeps/tick 0.00; late size/L* 1.000; eccentricity 57.65
+Q2: global D 3.326
+E0 calibrations: NOT AS EXPECTED
+E1 structure, budget, survival, size: AS EXPECTED
+E2 U not flat at largest size: AS EXPECTED
+E3 Q2 flat at all sizes with D in range: NOT AS EXPECTED
+E4 all Q settled: AS EXPECTED
+EXIT: E0 failed: readings or sizes revision (recorded).
+total wall time this session 10289 s

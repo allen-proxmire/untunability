@@ -1,0 +1,17 @@
+H0 direct iteration: Grover v(+-d) +2.2926e-04 -2.2926e-04; Fourier +1.6515e-04 -1.6515e-04
+chi: Grover 2.2926e-01, Fourier 1.6515e-01
+H5 mirror one step: 8.7e-18
+Grover gain 3, g +0.9 (V0 6.878e-02): final v +9.23e-06 -3.01e-05 -3.31e-05 -1.80e-05 +3.76e-05 +3.37e-05 -1.69e-05 +8.85e-06 -1.60e-05 -1.85e-05; windings of lasting runs []
+Grover gain 3, g -0.9 (V0 6.878e-02): final v +1.66e-02 -3.27e-02 -3.28e-02 +5.34e-02 -3.43e-02 +3.44e-02 -1.66e-02 -5.43e-02 +1.63e-02 -3.36e-02; windings of lasting runs [0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Fourier gain 3, g +0.9 (V0 4.954e-02): final v +2.43e-01 +2.43e-01 -2.43e-01 -2.43e-01 -2.43e-01 -2.43e-01 +2.43e-01 -2.43e-01 -2.43e-01 +2.43e-01; windings of lasting runs [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Fourier gain 3, g -0.9 (V0 4.954e-02): final v -2.43e-02 +1.93e-02 -2.47e-02 -2.47e-02 +1.10e-02 +1.05e-02 -1.99e-02 +1.07e-02 -2.26e-02 +1.92e-02; windings of lasting runs [1, 1, 1, 1, 0, 0, 1, 1, 1, 1]
+Grover control gain 0.5, g +0.9 (V0 4.127e-01): final v +8.67e-18 -2.08e-17 -1.56e-17 -1.73e-17 +1.21e-17 -1.91e-17 +0.00e+00 -1.91e-17 -1.73e-17 +0.00e+00
+
+Expected results:
+  AS EXPECTED      H0 direct iteration reproduces the diagnostic
+  NOT AS EXPECTED  H1 Grover: lasting chance-chosen hand for the amplifying sign only
+  NOT AS EXPECTED  H2 Fourier: the same
+  AS EXPECTED      H3 Grover control (gain 0.5): all die
+  NOT AS EXPECTED  H4 Grover: nonzero winding in at least half the lasting runs
+  AS EXPECTED      H5 mirror one step to 1e-15
+exit 0

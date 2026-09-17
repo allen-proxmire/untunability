@@ -1,0 +1,17 @@
+W1 F1 (hops weighted e^-2U): largest |g00 - (-1 + 2 U_N)| over U_N in {0.001, 0.01, 0.1, 0.3} = 0.0e+00; first-order coefficient 2.000000; beta = -0.000000
+W2 F1b (hops weighted e^-U): first-order coefficient 2.000000; beta = 0.500000
+W3 F0 (influence not slowed): first-order coefficient 2.000000; beta = 1.000000
+W4/W5 case A (rest mass only)              zeta1 = -4.0000, zeta2 = -2.0000, eta_N = +3.3333
+W4/W5 case B (all commitment linearly)     zeta1 = -3.0000, zeta2 = -2.5000, eta_N = +2.8333
+W4/W5 general relativity                   zeta1 = +0.0000, zeta2 = +0.0000, eta_N = +0.0000
+W4/W5 F2 (on-ticks slowed by own clock)    zeta1 = -5.0000, zeta2 = -3.0000, eta_N = +4.3333
+W6 Mercury perihelion factor relative to GR: F1 1.333333, F1b 1.166667, F0 1.000000
+
+Expected results:
+  AS EXPECTED      W1 F1 gives beta 0
+  AS EXPECTED      W2 F1b gives beta 1/2
+  AS EXPECTED      W3 F0 gives beta 1
+  AS EXPECTED      W4 reference cases reproduce A1 C207 and GR
+  AS EXPECTED      W5 F2 moves further from GR
+  AS EXPECTED      W6 Mercury factors
+exit 0

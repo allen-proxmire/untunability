@@ -1,0 +1,6 @@
+S L 512 run 0: t 2.5: 24 domains (unhanded 0.87); t 5: 102 domains (unhanded 0.04); t 10: 44 domains (unhanded 0.01); t 20: 20 domains (unhanded 0.01); t 50: 4 domains (unhanded 0.00)
+S L 512 run 1: t 2.5: 24 domains (unhanded 0.87); t 5: 102 domains (unhanded 0.03); t 10: 52 domains (unhanded 0.01); t 20: 14 domains (unhanded 0.00); t 50: 1 domains (unhanded 0.00)
+S L 512 run 2: t 2.5: 22 domains (unhanded 0.92); t 5: 104 domains (unhanded 0.05); t 10: 52 domains (unhanded 0.01); t 20: 14 domains (unhanded 0.00); t 50: 2 domains (unhanded 0.00)
+N L 4096 noise: t 5: 828 domains, +1 share 0.47; t 10: 364 domains, +1 share 0.48; t 20: 130 domains, +1 share 0.51; t 50: 26 domains, +1 share 0.53; t 100: 16 domains, +1 share 0.51; t 200: 4 domains, +1 share 0.61; t 400: 2 domains, +1 share 0.60; t 800: 2 domains, +1 share 0.56
+Q L 4096 seed + noise: t 5: seed hand 0.477, 798 domains; t 10: seed hand 0.489, 358 domains; t 20: seed hand 0.480, 150 domains; t 50: seed hand 0.482, 22 domains; t 100: seed hand 0.444, 12 domains; t 200: seed hand 0.597, 8 domains; t 400: seed hand 0.467, 4 domains; t 800: seed hand 0.678, 2 domains
+exit 0

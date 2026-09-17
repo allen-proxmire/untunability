@@ -1,0 +1,16 @@
+E1 1D light: max |f - 1| = 2.22e-16
+E2 1D matter (theta = pi/4): max group speed 0.70711, gap 0.78540, formula holds True
+E3 3D rule dispersion formula: max |cos omega - formula| = 3.33e-16
+E4 3D rule along an axis: max |f - 1| = 9.99e-15
+E5 |k| = 0.01: f - 1 along (1,1,1) = +0.001917, along (1,1,-1) = -0.001932 (target +-0.001925)
+E6 |k| = 0.5: f along (1,1,-1) = 0.8835, along (1,1,1) = 1.0794
+E7 direction-averaged f: |k| = 0.5 -> 0.99053, |k| = 0.2 -> 0.998527
+
+Expected results:
+  AS EXPECTED      E1 1D light has f = 1 exactly
+  AS EXPECTED      E2 1D matter: max group speed cos(theta), gap theta
+  AS EXPECTED      E3 3D rule dispersion formula
+  AS EXPECTED      E4 3D rule exact along axes
+  AS EXPECTED      E5 linear direction-dependent deviation |k|/(3 sqrt3)
+  AS EXPECTED      E6 at |k| = 0.5 slow along (1,1,-1), fast along (1,1,1)
+  AS EXPECTED      E7 direction-averaged f below 1

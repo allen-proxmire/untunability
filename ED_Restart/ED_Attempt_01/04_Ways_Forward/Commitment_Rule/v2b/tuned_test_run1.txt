@@ -1,0 +1,41 @@
+T0 chi on L = 24: +1.0083e-01 (L = 48: +9.568e-02); loop gain g 0.9, V0 0.03: 3.02; V0 0.2: 0.45
+T1 mirror: one step 1.7e-18; t = 20 8.3e-17
+g +0.9 V0 0.03 start 0: J at t = 100..600: -2.97e-02 -1.00e-01 -1.02e-01 -1.07e-01 -1.10e-01 -1.14e-01; purity 0.1838; mean |tanh(v/V0)| 0.997; winding 1
+g +0.9 V0 0.03 start 1: J at t = 100..600: -4.51e-02 -9.91e-02 -1.02e-01 -1.06e-01 -1.10e-01 -1.14e-01; purity 0.1839; mean |tanh(v/V0)| 0.997; winding 1
+g +0.9 V0 0.03 start 2: J at t = 100..600: +1.80e-02 +9.82e-02 +1.02e-01 +1.07e-01 +1.11e-01 +1.14e-01; purity 0.1856; mean |tanh(v/V0)| 0.997; winding 1
+g +0.9 V0 0.03 start 3: J at t = 100..600: -8.99e-03 +9.71e-02 +1.01e-01 +1.06e-01 +1.11e-01 +1.14e-01; purity 0.1858; mean |tanh(v/V0)| 0.997; winding 1
+g +0.9 V0 0.03 start 4: J at t = 100..600: +6.54e-03 -9.26e-02 -1.02e-01 -1.07e-01 -1.11e-01 -1.14e-01; purity 0.1862; mean |tanh(v/V0)| 0.997; winding 1
+g +0.9 V0 0.03 start 5: J at t = 100..600: -1.83e-02 -9.55e-02 -1.02e-01 -1.06e-01 -1.11e-01 -1.14e-01; purity 0.1859; mean |tanh(v/V0)| 0.997; winding 1
+g +0.9 V0 0.03 start 6: J at t = 100..600: +3.25e-02 +9.80e-02 +1.01e-01 +1.06e-01 +1.10e-01 +1.14e-01; purity 0.1847; mean |tanh(v/V0)| 0.997; winding 1
+g +0.9 V0 0.03 start 7: J at t = 100..600: +2.40e-02 +9.86e-02 +1.02e-01 +1.06e-01 +1.10e-01 +1.14e-01; purity 0.1842; mean |tanh(v/V0)| 0.997; winding 1
+g +0.9 V0 0.03 start 8: J at t = 100..600: -1.52e-02 +9.68e-02 +1.02e-01 +1.06e-01 +1.11e-01 +1.14e-01; purity 0.1857; mean |tanh(v/V0)| 0.997; winding 1
+g +0.9 V0 0.03 start 9: J at t = 100..600: +1.74e-02 +9.40e-02 +1.01e-01 +1.06e-01 +1.11e-01 +1.14e-01; purity 0.1855; mean |tanh(v/V0)| 0.997; winding 1
+g -0.9 V0 0.03 start 0: J at t = 100..600: -2.00e-03 -1.42e-03 +1.67e-04 +4.60e-05 +3.19e-06 +4.16e-08; purity 0.1073; mean |tanh(v/V0)| 0.000; winding 0
+g -0.9 V0 0.03 start 1: J at t = 100..600: -2.62e-03 -1.98e-03 +1.76e-04 +5.76e-05 +4.27e-06 +8.05e-08; purity 0.1073; mean |tanh(v/V0)| 0.000; winding 0
+g -0.9 V0 0.03 start 2: J at t = 100..600: +2.10e-03 +1.02e-03 -2.64e-04 -4.76e-05 -2.56e-06 +3.05e-08; purity 0.1073; mean |tanh(v/V0)| 0.000; winding 0
+g -0.9 V0 0.03 start 3: J at t = 100..600: -2.27e-03 -7.10e-04 +3.72e-04 +5.28e-05 +2.18e-06 -1.01e-07; purity 0.1073; mean |tanh(v/V0)| 0.000; winding 0
+g -0.9 V0 0.03 start 4: J at t = 100..600: -1.78e-03 -3.76e-04 +3.32e-04 +4.20e-05 +1.44e-06 -1.10e-07; purity 0.1073; mean |tanh(v/V0)| 0.000; winding 0
+g -0.9 V0 0.03 start 5: J at t = 100..600: +5.58e-04 +1.36e-03 +1.58e-04 -1.07e-05 -2.35e-06 -1.72e-07; purity 0.1073; mean |tanh(v/V0)| 0.000; winding 0
+g -0.9 V0 0.03 start 6: J at t = 100..600: +1.67e-03 +1.63e-03 -4.20e-05 -3.68e-05 -3.30e-06 -1.10e-07; purity 0.1073; mean |tanh(v/V0)| 0.000; winding 0
+g -0.9 V0 0.03 start 7: J at t = 100..600: +5.28e-04 +3.31e-03 +5.74e-04 -5.75e-06 -5.29e-06 -4.99e-07; purity 0.1073; mean |tanh(v/V0)| 0.000; winding 0
+g -0.9 V0 0.03 start 8: J at t = 100..600: +9.44e-04 -1.75e-03 -5.75e-04 -2.51e-05 +2.23e-06 +3.77e-07; purity 0.1073; mean |tanh(v/V0)| 0.000; winding 0
+g -0.9 V0 0.03 start 9: J at t = 100..600: -6.70e-04 +3.75e-04 +2.40e-04 +1.74e-05 -2.38e-07 -1.30e-07; purity 0.1073; mean |tanh(v/V0)| 0.000; winding 0
+control g +0.9 V0 0.2 start 0: J at t = 100..600: -1.59e-05 -3.64e-07 -4.14e-08 -4.17e-09 -2.97e-10 -9.89e-12; purity 0.1073; mean |tanh(v/V0)| 0.000; winding 0
+control g +0.9 V0 0.2 start 1: J at t = 100..600: -5.30e-05 -1.30e-06 +1.73e-07 +3.45e-08 +4.05e-09 +3.59e-10; purity 0.1073; mean |tanh(v/V0)| 0.000; winding 0
+control g +0.9 V0 0.2 start 2: J at t = 100..600: +3.48e-05 +2.03e-07 -6.83e-09 -4.54e-09 -8.66e-10 -1.17e-10; purity 0.1073; mean |tanh(v/V0)| 0.000; winding 0
+control g +0.9 V0 0.2 start 3: J at t = 100..600: -8.81e-05 -6.08e-06 -5.39e-07 -4.36e-08 -2.95e-09 -1.37e-10; purity 0.1073; mean |tanh(v/V0)| 0.000; winding 0
+control g +0.9 V0 0.2 start 4: J at t = 100..600: +1.69e-05 -1.23e-06 -1.34e-07 -1.06e-08 -5.75e-10 +8.09e-13; purity 0.1073; mean |tanh(v/V0)| 0.000; winding 0
+
+Lasting runs (g +0.9): 10 of 10; positive 6
+
+Frozen predictions (settings labelled as tuned):
+  RIGHT  T0 chi on L 24 within 30% of 0.0957
+  RIGHT  T1 code properties; one-step mirror < 1e-15
+  RIGHT  T2 g +0.9: at least 8 of 10 with |J| > 1e-3
+  RIGHT  T3 g -0.9: all |J| < 1e-4
+  RIGHT  T4 both directions among lasting (2 to 8 positive)
+  RIGHT  T5 lasting runs: mean |tanh(v/V0)| > 0.5
+  RIGHT  T6 nonzero winding in at least half the lasting runs
+  RIGHT  T7 control V0 0.2: all |J| < 1e-4
+CODE PROPERTIES PASS
+exit 0

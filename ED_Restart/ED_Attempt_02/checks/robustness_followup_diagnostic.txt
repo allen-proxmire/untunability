@@ -1,0 +1,8 @@
+G1 Gamma 0.6, g 0.9: largest draw probability in 10 steps 1.136; state holds NaN: True
+G2 chi at Gamma 0.5: +1.72889e-01
+G2 Gamma 0.5 gain  3.0: HHHHHHH hands 7; v -2.38071e-01 -2.38071e-01 +2.38071e-01 +2.38071e-01 +2.38071e-01 -2.38071e-01 -2.38071e-01; windings [1, 1, 1, 1, 1, 1, 1]
+G2 Gamma 0.5 gain 10.0: HHHHHHH hands 7; v -2.38670e-01 -2.38670e-01 +2.38670e-01 +2.38670e-01 +2.38670e-01 +2.38670e-01 -2.38670e-01; windings [1, 1, 1, 1, 1, 1, 1]
+G2 found at Gamma 0.5: True
+G3 amplitude 0.4 gain 3 near-uniform: hand, v -7.15645e-02, winding 0
+G3 amplitude 0.5 gain 3 near-uniform: hand, v +9.27502e-02, winding 1
+exit 0

@@ -1,0 +1,16 @@
+# claim IDs | working directory | command
+C1 model (note 3, D4) | ED_Attempt_07/model | python c1_timing.py (timing only); python c1_run.py > c1_run1.log  (writes c1_run1.txt, .json)
+C10 (arithmetic) | inline | python -c: H0=67.4 km/s/Mpc -> 2.1843e-18 /s; 3*H0*tP = 3.533e-61; 3*H_Lambda*tP = 2.924e-61 (Omega_Lambda 0.685)
+C2a model (note 6, D7) | ED_Attempt_07/model | python c2a_timing.py (timing only); python c2a_run.py > c2a_run1.log  (writes c2a_run1.txt, .json)
+C17 (follow-up, not pre-registered) | ED_Attempt_07/model | python c2a_telescoped_diagnostic.py > c2a_telescoped_diagnostic.txt
+C2a retest (D9, D10; revised E2) | ED_Attempt_07/model | python c2a_run2.py > c2a_run2.log  (writes c2a_run2.txt, .json)
+C2b model (note 9, D10-D12) | ED_Attempt_07/model | python c2b_timing.py (timing only); python c2b_run.py 5 > c2b_run1.log  (writes c2b_runs/*.json, c2b_run1.txt)
+C2b run 2 (D13; R1, R2) | ED_Attempt_07/model | python c2b_run2.py 6 > c2b_run2.log  (writes c2b_runs2/*.json, c2b_run2.txt)
+C35 (follow-up, not pre-registered) | ED_Attempt_07/model | python c2b_pooled_diagnostic.py > c2b_pooled_diagnostic.txt
+C2b run 3 (D14) | ED_Attempt_07/model | python c2b_run3.py 6 > c2b_run3.log  (writes c2b_runs3/*.json, c2b_run3.txt)
+C3a timing (note 13, D19) | ED_Attempt_07/model | python c3a_timing.py (timing only; writes c3a_timing.txt)
+C3a model (note 13 with revision, D20) | ED_Attempt_07/model | python c3a_run.py 6 > c3a_run1.log  (writes c3a_runs/*.json, c3a_run1.txt)
+C3b timing (note 16, D23) | ED_Attempt_07/model | python -u c3b_timing.py > c3b_timing.log (timing and harness only; writes c3b_timing.txt)
+C3b static check (note 16, D24) | ED_Attempt_07/model | python -u c3b_run.py 6 > c3b_run1.log  (writes c3b_runs/*.json, c3b_run1.txt)
+C3c timing (note 18, D26) | ED_Attempt_07/model | python -u c3c_timing.py > c3c_timing.log (timing and harness only; writes c3c_timing.txt)
+C3c model (note 18, D27) | ED_Attempt_07/model | python -u c3c_run.py 6 > c3c_run1.log  (writes c3c_runs/*.json, c3c_run1.txt; resumable)

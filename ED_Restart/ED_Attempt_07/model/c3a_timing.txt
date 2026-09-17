@@ -1,0 +1,6 @@
+n=20 (L*=400): tick U 6.8 ms, Q2 19.5 ms (with structure check); slice readings 0.0 s, eccentricity 0.00 s; readings defined on this slice: False (r_lo 2.0, r_max 2.0)
+n=40 (L*=1600): tick U 27.4 ms, Q2 79.7 ms (with structure check); slice readings 0.4 s, eccentricity 0.01 s; readings defined on this slice: True (r_lo 3.0, r_max 5.0)
+n=80 (L*=6400): tick U 111.9 ms, Q2 354.3 ms (with structure check); slice readings 5.5 s, eccentricity 0.04 s; readings defined on this slice: True (r_lo 5.0, r_max 9.0)
+spacetime n=20, 100 ticks: 39778 events, readings 21.7 s, defined True
+calibration R: 0.1 s per sweep at n=80; 200 sweeps 0.3 min
+projected growth runs: 1.41 h single process, 0.23 h on 6 workers (largest single run 6.3 min); calibrations 0.5 min

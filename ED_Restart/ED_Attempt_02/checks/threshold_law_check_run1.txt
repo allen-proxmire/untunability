@@ -1,0 +1,20 @@
+Gamma 0.30: lambda 1.913776, |P3(lambda) - Gamma| 5.6e-17, kappa 1.7234
+Gamma 0.05: lambda 0.817691, |P3(lambda) - Gamma| 4.2e-17, kappa 2.4135
+
+Starts in order: near-uniform, staggered, wave pi/2, wave 2pi/3, random pure 1, random pure 2, random mixed; H hand, D dead, P patterned, U unsteady
+derived  Gamma 0.30: DDDDDDD  hands 0; v ; windings []; largest |v| watched 3.8e-15 2.5e-14 8.6e-12 7.7e-12 1.9e-13 4.2e-13 1.1e-13; final rate asymmetry -0.000 -0.000 +0.000 +0.000 +0.000 -0.000 +0.000; largest change 6e-16; largest momentum change 3e-14
+derived  Gamma 0.05: DDDDDDD  hands 0; v ; windings []; largest |v| watched 1.2e-15 1.1e-15 1.5e-13 1.4e-13 3.9e-15 1.0e-14 2.4e-15; final rate asymmetry +0.000 +0.000 +0.000 +0.000 +0.000 -0.000 +0.000; largest change 2e-17; largest momentum change 3e-16
+instant  Gamma 0.30: DDUDDDD  hands 0; v ; windings []; largest |v| watched 3.6e-16 3.6e-16 5.3e-01 3.5e-16 3.5e-16 3.5e-16 3.5e-16; final rate asymmetry +0.000 +0.000 +1.000 +0.000 +0.000 +0.000 +0.000; largest change 1e-02; largest momentum change 0e+00
+instant  Gamma 0.05: UUUUUUU  hands 0; v ; windings []; largest |v| watched 3.9e-01 3.8e-01 6.4e-01 3.9e-01 3.8e-01 3.8e-01 3.8e-01; final rate asymmetry +1.000 -1.000 +1.000 +1.000 +1.000 -1.000 +1.000; largest change 3e-02; largest momentum change 0e+00
+
+Exit rule (RD12): derived law found at Gamma 0.3: False; at Gamma 0.05: False
+VERDICT: the derived law holds no hand; the discrete handedness line is closed as 'hosted, not made'
+
+Expected results:
+  NOT AS EXPECTED  T0 harness: P3 and kappa
+  AS EXPECTED      T1 derived, Gamma 0.3: no hand
+  AS EXPECTED      T2 derived, Gamma 0.05: no hand
+  AS EXPECTED      T3 comparison, Gamma 0.3: no hand
+  AS EXPECTED      T4 comparison, Gamma 0.05: no hand
+  AS EXPECTED      Exit: closed as 'hosted, not made'
+exit 0

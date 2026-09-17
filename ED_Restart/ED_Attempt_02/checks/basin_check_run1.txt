@@ -1,0 +1,440 @@
+F0: chi +1.65148e-01
+F30: chi +1.56439e-01
+F60: chi +1.43234e-01
+F90: chi +1.33551e-01
+F120: chi +1.53302e-01
+F150: chi +9.93923e-02
+F180: chi +9.03611e-02
+F210: chi +1.12003e-01
+F240: chi +1.47266e-01
+F270: chi +1.56564e-01
+F300: chi +1.64685e-01
+F330: chi +1.68021e-01
+Grover: chi +2.29257e-01
+done F0 gain 3 g +0.9 wave 2pi/3: hand
+done F0 gain 3 g +0.9 staggered: hand
+done F0 gain 3 g +0.9 wave pi/2: hand
+done F0 gain 3 g +0.9 near-uniform: hand
+done F0 gain 3 g +0.9 random pure 2: hand
+done F0 gain 3 g +0.9 random mixed: hand
+done F0 gain 3 g +0.9 random pure 1: hand
+done F0 gain 3 g -0.9 staggered: unsteady
+done F0 gain 3 g -0.9 near-uniform: unsteady
+done F0 gain 3 g -0.9 random pure 2: unsteady
+done F0 gain 3 g -0.9 wave pi/2: unsteady
+done F0 gain 3 g -0.9 wave 2pi/3: unsteady
+done F0 gain 3 g -0.9 random pure 1: unsteady
+done F0 gain 3 g -0.9 random mixed: unsteady
+done F0 gain 10 g +0.9 random pure 1: hand
+done F0 gain 10 g +0.9 near-uniform: hand
+done F0 gain 10 g +0.9 staggered: hand
+done F0 gain 10 g +0.9 random pure 2: hand
+done F0 gain 10 g +0.9 wave pi/2: hand
+done F0 gain 10 g +0.9 wave 2pi/3: hand
+done F0 gain 10 g +0.9 random mixed: hand
+done F0 gain 10 g -0.9 near-uniform: dead
+done F0 gain 10 g -0.9 staggered: unsteady
+done F0 gain 10 g -0.9 wave 2pi/3: unsteady
+done F0 gain 10 g -0.9 wave pi/2: unsteady
+done F0 gain 10 g -0.9 random pure 2: unsteady
+done F0 gain 10 g -0.9 random pure 1: unsteady
+done F0 gain 10 g -0.9 random mixed: unsteady
+done F30 gain 3 g +0.9 wave 2pi/3: hand
+done F30 gain 3 g +0.9 near-uniform: hand
+done F30 gain 3 g +0.9 wave pi/2: hand
+done F30 gain 3 g +0.9 random pure 1: hand
+done F30 gain 3 g +0.9 staggered: hand
+done F30 gain 3 g +0.9 random pure 2: hand
+done F30 gain 3 g +0.9 random mixed: hand
+done F30 gain 3 g -0.9 near-uniform: unsteady
+done F30 gain 3 g -0.9 staggered: unsteady
+done F30 gain 3 g -0.9 random mixed: unsteady
+done F30 gain 3 g -0.9 random pure 1: unsteady
+done F30 gain 3 g -0.9 wave 2pi/3: unsteady
+done F30 gain 3 g -0.9 wave pi/2: unsteady
+done F30 gain 3 g -0.9 random pure 2: unsteady
+done F30 gain 10 g +0.9 near-uniform: hand
+done F30 gain 10 g +0.9 staggered: hand
+done F30 gain 10 g +0.9 wave pi/2: hand
+done F30 gain 10 g +0.9 random pure 2: hand
+done F30 gain 10 g +0.9 wave 2pi/3: hand
+done F30 gain 10 g +0.9 random pure 1: hand
+done F30 gain 10 g +0.9 random mixed: hand
+done F30 gain 10 g -0.9 near-uniform: unsteady
+done F30 gain 10 g -0.9 staggered: dead
+done F30 gain 10 g -0.9 wave pi/2: unsteady
+done F30 gain 10 g -0.9 random mixed: unsteady
+done F30 gain 10 g -0.9 random pure 1: unsteady
+done F30 gain 10 g -0.9 wave 2pi/3: unsteady
+done F30 gain 10 g -0.9 random pure 2: unsteady
+done F60 gain 3 g +0.9 near-uniform: hand
+done F60 gain 3 g +0.9 wave pi/2: hand
+done F60 gain 3 g +0.9 staggered: hand
+done F60 gain 3 g +0.9 wave 2pi/3: hand
+done F60 gain 3 g +0.9 random pure 1: hand
+done F60 gain 3 g +0.9 random mixed: hand
+done F60 gain 3 g +0.9 random pure 2: hand
+done F60 gain 3 g -0.9 near-uniform: dead
+done F60 gain 3 g -0.9 wave pi/2: dead
+done F60 gain 3 g -0.9 random pure 1: dead
+done F60 gain 3 g -0.9 wave 2pi/3: dead
+done F60 gain 3 g -0.9 staggered: dead
+done F60 gain 3 g -0.9 random pure 2: dead
+done F60 gain 3 g -0.9 random mixed: dead
+done F60 gain 10 g +0.9 staggered: hand
+done F60 gain 10 g +0.9 near-uniform: hand
+done F60 gain 10 g +0.9 wave pi/2: hand
+done F60 gain 10 g +0.9 wave 2pi/3: hand
+done F60 gain 10 g +0.9 random pure 1: hand
+done F60 gain 10 g +0.9 random mixed: hand
+done F60 gain 10 g +0.9 random pure 2: hand
+done F60 gain 10 g -0.9 near-uniform: dead
+done F60 gain 10 g -0.9 wave pi/2: dead
+done F60 gain 10 g -0.9 staggered: dead
+done F60 gain 10 g -0.9 wave 2pi/3: dead
+done F60 gain 10 g -0.9 random pure 1: dead
+done F60 gain 10 g -0.9 random mixed: dead
+done F60 gain 10 g -0.9 random pure 2: dead
+done F90 gain 3 g +0.9 near-uniform: hand
+done F90 gain 3 g +0.9 staggered: hand
+done F90 gain 3 g +0.9 wave pi/2: hand
+done F90 gain 3 g +0.9 random mixed: hand
+done F90 gain 3 g +0.9 wave 2pi/3: hand
+done F90 gain 3 g +0.9 random pure 2: hand
+done F90 gain 3 g +0.9 random pure 1: hand
+done F90 gain 3 g -0.9 near-uniform: dead
+done F90 gain 3 g -0.9 staggered: dead
+done F90 gain 3 g -0.9 wave pi/2: dead
+done F90 gain 3 g -0.9 wave 2pi/3: dead
+done F90 gain 3 g -0.9 random mixed: dead
+done F90 gain 3 g -0.9 random pure 1: dead
+done F90 gain 3 g -0.9 random pure 2: dead
+done F90 gain 10 g +0.9 near-uniform: unsteady
+done F90 gain 10 g +0.9 wave 2pi/3: hand
+done F90 gain 10 g +0.9 staggered: hand
+done F90 gain 10 g +0.9 wave pi/2: hand
+done F90 gain 10 g +0.9 random pure 1: hand
+done F90 gain 10 g +0.9 random mixed: hand
+done F90 gain 10 g +0.9 random pure 2: hand
+done F90 gain 10 g -0.9 near-uniform: dead
+done F90 gain 10 g -0.9 wave pi/2: unsteady
+done F90 gain 10 g -0.9 staggered: unsteady
+done F90 gain 10 g -0.9 random pure 1: unsteady
+done F90 gain 10 g -0.9 wave 2pi/3: unsteady
+done F90 gain 10 g -0.9 random pure 2: unsteady
+done F90 gain 10 g -0.9 random mixed: dead
+done F120 gain 3 g +0.9 near-uniform: unsteady
+done F120 gain 3 g +0.9 staggered: hand
+done F120 gain 3 g +0.9 wave pi/2: hand
+done F120 gain 3 g +0.9 random pure 2: hand
+done F120 gain 3 g +0.9 wave 2pi/3: hand
+done F120 gain 3 g +0.9 random pure 1: hand
+done F120 gain 3 g +0.9 random mixed: hand
+done F120 gain 3 g -0.9 near-uniform: dead
+done F120 gain 3 g -0.9 staggered: dead
+done F120 gain 3 g -0.9 wave pi/2: dead
+done F120 gain 3 g -0.9 wave 2pi/3: dead
+done F120 gain 3 g -0.9 random pure 1: dead
+done F120 gain 3 g -0.9 random pure 2: dead
+done F120 gain 3 g -0.9 random mixed: dead
+done F120 gain 10 g +0.9 near-uniform: unsteady
+done F120 gain 10 g -0.9 near-uniform: unsteady
+done F120 gain 10 g +0.9 random mixed: unsteady
+done F120 gain 10 g +0.9 staggered: hand
+done F120 gain 10 g +0.9 wave 2pi/3: hand
+done F120 gain 10 g +0.9 wave pi/2: hand
+done F120 gain 10 g +0.9 random pure 2: hand
+done F120 gain 10 g +0.9 random pure 1: hand
+done F120 gain 10 g -0.9 staggered: unsteady
+done F120 gain 10 g -0.9 wave pi/2: dead
+done F120 gain 10 g -0.9 wave 2pi/3: unsteady
+done F120 gain 10 g -0.9 random pure 1: unsteady
+done F120 gain 10 g -0.9 random pure 2: unsteady
+done F120 gain 10 g -0.9 random mixed: unsteady
+done F150 gain 3 g +0.9 near-uniform: dead
+done F150 gain 3 g +0.9 wave pi/2: unsteady
+done F150 gain 3 g +0.9 random pure 1: unsteady
+done F150 gain 3 g +0.9 random pure 2: dead
+done F150 gain 3 g +0.9 random mixed: dead
+done F150 gain 3 g +0.9 staggered: hand
+done F150 gain 3 g -0.9 near-uniform: dead
+done F150 gain 3 g +0.9 wave 2pi/3: hand
+done F150 gain 3 g -0.9 staggered: dead
+done F150 gain 3 g -0.9 wave pi/2: dead
+done F150 gain 3 g -0.9 random pure 2: dead
+done F150 gain 3 g -0.9 wave 2pi/3: dead
+done F150 gain 3 g -0.9 random mixed: dead
+done F150 gain 3 g -0.9 random pure 1: dead
+done F150 gain 10 g +0.9 near-uniform: dead
+done F150 gain 10 g +0.9 staggered: unsteady
+done F150 gain 10 g +0.9 wave pi/2: unsteady
+done F150 gain 10 g +0.9 random pure 2: dead
+done F150 gain 10 g +0.9 random pure 1: dead
+done F150 gain 10 g +0.9 random mixed: unsteady
+done F150 gain 10 g -0.9 near-uniform: dead
+done F150 gain 10 g +0.9 wave 2pi/3: hand
+done F150 gain 10 g -0.9 staggered: unsteady
+done F150 gain 10 g -0.9 wave pi/2: dead
+done F150 gain 10 g -0.9 random pure 2: unsteady
+done F150 gain 10 g -0.9 wave 2pi/3: unsteady
+done F150 gain 10 g -0.9 random pure 1: unsteady
+done F150 gain 10 g -0.9 random mixed: unsteady
+done F180 gain 3 g +0.9 near-uniform: dead
+done F180 gain 3 g +0.9 staggered: dead
+done F180 gain 3 g +0.9 wave pi/2: unsteady
+done F180 gain 3 g +0.9 wave 2pi/3: unsteady
+done F180 gain 3 g +0.9 random pure 1: unsteady
+done F180 gain 3 g +0.9 random pure 2: dead
+done F180 gain 3 g +0.9 random mixed: dead
+done F180 gain 3 g -0.9 near-uniform: unsteady
+done F180 gain 3 g -0.9 staggered: dead
+done F180 gain 3 g -0.9 wave pi/2: dead
+done F180 gain 3 g -0.9 wave 2pi/3: dead
+done F180 gain 3 g -0.9 random pure 1: dead
+done F180 gain 3 g -0.9 random pure 2: dead
+done F180 gain 3 g -0.9 random mixed: dead
+done F180 gain 10 g +0.9 near-uniform: dead
+done F180 gain 10 g +0.9 staggered: dead
+done F180 gain 10 g +0.9 wave 2pi/3: unsteady
+done F180 gain 10 g +0.9 wave pi/2: unsteady
+done F180 gain 10 g +0.9 random pure 1: dead
+done F180 gain 10 g +0.9 random pure 2: dead
+done F180 gain 10 g +0.9 random mixed: dead
+done F180 gain 10 g -0.9 near-uniform: dead
+done F180 gain 10 g -0.9 staggered: unsteady
+done F180 gain 10 g -0.9 wave pi/2: unsteady
+done F180 gain 10 g -0.9 wave 2pi/3: unsteady
+done F180 gain 10 g -0.9 random pure 1: unsteady
+done F180 gain 10 g -0.9 random pure 2: unsteady
+done F180 gain 10 g -0.9 random mixed: unsteady
+done F210 gain 3 g +0.9 near-uniform: dead
+done F210 gain 3 g +0.9 staggered: dead
+done F210 gain 3 g +0.9 wave pi/2: unsteady
+done F210 gain 3 g +0.9 wave 2pi/3: unsteady
+done F210 gain 3 g +0.9 random pure 1: dead
+done F210 gain 3 g +0.9 random pure 2: dead
+done F210 gain 3 g +0.9 random mixed: dead
+done F210 gain 3 g -0.9 near-uniform: dead
+done F210 gain 3 g -0.9 staggered: dead
+done F210 gain 3 g -0.9 wave pi/2: patterned
+done F210 gain 3 g -0.9 wave 2pi/3: patterned
+done F210 gain 3 g -0.9 random pure 1: dead
+done F210 gain 3 g -0.9 random pure 2: dead
+done F210 gain 3 g -0.9 random mixed: patterned
+done F210 gain 10 g +0.9 near-uniform: unsteady
+done F210 gain 10 g +0.9 staggered: unsteady
+done F210 gain 10 g +0.9 wave pi/2: unsteady
+done F210 gain 10 g +0.9 wave 2pi/3: unsteady
+done F210 gain 10 g +0.9 random pure 1: unsteady
+done F210 gain 10 g +0.9 random pure 2: unsteady
+done F210 gain 10 g +0.9 random mixed: unsteady
+done F210 gain 10 g -0.9 near-uniform: patterned
+done F210 gain 10 g -0.9 staggered: patterned
+done F210 gain 10 g -0.9 wave pi/2: patterned
+done F210 gain 10 g -0.9 wave 2pi/3: patterned
+done F210 gain 10 g -0.9 random pure 1: dead
+done F210 gain 10 g -0.9 random pure 2: dead
+done F210 gain 10 g -0.9 random mixed: dead
+done F240 gain 3 g +0.9 near-uniform: unsteady
+done F240 gain 3 g +0.9 staggered: unsteady
+done F240 gain 3 g +0.9 wave pi/2: unsteady
+done F240 gain 3 g +0.9 random pure 1: unsteady
+done F240 gain 3 g +0.9 wave 2pi/3: unsteady
+done F240 gain 3 g +0.9 random pure 2: dead
+done F240 gain 3 g +0.9 random mixed: unsteady
+done F240 gain 3 g -0.9 near-uniform: patterned
+done F240 gain 3 g -0.9 staggered: patterned
+done F240 gain 3 g -0.9 wave pi/2: patterned
+done F240 gain 3 g -0.9 wave 2pi/3: patterned
+done F240 gain 3 g -0.9 random pure 1: patterned
+done F240 gain 3 g -0.9 random pure 2: patterned
+done F240 gain 3 g -0.9 random mixed: dead
+done F240 gain 10 g +0.9 near-uniform: unsteady
+done F240 gain 10 g +0.9 staggered: unsteady
+done F240 gain 10 g +0.9 wave pi/2: unsteady
+done F240 gain 10 g +0.9 random pure 1: unsteady
+done F240 gain 10 g +0.9 wave 2pi/3: unsteady
+done F240 gain 10 g +0.9 random pure 2: unsteady
+done F240 gain 10 g +0.9 random mixed: unsteady
+done F240 gain 10 g -0.9 near-uniform: patterned
+done F240 gain 10 g -0.9 staggered: dead
+done F240 gain 10 g -0.9 wave pi/2: patterned
+done F240 gain 10 g -0.9 random pure 1: dead
+done F240 gain 10 g -0.9 wave 2pi/3: patterned
+done F240 gain 10 g -0.9 random pure 2: dead
+done F240 gain 10 g -0.9 random mixed: dead
+done F270 gain 3 g +0.9 near-uniform: unsteady
+done F270 gain 3 g +0.9 staggered: unsteady
+done F270 gain 3 g +0.9 wave pi/2: dead
+done F270 gain 3 g +0.9 wave 2pi/3: unsteady
+done F270 gain 3 g +0.9 random pure 1: unsteady
+done F270 gain 3 g +0.9 random pure 2: unsteady
+done F270 gain 3 g +0.9 random mixed: unsteady
+done F270 gain 3 g -0.9 near-uniform: patterned
+done F270 gain 3 g -0.9 staggered: dead
+done F270 gain 3 g -0.9 wave pi/2: dead
+done F270 gain 3 g -0.9 wave 2pi/3: patterned
+done F270 gain 3 g -0.9 random pure 1: dead
+done F270 gain 3 g -0.9 random mixed: patterned
+done F270 gain 3 g -0.9 random pure 2: dead
+done F270 gain 10 g +0.9 near-uniform: unsteady
+done F270 gain 10 g +0.9 staggered: dead
+done F270 gain 10 g +0.9 wave pi/2: dead
+done F270 gain 10 g +0.9 random pure 1: dead
+done F270 gain 10 g +0.9 random mixed: unsteady
+done F270 gain 10 g +0.9 random pure 2: unsteady
+done F270 gain 10 g +0.9 wave 2pi/3: hand
+done F270 gain 10 g -0.9 near-uniform: patterned
+done F270 gain 10 g -0.9 staggered: dead
+done F270 gain 10 g -0.9 wave pi/2: dead
+done F270 gain 10 g -0.9 wave 2pi/3: dead
+done F270 gain 10 g -0.9 random pure 1: dead
+done F270 gain 10 g -0.9 random pure 2: dead
+done F270 gain 10 g -0.9 random mixed: patterned
+done F300 gain 3 g +0.9 staggered: unsteady
+done F300 gain 3 g +0.9 near-uniform: hand
+done F300 gain 3 g +0.9 wave pi/2: hand
+done F300 gain 3 g +0.9 wave 2pi/3: hand
+done F300 gain 3 g +0.9 random pure 1: hand
+done F300 gain 3 g +0.9 random pure 2: hand
+done F300 gain 3 g -0.9 near-uniform: unsteady
+done F300 gain 3 g +0.9 random mixed: hand
+done F300 gain 3 g -0.9 staggered: unsteady
+done F300 gain 3 g -0.9 wave pi/2: unsteady
+done F300 gain 3 g -0.9 wave 2pi/3: unsteady
+done F300 gain 3 g -0.9 random pure 1: unsteady
+done F300 gain 3 g -0.9 random pure 2: unsteady
+done F300 gain 3 g -0.9 random mixed: unsteady
+done F300 gain 10 g +0.9 near-uniform: dead
+done F300 gain 10 g +0.9 staggered: unsteady
+done F300 gain 10 g +0.9 random pure 2: unsteady
+done F300 gain 10 g +0.9 random mixed: dead
+done F300 gain 10 g +0.9 wave pi/2: hand
+done F300 gain 10 g -0.9 near-uniform: unsteady
+done F300 gain 10 g -0.9 staggered: unsteady
+done F300 gain 10 g +0.9 wave 2pi/3: hand
+done F300 gain 10 g +0.9 random pure 1: hand
+done F300 gain 10 g -0.9 wave pi/2: unsteady
+done F300 gain 10 g -0.9 wave 2pi/3: unsteady
+done F300 gain 10 g -0.9 random pure 1: unsteady
+done F300 gain 10 g -0.9 random pure 2: unsteady
+done F300 gain 10 g -0.9 random mixed: unsteady
+done F330 gain 3 g +0.9 near-uniform: hand
+done F330 gain 3 g +0.9 staggered: hand
+done F330 gain 3 g +0.9 wave pi/2: hand
+done F330 gain 3 g +0.9 wave 2pi/3: hand
+done F330 gain 3 g +0.9 random pure 1: hand
+done F330 gain 3 g +0.9 random pure 2: hand
+done F330 gain 3 g +0.9 random mixed: hand
+done F330 gain 3 g -0.9 near-uniform: unsteady
+done F330 gain 3 g -0.9 staggered: unsteady
+done F330 gain 3 g -0.9 wave 2pi/3: unsteady
+done F330 gain 3 g -0.9 wave pi/2: unsteady
+done F330 gain 3 g -0.9 random pure 1: unsteady
+done F330 gain 3 g -0.9 random pure 2: unsteady
+done F330 gain 3 g -0.9 random mixed: unsteady
+done F330 gain 10 g +0.9 near-uniform: unsteady
+done F330 gain 10 g +0.9 staggered: unsteady
+done F330 gain 10 g +0.9 wave pi/2: unsteady
+done F330 gain 10 g -0.9 near-uniform: unsteady
+done F330 gain 10 g -0.9 staggered: unsteady
+done F330 gain 10 g +0.9 wave 2pi/3: hand
+done F330 gain 10 g +0.9 random pure 1: hand
+done F330 gain 10 g +0.9 random pure 2: hand
+done F330 gain 10 g +0.9 random mixed: hand
+done F330 gain 10 g -0.9 wave pi/2: unsteady
+done F330 gain 10 g -0.9 random pure 1: unsteady
+done F330 gain 10 g -0.9 wave 2pi/3: unsteady
+done F330 gain 10 g -0.9 random pure 2: unsteady
+done F330 gain 10 g -0.9 random mixed: unsteady
+done Grover gain 3 g +0.9 near-uniform: dead
+done Grover gain 3 g +0.9 staggered: dead
+done Grover gain 3 g +0.9 wave pi/2: dead
+done Grover gain 3 g +0.9 random pure 1: dead
+done Grover gain 3 g +0.9 wave 2pi/3: dead
+done Grover gain 3 g +0.9 random pure 2: dead
+done Grover gain 3 g +0.9 random mixed: dead
+done Grover gain 3 g -0.9 near-uniform: patterned
+done Grover gain 3 g -0.9 staggered: dead
+done Grover gain 3 g -0.9 wave pi/2: patterned
+done Grover gain 3 g -0.9 wave 2pi/3: dead
+done Grover gain 3 g -0.9 random pure 1: unsteady
+done Grover gain 3 g -0.9 random pure 2: dead
+done Grover gain 3 g -0.9 random mixed: dead
+done Grover gain 10 g +0.9 near-uniform: dead
+done Grover gain 10 g +0.9 staggered: unsteady
+done Grover gain 10 g +0.9 wave pi/2: dead
+done Grover gain 10 g +0.9 wave 2pi/3: unsteady
+done Grover gain 10 g +0.9 random pure 1: unsteady
+done Grover gain 10 g +0.9 random pure 2: unsteady
+done Grover gain 10 g +0.9 random mixed: unsteady
+done Grover gain 10 g -0.9 near-uniform: dead
+done Grover gain 10 g -0.9 staggered: unsteady
+done Grover gain 10 g -0.9 wave pi/2: dead
+done Grover gain 10 g -0.9 wave 2pi/3: unsteady
+done Grover gain 10 g -0.9 random pure 1: unsteady
+done Grover gain 10 g -0.9 random pure 2: unsteady
+done Grover gain 10 g -0.9 random mixed: patterned
+
+By coin (starts in order: near-uniform, staggered, wave pi/2, wave 2pi/3, random pure 1, random pure 2, random mixed; H hand, D dead, P patterned, U unsteady):
+F0     gain  3.0 g +0.9: HHHHHHH  hands 7; v +2.42708e-01 -2.42708e-01 +2.42708e-01 +2.42708e-01 -2.42708e-01 -2.42708e-01 -2.42708e-01; windings [1, 1, 1, 1, 1, 1, 1]
+F0     gain  3.0 g -0.9: UUUUUUU  hands 0; v ; windings []
+F0     gain 10.0 g +0.9: HHHHHHH  hands 7; v -2.42884e-01 -2.42884e-01 +2.42884e-01 +2.42884e-01 -2.42884e-01 -2.42884e-01 -2.42884e-01; windings [1, 1, 1, 1, 1, 1, 1]
+F0     gain 10.0 g -0.9: DUUUUUU  hands 0; v ; windings []
+F30    gain  3.0 g +0.9: HHHHHHH  hands 7; v +2.33677e-01 -2.33677e-01 +2.33677e-01 +2.33677e-01 -2.33677e-01 -2.33677e-01 -2.33677e-01; windings [1, 1, 1, 1, 1, 1, 1]
+F30    gain  3.0 g -0.9: UUUUUUU  hands 0; v ; windings []
+F30    gain 10.0 g +0.9: HHHHHHH  hands 7; v +2.33830e-01 -2.33830e-01 +2.33830e-01 +2.33830e-01 -2.33830e-01 -2.33830e-01 -2.33830e-01; windings [1, 1, 1, 1, 1, 1, 1]
+F30    gain 10.0 g -0.9: UDUUUUU  hands 0; v ; windings []
+F60    gain  3.0 g +0.9: HHHHHHH  hands 7; v +2.17004e-01 -2.17004e-01 +2.17004e-01 +2.17004e-01 -2.17004e-01 -2.17004e-01 -2.17004e-01; windings [1, 1, 1, 1, 1, 1, 1]
+F60    gain  3.0 g -0.9: DDDDDDD  hands 0; v ; windings []
+F60    gain 10.0 g +0.9: HHHHHHH  hands 7; v -2.17182e-01 +2.17182e-01 +2.17182e-01 +2.17182e-01 -2.17182e-01 -2.17182e-01 -2.17182e-01; windings [1, 1, 1, 1, 1, 1, 1]
+F60    gain 10.0 g -0.9: DDDDDDD  hands 0; v ; windings []
+F90    gain  3.0 g +0.9: HHHHHHH  hands 7; v -1.94652e-01 -1.94652e-01 +1.94652e-01 +1.94652e-01 +1.94652e-01 -1.94652e-01 -1.94652e-01; windings [1, 1, 1, 1, 1, 1, 1]
+F90    gain  3.0 g -0.9: DDDDDDD  hands 0; v ; windings []
+F90    gain 10.0 g +0.9: UHHHHHH  hands 6; v +1.95135e-01 +1.95135e-01 +1.95135e-01 +1.95135e-01 -1.95135e-01 -1.95135e-01; windings [1, 1, 1, 1, 1, 1]
+F90    gain 10.0 g -0.9: DUUUUUD  hands 0; v ; windings []
+F120   gain  3.0 g +0.9: UHHHHHH  hands 6; v -1.78000e-01 +1.78000e-01 +1.78000e-01 +1.78000e-01 -1.78000e-01 -1.78000e-01; windings [1, 1, 1, 1, 1, 1]
+F120   gain  3.0 g -0.9: DDDDDDD  hands 0; v ; windings []
+F120   gain 10.0 g +0.9: UHHHHHU  hands 5; v +1.82283e-01 +1.82283e-01 +1.82283e-01 -1.82283e-01 -1.82283e-01; windings [1, 1, 1, 1, 1]
+F120   gain 10.0 g -0.9: UUDUUUU  hands 0; v ; windings []
+F150   gain  3.0 g +0.9: DHUHUDD  hands 2; v -1.77379e-01 +1.77379e-01; windings [1, 1]
+F150   gain  3.0 g -0.9: DDDDDDD  hands 0; v ; windings []
+F150   gain 10.0 g +0.9: DUUHDDU  hands 1; v +1.78507e-01; windings [1]
+F150   gain 10.0 g -0.9: DUDUUUU  hands 0; v ; windings []
+F180   gain  3.0 g +0.9: DDUUUDD  hands 0; v ; windings []
+F180   gain  3.0 g -0.9: UDDDDDD  hands 0; v ; windings []
+F180   gain 10.0 g +0.9: DDUUDDD  hands 0; v ; windings []
+F180   gain 10.0 g -0.9: DUUUUUU  hands 0; v ; windings []
+F210   gain  3.0 g +0.9: DDUUDDD  hands 0; v ; windings []
+F210   gain  3.0 g -0.9: DDPPDDP  hands 0; v ; windings []
+F210   gain 10.0 g +0.9: UUUUUUU  hands 0; v ; windings []
+F210   gain 10.0 g -0.9: PPPPDDD  hands 0; v ; windings []
+F240   gain  3.0 g +0.9: UUUUUDU  hands 0; v ; windings []
+F240   gain  3.0 g -0.9: PPPPPPD  hands 0; v ; windings []
+F240   gain 10.0 g +0.9: UUUUUUU  hands 0; v ; windings []
+F240   gain 10.0 g -0.9: PDPPDDD  hands 0; v ; windings []
+F270   gain  3.0 g +0.9: UUDUUUU  hands 0; v ; windings []
+F270   gain  3.0 g -0.9: PDDPDDP  hands 0; v ; windings []
+F270   gain 10.0 g +0.9: UDDHDUU  hands 1; v -2.09591e-01; windings [1]
+F270   gain 10.0 g -0.9: PDDDDDP  hands 0; v ; windings []
+F300   gain  3.0 g +0.9: HUHHHHH  hands 6; v +2.35420e-01 -2.35420e-01 -2.35420e-01 -2.35420e-01 +2.35420e-01 -2.35420e-01; windings [1, 1, 1, 1, 1, 1]
+F300   gain  3.0 g -0.9: UUUUUUU  hands 0; v ; windings []
+F300   gain 10.0 g +0.9: DUHHHUD  hands 3; v -2.36288e-01 -2.36288e-01 -2.36288e-01; windings [1, 1, 1]
+F300   gain 10.0 g -0.9: UUUUUUU  hands 0; v ; windings []
+F330   gain  3.0 g +0.9: HHHHHHH  hands 7; v -2.43463e-01 -2.43463e-01 -2.43463e-01 -2.43463e-01 -2.43463e-01 +2.43463e-01 -2.43463e-01; windings [1, 1, 1, 1, 1, 1, 1]
+F330   gain  3.0 g -0.9: UUUUUUU  hands 0; v ; windings []
+F330   gain 10.0 g +0.9: UUUHHHH  hands 4; v -2.43743e-01 -2.43743e-01 +2.43743e-01 -2.43743e-01; windings [1, 1, 1, 1]
+F330   gain 10.0 g -0.9: UUUUUUU  hands 0; v ; windings []
+Grover gain  3.0 g +0.9: DDDDDDD  hands 0; v ; windings []
+Grover gain  3.0 g -0.9: PDPDUDD  hands 0; v ; windings []
+Grover gain 10.0 g +0.9: DUDUUUU  hands 0; v ; windings []
+Grover gain 10.0 g -0.9: DUDUUUP  hands 0; v ; windings []
+
+Fair coins holding a hand from some start (g +0.9): F0, F30, F60, F90, F120, F150, F270, F300, F330
+
+Expected results:
+  AS EXPECTED      B1 plain Fourier: hand from all 7 starts at both gains
+  NOT AS EXPECTED  B2 fair coins: none at 240 and 270, some at each other phase
+  AS EXPECTED      B3 Grover: no hand anywhere
+  AS EXPECTED      B4 fair coins, g -0.9: no hands
+exit 0

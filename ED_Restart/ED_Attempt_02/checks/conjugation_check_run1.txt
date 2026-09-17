@@ -1,0 +1,15 @@
+K1 Fourier: |F* - P F| 7.0e-16, |F* - F P| 7.0e-16
+K2 Grover: |G* - G| 0.0e+00
+start 0: v +2.42708e-01
+start 2: v -2.42708e-01
+K3 other hand vs space mirror: 5.9e-15
+K4 other hand vs complex conjugate: 1.3e-02
+K5 other hand vs conjugate with Left and Right swapped: 1.7e-02
+
+Expected results:
+  AS EXPECTED      K1 F* = P F = F P
+  AS EXPECTED      K2 G real
+  AS EXPECTED      K3 hands are space mirrors
+  AS EXPECTED      K4 hands are not conjugates
+  AS EXPECTED      K5 hands are not swapped conjugates
+exit 0

@@ -1,0 +1,39 @@
+# One check per line: claim IDs | folder to run in | command
+# A check passes when its command exits with code 0.
+# Folders are relative to this ledger folder.
+
+C1 C2 C3 C4 | ../02_Result_Handedness | python tools/check_result.py
+C5 | . | python checks/hatano_nelson.py
+C14 C15 | . | python checks/sim_spec_facts.py
+C18 C20 | . | python checks/errw_exchangeability.py
+C44 | . | python checks/gaussian_spreading.py
+C63 | . | python checks/time_dilation_split.py
+C79 C82 | ../04_Ways_Forward/Commitment_Rule/v0 | python run_tests_v0.py
+C84 C85 | . | python checks/budget_dimension.py
+C104 | . | python checks/budget_cap_scale.py
+C126 C127 C128 C129 | ../04_Ways_Forward/Commitment_Rule/v1 | python run_tests_v1.py
+C131 | . | python checks/budget_growth.py
+C147 C148 C149 | . | python checks/split_dimension.py
+C176 C177 | . | python checks/rewire_dimension.py
+C185 C186 | . | python checks/p12_growth.py
+C188 | . | python checks/p12_scan.py --spot
+C192 C193 C199 C202 | ../04_Ways_Forward/Commitment_Rule/v1_budget | python run_tests_budget.py
+C203 | . | python checks/ppn_beta.py
+C207 | . | python checks/pn_sourcing.py
+C211 | . | python checks/birth_rate_lambda.py
+C216 | . | python checks/everpresent_onesided.py --spot
+C221 | . | python checks/bao_distance_test.py --spot
+C230 | . | python checks/critical_density.py
+C242 | . | python checks/hde_bao_test.py
+C246 | . | python checks/hde_combined_test.py
+C248 | . | python checks/handedness_toy.py
+C263 | . | python checks/handedness_local_toy.py
+C275 | ../04_Ways_Forward/Commitment_Rule/v2 | python run_tests_v2.py
+C278 | ../04_Ways_Forward/Commitment_Rule/v2b | python run_tests_v2b.py
+C281 | ../04_Ways_Forward/Commitment_Rule/v2b | python gain_check.py
+C291 | ../04_Ways_Forward/Commitment_Rule/v3_draw | python run_tests_draw.py
+C288 | ../04_Ways_Forward/Commitment_Rule/v2b | python tuned_test.py
+C293 | ../04_Ways_Forward/Commitment_Rule/v4 | python run_tests_v4.py
+C296 | ../04_Ways_Forward/Standing_Phase | python attempt1_coherence.py
+C302 | ../04_Ways_Forward/Standing_Phase | python attempt3_squares.py
+C299 | ../04_Ways_Forward/Standing_Phase | python attempt2_frustration.py

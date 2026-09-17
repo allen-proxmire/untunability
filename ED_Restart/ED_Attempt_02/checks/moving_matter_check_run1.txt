@@ -1,0 +1,20 @@
+M0 harness: carrying and moving off vs note 7's derived law, 50 steps: largest difference 0.0e+00
+
+Starts in order: near-uniform, staggered, wave pi/2, wave 2pi/3, random pure 1, random pure 2, random mixed; H hand, D dead, P patterned, U unsteady
+ring 24 m0  1.0 Gamma 0.30: DDDDDDD  hands 0 (winding 1: 0); v ; windings []; largest |v| watched 9.3e-07 3.8e-07 7.9e-10 1.1e-09 9.2e-07 3.5e-06 2.9e-07; mean matter velocity +0.000 -0.000 -0.000 +0.000 -0.000 +0.000 -0.000; released current -4.5e-08 +2.1e-08 +9.0e-11 +5.7e-11 -2.8e-08 -1.4e-07 -1.6e-08; matter amount spread 8.2e-01 6.6e-01 6.4e-02 3.4e-02 4.7e-01 6.1e-01 8.5e-01; largest change 1e-04
+ring 24 m0  1.0 Gamma 0.05: DDDDDDD  hands 0 (winding 1: 0); v ; windings []; largest |v| watched 4.7e-05 1.4e-05 3.6e-05 1.3e-05 2.2e-05 3.3e-05 1.8e-05; mean matter velocity -0.000 +0.000 +0.000 +0.000 -0.000 -0.000 +0.000; released current -2.2e-07 -1.5e-08 +8.7e-08 +3.5e-08 -2.3e-07 -2.0e-07 -5.1e-08; matter amount spread 6.8e-01 2.8e-01 4.8e-01 2.4e-01 7.5e-01 7.4e-01 2.5e-01; largest change 6e-04
+ring 36 m0  1.0 Gamma 0.30: DDDDDDD  hands 0 (winding 1: 0); v ; windings []; largest |v| watched 1.7e-07 7.9e-08 1.8e-09 1.3e-09 6.6e-07 4.2e-06 2.3e-07; mean matter velocity -0.000 +0.000 +0.000 +0.000 -0.000 -0.000 +0.000; released current +8.2e-09 -5.9e-09 +8.4e-11 +2.1e-10 -5.6e-09 +3.6e-07 -1.1e-08; matter amount spread 4.9e-01 5.1e-01 4.4e-02 5.7e-02 4.7e-01 8.3e-01 5.8e-01; largest change 6e-05
+ring 36 m0  1.0 Gamma 0.05: DDDDDDD  hands 0 (winding 1: 0); v ; windings []; largest |v| watched 1.1e-05 9.9e-06 1.8e-06 4.4e-06 3.0e-06 3.3e-06 4.5e-06; mean matter velocity -0.000 +0.000 -0.000 +0.000 +0.000 -0.000 +0.000; released current +2.9e-08 +4.4e-08 +3.1e-09 +3.0e-08 -2.5e-08 +2.7e-08 +1.9e-08; matter amount spread 4.1e-01 3.0e-01 3.1e-01 3.6e-01 4.8e-01 5.6e-01 4.5e-01; largest change 3e-04
+ring 24 m0 10.0 Gamma 0.30: DDDDDDD  hands 0 (winding 1: 0); v ; windings []; largest |v| watched 2.9e-09 7.5e-10 9.0e-11 7.1e-11 3.2e-09 5.4e-09 6.2e-09; mean matter velocity -0.000 +0.000 +0.000 +0.000 -0.000 -0.000 -0.000; released current +5.5e-11 -3.3e-11 -2.0e-12 +5.8e-12 -5.1e-11 +3.4e-10 +2.0e-10; matter amount spread 6.8e-01 1.3e+00 2.6e-01 2.4e-01 2.1e-01 2.6e-01 8.8e-01; largest change 1e-04
+ring 24 m0 10.0 Gamma 0.05: DDDDDDD  hands 0 (winding 1: 0); v ; windings []; largest |v| watched 7.4e-06 3.1e-06 5.0e-06 2.9e-06 5.0e-06 7.1e-06 8.2e-06; mean matter velocity -0.000 -0.000 +0.000 +0.000 +0.000 -0.000 +0.000; released current +3.7e-08 -2.9e-08 -3.1e-08 -7.2e-10 +3.5e-08 +6.2e-08 -3.1e-08; matter amount spread 8.1e+00 9.6e+00 6.5e+00 5.2e+00 8.2e+00 9.7e+00 5.7e+00; largest change 4e-03
+
+Exit rule (RD14): found on ring 24: False; found on ring 36: False
+VERDICT: the line ENDS: moving matter doesn't make a hand either
+
+Expected results:
+  AS EXPECTED      M0 harness reproduces note 7's derived law
+  AS EXPECTED      M1 ring 24, m0 1: no hand
+  AS EXPECTED      M2 ring 36, m0 1: no hand
+  AS EXPECTED      M3 ring 24, m0 10: no hand
+  AS EXPECTED      Exit: the line ends
+exit 0

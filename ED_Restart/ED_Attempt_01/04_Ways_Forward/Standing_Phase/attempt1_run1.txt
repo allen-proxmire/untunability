@@ -1,0 +1,14 @@
+d = 1: 3 channels, 5 variables, small loops 10 (triangles 5, lane loops 5, on-site 4-loops 0, other 0); S1 triangles flux 0 and lane loops flux pi: True
+  Wilson: min cost 0.000e+00, max cost 0.000e+00; largest distance from target 1.03e-08 (best start 3.84e-10); largest |sin flux| 0.000; best start's lane-loop fluxes (distinct, rounded) [np.float64(-0.0)]
+  pi-preferring: min cost 0.000e+00, max cost 0.000e+00; largest distance from target 8.64e-09 (best start 5.80e-09); largest |sin flux| 0.000; best start's lane-loop fluxes (distinct, rounded) [np.float64(-3.142), np.float64(3.142)]
+d = 3: 7 channels, 27 variables, small loops 17875 (triangles 4375, lane loops 375, on-site 4-loops 13125, other 0); S1 triangles flux 0 and lane loops flux pi: True
+  Wilson: min cost 0.000e+00, max cost 8.750e+03; largest distance from target 3.14e+00 (best start 7.83e-09); largest |sin flux| 0.000; best start's lane-loop fluxes (distinct, rounded) [np.float64(-0.0)]
+  pi-preferring: min cost 1.393e+04, max cost 1.393e+04; largest distance from target 3.14e+00 (best start 3.14e+00); largest |sin flux| 0.992; best start's lane-loop fluxes (distinct, rounded) [np.float64(-3.142), np.float64(3.142)]
+
+Frozen predictions:
+  RIGHT  S1 real rule's structure (triangles 0, lane loops pi)
+  RIGHT  S2 Wilson 1D: fluxes all 0
+  WRONG  S3 Wilson 3D: fluxes all 0
+  RIGHT  S4 pi-preferring 1D: fluxes all pi
+  RIGHT  S5 pi-preferring 3D: frustrated, some flux neither 0 nor pi
+exit 0

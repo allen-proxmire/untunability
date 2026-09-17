@@ -1,0 +1,5 @@
+triangle: |V|=3, |E|=3, m-n=0; Grover U=S C: +1 x2, -1 x0 of 6; stuck space dim 1 (U on it: +1 x1, -1 x0)
+K4: |V|=4, |E|=6, m-n=2; Grover U=S C: +1 x4, -1 x2 of 12; stuck space dim 5 (U on it: +1 x3, -1 x2)
+path of 3: |V|=3, |E|=2, m-n=-1; Grover U=S C: +1 x1, -1 x1 of 4; stuck space dim 0 (U on it: +1 x0, -1 x0)
+square (bipartite): |V|=4, |E|=4, m-n=0; Grover U=S C: +1 x2, -1 x2 of 8; stuck space dim 2 (U on it: +1 x1, -1 x1)
+seed 1 graph: |V|=79, |E|=231, m-n=152; Grover U=S C: +1 x154, -1 x152 of 462; stuck space dim 305 (U on it: +1 x153, -1 x152)

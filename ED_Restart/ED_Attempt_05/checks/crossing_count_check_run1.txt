@@ -1,0 +1,10 @@
+K1 isotropic segments: crossings per area / (L_V/2) = 1.0107
+K2 cubic lattice crossings per unit area: (0,0,1) 0.999, (1,1,0) 1.415, (1,1,1) 1.732
+K3 short-range: crossings [3081, 4536, 7371, 9964, 12881]; at R=16 predicted 12791, ratio 1.0070; exponent 2.116
+K4 long-range only: crossings [445, 989, 1729, 2822, 4091]; exponent 3.198
+
+Expected results:
+  AS EXPECTED      K1 isotropic crossings = L_V/2 per area
+  AS EXPECTED      K2 cubic lattice count depends on direction (1, 1.414, 1.732)
+  AS EXPECTED      K3 short-range sphere crossings match pi^2 rho^2 r^4 R^2 and scale as area
+  NOT AS EXPECTED  K4 long-range relations scale like volume

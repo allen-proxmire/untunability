@@ -1,0 +1,6 @@
+strong-sync plan (D20): planned 54, missing 0
+floor -0.2 at K/sigma=30: settings smooth three at rest 0/9; at some checkpoint 0/9; stalled 4/9
+constrained K/sigma=30: n=27, mean degree 5.29, d_H 1.60, d_s 1.12, d_w 2.73, beta 0.40, small world 1/17
+control K/sigma=30: n=27, mean degree 7.39, d_H undefined, d_s undefined, d_w undefined, beta undefined, small world 27/27
+context: constrained K/sigma=1: n=13, mean degree 7.35, d_H 1.51, d_s 0.90, d_w 2.69, beta 0.65, small world 5/13
+RESULT (partial, D20): strong sync: no setting reaches smooth three at rest

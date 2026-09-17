@@ -1,0 +1,1 @@
+{"job": "cal", "kind": "F", "n": 80, "structure_notes": [], "readings": {"d_H": 1.9014733846382332, "d_s": 2.0000637277346365, "d_w": 1.9970792329221259, "r_lo": 7.0, "r_max": 14.0, "N": 6400.0, "mean_degree": 6.0, "small_world": false}, "eccentricity": 53.0, "degrees": {"deg_sd": 0.0, "curv2": 0.0, "deg_max": 6}, "seconds": 8.210048499997356}

@@ -1,0 +1,13 @@
+g 0.0: winding +1 0, -1 0, 0 200; |J| median 7.165e-08
+g 0.5: winding +1 94, -1 106, 0 0; |J| median 7.173e-08
+mirror check: max error 9.4e-16; windings -1 and 1
+uniform start: winding 0, J -2.4e-18
+share handed at g 0.5: 1.000; share +1 among handed: 0.470
+
+RIGHT  P1 g = 0: all windings 0
+RIGHT  P2 mirror check: mirrored end and opposite winding
+RIGHT  P3 g = 0.5: at least 90% handed
+RIGHT  P4 g = 0.5: share of +1 among handed between 0.35 and 0.65
+RIGHT  P5 uniform start stays at winding 0
+ALL PREDICTIONS AS FROZEN
+exit 0

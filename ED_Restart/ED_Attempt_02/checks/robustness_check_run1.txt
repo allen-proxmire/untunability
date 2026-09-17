@@ -1,0 +1,188 @@
+chi at L 8, D 2, Gamma 0.3: +1.65148e-01
+chi at L 12, D 2, Gamma 0.3: +1.69152e-01
+chi at L 24, D 2, Gamma 0.1: +1.68702e-01
+chi at L 24, D 2, Gamma 0.3: +1.69803e-01
+chi at L 24, D 2, Gamma 0.6: +1.76199e-01
+chi at L 24, D 3, Gamma 0.3: +1.67344e-01
+chi at L 36, D 2, Gamma 0.3: +1.69673e-01
+done L 24 D 2 Gamma 0.1 g 0.9 tanh gain 3 random pure 2: hand
+done L 24 D 2 Gamma 0.1 g 0.9 tanh gain 3 staggered: hand
+done L 24 D 2 Gamma 0.1 g 0.9 tanh gain 3 wave 2pi/3: hand
+done L 24 D 2 Gamma 0.1 g 0.9 tanh gain 3 wave pi/2: hand
+done L 24 D 2 Gamma 0.1 g 0.9 tanh gain 3 random mixed: hand
+done L 24 D 2 Gamma 0.1 g 0.9 tanh gain 3 near-uniform: hand
+done L 24 D 2 Gamma 0.1 g 0.9 tanh gain 3 random pure 1: hand
+done L 24 D 2 Gamma 0.1 g 0.9 tanh gain 10 staggered: hand
+done L 24 D 2 Gamma 0.1 g 0.9 tanh gain 10 wave pi/2: hand
+done L 24 D 2 Gamma 0.1 g 0.9 tanh gain 10 near-uniform: hand
+done L 24 D 2 Gamma 0.1 g 0.9 tanh gain 10 random mixed: hand
+done L 24 D 2 Gamma 0.1 g 0.9 tanh gain 10 wave 2pi/3: hand
+done L 24 D 2 Gamma 0.1 g 0.9 tanh gain 10 random pure 2: hand
+done L 24 D 2 Gamma 0.1 g 0.9 tanh gain 10 random pure 1: hand
+done L 36 D 2 Gamma 0.3 g 0.9 tanh gain 3 staggered: hand
+done L 36 D 2 Gamma 0.3 g 0.9 tanh gain 3 near-uniform: hand
+done L 36 D 2 Gamma 0.3 g 0.9 tanh gain 3 wave pi/2: hand
+done L 36 D 2 Gamma 0.3 g 0.9 tanh gain 3 random pure 1: hand
+done L 36 D 2 Gamma 0.3 g 0.9 tanh gain 3 wave 2pi/3: hand
+done L 36 D 2 Gamma 0.3 g 0.9 tanh gain 3 random pure 2: hand
+done L 36 D 2 Gamma 0.3 g 0.9 tanh gain 3 random mixed: hand
+done L 36 D 2 Gamma 0.3 g 0.9 tanh gain 10 near-uniform: hand
+done L 36 D 2 Gamma 0.3 g 0.9 tanh gain 10 staggered: hand
+done L 36 D 2 Gamma 0.3 g 0.9 tanh gain 10 wave pi/2: hand
+done L 36 D 2 Gamma 0.3 g 0.9 tanh gain 10 random pure 1: hand
+done L 36 D 2 Gamma 0.3 g 0.9 tanh gain 10 wave 2pi/3: hand
+done L 36 D 2 Gamma 0.3 g 0.9 tanh gain 10 random pure 2: hand
+done L 36 D 2 Gamma 0.3 g 0.9 tanh gain 10 random mixed: hand
+done L 24 D 2 Gamma 0.3 g 0.9 tanh gain 3 staggered: hand
+done L 24 D 2 Gamma 0.3 g 0.9 tanh gain 3 wave pi/2: hand
+done L 24 D 2 Gamma 0.3 g 0.9 tanh gain 3 near-uniform: hand
+done L 24 D 2 Gamma 0.3 g 0.9 tanh gain 3 wave 2pi/3: hand
+done L 24 D 2 Gamma 0.3 g 0.9 tanh gain 3 random pure 2: hand
+done L 24 D 2 Gamma 0.3 g 0.9 tanh gain 3 random pure 1: hand
+done L 24 D 2 Gamma 0.3 g 0.9 tanh gain 3 random mixed: hand
+done L 24 D 2 Gamma 0.3 g 0.9 tanh gain 10 near-uniform: hand
+done L 24 D 2 Gamma 0.3 g 0.9 tanh gain 10 wave pi/2: hand
+done L 24 D 2 Gamma 0.3 g 0.9 tanh gain 10 staggered: hand
+done L 24 D 2 Gamma 0.3 g 0.9 tanh gain 10 wave 2pi/3: hand
+done L 24 D 2 Gamma 0.3 g 0.9 tanh gain 10 random pure 1: hand
+done L 24 D 2 Gamma 0.3 g 0.9 tanh gain 10 random pure 2: hand
+done L 24 D 2 Gamma 0.3 g 0.9 tanh gain 10 random mixed: hand
+done L 24 D 3 Gamma 0.3 g 0.9 tanh gain 3 near-uniform: hand
+done L 24 D 3 Gamma 0.3 g 0.9 tanh gain 3 staggered: hand
+done L 24 D 3 Gamma 0.3 g 0.9 tanh gain 3 wave pi/2: hand
+done L 24 D 3 Gamma 0.3 g 0.9 tanh gain 3 wave 2pi/3: hand
+done L 24 D 3 Gamma 0.3 g 0.9 tanh gain 3 random pure 1: hand
+done L 24 D 3 Gamma 0.3 g 0.9 tanh gain 3 random mixed: hand
+done L 24 D 3 Gamma 0.3 g 0.9 tanh gain 3 random pure 2: hand
+done L 24 D 3 Gamma 0.3 g 0.9 tanh gain 10 staggered: dead
+done L 24 D 3 Gamma 0.3 g 0.9 tanh gain 10 near-uniform: hand
+done L 24 D 3 Gamma 0.3 g 0.9 tanh gain 10 wave pi/2: hand
+done L 24 D 3 Gamma 0.3 g 0.9 tanh gain 10 random pure 1: hand
+done L 24 D 3 Gamma 0.3 g 0.9 tanh gain 10 wave 2pi/3: hand
+done L 24 D 3 Gamma 0.3 g 0.9 tanh gain 10 random pure 2: hand
+done L 24 D 3 Gamma 0.3 g 0.9 tanh gain 10 random mixed: hand
+done L 24 D 2 Gamma 0.3 g 0.3 tanh gain 3 near-uniform: hand
+done L 24 D 2 Gamma 0.3 g 0.3 tanh gain 3 staggered: hand
+done L 24 D 2 Gamma 0.3 g 0.3 tanh gain 3 wave pi/2: hand
+done L 24 D 2 Gamma 0.3 g 0.3 tanh gain 3 wave 2pi/3: hand
+done L 24 D 2 Gamma 0.3 g 0.3 tanh gain 3 random pure 1: hand
+done L 24 D 2 Gamma 0.3 g 0.3 tanh gain 3 random pure 2: hand
+done L 24 D 2 Gamma 0.3 g 0.3 tanh gain 3 random mixed: hand
+done L 24 D 2 Gamma 0.3 g 0.3 tanh gain 10 near-uniform: hand
+done L 24 D 2 Gamma 0.3 g 0.3 tanh gain 10 staggered: hand
+done L 24 D 2 Gamma 0.3 g 0.3 tanh gain 10 wave pi/2: hand
+done L 24 D 2 Gamma 0.3 g 0.3 tanh gain 10 random pure 2: hand
+done L 24 D 2 Gamma 0.3 g 0.3 tanh gain 10 random pure 1: hand
+done L 24 D 2 Gamma 0.3 g 0.3 tanh gain 10 wave 2pi/3: hand
+done L 24 D 2 Gamma 0.3 g 0.3 tanh gain 10 random mixed: hand
+done L 24 D 2 Gamma 0.3 g 0.6 tanh gain 3 near-uniform: hand
+done L 24 D 2 Gamma 0.3 g 0.6 tanh gain 3 staggered: hand
+done L 24 D 2 Gamma 0.3 g 0.6 tanh gain 3 wave pi/2: hand
+done L 24 D 2 Gamma 0.3 g 0.6 tanh gain 3 wave 2pi/3: hand
+done L 24 D 2 Gamma 0.3 g 0.6 tanh gain 3 random pure 1: hand
+done L 24 D 2 Gamma 0.3 g 0.6 tanh gain 3 random pure 2: hand
+done L 24 D 2 Gamma 0.3 g 0.6 tanh gain 3 random mixed: hand
+done L 24 D 2 Gamma 0.3 g 0.6 tanh gain 10 near-uniform: hand
+done L 24 D 2 Gamma 0.3 g 0.6 tanh gain 10 staggered: hand
+done L 24 D 2 Gamma 0.3 g 0.6 tanh gain 10 wave pi/2: hand
+done L 24 D 2 Gamma 0.3 g 0.6 tanh gain 10 wave 2pi/3: hand
+done L 24 D 2 Gamma 0.3 g 0.6 tanh gain 10 random pure 1: hand
+done L 24 D 2 Gamma 0.3 g 0.6 tanh gain 10 random pure 2: hand
+done L 24 D 2 Gamma 0.3 g 0.6 tanh gain 10 random mixed: hand
+done L 24 D 2 Gamma 0.3 g 0.9 clip gain 3 near-uniform: hand
+done L 24 D 2 Gamma 0.3 g 0.9 clip gain 3 staggered: hand
+done L 24 D 2 Gamma 0.3 g 0.9 clip gain 3 wave pi/2: hand
+done L 24 D 2 Gamma 0.3 g 0.9 clip gain 3 wave 2pi/3: hand
+done L 24 D 2 Gamma 0.3 g 0.9 clip gain 3 random pure 1: hand
+done L 24 D 2 Gamma 0.3 g 0.9 clip gain 3 random mixed: hand
+done L 24 D 2 Gamma 0.3 g 0.9 clip gain 3 random pure 2: hand
+done L 24 D 2 Gamma 0.3 g 0.9 clip gain 10 near-uniform: hand
+done L 24 D 2 Gamma 0.3 g 0.9 clip gain 10 staggered: hand
+done L 12 D 2 Gamma 0.3 g 0.9 tanh gain 3 near-uniform: hand
+done L 24 D 2 Gamma 0.3 g 0.9 clip gain 10 wave pi/2: hand
+done L 24 D 2 Gamma 0.3 g 0.9 clip gain 10 wave 2pi/3: hand
+done L 24 D 2 Gamma 0.3 g 0.9 clip gain 10 random pure 1: hand
+done L 24 D 2 Gamma 0.3 g 0.9 clip gain 10 random pure 2: hand
+done L 24 D 2 Gamma 0.3 g 0.9 clip gain 10 random mixed: hand
+done L 12 D 2 Gamma 0.3 g 0.9 tanh gain 3 staggered: hand
+done L 12 D 2 Gamma 0.3 g 0.9 tanh gain 3 wave pi/2: hand
+done L 12 D 2 Gamma 0.3 g 0.9 tanh gain 3 wave 2pi/3: hand
+done L 12 D 2 Gamma 0.3 g 0.9 tanh gain 3 random pure 1: hand
+done L 12 D 2 Gamma 0.3 g 0.9 tanh gain 3 random pure 2: hand
+done L 12 D 2 Gamma 0.3 g 0.9 tanh gain 3 random mixed: hand
+done L 12 D 2 Gamma 0.3 g 0.9 tanh gain 10 near-uniform: hand
+C:\Users\allen\Desktop\ED_Restart\ED_Attempt_02\checks\..\..\ED_Attempt_01\04_Ways_Forward\Commitment_Rule\v4\rule_v4.py:40: RuntimeWarning: invalid value encountered in sqrt
+  scale[lane] = np.sqrt(1 - p)
+done L 12 D 2 Gamma 0.3 g 0.9 tanh gain 10 staggered: hand
+C:\Users\allen\Desktop\ED_Restart\ED_Attempt_02\checks\..\..\ED_Attempt_01\04_Ways_Forward\Commitment_Rule\v4\rule_v4.py:40: RuntimeWarning: invalid value encountered in sqrt
+  scale[lane] = np.sqrt(1 - p)
+done L 12 D 2 Gamma 0.3 g 0.9 tanh gain 10 wave pi/2: unsteady
+C:\Users\allen\Desktop\ED_Restart\ED_Attempt_02\checks\..\..\ED_Attempt_01\04_Ways_Forward\Commitment_Rule\v4\rule_v4.py:40: RuntimeWarning: invalid value encountered in sqrt
+  scale[lane] = np.sqrt(1 - p)
+done L 12 D 2 Gamma 0.3 g 0.9 tanh gain 10 wave 2pi/3: hand
+C:\Users\allen\Desktop\ED_Restart\ED_Attempt_02\checks\..\..\ED_Attempt_01\04_Ways_Forward\Commitment_Rule\v4\rule_v4.py:40: RuntimeWarning: invalid value encountered in sqrt
+  scale[lane] = np.sqrt(1 - p)
+done L 12 D 2 Gamma 0.3 g 0.9 tanh gain 10 random mixed: unsteady
+C:\Users\allen\Desktop\ED_Restart\ED_Attempt_02\checks\..\..\ED_Attempt_01\04_Ways_Forward\Commitment_Rule\v4\rule_v4.py:40: RuntimeWarning: invalid value encountered in sqrt
+  scale[lane] = np.sqrt(1 - p)
+done L 12 D 2 Gamma 0.3 g 0.9 tanh gain 10 random pure 1: hand
+C:\Users\allen\Desktop\ED_Restart\ED_Attempt_02\checks\..\..\ED_Attempt_01\04_Ways_Forward\Commitment_Rule\v4\rule_v4.py:40: RuntimeWarning: invalid value encountered in sqrt
+  scale[lane] = np.sqrt(1 - p)
+done L 12 D 2 Gamma 0.3 g 0.9 tanh gain 10 random pure 2: hand
+C:\Users\allen\Desktop\ED_Restart\ED_Attempt_02\checks\..\..\ED_Attempt_01\04_Ways_Forward\Commitment_Rule\v4\rule_v4.py:40: RuntimeWarning: invalid value encountered in sqrt
+  scale[lane] = np.sqrt(1 - p)
+done L 24 D 2 Gamma 0.6 g 0.9 tanh gain 3 near-uniform: dead
+done L 24 D 2 Gamma 0.6 g 0.9 tanh gain 3 staggered: dead
+done L 24 D 2 Gamma 0.6 g 0.9 tanh gain 3 wave pi/2: dead
+done L 24 D 2 Gamma 0.6 g 0.9 tanh gain 3 wave 2pi/3: dead
+done L 24 D 2 Gamma 0.6 g 0.9 tanh gain 3 random pure 1: dead
+done L 24 D 2 Gamma 0.6 g 0.9 tanh gain 3 random pure 2: dead
+done L 24 D 2 Gamma 0.6 g 0.9 tanh gain 3 random mixed: dead
+done L 24 D 2 Gamma 0.6 g 0.9 tanh gain 10 near-uniform: dead
+done L 24 D 2 Gamma 0.6 g 0.9 tanh gain 10 staggered: dead
+done L 24 D 2 Gamma 0.6 g 0.9 tanh gain 10 wave pi/2: dead
+done L 24 D 2 Gamma 0.6 g 0.9 tanh gain 10 wave 2pi/3: dead
+done L 24 D 2 Gamma 0.6 g 0.9 tanh gain 10 random pure 1: dead
+done L 24 D 2 Gamma 0.6 g 0.9 tanh gain 10 random pure 2: dead
+done L 24 D 2 Gamma 0.6 g 0.9 tanh gain 10 random mixed: dead
+
+By setting (starts in order: near-uniform, staggered, wave pi/2, wave 2pi/3, random pure 1, random pure 2, random mixed; H hand, D dead, P patterned, U unsteady):
+L 24 D 2 Gamma 0.3 g 0.9 tanh  gain  3.0: HHHHHHH  hands 7; v +2.42658e-01 -2.42658e-01 +2.42658e-01 +2.42658e-01 -2.42658e-01 -2.42658e-01 -2.42658e-01; windings [1, 1, 1, 1, 1, 1, 1]; largest change 3e-17; largest shift error 3e-17
+L 24 D 2 Gamma 0.3 g 0.9 tanh  gain 10.0: HHHHHHH  hands 7; v -2.42884e-01 -2.42884e-01 +2.42884e-01 +2.42884e-01 -2.42884e-01 -2.42884e-01 -2.42884e-01; windings [1, 1, 1, 1, 1, 1, 1]; largest change 4e-17; largest shift error 3e-17
+L 12 D 2 Gamma 0.3 g 0.9 tanh  gain  3.0: HHHHHHH  hands 7; v -2.46726e-01 -2.46726e-01 +2.46726e-01 +2.46726e-01 +2.46726e-01 +2.46726e-01 -2.46726e-01; windings [1, 1, 1, 1, 1, 1, 1]; largest change 2e-16; largest shift error 2e-16
+L 12 D 2 Gamma 0.3 g 0.9 tanh  gain 10.0: HHUHHHU  hands 5; v +2.47188e-01 -2.47188e-01 +2.47188e-01 +2.47188e-01 +2.47188e-01; windings [1, 1, 1, 1, 1]; largest change 2e-02; largest shift error 2e-16
+L 36 D 2 Gamma 0.3 g 0.9 tanh  gain  3.0: HHHHHHH  hands 7; v +2.41487e-01 -2.41487e-01 +2.41487e-01 +2.41487e-01 -2.41487e-01 -2.41487e-01 -2.41487e-01; windings [1, 1, 1, 1, 1, 1, 1]; largest change 1e-17; largest shift error 7e-18
+L 36 D 2 Gamma 0.3 g 0.9 tanh  gain 10.0: HHHHHHH  hands 7; v -2.41676e-01 -2.41676e-01 +2.41676e-01 +2.41676e-01 -2.41676e-01 -2.41676e-01 +2.41676e-01; windings [1, 1, 1, 1, 1, 1, 1]; largest change 1e-17; largest shift error 7e-18
+L 24 D 3 Gamma 0.3 g 0.9 tanh  gain  3.0: HHHHHHH  hands 7; v +2.29046e-01 -2.29046e-01 +2.29046e-01 +2.29046e-01 +2.29046e-01 +2.29046e-01 +2.29046e-01; windings [1, 1, 1, 1, 1, 1, 1]; largest change 9e-11; largest shift error 6e-11
+L 24 D 3 Gamma 0.3 g 0.9 tanh  gain 10.0: HDHHHHH  hands 6; v -2.29391e-01 +2.29391e-01 +2.29391e-01 +2.29391e-01 +2.29391e-01 +2.29391e-01; windings [1, 1, 1, 1, 1, 1]; largest change 4e-03; largest shift error 4e-03
+L 24 D 2 Gamma 0.1 g 0.9 tanh  gain  3.0: HHHHHHH  hands 7; v -2.42381e-01 -2.42381e-01 +2.42381e-01 +2.42381e-01 +2.42381e-01 -2.42381e-01 -2.42381e-01; windings [1, 1, 1, 1, 1, 1, 1]; largest change 1e-16; largest shift error 2e-16
+L 24 D 2 Gamma 0.1 g 0.9 tanh  gain 10.0: HHHHHHH  hands 7; v -2.42632e-01 -2.42632e-01 +2.42632e-01 +2.42632e-01 -2.42632e-01 -2.42632e-01 -2.42632e-01; windings [1, 1, 1, 1, 1, 1, 1]; largest change 1e-16; largest shift error 3e-16
+L 24 D 2 Gamma 0.6 g 0.9 tanh  gain  3.0: DDDDDDD  hands 0; v ; windings []; largest change 0e+00; largest shift error nan
+L 24 D 2 Gamma 0.6 g 0.9 tanh  gain 10.0: DDDDDDD  hands 0; v ; windings []; largest change 0e+00; largest shift error nan
+L 24 D 2 Gamma 0.3 g 0.3 tanh  gain  3.0: HHHHHHH  hands 7; v -5.22946e-02 -5.22946e-02 +5.22946e-02 +5.22946e-02 +5.22946e-02 -5.22946e-02 -5.22946e-02; windings [0, 0, 0, 0, 0, 0, 0]; largest change 2e-17; largest shift error 1e-17
+L 24 D 2 Gamma 0.3 g 0.3 tanh  gain 10.0: HHHHHHH  hands 7; v -5.25319e-02 -5.25319e-02 +5.25319e-02 +5.25319e-02 +5.25319e-02 -5.25319e-02 -5.25319e-02; windings [0, 0, 0, 0, 0, 0, 0]; largest change 2e-17; largest shift error 1e-17
+L 24 D 2 Gamma 0.3 g 0.6 tanh  gain  3.0: HHHHHHH  hands 7; v +1.16925e-01 -1.16925e-01 +1.16925e-01 +1.16925e-01 -1.16925e-01 -1.16925e-01 -1.16925e-01; windings [1, 1, 1, 1, 1, 1, 1]; largest change 2e-17; largest shift error 1e-17
+L 24 D 2 Gamma 0.3 g 0.6 tanh  gain 10.0: HHHHHHH  hands 7; v -1.17298e-01 -1.17298e-01 +1.17298e-01 +1.17298e-01 -1.17298e-01 -1.17298e-01 -1.17298e-01; windings [1, 1, 1, 1, 1, 1, 1]; largest change 2e-17; largest shift error 1e-17
+L 24 D 2 Gamma 0.3 g 0.9 clip  gain  3.0: HHHHHHH  hands 7; v +2.42884e-01 -2.42884e-01 +2.42884e-01 +2.42884e-01 -2.42884e-01 -2.42884e-01 -2.42884e-01; windings [1, 1, 1, 1, 1, 1, 1]; largest change 3e-17; largest shift error 3e-17
+L 24 D 2 Gamma 0.3 g 0.9 clip  gain 10.0: HHHHHHH  hands 7; v -2.42884e-01 -2.42884e-01 +2.42884e-01 +2.42884e-01 -2.42884e-01 -2.42884e-01 -2.42884e-01; windings [1, 1, 1, 1, 1, 1, 1]; largest change 4e-17; largest shift error 4e-17
+
+Found (hand from at least 4 of 7 starts at gain 3 or 10):
+  L      12: found  24: found  36: found
+  D      2: found  3: found
+  Gamma  0.1: found  0.3: found  0.6: NOT found
+  g      0.3: found  0.6: found  0.9: found
+  form   tanh: found  clip: found
+
+Exit rule (RD10): (a) settings where the hand is found only at the current value: none; (b) not found at L 36: False
+VERDICT: the discrete handedness line does not end
+
+Expected results:
+  AS EXPECTED      R0 harness: chi and the current values reproduce C58
+  AS EXPECTED      R1 found at L 12, 24, 36
+  AS EXPECTED      R2 found at D 2, 3
+  NOT AS EXPECTED  R3 found at Gamma 0.1, 0.3, 0.6
+  AS EXPECTED      R4 found at g 0.3, 0.6, 0.9
+  AS EXPECTED      R5 found with both forms
+  NOT AS EXPECTED  R6 every hand has winding 1
+  AS EXPECTED      Exit: the line does not end
+exit 0

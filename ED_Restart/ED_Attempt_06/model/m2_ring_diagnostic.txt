@@ -1,0 +1,7 @@
+ring: curvature of every relation: min 0.0000 max 0.0000
+after chord 0-2: relation (0, 1) curvature 0.4167
+after chord 0-2: relation (0, 2) curvature 0.1667
+after chord 0-2: relation (0, 29) curvature -0.1667
+after chord 0-2: relation (1, 2) curvature 0.4167
+after chord 0-2: relation (2, 3) curvature -0.1667
+curvature floor check passes: False

@@ -1,0 +1,9 @@
+[1/28] cal_FC_n16.json 2 s (elapsed 3 s)
+[2/28] cal_FC_n24.json 4 s (elapsed 6 s)
+[3/28] cal_RC_n16.json 11 s (elapsed 12 s)
+[4/28] cal_RC_n24.json 45 s (elapsed 46 s)
+--- restart 09:08 with 4 workers ---
+[1/28] cal_FC_n16.json 0 s (elapsed 1 s)
+[2/28] cal_RC_n16.json 0 s (elapsed 1 s)
+[3/28] cal_FC_n24.json 0 s (elapsed 1 s)
+[4/28] cal_RC_n24.json 0 s (elapsed 1 s)

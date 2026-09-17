@@ -1,0 +1,5 @@
+# claim IDs | run from (relative to 01_Ledger) | command
+C3 | ../checks | python bar_weights_check.py
+C50 | ../checks | python octant_cones_check.py
+C75 | ../checks | python zigzag_clock_check.py
+C80 | ../checks | python conservation_weights_check.py

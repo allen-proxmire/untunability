@@ -1,0 +1,5 @@
+n=16 (V=4096): build 0.2 s; start check 0.4 s (clean: True); tick+check S0 2.9 s, S4 6.6 s; readings 0.5 s (d_H defined: True, r_lo 2.0, r_max 4.0); flip sweep 0.1 s
+n=24 (V=13824): build 0.7 s; start check 1.2 s (clean: True); tick+check S0 9.9 s, S4 23.2 s; readings 0.9 s (d_H defined: True, r_lo 3.0, r_max 6.0); flip sweep 0.5 s
+T=500: 44.9 h single process, 7.5 h on 6 workers
+T=300: 26.9 h single process, 4.5 h on 6 workers
+T=200: 18.0 h single process, 3.0 h on 6 workers

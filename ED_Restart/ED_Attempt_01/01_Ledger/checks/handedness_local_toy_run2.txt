@@ -1,0 +1,61 @@
+G: linear theory lambda_max 1.623 at k 0.643; measured 1.568 (rms t_b - t_f 1.43e-08 -> 1.75e-04)
+M: mirror error 9.2e-15; hands mirrored: True; handed bonds 487
+uniform start: exactly uniform at t = 400: True
+A run  0: domains t50   6, t400   1; +1 512, -1   0, unhanded   0
+A run  1: domains t50   2, t400   1; +1   0, -1 512, unhanded   0
+A run  2: domains t50   2, t400   1; +1   0, -1 512, unhanded   0
+A run  3: domains t50   4, t400   1; +1   0, -1 512, unhanded   0
+A run  4: domains t50   4, t400   1; +1 512, -1   0, unhanded   0
+A run  5: domains t50   2, t400   1; +1   0, -1 512, unhanded   0
+A run  6: domains t50   4, t400   1; +1 512, -1   0, unhanded   0
+A run  7: domains t50   4, t400   1; +1 512, -1   0, unhanded   0
+A run  8: domains t50   2, t400   1; +1   0, -1 512, unhanded   0
+A run  9: domains t50   2, t400   1; +1   0, -1 512, unhanded   0
+A run 10: domains t50   2, t400   1; +1 512, -1   0, unhanded   0
+A run 11: domains t50   4, t400   1; +1   0, -1 512, unhanded   0
+A run 12: domains t50   4, t400   1; +1   0, -1 512, unhanded   0
+A run 13: domains t50   6, t400   1; +1   0, -1 512, unhanded   0
+A run 14: domains t50   2, t400   1; +1   0, -1 512, unhanded   0
+A run 15: domains t50   2, t400   1; +1   0, -1 512, unhanded   0
+A run 16: domains t50   1, t400   1; +1   0, -1 512, unhanded   0
+A run 17: domains t50   4, t400   1; +1 512, -1   0, unhanded   0
+A run 18: domains t50   4, t400   1; +1 512, -1   0, unhanded   0
+A run 19: domains t50   2, t400   1; +1   0, -1 512, unhanded   0
+B run 0: seed hand covers 1.000; domains 1
+B run 1: seed hand covers 1.000; domains 1
+B run 2: seed hand covers 1.000; domains 1
+B run 3: seed hand covers 1.000; domains 1
+B run 4: seed hand covers 1.000; domains 1
+B run 5: seed hand covers 1.000; domains 1
+B run 6: seed hand covers 1.000; domains 1
+B run 7: seed hand covers 1.000; domains 1
+B run 8: seed hand covers 1.000; domains 1
+B run 9: seed hand covers 1.000; domains 1
+C: seed hand covers 1.000; domains 1
+D: seed hand covers 1.000; domains 1
+E run 0: background hand covers 1.000 at start, 1.000 at t = 400; domains 1
+E run 1: background hand covers 1.000 at start, 1.000 at t = 400; domains 1
+E run 2: background hand covers 1.000 at start, 1.000 at t = 400; domains 1
+E run 3: background hand covers 1.000 at start, 1.000 at t = 400; domains 1
+E run 4: background hand covers 1.000 at start, 1.000 at t = 400; domains 1
+
+A: share +1 among handed bonds 0.350; domains t50 min 1 median 3; t400 min 1 median 1
+
+Frozen predictions:
+  RIGHT  P0 growth rate within 30% of linear theory
+  RIGHT  P1 mirror check
+  RIGHT  P2 exactly uniform start stays uniform and unhanded
+  WRONG  P3 A t = 50: every run at least 10 domains
+  WRONG  P4 A t = 400: at least 15 of 20 runs with 2+ domains
+  WRONG  P5 A t = 400: share +1 among handed bonds in [0.4, 0.6]
+  WRONG  P6 B: seed hand under 50% in at least 8 of 10
+  WRONG  P7 C: seed hand under 50%
+  WRONG  P8 D: seed hand under 90%
+  RIGHT  P9 E: background hand at least 90% in at least 4 of 5
+
+Recorded results reproduce:
+PASS P1, P2 code properties
+PASS run-1 A reproduces (domains t50, one domain at t400 in all, +1 in runs 0 4 6 7 10 17 18)
+PASS run-1 B, C, D, E coverage reproduces (all 1.000)
+ALL PASS
+exit 0

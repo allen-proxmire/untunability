@@ -1,0 +1,21 @@
+persistent G d=1: median W 0.06936, 0.1661, 0.3367, 3.511 at n=(64, 128, 256, 512); beta 1.398 (seeds 1.297, 2.255, 1.398); tilt ratio 2.493; within-slice tilt slope -0.044; redraws 0; max neighbour diff 0.126, max rate spread 9.7e-10 sigma, max W change 0.0000
+persistent G d=2: median W 0.02176, 0.03272, 0.0749, 0.1018 at n=(16, 32, 64, 128); beta 0.951 (seeds 0.709, 1.153, 0.951); tilt ratio 0.888; within-slice tilt slope -0.233; redraws 0; max neighbour diff 0.047, max rate spread 7.2e-10 sigma, max W change 0.0000
+persistent G d=3: median W 0.006419, 0.01071, 0.0123, 0.0129 at n=(8, 16, 24, 32); beta 0.523 (seeds 0.355, 0.523, 0.544); tilt ratio 0.502; within-slice tilt slope -0.576; redraws 0; max neighbour diff 0.030, max rate spread 7.7e-10 sigma, max W change 0.0000
+persistent R d=1: median W 0.02145, 0.03374, 0.1396, 1.514 at n=(64, 128, 256, 512); beta 1.957 (seeds 1.524, 2.397, 1.957); tilt ratio 8.820; within-slice tilt slope 0.193; redraws 33; max neighbour diff 0.884, max rate spread 4.9e-10 sigma, max W change 0.0000
+persistent R d=2: median W 0.01281, 0.02843, 0.0686, 0.1428 at n=(16, 32, 64, 128); beta 1.198 (seeds 1.198, 1.243, 1.007); tilt ratio 1.394; within-slice tilt slope -0.138; redraws 6; max neighbour diff 0.142, max rate spread 9.3e-08 sigma, max W change 0.0000
+persistent R d=3: median W 0.00903, 0.01223, 0.01776, 0.02053 at n=(8, 16, 24, 32); beta 0.639 (seeds 0.768, 0.515, 0.639); tilt ratio 0.569; within-slice tilt slope -0.430; redraws 9; max neighbour diff 0.054, max rate spread 2.0e-05 sigma, max W change 0.0013
+fresh      G d=1: median W 0.006865, 0.009622, 0.01319, 0.01895 at n=(64, 128, 256, 512); beta 0.421 (seeds 0.395, 0.585, 0.421); tilt ratio 0.309; within-slice tilt slope -0.547; redraws 0
+fresh      G d=2: median W 0.003097, 0.003303, 0.003605, 0.00382 at n=(16, 32, 64, 128); beta 0.104 (seeds 0.118, 0.104, 0.086); tilt ratio 0.154; within-slice tilt slope -0.864; redraws 0
+fresh      G d=3: median W 0.002607, 0.002662, 0.002678, 0.002693 at n=(8, 16, 24, 32); beta 0.022 (seeds 0.031, 0.022, 0.022); tilt ratio 0.259; within-slice tilt slope -0.934; redraws 0
+fresh      R d=1: median W 0.003455, 0.004851, 0.009526, 0.01302 at n=(64, 128, 256, 512); beta 0.660 (seeds 0.618, 0.752, 0.660); tilt ratio 0.519; within-slice tilt slope -0.550; redraws 33
+fresh      R d=2: median W 0.002911, 0.003323, 0.003586, 0.003888 at n=(16, 32, 64, 128); beta 0.124 (seeds 0.109, 0.124, 0.140); tilt ratio 0.160; within-slice tilt slope -0.846; redraws 6
+fresh      R d=3: median W 0.002625, 0.002741, 0.002784, 0.002808 at n=(8, 16, 24, 32); beta 0.050 (seeds 0.050, 0.052, 0.017); tilt ratio 0.267; within-slice tilt slope -0.915; redraws 9
+E1 structure and regime: NOT AS EXPECTED
+E2 grids persistent exponents: AS EXPECTED
+E3 random slices persistent exponents: NOT AS EXPECTED
+E4 persistent tilt ratios: NOT AS EXPECTED
+E5 fresh-each-tick control: NOT AS EXPECTED
+E1 notes: max neighbour diff 0.808 (1, 512, 'R', False, 1); max neighbour diff 0.884 (1, 512, 'R', False, 2)
+exponents separate: G True, R True
+EXIT: E1 failed: code bug or regime problem; fix and rerun (recorded). (E5 not as expected: recorded, not blocking.)
+total wall time this session 1954 s

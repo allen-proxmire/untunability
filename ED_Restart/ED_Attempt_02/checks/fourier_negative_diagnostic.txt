@@ -1,0 +1,4 @@
+start 0: mean v +2.715e-06, standard deviation 1.725e-02, mean |v| 1.572e-02, min -2.482e-02, max +2.482e-02; strongest period 2.81 steps (next 14.71, 4.55); strongest peak holds 93% of spectral weight
+start 2: mean v +3.460e-06, standard deviation 1.725e-02, mean |v| 1.572e-02, min -2.482e-02, max +2.482e-02; strongest period 2.81 steps (next 14.71, 4.55); strongest peak holds 93% of spectral weight
+start 4: mean v -1.458e-06, standard deviation 1.725e-02, mean |v| 1.572e-02, min -2.482e-02, max +2.482e-02; strongest period 2.81 steps (next 14.71, 4.55); strongest peak holds 93% of spectral weight
+exit 0

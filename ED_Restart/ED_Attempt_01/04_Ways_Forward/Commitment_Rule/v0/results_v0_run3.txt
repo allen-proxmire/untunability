@@ -1,0 +1,62 @@
+
+Test A: mirror check (T2)
+PASS A1 pattern  max error 2.1e-15
+PASS A2 budget  max error 0.0e+00
+PASS A3 draw probabilities  max error 3.5e-17
+PASS A4 thin step  original 15, mirror 15
+
+Test B: budget profile around a mass (C54, T1 direction)
+PASS B0 rule matches exact steady state q=0.5  max difference 4.5e-16
+PASS B1 falloff q=0.5  rho 0.267949, max relative error 6.2e-16
+PASS B2 symmetric q=0.5  max asymmetry 0.0e+00
+PASS B3 slower at mass q=0.5  rate at mass 0.8845, far 1.0000
+PASS B0 rule matches exact steady state q=0.9  max difference 4.7e-15
+PASS B1 falloff q=0.9  rho 0.626789, max relative error 5.3e-16
+PASS B2 symmetric q=0.9  max asymmetry 0.0e+00
+PASS B3 slower at mass q=0.9  rate at mass 0.7706, far 1.0000
+
+Test C: interference before a lone draw (T4)
+     b_min 0.50: draw at step 1, TV coherent vs decohered 0.0000
+PASS C1 no interference at step 1 (b_min 0.50)  TV 0.0e+00
+     b_min 0.30: draw at step 4, TV coherent vs decohered 0.3365
+PASS C2 interference after spreading (b_min 0.30)  TV 0.3365
+     b_min 0.15: draw at step 8, TV coherent vs decohered 0.4044
+PASS C2 interference after spreading (b_min 0.15)  TV 0.4044
+     b_min 0.08: draw at step 34, TV coherent vs decohered 0.5902
+PASS C2 interference after spreading (b_min 0.08)  TV 0.5902
+     observation  b_min 0.04: never too thin within 200 steps (max share 0.128)
+PASS C3 more spreading, more interference  TV in order of decreasing b_min: 0.0000, 0.3365, 0.4044, 0.5902
+
+Test D: no signalling with an entangled pattern (T7)
+     Alice's part first too thin at step 5
+PASS D0 Bob never too thin himself  
+PASS D1 baseline, no draw  max difference 1.1e-16
+FAIL D2 joint draw (RD5 literal)  max difference 7.68e-02  (predicted: FAIL)
+PASS D3 local draw  max difference 5.6e-17  (predicted: PASS)
+PASS D4 draw_entangled matches exact local average  max difference 0.0006 over 20000 samples
+
+Summary
+  A1 pattern                                    PASS
+  A2 budget                                     PASS
+  A3 draw probabilities                         PASS
+  A4 thin step                                  PASS
+  B0 rule matches exact steady state q=0.5      PASS
+  B1 falloff q=0.5                              PASS
+  B2 symmetric q=0.5                            PASS
+  B3 slower at mass q=0.5                       PASS
+  B0 rule matches exact steady state q=0.9      PASS
+  B1 falloff q=0.9                              PASS
+  B2 symmetric q=0.9                            PASS
+  B3 slower at mass q=0.9                       PASS
+  C1 no interference at step 1 (b_min 0.50)     PASS
+  C2 interference after spreading (b_min 0.30)  PASS
+  C2 interference after spreading (b_min 0.15)  PASS
+  C2 interference after spreading (b_min 0.08)  PASS
+  C3 more spreading, more interference          PASS
+  D0 Bob never too thin himself                 PASS
+  D1 baseline, no draw                          PASS
+  D2 joint draw                                 FAIL
+  D3 local draw                                 PASS
+  D4 draw_entangled matches exact local average PASS
+
+code checks (A, B, D0, D1, D4): all pass
