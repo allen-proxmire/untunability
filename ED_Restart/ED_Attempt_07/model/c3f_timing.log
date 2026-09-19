@@ -1,0 +1,10 @@
+n=20 (V=8000): flat calibration largest link strain 6.461 -> sync threshold 19.383
+  A: tick+checks 16.6 s; refusals per tick budget/cap/sync/splits 0/171/0/0.0; spacetime over 10 ticks 87851 events, reading 8.3 s, d_H defined True (radii 2.0-4.0)
+  B: tick+checks 16.8 s; refusals per tick budget/cap/sync/splits 0/171/0/0.0; spacetime over 10 ticks 87851 events, reading 8.4 s, d_H defined True (radii 2.0-4.0)
+  D: tick+checks 8.9 s; refusals per tick budget/cap/sync/splits 89/8207/0/30.9; spacetime over 10 ticks 87108 events, reading 8.6 s, d_H defined True (radii 2.0-4.0)
+n=24 (V=13824): flat calibration largest link strain 7.304 -> sync threshold 21.912
+  A: tick+checks 28.6 s; refusals per tick budget/cap/sync/splits 0/321/0/0.0; spacetime over 10 ticks 151643 events, reading 15.7 s, d_H defined True (radii 3.0-5.0)
+  B: tick+checks 32.0 s; refusals per tick budget/cap/sync/splits 0/321/0/0.0; spacetime over 10 ticks 151643 events, reading 15.9 s, d_H defined True (radii 3.0-5.0)
+  D: tick+checks 18.8 s; refusals per tick budget/cap/sync/splits 0/14560/0/50.3; spacetime over 10 ticks 149821 events, reading 16.7 s, d_H defined True (radii 2.0-4.0)
+T=150: 14.4 h single process, 4.8 h on 3 workers
+T=100: 9.6 h single process, 3.2 h on 3 workers

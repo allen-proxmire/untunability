@@ -7,3 +7,59 @@
 [2/28] cal_RC_n16.json 0 s (elapsed 1 s)
 [3/28] cal_FC_n24.json 0 s (elapsed 1 s)
 [4/28] cal_RC_n24.json 0 s (elapsed 1 s)
+--- restart 15:04 with 3 workers, 10-tick saves ---
+[1/28] cal_FC_n16.json 0 s (elapsed 1 s)
+[2/28] cal_RC_n16.json 0 s (elapsed 1 s)
+[3/28] cal_FC_n24.json 0 s (elapsed 1 s)
+[4/28] cal_RC_n24.json 0 s (elapsed 1 s)
+--- restart 15:32 with 3 workers, 10-tick saves, densification guard (D29) ---
+[1/28] cal_FC_n16.json 0 s (elapsed 1 s)
+[2/28] cal_RC_n16.json 0 s (elapsed 1 s)
+[3/28] cal_FC_n24.json 0 s (elapsed 1 s)
+[4/28] cal_RC_n24.json 0 s (elapsed 1 s)
+[5/28] grow_S4_n24_s0.json 19541 s (elapsed 3 s)
+[6/28] grow_S4_n24_s1.json 20330 s (elapsed 4 s)
+[7/28] grow_S5_n24_s0.json 16400 s (elapsed 5 s)
+[8/28] grow_S5_n24_s1.json 16335 s (elapsed 6 s)
+[9/28] grow_S2_n24_s0.json 11658 s (elapsed 11666 s)
+[10/28] grow_S1_n24_s1.json 22190 s (elapsed 16105 s)
+[11/28] grow_S3_n24_s0.json 171 s (elapsed 16278 s)
+[12/28] grow_S3_n24_s1.json 174 s (elapsed 16452 s)
+[13/28] grow_S1_n24_s0.json 22685 s (elapsed 16594 s)
+[14/28] grow_S0_n24_s1.json 4389 s (elapsed 20984 s)
+[15/28] grow_S0_n24_s0.json 4560 s (elapsed 21013 s)
+[16/28] grow_S2_n24_s1.json 10924 s (elapsed 22590 s)
+[17/28] grow_S4_n16_s1.json 1674 s (elapsed 22688 s)
+[18/28] grow_S4_n16_s0.json 1733 s (elapsed 22717 s)
+[19/28] grow_S5_n16_s0.json 775 s (elapsed 23365 s)
+[20/28] grow_S5_n16_s1.json 796 s (elapsed 23484 s)
+[21/28] grow_S2_n16_s0.json 3107 s (elapsed 26592 s)
+[22/28] grow_S1_n16_s0.json 3875 s (elapsed 26592 s)
+[23/28] grow_S3_n16_s0.json 51 s (elapsed 26643 s)
+[24/28] grow_S3_n16_s1.json 49 s (elapsed 26693 s)
+[25/28] grow_S1_n16_s1.json 3861 s (elapsed 27227 s)
+[26/28] grow_S0_n16_s0.json 1199 s (elapsed 27892 s)
+[27/28] grow_S0_n16_s1.json 1215 s (elapsed 28442 s)
+[28/28] grow_S2_n16_s1.json 2669 s (elapsed 29261 s)
+calibration V=4096: FC hyperbolic (d_H 2.501, max degree 14, neck strain 6.51, flag True); RC crumpled + hyperbolic (d_H nan, max degree 54, neck strain 7.19, flag True, valence sd 2.66) -> NOT ok
+calibration V=13824: FC flat 3D (d_H 2.657, max degree 14, neck strain 7.00, flag False); RC crumpled + hyperbolic (d_H nan, max degree 60, neck strain 6.85, flag True, valence sd 2.66) -> ok
+S0 V=4096: statuses ['densified', 'densified']; shape densified; seed 0: 137 ticks, 20.1 tetrahedra per event, mean degree 42.1, largest 370, events 1.112x, forced share 0.125; seed 1: 144 ticks, 20.5 tetrahedra per event, mean degree 43.0, largest 418, events 1.127x, forced share 0.136
+S0 V=13824: statuses ['densified', 'densified']; shape densified; seed 0: 140 ticks, 20.2 tetrahedra per event, mean degree 42.4, largest 675, events 1.119x, forced share 0.130; seed 1: 138 ticks, 20.0 tetrahedra per event, mean degree 42.0, largest 782, events 1.109x, forced share 0.118
+S1 V=4096: crumpled + hyperbolic; d_H nan (at (250, 375, 500): nan, nan, nan); settled False; max degree 224 (FC 14), mean degree 13.77; neck strain 10.64 (FC 6.51); flags [True, True]; valence mean 5.128, sd 2.581, (val-5.104)^2 6.664; in-run strain 10.0; late size/V0 1.002; forced/tick 2.55; flips/tick 1496
+S1 V=13824: crumpled + hyperbolic; d_H nan (at (250, 375, 500): nan, nan, nan); settled False; max degree 406 (FC 14), mean degree 15.99; neck strain 14.43 (FC 7.00); flags [True, True]; valence mean 5.250, sd 2.700, (val-5.104)^2 7.313; in-run strain 8.3; late size/V0 1.002; forced/tick 10.08; flips/tick 4971
+S2 V=4096: crumpled + hyperbolic; d_H nan (at (250, 375, 500): nan, nan, nan); settled False; max degree 94 (FC 14), mean degree 11.06; neck strain 15.46 (FC 6.51); flags [True, True]; valence mean 4.915, sd 1.062, (val-5.104)^2 1.163; in-run strain 52.5; late size/V0 1.000; forced/tick 2.62; flips/tick 430
+S2 V=13824: crumpled + hyperbolic; d_H nan (at (250, 375, 500): nan, nan, nan); settled False; max degree 154 (FC 14), mean degree 11.02; neck strain 17.85 (FC 7.00); flags [True, True]; valence mean 4.911, sd 1.055, (val-5.104)^2 1.151; in-run strain 41.9; late size/V0 1.001; forced/tick 4.68; flips/tick 1474
+S3 V=4096: statuses ['densified', 'densified']; shape densified; seed 0: 5 ticks, 21.4 tetrahedra per event, mean degree 44.8, largest 444, events 1.092x, forced share 0.070; seed 1: 5 ticks, 21.1 tetrahedra per event, mean degree 44.3, largest 436, events 1.099x, forced share 0.079
+S3 V=13824: statuses ['densified', 'densified']; shape densified; seed 0: 5 ticks, 21.8 tetrahedra per event, mean degree 45.6, largest 406, events 1.083x, forced share 0.077; seed 1: 5 ticks, 21.5 tetrahedra per event, mean degree 44.9, largest 723, events 1.072x, forced share 0.080
+S4 V=4096: statuses ['densified', 'densified']; shape densified; seed 0: 131 ticks, 20.6 tetrahedra per event, mean degree 43.1, largest 720, events 1.115x, forced share 0.134; seed 1: 128 ticks, 20.2 tetrahedra per event, mean degree 42.4, largest 528, events 1.093x, forced share 0.120
+S4 V=13824: statuses ['densified', 'densified']; shape densified; seed 0: 200 ticks, 31.6 tetrahedra per event, mean degree 65.2, largest 1486, events 1.181x, forced share 0.147; seed 1: 200 ticks, 33.5 tetrahedra per event, mean degree 69.0, largest 1725, events 1.192x, forced share 0.165
+S5 V=4096: statuses ['densified', 'densified']; shape densified; seed 0: 60 ticks, 20.4 tetrahedra per event, mean degree 42.7, largest 824, events 1.133x, forced share 0.145; seed 1: 63 ticks, 20.3 tetrahedra per event, mean degree 42.6, largest 604, events 1.161x, forced share 0.165
+S5 V=13824: statuses ['densified', 'densified']; shape densified; seed 0: 150 ticks, 37.3 tetrahedra per event, mean degree 76.5, largest 2135, events 1.387x, forced share 0.263; seed 1: 150 ticks, 37.4 tetrahedra per event, mean degree 76.8, largest 1424, events 1.364x, forced share 0.267
+E0 calibrations: NOT AS EXPECTED
+E1 structure, budget, survival, size: AS EXPECTED
+E2 S0 not flat at larger size: AS EXPECTED
+E3 S1 branched at larger size: NOT AS EXPECTED
+E4 S3 not flat at larger size: AS EXPECTED
+E5 S4 flat at both sizes, settled: NOT AS EXPECTED
+EXIT: E0 failed: readings revision (recorded).
+total wall time this session 29261 s

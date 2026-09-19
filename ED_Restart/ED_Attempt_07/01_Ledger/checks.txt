@@ -14,3 +14,10 @@ C3b timing (note 16, D23) | ED_Attempt_07/model | python -u c3b_timing.py > c3b_
 C3b static check (note 16, D24) | ED_Attempt_07/model | python -u c3b_run.py 6 > c3b_run1.log  (writes c3b_runs/*.json, c3b_run1.txt)
 C3c timing (note 18, D26) | ED_Attempt_07/model | python -u c3c_timing.py > c3c_timing.log (timing and harness only; writes c3c_timing.txt)
 C3c model (note 18, D27) | ED_Attempt_07/model | python -u c3c_run.py 6 > c3c_run1.log  (writes c3c_runs/*.json, c3c_run1.txt; resumable)
+C3d model (note 21, D32) | ED_Attempt_07/model | python -u c3d_timing.py > c3d_timing.log (timing only); python -u c3d_run.py 3 > c3d_run1.log  (calibration gate then growth runs; writes c3d_runs/*.json, c3d_run1.txt; resumable)
+C80 (follow-up, not pre-registered) | ED_Attempt_07/model | python -u c3d_diagnostic.py > c3d_diagnostic.log (writes c3d_diagnostic.txt, .json)
+C3e model (note 23, D35, D36) | ED_Attempt_07/model | python -u c3e_timing.py > c3e_timing.log (timing only); python -u c3e_run.py 3 >> c3e_run1.log  (calibration gate then growth runs; writes c3e_runs/*.json, c3e_run1.txt; resumable)
+C3f model (note 27, D41) | ED_Attempt_07/model | python -u c3f_timing.py > c3f_timing.log (timing only); python -u c3f_strain_diagnostic.py > c3f_strain_diagnostic.log (diagnostic, not pre-registered)
+C3f runs (note 27, D42) | ED_Attempt_07/model | python -u c3f_run.py 3 > c3f_run1.log  (calibration gate then growth runs; writes c3f_runs/*.json, c3f_run1.txt; resumable)
+C3g runs (D43) | ED_Attempt_07/model | python -u c3g_created_strain.py > c3g_created_strain.log (diagnostic); python -u c3g_run.py 3 > c3g_run1.log  (calibration gate then growth runs; writes c3g_runs/*.json, c3g_run1.txt; resumable)
+C101 (diagnostic, not pre-registered) | ED_Attempt_07/model | python -u c3g_threshold_scan.py > c3g_threshold_scan.log

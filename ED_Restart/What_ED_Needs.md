@@ -177,3 +177,17 @@
   - **For 3D, on paper** (C59): commitment, quadratic energy and sync line up against random geometry's three bad shapes, with sync the only one acting at large scales. A lead only; not computed.
 - **Row 23, growth, static check** (A7 C63): each bad 3D shape is caught by one existing ED meaning, and a flat 3D slice by none. Checked on stand-in slices, not grown. Consistent, not derived.
 - **Inputs supplied: 3** (unchanged).
+
+## Update 2026-09-17: C3c, growing a 3D slice (A7 C70, C71)
+
+- **Row 23, growth:** **a flat 3D slice was not grown.** Every setting either densified (tetrahedra per event rising from 5.7 to 20 or more, even with no pressure) or could not be measured, and the flat calibration failed at the smaller size, so the recorded exit is "readings revision."
+- **What the run identified:** ED balances **events** (the budget, C2a) but nothing balances **links and tetrahedra**. In dynamical triangulations that job belongs to the coupling per building block. Commitment is ED's candidate, but its strength is a knob.
+- **Inputs supplied: 3** (unchanged).
+
+## Update 2026-09-19: road C closed (A7 C103)
+
+- **Row 23, growth:** **the wall.** ED's local growth rules, with its conserved budgets and its three meanings, move the pattern from crumpled to branched, and at the sizes reachable here (slices up to 13,824 events, 150 ticks) there is **no flat three-dimensional middle** between them. The counts are solved; the shape is not.
+- **What is solved and holds:** the event balance (a budget passed forward and conserved), the link balance (pinning what dynamical triangulations tune), topology-safe moves with paired cut-and-rejoin, and readings with a calibration gate.
+- **Row 6, three dimensions:** unchanged. Three consistent reasons stand; none is a derivation.
+- **Carried forward:** larger sizes via a compiled model; the 2D result judged on the grown spacetime; road D on whether ED's balance needs genuine chance; and whether sync can act other than move by move.
+- **Inputs supplied: 3** (unchanged).

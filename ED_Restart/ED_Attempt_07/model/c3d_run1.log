@@ -1,0 +1,45 @@
+calibration cal_FC_n20.json 3 s
+calibration cal_FC_n24.json 6 s
+calibration cal_RC_n20.json 17 s
+calibration cal_RC_n24.json 28 s
+calibration V=8000: FC flat 3D (d_H 2.629, d_s 3.061, diameter 15, max degree 14, links/event 7.000); RC crumpled + hyperbolic (d_H nan, d_s nan, diameter 8, max degree 61, tets/event 13.63) -> ok
+calibration V=13824: FC flat 3D (d_H 2.657, d_s 3.050, diameter 18, max degree 14, links/event 7.000); RC crumpled + hyperbolic (d_H nan, d_s nan, diameter 9, max degree 60, tets/event 13.65) -> ok
+[1/20] grow_S0_n24_s0.json 2937 s (elapsed 2971 s)
+[2/20] grow_S4_n24_s1.json 4440 s (elapsed 4474 s)
+[3/20] grow_S4_n24_s0.json 4595 s (elapsed 4629 s)
+[4/20] grow_S0_n24_s1.json 2845 s (elapsed 5817 s)
+[5/20] grow_S1_n24_s0.json 3293 s (elapsed 7768 s)
+[6/20] grow_S1_n24_s1.json 3301 s (elapsed 7931 s)
+[7/20] grow_S3_n24_s0.json 2751 s (elapsed 10682 s)
+[8/20] grow_S2_n24_s0.json 5516 s (elapsed 11333 s)
+[9/20] grow_S2_n24_s1.json 5530 s (elapsed 13299 s)
+[10/20] grow_S3_n24_s1.json 2760 s (elapsed 13443 s)
+[11/20] grow_S4_n20_s0.json 2520 s (elapsed 13854 s)
+[12/20] grow_S0_n20_s0.json 1636 s (elapsed 15080 s)
+[13/20] grow_S0_n20_s1.json 1626 s (elapsed 15480 s)
+[14/20] grow_S4_n20_s1.json 2521 s (elapsed 15821 s)
+[15/20] grow_S1_n20_s0.json 1924 s (elapsed 17004 s)
+[16/20] grow_S1_n20_s1.json 1915 s (elapsed 17395 s)
+[17/20] grow_S3_n20_s0.json 1609 s (elapsed 19004 s)
+[18/20] grow_S2_n20_s0.json 3237 s (elapsed 19058 s)
+[19/20] grow_S2_n20_s1.json 3086 s (elapsed 20090 s)
+[20/20] grow_S3_n20_s1.json 1336 s (elapsed 20341 s)
+calibration V=8000: FC flat 3D (d_H 2.629, d_s 3.061, diameter 15, max degree 14, links/event 7.000); RC crumpled + hyperbolic (d_H nan, d_s nan, diameter 8, max degree 61, tets/event 13.63) -> ok
+calibration V=13824: FC flat 3D (d_H 2.657, d_s 3.050, diameter 18, max degree 14, links/event 7.000); RC crumpled + hyperbolic (d_H nan, d_s nan, diameter 9, max degree 60, tets/event 13.65) -> ok
+S0 V=8000: hyperbolic; d_H nan (at (100, 150, 200): nan, nan, nan), d_s nan; settled False; links/event 8.277 (flat 6.699), tets/event 7.28 (flat 5.699); mean degree 16.55, largest 30 (FC 14, cap 30); diameter 12.0 (FC 15); valence mean 5.275, sd 2.123; neck strain 10.22 (FC 6.46); late size/V0 0.727; forced/tick 281.0; refused budget/cap/split per tick 6/35599/677.6
+S0 V=13824: hyperbolic; d_H nan (at (100, 150, 200): nan, nan, nan), d_s nan; settled False; links/event 8.357 (flat 6.699), tets/event 7.36 (flat 5.699); mean degree 16.71, largest 30 (FC 14, cap 30); diameter 12.5 (FC 18); valence mean 5.282, sd 2.132; neck strain 15.07 (FC 6.66); late size/V0 0.728; forced/tick 501.9; refused budget/cap/split per tick 1/61591/1173.3
+S1 V=8000: hyperbolic + branched; d_H 3.869 (at (100, 150, 200): nan, 3.837, 3.869), d_s 1.743; settled False; links/event 4.792 (flat 6.699), tets/event 3.79 (flat 5.699); mean degree 9.58, largest 30 (FC 14, cap 30); diameter 12.5 (FC 15); valence mean 4.748, sd 1.836; neck strain 23.87 (FC 6.46); late size/V0 0.943; forced/tick 7.2; refused budget/cap/split per tick 0/13754/161.0
+S1 V=13824: hyperbolic + branched; d_H 3.866 (at (100, 150, 200): 4.038, 4.055, 3.866), d_s 1.593; settled False; links/event 4.808 (flat 6.699), tets/event 3.81 (flat 5.699); mean degree 9.62, largest 30 (FC 14, cap 30); diameter 13.0 (FC 18); valence mean 4.752, sd 1.853; neck strain 24.16 (FC 6.66); late size/V0 0.945; forced/tick 13.8; refused budget/cap/split per tick 0/23792/279.2
+S2 V=8000: hyperbolic; d_H nan (at (100, 150, 200): nan, nan, nan), d_s nan; settled False; links/event 5.372 (flat 6.699), tets/event 4.37 (flat 5.699); mean degree 10.74, largest 30 (FC 14, cap 30); diameter 15.5 (FC 15); valence mean 4.883, sd 1.056; neck strain 14.63 (FC 6.46); late size/V0 0.994; forced/tick 47.5; refused budget/cap/split per tick 0/14318/28.4
+S2 V=13824: hyperbolic + branched; d_H 4.322 (at (100, 150, 200): 4.311, 4.307, 4.322), d_s 1.611; settled True; links/event 5.375 (flat 6.699), tets/event 4.38 (flat 5.699); mean degree 10.75, largest 30 (FC 14, cap 30); diameter 15.0 (FC 18); valence mean 4.884, sd 1.059; neck strain 15.31 (FC 6.66); late size/V0 0.998; forced/tick 80.8; refused budget/cap/split per tick 0/24885/48.4
+S3 V=8000: hyperbolic; d_H nan (at (100, 150, 200): nan, nan, nan), d_s nan; settled False; links/event 11.726 (flat 6.699), tets/event 10.73 (flat 5.699); mean degree 23.45, largest 30 (FC 14, cap 30); diameter 11.0 (FC 15); valence mean 5.488, sd 2.401; neck strain 11.07 (FC 6.46); late size/V0 0.601; forced/tick 899.8; refused budget/cap/split per tick 13350/30157/1086.3
+S3 V=13824: hyperbolic; d_H nan (at (100, 150, 200): nan, nan, nan), d_s nan; settled False; links/event 11.754 (flat 6.699), tets/event 10.75 (flat 5.699); mean degree 23.51, largest 30 (FC 14, cap 30); diameter 11.5 (FC 18); valence mean 5.490, sd 2.400; neck strain 8.67 (FC 6.66); late size/V0 0.597; forced/tick 1565.1; refused budget/cap/split per tick 23813/51441/1884.6
+S4 V=8000: hyperbolic; d_H nan (at (100, 150, 200): nan, nan, nan), d_s nan; settled False; links/event 9.661 (flat 6.699), tets/event 8.66 (flat 5.699); mean degree 19.32, largest 30 (FC 14, cap 30); diameter 11.5 (FC 15); valence mean 5.379, sd 1.783; neck strain 7.71 (FC 6.46); late size/V0 0.747; forced/tick 499.5; refused budget/cap/split per tick 4929/33076/629.5
+S4 V=13824: hyperbolic; d_H nan (at (100, 150, 200): nan, nan, nan), d_s nan; settled False; links/event 9.707 (flat 6.699), tets/event 8.71 (flat 5.699); mean degree 19.41, largest 30 (FC 14, cap 30); diameter 11.5 (FC 18); valence mean 5.382, sd 1.792; neck strain 8.89 (FC 6.66); late size/V0 0.741; forced/tick 892.5; refused budget/cap/split per tick 9048/56741/1106.0
+E0 calibration gate: AS EXPECTED
+E1 structure, budgets, ceiling, size: NOT AS EXPECTED
+E2 S0 not flat at larger size: AS EXPECTED
+E3 S4 flat at both sizes, settled: NOT AS EXPECTED
+E4 all settings settled: NOT AS EXPECTED
+EXIT: E1 failed: code bug (recorded).
+total wall time this session 20341 s

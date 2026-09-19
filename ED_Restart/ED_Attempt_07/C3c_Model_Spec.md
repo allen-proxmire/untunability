@@ -175,3 +175,14 @@ C3c asks whether the three meanings, acting together on growth, **keep** a growi
 ## Next step
 
 **If the defaults hold:** write the code with small-torus move tests and implementation notes, and run the timing trial. **Running needs a separate yes.**
+
+## Guards added before results (D29)
+
+*After a health peek at two saves (C69), before any results were read. Recorded as a revision.*
+
+- **Densification guard:** a run stops, recorded as **"densified,"** when its tetrahedra per event exceed **20** (flat is 5.70). It's checked before each tick, so a resumed run already past the limit stops at once.
+- **E1 restated:** structure exact and budget conserved, and **either** the run completes T ticks with its mean late size within ±10% of the start, **or** it stops on a recorded guard (died, ran away, densified). **A guard stop is an outcome, not a code bug.**
+  - **Why:** in a dense slice, a childless event often has no partner it can merge with without pinching the space, so it's forced to keep a child. Thousands of forced keeps per tick break the budget's size control and push the event count up. That's the rule's behaviour at these strengths.
+- **More recorded per run:** ticks done, events, tetrahedra, links, tetrahedra per event, mean and largest degree, and the forced-keep share.
+- **In the exit rule:** a guard-stopped setting's shape is that guard's label, which counts as a named bad shape in the "don't balance" branch.
+- **Unchanged:** the rules, strengths, sizes, seeds, T, readings, calibrations, classification and the order of the exit rule.

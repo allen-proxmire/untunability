@@ -1,0 +1,11 @@
+flat calibration largest link strain at V=8000: 6.461
+A (1,1) tick   5: links 45229, strain mean 0.86, 95th 2.77, max 7.28 (1.13x flat); links over 1x/1.5x/2x/3x flat: [1, 0, 0, 0]
+A (1,1) tick  10: links 42523, strain mean 0.99, 95th 3.34, max 9.02 (1.40x flat); links over 1x/1.5x/2x/3x flat: [37, 0, 0, 0]
+A (1,1) tick  20: links 42620, strain mean 1.05, 95th 3.78, max 12.36 (1.91x flat); links over 1x/1.5x/2x/3x flat: [244, 15, 0, 0]
+A (1,1) tick  30: links 42041, strain mean 1.16, 95th 4.27, max 13.61 (2.11x flat); links over 1x/1.5x/2x/3x flat: [492, 50, 4, 0]
+A (1,1) tick  40: links 42718, strain mean 1.19, 95th 4.60, max 15.27 (2.36x flat); links over 1x/1.5x/2x/3x flat: [806, 120, 25, 0]
+D (0,0) tick   5: links 49188, strain mean 0.91, 95th 2.81, max 6.73 (1.04x flat); links over 1x/1.5x/2x/3x flat: [4, 0, 0, 0]
+D (0,0) tick  10: links 50276, strain mean 1.04, 95th 3.25, max 8.38 (1.30x flat); links over 1x/1.5x/2x/3x flat: [46, 0, 0, 0]
+D (0,0) tick  20: links 50221, strain mean 1.03, 95th 3.23, max 7.47 (1.16x flat); links over 1x/1.5x/2x/3x flat: [8, 0, 0, 0]
+D (0,0) tick  30: links 50408, strain mean 1.04, 95th 3.25, max 8.07 (1.25x flat); links over 1x/1.5x/2x/3x flat: [18, 0, 0, 0]
+D (0,0) tick  40: links 49533, strain mean 1.13, 95th 3.45, max 7.18 (1.11x flat); links over 1x/1.5x/2x/3x flat: [9, 0, 0, 0]

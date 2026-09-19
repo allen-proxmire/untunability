@@ -1,0 +1,3 @@
+threshold 6.0: events 1.055x, diameter 25.0, slice d_H None, d_s None, links/event 5.062, strain 29.1, spacetime d_H 6.350, sync refusals/tick 3993, forced/tick 376, splits abandoned/tick 0.2
+threshold 3.0: events 1.173x, diameter 23.0, slice d_H 4.800937841211757, d_s 1.3483623495739172, links/event 4.988, strain 49.4, spacetime d_H 5.569, sync refusals/tick 9902, forced/tick 1156, splits abandoned/tick 0.2
+threshold 1.5: events 1.301x, diameter 16.0, slice d_H 4.385614308787329, d_s 1.5918088830605435, links/event 5.147, strain 26.9, spacetime d_H 5.390, sync refusals/tick 54702, forced/tick 5735, splits abandoned/tick 718.6

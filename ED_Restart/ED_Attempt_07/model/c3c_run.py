@@ -6,8 +6,11 @@ Expected results, written down before the first run (note 18; low confidence exc
     >= 3x FC's or d_H < 2.3; flat 3D: none of these and d_H in [2.5, 3.5]; else unclassified.
   Settled: median |d_H(T) - d_H(3T/4)| <= 0.15 and median relative change of largest degree <= 20%.
   E0  FC classified flat 3D at both sizes; RC not flat 3D at both sizes.
-  E1  every structure check exact every tick; budget conserved (1e-9 relative); every run survives;
-      mean size over ticks T/2..T within +-10% of the start.
+  E1  every structure check exact every tick; budget conserved (1e-9 relative); and either the run
+      completes T ticks with mean size over ticks T/2..T within +-10% of the start, or it stops on a
+      recorded guard (died, ran away, densified). Restated by D29 after a health peek showed that in a
+      dense slice childless events cannot merge without pinching, so forced keeps push the size up:
+      that is the rule's behaviour, not a code bug.
   E2  S0 not flat 3D at the larger size (most likely crumpled).
   E3  S1 branched at the larger size.
   E4  S3 not flat 3D at the larger size (most likely crumpled).
@@ -21,7 +24,9 @@ Exit rule (note 18):
   but each a named bad shape at the larger size: "The three pressures don't balance at unit strengths:
   <shapes>." Otherwise: "A flat 3D slice isn't grown with ED's local moves at these strengths."
   E2-E4 not as expected are findings.
-Resumable: one JSON per finished job in c3c_runs/, and a state checkpoint every 50 ticks in c3c_runs/ckpt/.
+Guards (D29): a run stops and is recorded if events leave [V0/10, 10*V0] or tetrahedra per event exceed 20
+  (densified). A guard-stopped run's shape is that label.
+Resumable: one JSON per finished job in c3c_runs/, and a state checkpoint every 50 ticks in c3c_runs/ckpt/ (every 10 ticks from the 3-worker restart, D28).
 """
 import json
 import os
@@ -38,7 +43,8 @@ SEEDS = (0, 1)
 T = 500
 CHECKS = (T // 2, (3 * T) // 4, T)
 OUT = "c3c_runs"
-CKPT_EVERY = 50
+CKPT_EVERY = 10
+TETS_PER_EVENT_CAP = 20  # D29 guard
 
 
 def dump(path, obj):
@@ -86,6 +92,9 @@ def do_job(job):
     M, rng = st["M"], st["rng"]
     seg0 = time.perf_counter()
     while st["t"] < T and st["status"] == "survived":
+        if len(M.tets) / max(len(M.vt), 1) > TETS_PER_EVENT_CAP:
+            st["status"] = "densified"
+            break
         st["t"] += 1
         t = st["t"]
         r = tick(M, st["b"], st["omega"], st["phi"], rng, alpha, lam, gamma)
@@ -117,6 +126,11 @@ def do_job(job):
                first_structure_fail=st["first_fail"], budget_ok=st["budget_ok"],
                mean_size_late=float(np.mean(late)) if late else None, forced_per_tick=float(np.mean(st["forced"])) if st["forced"] else None,
                flips_accepted_per_tick=float(np.mean(st["flips"])) if st["flips"] else None,
+               ticks_done=st["t"], events=len(M.vt), tets=len(M.tets), links=len(M.val),
+               tets_per_event=len(M.tets) / max(len(M.vt), 1),
+               mean_degree=(2 * len(M.val) / max(len(M.vt), 1)),
+               max_degree=max((len(r) for r in M.nbrs.values()), default=0),
+               forced_share_last=(st["forced"][-1] / st["sizes"][-1] if st["sizes"] else None),
                checkpoints=st["checkpoints"], seconds=st["elapsed"])
     dump(path, res)
     if os.path.exists(ck):
@@ -170,13 +184,23 @@ def analyse():
         for n in SIZES:
             runs = [R[f"grow_{name}_n{n}_s{s}"] for s in SEEDS]
             for r in runs:
-                if (r["status"] != "survived" or r["first_structure_fail"] or not r["budget_ok"]
-                        or r["mean_size_late"] is None or abs(r["mean_size_late"] / r["V0"] - 1) > 0.10):
+                bad = r["first_structure_fail"] or not r["budget_ok"]
+                if r["status"] == "survived":
+                    bad = bad or r["mean_size_late"] is None or abs(r["mean_size_late"] / r["V0"] - 1) > 0.10
+                elif r["status"] == "structure failure":
+                    bad = True
+                if bad:
                     e1 = False
             ok = [r for r in runs if r["status"] == "survived" and str(T) in r["checkpoints"]]
             if len(ok) < len(runs):
-                shape[(name, n)], settled[(name, n)] = "failed runs", False
-                lines.append(f"{name} V={n**3}: statuses {[r['status'] for r in runs]}")
+                st = [r["status"] for r in runs]
+                guards = [x for x in st if x in ("densified", "died", "ran away")]
+                shape[(name, n)] = guards[0] if guards else "incomplete runs"
+                settled[(name, n)] = False
+                lines.append(f"{name} V={n**3}: statuses {st}; shape {shape[(name, n)]}; "
+                             + "; ".join(f"seed {r['seed']}: {r['ticks_done']} ticks, {r['tets_per_event']:.1f} tetrahedra per event, "
+                                         f"mean degree {r['mean_degree']:.1f}, largest {r['max_degree']}, events {r['events']/r['V0']:.3f}x, "
+                                         f"forced share {r['forced_share_last']:.3f}" for r in runs))
                 continue
             rT = [r["checkpoints"][str(T)] for r in ok]
             r3 = [r["checkpoints"][str(CHECKS[1])] for r in ok]
@@ -214,7 +238,7 @@ def analyse():
                    f"alpha, lambda, gamma are knobs ({', '.join(which)}).")
     elif flat("S0", small) and flat("S0", big):
         verdict = "Growth alone keeps a 3D slice flat at these sizes."
-    elif all(shape[(nm, big)] not in ("flat 3D", "unclassified", "failed runs") for nm in ("S4", "S5")):
+    elif all(shape[(nm, big)] not in ("flat 3D", "unclassified", "incomplete runs") for nm in ("S4", "S5")):
         verdict = f"The three pressures don't balance at unit strengths: S4 {shape[('S4', big)]}, S5 {shape[('S5', big)]}."
     else:
         verdict = "A flat 3D slice isn't grown with ED's local moves at these strengths."

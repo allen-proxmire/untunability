@@ -1,0 +1,4 @@
+n=20 (V=8000): build 0.3 s; flat readings with walk 2.0 s (d_H defined True, d_s defined True, diameter 15); tick+checks S0 11.8 s, S4 19.4 s
+n=24 (V=13824): build 0.7 s; flat readings with walk 3.7 s (d_H defined True, d_s defined True, diameter 18); tick+checks S0 18.4 s, S4 27.4 s
+T=150: 20.5 h single process, 6.8 h on 3 workers
+T=100: 13.7 h single process, 4.6 h on 3 workers

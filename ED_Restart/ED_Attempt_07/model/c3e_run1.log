@@ -1,0 +1,51 @@
+--- launching C3e 14:29 ---
+calibration cal_FC_n20.json 4 s
+calibration cal_FC_n24.json 9 s
+calibration cal_RC_n20.json 21 s
+calibration cal_RC_n24.json 33 s
+calibration V=8000: FC flat 3D (d_H 2.629, d_s 3.061, diameter 15, max degree 14, links/event 7.000); RC crumpled + hyperbolic (d_H nan, d_s nan, diameter 8, max degree 61, tets/event 13.63) -> ok
+calibration V=13824: FC flat 3D (d_H 2.657, d_s 3.050, diameter 18, max degree 14, links/event 7.000); RC crumpled + hyperbolic (d_H nan, d_s nan, diameter 9, max degree 60, tets/event 13.65) -> ok
+[1/22] grow_S4_n24_s1.json 3007 s (elapsed 3047 s)
+[2/22] grow_S4_n24_s0.json 3057 s (elapsed 3098 s)
+[3/22] grow_S0_n24_s0.json 3149 s (elapsed 3189 s)
+[4/22] grow_S1_n24_s0.json 2770 s (elapsed 5869 s)
+[5/22] grow_S1_n24_s1.json 2793 s (elapsed 5983 s)
+[6/22] grow_S0_n24_s1.json 3054 s (elapsed 6102 s)
+[7/22] grow_S3_n24_s0.json 1996 s (elapsed 8098 s)
+[8/22] grow_S3_n24_s1.json 3328 s (elapsed 11427 s)
+[9/22] grow_S2_n24_s0.json 5930 s (elapsed 11800 s)
+[10/22] grow_S2_n24_s1.json 6003 s (elapsed 11987 s)
+[11/22] grow_S4_n20_s0.json 2109 s (elapsed 13537 s)
+[12/22] grow_S4_n20_s1.json 2156 s (elapsed 13956 s)
+[13/22] grow_S0_n20_s0.json 2179 s (elapsed 14167 s)
+[14/22] grow_S0_n20_s1.json 2181 s (elapsed 15719 s)
+[15/22] grow_S1_n20_s0.json 1979 s (elapsed 15935 s)
+[16/22] grow_S1_n20_s1.json 2008 s (elapsed 16175 s)
+[17/22] grow_S3_n20_s0.json 1458 s (elapsed 17633 s)
+[18/22] grow_S2_n20_s0.json 3305 s (elapsed 19025 s)
+[19/22] grow_S3_n20_s1.json 1424 s (elapsed 19058 s)
+[20/22] grow_S2_n20_s1.json 3287 s (elapsed 19222 s)
+[21/22] grow_S4_n24_s0_cap1000000000.json 3643 s (elapsed 22701 s)
+[22/22] grow_S0_n24_s0_cap1000000000.json 4186 s (elapsed 23212 s)
+calibration V=8000: FC flat 3D (d_H 2.629, d_s 3.061, diameter 15, max degree 14, links/event 7.000); RC crumpled + hyperbolic (d_H nan, d_s nan, diameter 8, max degree 61, tets/event 13.63) -> ok
+calibration V=13824: FC flat 3D (d_H 2.657, d_s 3.050, diameter 18, max degree 14, links/event 7.000); RC crumpled + hyperbolic (d_H nan, d_s nan, diameter 9, max degree 60, tets/event 13.65) -> ok
+S0 V=8000: crumpled + hyperbolic; d_H nan (at (75, 112, 150): nan, nan, nan), d_s nan; settled False; links/event 7.026 (flat 6.699), tets/event 6.03 (flat 5.699); mean degree 14.05, largest 60 (FC 14, cap 60); diameter 9.0 (FC 15); valence mean 5.146, sd 2.209; neck strain 8.92 (FC 6.46); late size/V0 0.942; forced/tick 12.6; refused budget/cap/split per tick 19/18588/121.5
+S0 V=13824: crumpled + hyperbolic; d_H nan (at (75, 112, 150): nan, nan, nan), d_s nan; settled False; links/event 7.150 (flat 6.699), tets/event 6.15 (flat 5.699); mean degree 14.30, largest 60 (FC 14, cap 60); diameter 10.5 (FC 18); valence mean 5.161, sd 2.206; neck strain 10.69 (FC 6.66); late size/V0 0.940; forced/tick 21.9; refused budget/cap/split per tick 25/32560/211.1
+S1 V=8000: crumpled + hyperbolic; d_H nan (at (75, 112, 150): nan, nan, nan), d_s nan; settled False; links/event 4.523 (flat 6.699), tets/event 3.52 (flat 5.699); mean degree 9.05, largest 60 (FC 14, cap 60); diameter 11.0 (FC 15); valence mean 4.674, sd 1.965; neck strain 17.84 (FC 6.46); late size/V0 0.986; forced/tick 0.1; refused budget/cap/split per tick 0/5615/44.5
+S1 V=13824: crumpled + hyperbolic + branched; d_H nan (at (75, 112, 150): nan, nan, nan), d_s nan; settled False; links/event 4.529 (flat 6.699), tets/event 3.53 (flat 5.699); mean degree 9.06, largest 60 (FC 14, cap 60); diameter 12.0 (FC 18); valence mean 4.675, sd 1.989; neck strain 24.40 (FC 6.66); late size/V0 0.984; forced/tick 0.1; refused budget/cap/split per tick 0/9828/77.3
+S2 V=8000: crumpled + hyperbolic; d_H nan (at (75, 112, 150): nan, nan, nan), d_s nan; settled False; links/event 5.405 (flat 6.699), tets/event 4.40 (flat 5.699); mean degree 10.81, largest 60 (FC 14, cap 60); diameter 11.5 (FC 15); valence mean 4.890, sd 1.056; neck strain 12.65 (FC 6.46); late size/V0 1.002; forced/tick 1.3; refused budget/cap/split per tick 0/2234/0.2
+S2 V=13824: crumpled + hyperbolic; d_H nan (at (75, 112, 150): nan, nan, nan), d_s nan; settled False; links/event 5.410 (flat 6.699), tets/event 4.41 (flat 5.699); mean degree 10.82, largest 60 (FC 14, cap 60); diameter 13.5 (FC 18); valence mean 4.891, sd 1.057; neck strain 15.51 (FC 6.66); late size/V0 1.001; forced/tick 1.5; refused budget/cap/split per tick 0/3643/0.4
+S3 V=8000: crumpled + hyperbolic; d_H nan (at (75, 112, 150): nan, nan, nan), d_s nan; settled False; links/event 20.584 (flat 6.699), tets/event 19.58 (flat 5.699); mean degree 41.17, largest 60 (FC 14, cap 60); diameter 8.0 (FC 15); valence mean 5.708, sd 3.015; neck strain 5.88 (FC 6.46); late size/V0 0.363; forced/tick 466.6; refused budget/cap/split per tick 41483/7541/1048.5
+S3 V=13824: crumpled + hyperbolic; d_H nan (at (75, 112, 150): nan, nan, nan), d_s nan; settled False; links/event 20.632 (flat 6.699), tets/event 19.63 (flat 5.699); mean degree 41.26, largest 60 (FC 14, cap 60); diameter 8.0 (FC 18); valence mean 5.709, sd 3.042; neck strain 6.53 (FC 6.66); late size/V0 0.365; forced/tick 806.2; refused budget/cap/split per tick 71437/12945/1808.5
+S4 V=8000: crumpled + hyperbolic; d_H nan (at (75, 112, 150): nan, nan, nan), d_s nan; settled False; links/event 14.575 (flat 6.699), tets/event 13.58 (flat 5.699); mean degree 29.15, largest 60 (FC 14, cap 60); diameter 7.5 (FC 15); valence mean 5.588, sd 2.210; neck strain 8.18 (FC 6.46); late size/V0 0.532; forced/tick 372.0; refused budget/cap/split per tick 23558/12368/771.9
+S4 V=13824: crumpled + hyperbolic; d_H nan (at (75, 112, 150): nan, nan, nan), d_s nan; settled False; links/event 14.507 (flat 6.699), tets/event 13.51 (flat 5.699); mean degree 29.01, largest 60 (FC 14, cap 60); diameter 8.0 (FC 18); valence mean 5.586, sd 2.225; neck strain 7.25 (FC 6.66); late size/V0 0.534; forced/tick 628.7; refused budget/cap/split per tick 40031/21906/1318.6
+contrast (no ceiling) S0 V=13824 seed 0: status survived, events 0.756x, links/event 8.861, max degree 349, d_H None, d_s None, diameter 15.0
+contrast (no ceiling) S4 V=13824 seed 0: status densified, events 0.318x, links/event 21.093, max degree 717, d_H None, d_s None, diameter None
+E0 calibration gate: AS EXPECTED
+E1 structure, budgets, ceiling, flips, size: NOT AS EXPECTED
+E2 S0 not flat at larger size: AS EXPECTED
+E3 S4 flat at both sizes, settled: NOT AS EXPECTED
+E4 all settings settled: NOT AS EXPECTED
+E5 paired flips still accepted: AS EXPECTED
+EXIT: E1 failed: code bug (recorded).
+total wall time this session 23212 s

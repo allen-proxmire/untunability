@@ -312,3 +312,61 @@ Everything else as note 9.
 - **Booleans:** with two seeds, the growth flag counts only if it's set in both.
 - **Numbers:** medians.
 - **In-run sync strain:** the largest |φ_x − φ_y| over links, divided by σ/K.
+
+**Save interval changed (D28):** from the 3-worker restart, state is saved every 10 ticks instead of 50. Harness only: saving does not draw from the random stream, so the runs are unchanged.
+
+## C3d (`c3d.py`, `c3d_timing.py`, `c3d_run.py`), written before any C3d run
+
+*Allen D32 ("defaults are fine, code C3d and time it"). Choices note 21 left open.*
+
+**Link budget:**
+- **Total:** B_L = round(6.699 × V₀), set from the starting event count.
+- **Pool:** B_L − current links, carried with the run's state.
+- **Per move:** the links born and dying are counted from the same tetrahedron changes the cost uses.
+- **The gate:** a move needs free budget only for a **net addition**. Moves that give links back or leave the count alone are always allowed.
+  - **Why:** the cube-grid start has E = 7V, above the budget, so the pool begins negative. A first version refused every move in that state and the slice froze. Found by the move test, fixed before any run.
+
+**Ceiling:** a move is refused if it would take any surviving event above 30 links. Events removed by the move aren't checked.
+
+**Refusals** are counted per tick, split into budget, ceiling, and splits abandoned because every option was refused.
+
+**Readings:** ball growth and the walk-based spectral dimension (readings v2), diameter and mean distance from the same 200 centres, links and tetrahedra per event, degrees, valences, and C3b's neck strain.
+
+**Runner:**
+- **The calibration gate runs first.** If the flat calibration doesn't read flat 3D at both sizes, or the randomized one does, the growth runs don't start.
+- **Guards:** died, ran away, densified, as in C3c.
+- **State** is saved every 10 ticks and removed on completion.
+- **E1** covers structure, the children's budget, the link budget (links + pool = B_L exactly), the ceiling, and either completing T ticks within ±10% of the starting size or stopping on a recorded guard.
+
+## C3e (`c3e.py`, `c3e_timing.py`, `c3e_run.py`), written before any C3e run
+
+*Allen D35, D36. Choices note 23 left open.*
+
+**Paired flip:**
+- **Proposal:** a 2–3 from a random tetrahedron face, and a 3–2 from a random valence-3 edge.
+- **Refused if:** either part is invalid, they share a tetrahedron, or the 2–3 would create the triangle the 3–2 needs to be absent.
+- **Applied as one move,** so the link and tetrahedron counts don't change.
+- **Acceptance:** the pair's combined cost change, with the proposal correction (valence-3 edges before ÷ after; the tetrahedron count cancels).
+- **Rate:** one pair per two events per tick, the same number of individual flips as before.
+
+**Everything else** is C3d's: budgets, ceiling (60 here), guards, readings, classification, calibration gate, saves every 10 ticks.
+
+**Checked per tick in the runner:** the flips' link-neutrality, alongside structure, both budgets and the ceiling.
+
+**Contrast runs:** two no-ceiling runs (no pressure and all three, larger size, one seed) reported separately, to show whether the ceiling value still matters.
+
+## C3f (`c3f.py`, `c3f_timing.py`), written before any C3f run
+
+*Allen D41. Choices note 27 left open.*
+
+**Sync as a condition:** `allowed` walks the move's edge changes **once** and uses that single pass for all three checks: links born and dying (the budget), degree changes (the ceiling), and the list of newly born links (the sync condition). A move is refused if any newly born link would carry a tick difference above s_max.
+- **The first version walked the edges twice** and doubled the sync setting's tick cost. Caught by the timing trial and fixed before any run, with no change of behaviour.
+- **A new split child** inherits its parent's tick count, so links to it are skipped by the condition.
+
+**Cost:** commitment and curvature only. The sync term is gone from the cost; `delta_S` is called with gamma = 0.
+
+**Bookkeeping per tick:** merges, splits, forced keeps, accepted flips, and refusals split into budget, ceiling and sync, plus splits abandoned when every option was refused.
+
+**Spacetime:** each tick can record its children and absorptions; with the slice's links before the tick, those build the spacetime pattern (nodes are (tick, event)) through the same builder C3a used. Readings are ball growth only.
+
+**Threshold:** s_max = 1.5 × the flat calibration's largest link strain at that size, set by the strain diagnostic (C94), replacing the 3× first specced.

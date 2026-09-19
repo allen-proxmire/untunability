@@ -1,0 +1,38 @@
+what are the difference so far between CDT and ED? 
+September 18 2026
+
+A fair comparison, since C1 showed ED's causal half is 2D CDT in that limit. The differences are in four places.
+
+1. What holds the volume
+
+CDT: the cosmological constant is a coupling that must be tuned to a critical value, with runaway on one side and collapse on the other.
+ED: the budget is conserved, so the event count sits at its value with nothing tuned (C2a, retested). C3d does the same for links.
+Why it matters: this is ED's one real structural difference so far. It swaps a tuned coupling for a conservation law. It costs a knob (what the budget is), but nothing has to be dialled to a critical point.
+
+2. One history versus a sum over geometries
+
+CDT: a quantum path integral. It sums amplitudes over every allowed geometry and reads off averages.
+ED: a single pattern grows, tick by tick, stochastically. There's no sum, no amplitude, no ħ in the growth rule.
+Consequence: ED's results are about one history's shape, not about a quantum average. It also means ED currently can't compute anything CDT computes quantum-mechanically. This puts ED nearer causal sets and energetic causal sets than CDT.
+
+3. Where "now" comes from
+
+CDT: the time slicing is imposed as part of the setup. Jordan and Loll showed you can drop it and still get a de Sitter universe, but it's an input in standard CDT.
+ED: the slicing has to be earned by sync. C2b's result is precisely that a shared "now" only stays space-like when slices have three or more dimensions, and that one large-scale rest frame comes out of it.
+Why it matters: this is the sharpest conceptual difference attempt 7 has produced. CDT assumes the foliation; ED makes the foliation a consequence of clocks matching rates.
+
+4. Extra structure ED carries
+
+A clock field. Every event has a tick count and a persistent rate, and it feeds back on which moves happen. CDT has nothing like it by default; it's pure geometry unless matter is added.
+A hard ceiling on neighbours ("no infinities"). CDT lets vertex degrees grow without bound. In C3d that ceiling turned out to be doing too much at the value I picked.
+Cost terms that aren't a Regge action. CDT weights geometries by the discrete Einstein–Hilbert action. ED's weights come from its own meanings: links cost, curvature costs, sync rewards. They're similar in spirit, and not derived from a metric.
+
+Where they're the same: space doesn't branch, causality is what separates smooth from crumpled, and both find the same bad phases waiting on either side.
+
+Where CDT is far ahead
+
+Scale: CDT runs hundreds of thousands to millions of building blocks; ED's largest slice was 13,824 events.
+Maturity: CDT has a phase diagram, a de Sitter volume profile, the spectral dimension running from 4 down to about 2, and decades of results.
+ED has none of that yet, and no continuum limit at all.
+
+The honest summary: in the one place they overlap, ED reproduces CDT exactly. Where ED differs, it's in trading tuning for conservation, growing one history instead of summing many, and making time slices something sync has to achieve. Those are real differences in how, not yet differences in what's predicted.
