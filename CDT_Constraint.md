@@ -105,12 +105,65 @@ It reproduced the published behaviour: τ falling steadily — 0.473, 0.403, 0.2
 
 ---
 
-## What would settle it
+## What the literature says
 
-Three questions, for someone in the field:
+Three questions were put to the literature rather than left for a referee. The answers sharpen the claim and expose one tension.
 
-1. **Is the relation N1T = 2·N0 + N32/2 already used this way?** It is an identity, so the content is entirely in reading it as a conservation law that removes a tuned freedom. If that reading is standard, this is a restatement.
-2. **Is there a published N0/N4 at or near (k₀, Δ) = (2.2, 0.6)?** That single number would settle the 3+1 placement.
-3. **Is anything known about 3D CDT at τ ≈ 1/3?** It is beyond the published range, and the claim that the extended phase continues there is an inference, not a measurement.
+### 1. Are the identities, read this way, standard?
 
-An answer of "yes, that's standard" to the first question closes this cheaply, and that would be worth knowing.
+**The identities are standard; the reading is not — and the difference matters more than it first appears.**
+
+That the counts leave three free totals is textbook: in four dimensions six variables are related by three independent equations, so the coupling space is three-dimensional, and the Regge action is written
+
+```
+S_R = −(κ₀ + 6Δ)·N0 + κ₄·(N41 + N32) + Δ·N41
+```
+
+with κ₀, Δ, κ₄ conjugate to exactly the three totals at issue.
+
+**But in CDT those totals are ensemble variables.** They are summed over, and the couplings fix only their expectation values. ED does something different in kind: it **fixes the counts themselves**. That is a *microcanonical* restriction, not a different choice of couplings.
+
+**So the claim should be stated more carefully than "ED sits at a point of CDT's map":**
+
+> ED's conservation laws pick out a definite point in the space of bulk counts. Whether that point corresponds to any CDT coupling is the question — it does so only if CDT's ensemble actually reaches those expectation values.
+
+That reframing is the useful outcome of asking. It also makes the claim falsifiable in a way the original phrasing was not.
+
+### 2. Is there a published N0/N4 to compare against?
+
+**Yes, and it is the clearest tension in this document.**
+
+The CDT review ([arXiv:1203.3591](https://arxiv.org/abs/1203.3591), §7.3.1 and Fig. 21) uses **N0/N4 as the order parameter conjugate to κ₀**, and reports it at the A–C transition (κ₀ = 4.711, Δ = 0.6, N4 = 120k):
+
+> **N0/N4 jumps between roughly 0.152 and 0.164**, with phase C on the *smaller* side.
+
+**ED's value is 0.044** — well below anything measured there. N0/N4 does fall as κ₀ falls, so moving from 4.711 to the canonical 2.2 moves CDT in ED's direction; but no published value at (2.2, 0.6) was found, and a factor of roughly three is a large gap to close.
+
+**In CDT's own order parameters, ED's point is:**
+
+| | ED |
+|---|---|
+| N0/N4 *(conjugate to κ₀)* | **0.044** |
+| (N41 − 6·N0)/N4 *(conjugate to Δ; the review's second order parameter)* | **0.236** |
+
+**Honest status: unresolved, and leaning against.** If CDT's phase C does not reach N0/N4 ≈ 0.044, then ED's point is not on CDT's map in 3+1, and the untunability claim survives only in 2+1. **Anyone with a CDT code can settle this in an afternoon**, and it should be settled before the claim is pressed further.
+
+### 3. Is τ = 1/3 reachable in 3D CDT?
+
+**Yes — and this one resolves in the claim's favour.**
+
+The earlier caveat was that τ = 1/3 lies beyond the range plotted in AJL's Fig. 7. But the program used here, **run as plain CDT and validated against that same figure**, reaches it directly: τ = 0.473 at k₀ = 0, 0.403 at k₀ = 2, 0.295 at k₀ = 4. **τ = 1/3 falls between k₀ = 2 and 4, at roughly k₀ ≈ 3.2** — comfortably inside the extended phase, with the collapse transition not appearing until between k₀ = 5 and 6.
+
+This is consistent with the published structure: after tuning the cosmological constant, 3D CDT's phase space is **one-dimensional in k₀**, extended at low k₀, with a single first-order transition to decoupled slices as k₀ rises. No further phase is reported below.
+
+**So in 2+1 the claim stands as written**, and now on a measurement rather than an extrapolation.
+
+---
+
+## Where that leaves it
+
+- **2+1: the claim holds.** ED's conservation fixes τ = 1/3 exactly, and that value is reachable, inside the extended phase, on a validated instrument.
+- **3+1: the claim is unresolved, with a specific number deciding it.** ED needs N0/N4 ≈ 0.044 to be inside phase C. Published values near the A–C transition are three times larger. **This is the number to check.**
+- **The framing is microcanonical**, and that is the honest way to state it: ED fixes counts; CDT fixes couplings and lets counts fluctuate. The claim is that ED's fixed point is one CDT would have had to tune its way to — *if* the ensemble reaches it.
+
+**Sources:** [hep-th/0105267](https://arxiv.org/abs/hep-th/0105267) (the 3+1 identities) · [hep-th/0011276](https://arxiv.org/abs/hep-th/0011276) (3D CDT phases) · [arXiv:1203.3591](https://arxiv.org/abs/1203.3591) (review; order parameters, Fig. 21) · [arXiv:1802.10434](https://arxiv.org/abs/1802.10434) (phase-diagram table) · [Scholarpedia, Causal Dynamical Triangulation](http://www.scholarpedia.org/article/Causal_Dynamical_Triangulation)

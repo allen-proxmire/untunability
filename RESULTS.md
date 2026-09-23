@@ -16,7 +16,11 @@ Causal dynamical triangulations is a well-developed approach to quantum spacetim
 
 Exact algebra. No new free parameters.
 
-**What it doesn't show.** It is a statement about CDT's framework, not about nature: *if* spacetime is a CDT-like triangulation, this conservation removes the freedom. It predicts nothing newly measurable. In 3+1 the placement is only half-determined — ED's ratio of the two piece types is 1.00 against CDT's 1.26 at its standard working point, and the other order parameter has no published value there to compare against. The step linking ED's budgets to CDT's totals rests on recorded modelling decisions. **No one who works on CDT has reviewed it.**
+**What it doesn't show.** It is a statement about CDT's framework, not about nature: *if* spacetime is a CDT-like triangulation, this conservation removes the freedom. It predicts nothing newly measurable. The step linking ED's budgets to CDT's totals rests on recorded modelling decisions. **No one who works on CDT has reviewed it.**
+
+**And it splits in two when checked against the literature.** In **2+1 it holds**: ED's conservation fixes the order parameter at exactly 1/3, and a validated run reaches that value inside the extended phase, at around k0 = 3.2. In **3+1 it is unresolved and currently leaning against**: ED needs a vertex density N0/N4 of 0.044, while the published measurements near the A-C transition are 0.152-0.164 — about three times larger. That number decides it, and anyone with a CDT code could settle it in an afternoon.
+
+**The honest framing, also found by checking:** CDT treats these totals as ensemble variables that fluctuate, with the couplings fixing only their averages. ED fixes the counts themselves. So the claim is *microcanonical* — ED picks a definite point, and the question is whether CDT's ensemble ever reaches it.
 
 **Full version, with the identities and the caveats: [CDT_Constraint.md](CDT_Constraint.md).**
 
