@@ -83,7 +83,6 @@ A lot, and every failure is written down.
 | **The thirteen attempts** | [ED_Restart/Project_Write_Up.md](ED_Restart/Project_Write_Up.md), with the attempts themselves in [ED_Restart/](ED_Restart/) — each with its notes and a ledger of claims, decisions and a dated log. Attempts are closed records: referenced, never edited |
 | **What ED needs** | [ED_Restart/What_ED_Needs.md](ED_Restart/What_ED_Needs.md) — what physics assumes, against what ED supplies |
 | **The handedness theorem** | [handedness/](handedness/) — the one-page statement, the full proof, its assumptions, and a script that checks it |
-| **Gravity's area law** | [notes/Jacobson_Area_Law.md](notes/Jacobson_Area_Law.md) — how ED's ideas supply the one physical assumption in Jacobson's derivation. A reading, not a result, and it leans on the large-scale smoothness ED turned out not to be able to supply |
 
 ## Check the theorem yourself
 
