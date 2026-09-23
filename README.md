@@ -4,6 +4,8 @@
 
 It is not a theory of gravity or a theory of everything. It asks a different question: *what must be true for anything to have a structure at all?*
 
+**Untunability** is what the testing found, and what this repository is named for: **quantities that established frameworks leave free, and tune by hand, turn out to be fixed by what ED conserves.**
+
 ---
 
 ## The idea
@@ -31,7 +33,7 @@ Every test had its expected results written down before it ran.
 
 ## What we conclude
 
-**1. ED's conservation laws fix three numbers that causal dynamical triangulations tunes by hand.** CDT has three totals that must be tuned until the spacetime it produces looks right. ED's conserved budgets fix all three — exactly, by arithmetic, with no new free parameters. In 2+1 dimensions the point they fix is reachable and sits inside the phase where space does not collapse.
+**1. Untunability: ED's conservation laws fix three numbers that causal dynamical triangulations tunes by hand.** CDT has three totals that must be tuned until the spacetime it produces looks right. ED's conserved budgets fix all three — exactly, by arithmetic, with no new free parameters. In 2+1 dimensions the point they fix is reachable and sits inside the phase where space does not collapse.
 
 **2. Below three dimensions, clocks cannot keep time together.** A patch's timing surplus grows faster than the connections available to shed it through, so in one or two dimensions large patches always break away. Measured, not just argued: the coupling needed rises without limit in one and two dimensions, and settles at three and above.
 
