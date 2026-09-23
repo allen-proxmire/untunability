@@ -12,7 +12,7 @@ It is a theory of possibilities. It is not a theory of gravity or a theory of ev
 
 - **The world is a web of places,** called *loci*. The web keeps growing: new places keep being born.
 - **Things spread across the web like ripples,** trying many paths at once.
-- **When a ripple meets something already settled** it leaves a mark. Once that mark can't be brought back, something definite has happened — a **commitment**.
+- **When a ripple meets something already settled** it leaves a mark. Once that mark is made, it can't be brought back; something definite has happened — a **commitment**.
 - **Commitments use up a budget,** so near a lot of settled matter, clocks and motion slow down.
 
 Everything else is working out what that implies.
