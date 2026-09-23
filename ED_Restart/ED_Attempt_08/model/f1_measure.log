@@ -1,0 +1,15 @@
+  n24_s0_veto.json 573 s (elapsed 0.16 h)
+  n32_s0_veto.json 1340 s (elapsed 0.37 h)
+  n32_s0_ctrl.json 1440 s (elapsed 0.56 h)
+  n52_s0_veto.json 5339 s (elapsed 1.48 h)
+  n52_s0_ctrl.json 5369 s (elapsed 1.86 h)
+Road F: the tilt on E4's grown slices
+
+  the scale:  d=1 -0.013   d=2 -0.280   d=3 -0.627   | threshold -0.280
+
+  slice                   V   run d_s   exponent    vs d=2    rungs common now?
+  n=24 veto           15557     1.393     -0.130    +0.149        3 FAILS
+  n=32 veto           36980     1.432     -0.134    +0.146        3 FAILS
+  n=52 veto          156172     1.685     -0.132    +0.148        3 FAILS
+  n=32 ctrl           33045     1.784          -         -        0 NOT MEASURABLE (ladder too short)
+  n=52 ctrl          141743     2.319          -         -        0 NOT MEASURABLE (ladder too short)

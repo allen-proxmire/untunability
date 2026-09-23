@@ -1,0 +1,6 @@
+# claim IDs | working directory | command
+C5 | any | sympy solve of AJL 3+1 identities (seven linear constraints) for N1T in terms of N0, N41, N32
+C12 | ED_Attempt_11/model | python st3_run.py  (python st3_run.py --report writes st3_run.txt)
+C13 | ED_Attempt_11/model | python st3_validate.py  (env K0S, SWEEPS, OUTDIR, TXT; --report writes the txt)
+C14 | ED_Attempt_11/model | python st3f_check.py  (fast against slow)
+C14 | ED_Attempt_11/model | python st3f_scan.py  (--report writes st3f_scan.txt)

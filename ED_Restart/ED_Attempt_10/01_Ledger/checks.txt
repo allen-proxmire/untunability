@@ -1,0 +1,17 @@
+# claim IDs | working directory | command
+C2 | ED_Attempt_10 | python -c "print(6*5.699/6.699)"  # 5.1043 = 2*pi/acos(1/3)
+C8, C9 | ED_Attempt_10/model | python sa_count.py  (resumable; sa_runs/)
+C9 | ED_Attempt_10/model | python sa_report.py  (writes sa_count.txt, applies C7's exit rule)
+C11 | ED_Attempt_10/model | pilots of sa_flatref.to_budget at beta 2, 4, 6, 8, 12 (see sa_flatref_pilot.txt)
+C13, C14 | ED_Attempt_10/model | python sa_flatref2.py  (writes sa_runs/3D_FREF2_s0.json, sa_flatref2.txt)
+C19, C20 | ED_Attempt_10/model | python sa2_count.py  (R checks cached in sa2_runs/R.json; writes sa2_count.txt)
+C22 | ED_Attempt_10/model | python sa3_count.py  (N0 cached in sa3_runs/N0.json; writes sa3_count.txt)
+C23 | ED_Attempt_10/model | python n1_grow.py  (G0 cached in n1_runs/G0.json; writes n1_grow.txt)
+C25 | ED_Attempt_10/model | python sb_g1_exact.py  (exact detailed balance, rings of 5)
+C25 | ED_Attempt_10/model | python sb_g1.py  (frequency form, rings of 6)
+C27 | ED_Attempt_10/model | python sb_g2.py
+C28 | ED_Attempt_10/model | python sb_g3.py
+C30 | ED_Attempt_10/model | python sb_run.py  (resumable per job; python sb_run.py --report writes sb_run.txt)
+C31 | ED_Attempt_10/model | python sb_short.py  (python sb_short.py --report writes sb_short.txt)
+C32 | ED_Attempt_10/model | PG=0.3 python sb_g1_exact.py
+C32 | ED_Attempt_10/model | PG=0.3 python sb_short.py  (--report writes sb_short_global.txt)

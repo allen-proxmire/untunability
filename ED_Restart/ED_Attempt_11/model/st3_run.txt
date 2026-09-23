@@ -1,0 +1,7 @@
+CALIBRATION (P1 True): flat_28 spacetime 2.659 slice md 10.883; crowded_28 spacetime 3.228 slice md 7.639; flat_40 spacetime 2.741 slice md 15.551; crowded_40 spacetime 3.514 slice md 8.140 | gaps [0.568, 0.773]
+L28 flat   : spacetime 2.659 -> 2.745 | slice md 10.883 -> 10.022 | profile last [789, 785, 784, 786, 787, 785, 787, 787, 785, 784, 787, 784, 786, 786, 785, 790] | sweeps 300 settled True | mu0 0.00 mu22 0.00 | acc 0.021 | fails []
+L28 crowded: spacetime 3.211 -> nan | slice md 7.629 -> 7.102 | profile last [826, 837, 917, 790, 763, 768, 727, 769, 740, 782, 759, 807, 763, 765, 788, 758] | sweeps 300 settled True | mu0 0.00 mu22 0.00 | acc 0.088 | fails []
+L40 flat   : spacetime 2.741 -> 2.811 | slice md 15.551 -> 14.216 | profile last [1604, 1602, 1601, 1607, 1602, 1602, 1600, 1605, 1603, 1604, 1600, 1601, 1600, 1602, 1602, 1603] | sweeps 300 settled True | mu0 0.00 mu22 0.00 | acc 0.021 | fails []
+L40 crowded: spacetime 3.520 -> 3.817 | slice md 8.003 -> 7.689 | profile last [1584, 1545, 1601, 1651, 1678, 1588, 1576, 1579, 1635, 1668, 1568, 1648, 1598, 1572, 1497, 1629] | sweeps 300 settled True | mu0 0.00 mu22 0.00 | acc 0.088 | fails []
+slice growth rate (flat 2D 0.5): flat start 0.491, crowded start 0.110
+P2 False P3 False | VERDICT: starts disagree: not settled - take stock of the program

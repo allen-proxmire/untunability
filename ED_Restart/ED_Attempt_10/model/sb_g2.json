@@ -1,0 +1,66 @@
+[
+ {
+  "n": 6,
+  "T": 4,
+  "start": "flat",
+  "V": 258,
+  "E": 1728,
+  "cap": 26,
+  "steps": 20000,
+  "fails": [],
+  "accepted": 4053,
+  "acceptance": 0.20265,
+  "tick_sizes": [
+   10,
+   10,
+   10,
+   12
+  ],
+  "why": {
+   "proposal": 15655,
+   "swap empty": 17,
+   "bundle overlap": 33,
+   "left overlap": 190,
+   "hastings": 3,
+   "right overlap": 47,
+   "label left": 1,
+   "label right": 1
+  },
+  "site_rejects": {
+   "sites": 14143,
+   "sizes": 1512
+  },
+  "ms_per_step": 0.37991747000196485
+ },
+ {
+  "n": 6,
+  "T": 4,
+  "start": "crowded",
+  "V": 258,
+  "E": 1728,
+  "cap": 26,
+  "steps": 20000,
+  "fails": [],
+  "accepted": 29,
+  "acceptance": 0.00145,
+  "tick_sizes": [
+   16,
+   14,
+   14,
+   16
+  ],
+  "why": {
+   "proposal": 15230,
+   "bundle overlap": 75,
+   "swap empty": 5,
+   "swap flip": 3879,
+   "left overlap": 686,
+   "right overlap": 96
+  },
+  "site_rejects": {
+   "sites": 14861,
+   "sizes": 369
+  },
+  "ms_per_step": 0.34151117500150574
+ }
+]

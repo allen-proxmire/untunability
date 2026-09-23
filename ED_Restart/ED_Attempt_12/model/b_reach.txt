@@ -1,0 +1,17 @@
+ring   reach 2 seed 1 | 0.993 -> 4.223 (a real one reads 0.998) | md 500.0 -> 5.9 | kept False | destroyed False | clocks held True | relations/event 2.00 -> 6.12 | repairs 6666
+ring   reach 2 seed 2 | 0.993 -> 4.285 (a real one reads 0.998) | md 500.0 -> 5.8 | kept False | destroyed False | clocks held True | relations/event 2.00 -> 6.21 | repairs 7417
+ring   reach 3 seed 1 | 0.993 -> 4.019 (a real one reads 0.998) | md 500.0 -> 6.0 | kept False | destroyed False | clocks held True | relations/event 2.00 -> 6.01 | repairs 6537
+ring   reach 3 seed 2 | 0.993 -> 4.099 (a real one reads 0.998) | md 500.0 -> 6.1 | kept False | destroyed False | clocks held True | relations/event 2.00 -> 6.09 | repairs 7048
+ring   reach 4 seed 1 | 0.993 -> 4.148 (a real one reads 0.998) | md 500.0 -> 5.9 | kept False | destroyed False | clocks held True | relations/event 2.00 -> 6.27 | repairs 7470
+ring   reach 4 seed 2 | 0.993 -> 3.961 (a real one reads 0.998) | md 500.0 -> 6.1 | kept False | destroyed False | clocks held True | relations/event 2.00 -> 6.01 | repairs 6895
+grid3D reach 2 seed 1 | 2.362 -> 3.952 (a real one reads 2.691) | md 9.7 -> 6.2 | kept False | destroyed False | clocks held True | relations/event 6.00 -> 6.93 | repairs 2461
+grid3D reach 2 seed 2 | 2.362 -> 3.707 (a real one reads 2.691) | md 9.7 -> 6.4 | kept False | destroyed False | clocks held True | relations/event 6.00 -> 6.85 | repairs 2315
+grid3D reach 3 seed 1 | 2.362 -> 3.789 (a real one reads 2.691) | md 9.7 -> 6.3 | kept False | destroyed False | clocks held True | relations/event 6.00 -> 6.83 | repairs 2187
+grid3D reach 3 seed 2 | 2.362 -> 3.708 (a real one reads 2.691) | md 9.7 -> 6.3 | kept False | destroyed False | clocks held True | relations/event 6.00 -> 6.79 | repairs 2232
+grid3D reach 4 seed 1 | 2.362 -> 3.906 (a real one reads 2.691) | md 9.7 -> 6.1 | kept False | destroyed False | clocks held True | relations/event 6.00 -> 7.01 | repairs 2936
+grid3D reach 4 seed 2 | 2.362 -> 3.696 (a real one reads 2.691) | md 9.7 -> 6.4 | kept False | destroyed False | clocks held True | relations/event 6.00 -> 6.83 | repairs 2077
+reach 2 | kept its shape: {'ring1': False, 'ring2': False, 'grid3D1': False, 'grid3D2': False} | destroyed: [] | relations per event: {'ring': 6.17, 'grid3D': 6.89} | repairs: {'ring': 7041, 'grid3D': 2388}
+reach 3 | kept its shape: {'ring1': False, 'ring2': False, 'grid3D1': False, 'grid3D2': False} | destroyed: [] | relations per event: {'ring': 6.05, 'grid3D': 6.81} | repairs: {'ring': 6792, 'grid3D': 2209}
+reach 4 | kept its shape: {'ring1': False, 'ring2': False, 'grid3D1': False, 'grid3D2': False} | destroyed: [] | relations per event: {'ring': 6.14, 'grid3D': 6.92} | repairs: {'ring': 7182, 'grid3D': 2506}
+R1 (at reach 2 the shapes are kept and the clocks hold) False
+R2 (at reach 3 they are not - road P reproduced) True

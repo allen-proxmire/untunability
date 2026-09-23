@@ -1,0 +1,21 @@
+  done k0.0.json
+  done k2.0.json
+  done k4.0.json
+  done k5.0.json
+  done k6.0.json
+  done k7.0.json
+  done k8.0.json
+  done k10.0.json
+  done k12.0.json
+published (AJL Fig. 7, spherical slices): tau about 0.25 at k0 = 5.25, dropping sharply to about 0 near k0 = 6.6
+k0   0.0 | tau 0.473 | slice md 3.60 rate 0.229 | sizes 137-183 | 0.49 h | fails [] | tau trail [0.474, 0.473, 0.471, 0.473, 0.472]
+k0   2.0 | tau 0.403 | slice md 3.59 rate 0.248 | sizes 124-248 | 0.60 h | fails [] | tau trail [0.408, 0.4, 0.405, 0.406, 0.402]
+k0   4.0 | tau 0.295 | slice md 3.64 rate 0.291 | sizes 173-273 | 0.87 h | fails [] | tau trail [0.311, 0.293, 0.296, 0.299, 0.298]
+k0   5.0 | tau 0.210 | slice md 3.81 rate 0.22 | sizes 117-359 | 1.21 h | fails [] | tau trail [0.25, 0.209, 0.204, 0.199, 0.215]
+k0   6.0 | tau 0.041 | slice md 3.76 rate 0.38 | sizes 25-2334 | 1.82 h | fails [['link too large for the check buffer (vertex 0)']] | tau trail [0.178, 0.063, 0.044, 0.041, 0.04]
+k0   7.0 | tau 0.021 | slice md 3.23 rate 0.373 | sizes 16-4250 | 1.97 h | fails [['link too large for the check buffer (vertex 0)']] | tau trail [0.133, 0.021, 0.02, 0.02, 0.02]
+k0   8.0 | tau 0.016 | slice md 2.55 rate 0.371 | sizes 9-4711 | 2.10 h | fails [['link too large for the check buffer (vertex 0)']] | tau trail [0.104, 0.017, 0.016, 0.016, 0.017]
+k0  10.0 | tau 0.012 | slice md 2.47 rate 0.375 | sizes 9-4750 | 1.89 h | fails [['link too large for the check buffer (vertex 0)']] | tau trail [0.102, 0.013, 0.013, 0.012, 0.012]
+k0  12.0 | tau 0.011 | slice md 2.48 rate 0.376 | sizes 11-5221 | 1.81 h | fails [['link too large for the check buffer (vertex 0)']] | tau trail [0.128, 0.012, 0.01, 0.011, 0.01]
+V1 True (falls True, drop True; biggest step 0.169 between k0 5.0 and 6.0) | V2 True (tau >= 1/3 at k0 [0.0, 2.0])
+V3 slice growth rates: k0 0.0 -> 0.229, k0 2.0 -> 0.248, k0 4.0 -> 0.291, k0 5.0 -> 0.22, k0 6.0 -> 0.38, k0 7.0 -> 0.373, k0 8.0 -> 0.371, k0 10.0 -> 0.375, k0 12.0 -> 0.376

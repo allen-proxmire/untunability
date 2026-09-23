@@ -1,0 +1,29 @@
+sync threshold 10.956
+[1/16] grow_B_s0.json 754 s (elapsed 0.21 h)
+[2/16] grow_B_s1.json 755 s (elapsed 0.21 h)
+[3/16] grow_B_s3.json 757 s (elapsed 0.21 h)
+[4/16] grow_B_s2.json 770 s (elapsed 0.21 h)
+[5/16] grow_B_s4.json 812 s (elapsed 0.44 h)
+[6/16] grow_B_s5.json 814 s (elapsed 0.44 h)
+[7/16] grow_B_s6.json 813 s (elapsed 0.44 h)
+[8/16] grow_B_s7.json 819 s (elapsed 0.44 h)
+[9/16] grow_A_s0.json 830 s (elapsed 0.67 h)
+[10/16] grow_A_s1.json 830 s (elapsed 0.67 h)
+[11/16] grow_A_s2.json 833 s (elapsed 0.67 h)
+[12/16] grow_A_s3.json 840 s (elapsed 0.68 h)
+[13/16] grow_A_s4.json 831 s (elapsed 0.90 h)
+[14/16] grow_A_s5.json 830 s (elapsed 0.90 h)
+[15/16] grow_A_s6.json 829 s (elapsed 0.90 h)
+[16/16] grow_A_s7.json 824 s (elapsed 0.90 h)
+setting A: 8 seeds, statuses ['survived']
+  T1 structure/budgets/ceiling/flips: clean
+  links_per_event        port 5.141 - 5.167 (mean 5.156, n=8) | A7 5.150 | INSIDE
+  diameter               port 12.000 - 22.000 (mean 14.250, n=8) | A7 12.500 | INSIDE
+  spacetime_d_H          port 6.158 - 6.567 (mean 6.382, n=8) | A7 6.440 | INSIDE
+  refused_sync_per_tick  port 0.000 - 0.000 (mean 0.000, n=8) | A7 0.000 | INSIDE
+setting B: 8 seeds, statuses ['survived']
+  T1 structure/budgets/ceiling/flips: clean
+  links_per_event        port 5.100 - 5.131 (mean 5.119, n=8) | A7 5.120 | INSIDE
+  diameter               port 12.000 - 19.000 (mean 14.625, n=8) | A7 15.000 | INSIDE
+  spacetime_d_H          port 6.145 - 6.509 (mean 6.297, n=8) | A7 6.330 | INSIDE
+  refused_sync_per_tick  port 1032.727 - 1289.453 (mean 1132.396, n=8) | A7 1403.000 | OUTSIDE

@@ -1,0 +1,22 @@
+grid3D thickness  6 seed 1 | 2.924 at  4681 -> 3.603 at 18054 | drift 0.679 | a real 3D lattice of that thickness: reads 2.758, drift 0.179, small world False | our small world False | relations/event 6.0 | holds unaided False | STABLE False
+grid3D thickness  6 seed 2 | 2.889 at  4713 -> 3.564 at 17959 | drift 0.675 | a real 3D lattice of that thickness: reads 2.758, drift 0.179, small world False | our small world False | relations/event 6.0 | holds unaided False | STABLE False
+grid3D thickness 12 seed 1 | 2.401 at  4789 -> 3.024 at 18300 | drift 0.623 | a real 3D lattice of that thickness: reads 3.018, drift None, small world False | our small world False | relations/event 12.0 | holds unaided False | STABLE False
+grid3D thickness 12 seed 2 | 2.375 at  4693 -> 3.022 at 17679 | drift 0.647 | a real 3D lattice of that thickness: reads 3.018, drift None, small world False | our small world False | relations/event 12.0 | holds unaided True | STABLE False
+grid3D thickness 25 seed 1 | 2.35 at  4789 -> 2.535 at 18421 | drift 0.185 | a real 3D lattice of that thickness: reads None, drift None, small world True | our small world True | relations/event 25.0 | holds unaided True | STABLE True
+grid3D thickness 25 seed 2 | 2.343 at  4693 -> 2.582 at 18039 | drift 0.239 | a real 3D lattice of that thickness: reads None, drift None, small world True | our small world True | relations/event 25.0 | holds unaided True | STABLE True
+grid3D thickness 50 seed 1 | 2.35 at  4789 -> 2.326 at 18310 | drift -0.024 | a real 3D lattice of that thickness: reads None, drift None, small world True | our small world True | relations/event 45.4 | holds unaided True | STABLE True
+grid3D thickness 50 seed 2 | 2.343 at  4693 -> 2.32 at 17999 | drift -0.023 | a real 3D lattice of that thickness: reads None, drift None, small world True | our small world True | relations/event 45.0 | holds unaided True | STABLE True
+ring   thickness  6 seed 1 | 0.996 at  4338 -> 1.003 at 16243 | drift 0.007 | a real 3D lattice of that thickness: reads 2.758, drift 0.179, small world False | our small world False | relations/event 6.0 | holds unaided False | STABLE True
+ring   thickness  6 seed 2 | 0.993 at  4300 -> 1.004 at 16181 | drift 0.011 | a real 3D lattice of that thickness: reads 2.758, drift 0.179, small world False | our small world False | relations/event 6.0 | holds unaided False | STABLE True
+ring   thickness 12 seed 1 | 0.996 at  4338 -> 0.996 at 16377 | drift 0.0 | a real 3D lattice of that thickness: reads 3.005, drift None, small world False | our small world False | relations/event 12.0 | holds unaided False | STABLE True
+ring   thickness 12 seed 2 | 0.993 at  4300 -> 0.981 at 16253 | drift -0.012 | a real 3D lattice of that thickness: reads 3.005, drift None, small world False | our small world False | relations/event 12.0 | holds unaided False | STABLE True
+ring   thickness 25 seed 1 | 0.996 at  4338 -> 0.969 at 16628 | drift -0.027 | a real 3D lattice of that thickness: reads None, drift None, small world True | our small world False | relations/event 24.1 | holds unaided False | STABLE True
+ring   thickness 25 seed 2 | 0.993 at  4300 -> 0.982 at 16516 | drift -0.011 | a real 3D lattice of that thickness: reads None, drift None, small world True | our small world False | relations/event 23.4 | holds unaided False | STABLE True
+ring   thickness 50 seed 1 | 0.996 at  4338 -> 0.969 at 16628 | drift -0.027 | a real 3D lattice of that thickness: reads None, drift None, small world True | our small world False | relations/event 24.1 | holds unaided False | STABLE True
+ring   thickness 50 seed 2 | 0.993 at  4300 -> 0.982 at 16516 | drift -0.011 | a real 3D lattice of that thickness: reads None, drift None, small world True | our small world False | relations/event 23.4 | holds unaided False | STABLE True
+
+T0 (the sync condition holds unaided at every thickness) False
+T1 (at least one thickness gives a STABLE reading) True   [('grid3D', 25), ('grid3D', 50), ('ring', 6), ('ring', 12), ('ring', 25), ('ring', 50)]
+T2 (a stable reading between 2.5 and 3.5) False   values [2.54, 2.58, 2.33, 2.32, 1.0, 1.0, 1.0, 0.98, 0.97, 0.98, 0.97, 0.98]
+T3 grid3D: readings at the end by thickness {6: [3.603, 3.564], 12: [3.024, 3.022], 25: [2.535, 2.582], 50: [2.326, 2.32]}
+T3 ring: readings at the end by thickness {6: [1.003, 1.004], 12: [0.996, 0.981], 25: [0.969, 0.982], 50: [0.969, 0.982]}

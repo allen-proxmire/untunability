@@ -1,0 +1,8 @@
+ring   | reading 4.096  95% interval [3.936, 4.256] from 10 runs (0 gave no reading) | small world in 9 of 10 | relations/event 3.41
+grid3D | reading 4.581  95% interval [4.478, 4.684] from 10 runs (0 gave no reading) | small world in 4 of 10 | relations/event 3.22
+web    | reading 4.631  95% interval [4.533, 4.729] from 10 runs (0 gave no reading) | small world in 2 of 10 | relations/event 3.18
+
+G2a (ring's reading lower than the 3D grid's, intervals not overlapping) True
+G2b ring vs grid3D: gap 0.485, intervals [3.936, 4.256] and [4.478, 4.684], separated True
+G2b ring vs web: gap 0.535, intervals [3.936, 4.256] and [4.533, 4.729], separated True
+G2b grid3D vs web: gap 0.050, intervals [4.478, 4.684] and [4.533, 4.729], separated False

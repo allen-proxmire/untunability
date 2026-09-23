@@ -1,0 +1,13 @@
+F1 calibration: PASS
+  ring (d=1)             tilt exponent  -0.027 to  -0.006 (mean  -0.013) | rungs [1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024, 2048, 4096, 8192] fitted [1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024, 2048]
+  square torus (d=2)     tilt exponent  -0.326 to  -0.203 (mean  -0.280) | rungs [1, 2, 4, 8, 16, 32, 64, 128] fitted [1, 2, 4, 8, 16, 32]
+  cube torus (d=3)       tilt exponent  -0.662 to  -0.575 (mean  -0.627) | rungs [1, 2, 4, 8, 16, 32] fitted [1, 2, 4, 8]
+  ED flat slice (d=3)    tilt exponent  -0.700 to  -0.628 (mean  -0.671) | rungs [1, 2, 4, 8, 16] fitted [1, 2, 4]
+  randomised slice       too few scales: rungs [1, 2, 4, 8], and the top two are dropped for saturation
+
+  F1-0 solve matches c3b: ok
+  F1-1 ordered ok, separated by 0.266 and 0.348 (need 0.15) ok, on every seed ok
+
+  THE SCALE:  d=1 -0.013   d=2 -0.280   d=3 -0.627
+  F1-2, fixed before any grown slice is measured: a grown slice supports a common
+        now if its tilt exponent is at or below -0.280 (the d=2 reference).

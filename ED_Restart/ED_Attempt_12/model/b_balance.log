@@ -1,0 +1,100 @@
+ring   rho 2 seed 1 | reading 0.995 at 4297 -> 1.016 at 8409 (a real one reads 0.998) | drift 0.021 | gap -0.002 -> 0.018 (grows by 0.02) | in one piece 1.0 | relations/event 2.00 | 1s
+ring   rho 2 seed 2 | reading 1.004 at 4382 -> 0.999 at 8629 (a real one reads 0.998) | drift -0.005 | gap 0.007 -> 0.001 (grows by -0.006) | in one piece 1.0 | relations/event 2.00 | 0s
+ring   rho 2 seed 3 | reading 1.004 at 4384 -> 1.017 at 8723 (a real one reads 0.998) | drift 0.013 | gap 0.007 -> 0.019 (grows by 0.012) | in one piece 1.0 | relations/event 2.00 | 1s
+ring   rho 3 seed 1 | reading 0.991 at 4332 -> 0.99 at 8329 (a real one reads 0.998) | drift -0.001 | gap -0.006 -> -0.008 (grows by -0.002) | in one piece 1.0 | relations/event 3.00 | 1s
+ring   rho 3 seed 2 | reading 0.986 at 4339 -> 1.0 at 8536 (a real one reads 0.998) | drift 0.014 | gap -0.011 -> 0.002 (grows by 0.013) | in one piece 1.0 | relations/event 3.00 | 1s
+ring   rho 3 seed 3 | reading 1.008 at 4373 -> 1.007 at 8429 (a real one reads 0.998) | drift -0.001 | gap 0.011 -> 0.009 (grows by -0.002) | in one piece 1.0 | relations/event 3.00 | 1s
+ring   rho 4 seed 1 | reading 0.983 at 4236 -> 0.994 at 8246 (a real one reads 0.998) | drift 0.011 | gap -0.014 -> -0.004 (grows by 0.01) | in one piece 1.0 | relations/event 4.00 | 1s
+ring   rho 4 seed 2 | reading 1.006 at 4331 -> 1.01 at 8355 (a real one reads 0.998) | drift 0.004 | gap 0.009 -> 0.012 (grows by 0.003) | in one piece 1.0 | relations/event 4.00 | 1s
+ring   rho 4 seed 3 | reading 1.003 at 4013 -> 1.017 at 8437 (a real one reads 0.998) | drift 0.014 | gap 0.007 -> 0.019 (grows by 0.012) | in one piece 1.0 | relations/event 4.00 | 1s
+ring   rho 5 seed 1 | reading 0.98 at 4271 -> 0.986 at 8243 (a real one reads 0.998) | drift 0.006 | gap -0.017 -> -0.012 (grows by 0.005) | in one piece 1.0 | relations/event 5.00 | 1s
+ring   rho 5 seed 2 | reading 0.996 at 4341 -> 1.002 at 8521 (a real one reads 0.998) | drift 0.006 | gap -0.001 -> 0.004 (grows by 0.005) | in one piece 1.0 | relations/event 5.00 | 1s
+ring   rho 5 seed 3 | reading 1.003 at 4016 -> 0.994 at 8631 (a real one reads 0.998) | drift -0.009 | gap 0.007 -> -0.004 (grows by -0.011) | in one piece 1.0 | relations/event 5.00 | 1s
+ring   rho 6 seed 1 | reading 0.976 at 4271 -> 0.976 at 8201 (a real one reads 0.998) | drift 0.0 | gap -0.021 -> -0.022 (grows by -0.001) | in one piece 1.0 | relations/event 6.00 | 1s
+ring   rho 6 seed 2 | reading 0.995 at 4341 -> 1.004 at 8526 (a real one reads 0.998) | drift 0.009 | gap -0.002 -> 0.006 (grows by 0.008) | in one piece 1.0 | relations/event 6.00 | 1s
+ring   rho 6 seed 3 | reading 1.002 at 4016 -> 0.994 at 8459 (a real one reads 0.998) | drift -0.008 | gap 0.006 -> -0.004 (grows by -0.01) | in one piece 1.0 | relations/event 6.00 | 1s
+ring   rho 8 seed 1 | reading 0.976 at 4271 -> 1.004 at 8219 (a real one reads 0.998) | drift 0.028 | gap -0.021 -> 0.006 (grows by 0.027) | in one piece 1.0 | relations/event 8.00 | 2s
+ring   rho 8 seed 2 | reading 0.995 at 4341 -> 0.989 at 8364 (a real one reads 0.998) | drift -0.006 | gap -0.002 -> -0.009 (grows by -0.007) | in one piece 1.0 | relations/event 8.00 | 2s
+ring   rho 8 seed 3 | reading 1.002 at 4016 -> 0.982 at 8581 (a real one reads 0.998) | drift -0.02 | gap 0.006 -> -0.016 (grows by -0.022) | in one piece 1.0 | relations/event 8.00 | 2s
+ring   rho 12 seed 1 | reading 0.976 at 4271 -> 0.991 at 8251 (a real one reads 0.998) | drift 0.015 | gap -0.021 -> -0.007 (grows by 0.014) | in one piece 1.0 | relations/event 11.99 | 2s
+ring   rho 12 seed 2 | reading 0.995 at 4341 -> 0.988 at 8403 (a real one reads 0.998) | drift -0.007 | gap -0.002 -> -0.01 (grows by -0.008) | in one piece 1.0 | relations/event 12.00 | 2s
+ring   rho 12 seed 3 | reading 1.002 at 4016 -> 0.981 at 8540 (a real one reads 0.998) | drift -0.021 | gap 0.006 -> -0.017 (grows by -0.023) | in one piece 1.0 | relations/event 12.00 | 2s
+ring   rho 16 seed 1 | reading 0.976 at 4271 -> 0.991 at 8251 (a real one reads 0.998) | drift 0.015 | gap -0.021 -> -0.007 (grows by 0.014) | in one piece 1.0 | relations/event 11.99 | 2s
+ring   rho 16 seed 2 | reading 0.995 at 4341 -> 0.988 at 8403 (a real one reads 0.998) | drift -0.007 | gap -0.002 -> -0.01 (grows by -0.008) | in one piece 1.0 | relations/event 12.03 | 2s
+ring   rho 16 seed 3 | reading 1.002 at 4016 -> 0.981 at 8540 (a real one reads 0.998) | drift -0.021 | gap 0.006 -> -0.017 (grows by -0.023) | in one piece 1.0 | relations/event 12.37 | 2s
+grid3D rho 2 seed 1 | reading 3.008 at 4687 -> 3.396 at 9173 (a real one reads 2.579) | drift 0.388 | gap 0.646 -> 0.817 (grows by 0.171) | in one piece 0.471 | relations/event 2.59 | 1s
+grid3D rho 2 seed 2 | reading 2.962 at 4790 -> 3.331 at 9343 (a real one reads 2.579) | drift 0.369 | gap 0.6 -> 0.752 (grows by 0.152) | in one piece 0.475 | relations/event 2.58 | 1s
+grid3D rho 2 seed 3 | reading 2.995 at 4782 -> 3.295 at 9552 (a real one reads 2.579) | drift 0.3 | gap 0.633 -> 0.716 (grows by 0.083) | in one piece 0.468 | relations/event 2.58 | 1s
+grid3D rho 3 seed 1 | reading 2.957 at 4676 -> 3.317 at 8959 (a real one reads 2.67) | drift 0.36 | gap 0.416 -> 0.647 (grows by 0.231) | in one piece 0.649 | relations/event 3.69 | 1s
+grid3D rho 3 seed 2 | reading 2.904 at 4792 -> 3.241 at 9209 (a real one reads 2.67) | drift 0.337 | gap 0.363 -> 0.571 (grows by 0.208) | in one piece 0.653 | relations/event 3.68 | 1s
+grid3D rho 3 seed 3 | reading 2.92 at 4403 -> 3.252 at 9337 (a real one reads 2.67) | drift 0.332 | gap 0.379 -> 0.582 (grows by 0.203) | in one piece 0.654 | relations/event 3.68 | 1s
+grid3D rho 4 seed 1 | reading 2.902 at 4727 -> 3.237 at 9073 (a real one reads 2.67) | drift 0.335 | gap 0.323 -> 0.567 (grows by 0.244) | in one piece 0.824 | relations/event 4.44 | 1s
+grid3D rho 4 seed 2 | reading 2.906 at 4746 -> 3.363 at 9190 (a real one reads 2.67) | drift 0.457 | gap 0.327 -> 0.693 (grows by 0.366) | in one piece 0.824 | relations/event 4.44 | 1s
+grid3D rho 4 seed 3 | reading 2.912 at 4744 -> 3.283 at 9273 (a real one reads 2.67) | drift 0.371 | gap 0.333 -> 0.613 (grows by 0.28) | in one piece 0.827 | relations/event 4.44 | 1s
+grid3D rho 5 seed 1 | reading 2.917 at 4727 -> 3.21 at 9146 (a real one reads 2.691) | drift 0.293 | gap 0.338 -> 0.519 (grows by 0.181) | in one piece 0.99 | relations/event 5.03 | 2s
+grid3D rho 5 seed 2 | reading 2.96 at 4697 -> 3.175 at 9184 (a real one reads 2.691) | drift 0.215 | gap 0.381 -> 0.484 (grows by 0.103) | in one piece 0.987 | relations/event 5.04 | 2s
+grid3D rho 5 seed 3 | reading 2.905 at 4441 -> 3.311 at 9432 (a real one reads 2.691) | drift 0.406 | gap 0.326 -> 0.62 (grows by 0.294) | in one piece 0.986 | relations/event 5.05 | 2s
+grid3D rho 6 seed 1 | reading 2.897 at 4765 -> 3.251 at 9288 (a real one reads 2.691) | drift 0.354 | gap 0.318 -> 0.56 (grows by 0.242) | in one piece 1.0 | relations/event 6.00 | 2s
+grid3D rho 6 seed 2 | reading 2.915 at 4805 -> 3.247 at 9224 (a real one reads 2.691) | drift 0.332 | gap 0.336 -> 0.556 (grows by 0.22) | in one piece 1.0 | relations/event 6.00 | 2s
+grid3D rho 6 seed 3 | reading 2.888 at 4426 -> 3.169 at 9329 (a real one reads 2.691) | drift 0.281 | gap 0.309 -> 0.478 (grows by 0.169) | in one piece 1.0 | relations/event 6.00 | 2s
+grid3D rho 8 seed 1 | reading 2.717 at 4723 -> 3.005 at 9175 (a real one reads 2.691) | drift 0.288 | gap 0.138 -> 0.314 (grows by 0.176) | in one piece 1.0 | relations/event 8.00 | 2s
+grid3D rho 8 seed 2 | reading 2.721 at 4775 -> 3.015 at 9397 (a real one reads 2.691) | drift 0.294 | gap 0.142 -> 0.324 (grows by 0.182) | in one piece 1.0 | relations/event 8.00 | 2s
+grid3D rho 8 seed 3 | reading 2.684 at 4742 -> 3.089 at 9210 (a real one reads 2.691) | drift 0.405 | gap 0.105 -> 0.398 (grows by 0.293) | in one piece 1.0 | relations/event 8.00 | 2s
+grid3D rho 12 seed 1 | reading 2.389 at 4711 -> 2.712 at 9228 (a real one reads 2.691) | drift 0.323 | gap -0.19 -> 0.021 (grows by 0.211) | in one piece 1.0 | relations/event 12.00 | 3s
+grid3D rho 12 seed 2 | reading 2.387 at 4858 -> 2.747 at 9554 (a real one reads 2.691) | drift 0.36 | gap -0.192 -> 0.056 (grows by 0.248) | in one piece 1.0 | relations/event 12.00 | 3s
+grid3D rho 12 seed 3 | reading 2.391 at 4770 -> 2.698 at 9269 (a real one reads 2.691) | drift 0.307 | gap -0.188 -> 0.007 (grows by 0.195) | in one piece 1.0 | relations/event 12.00 | 3s
+grid3D rho 16 seed 1 | reading 2.348 at 4711 -> 2.499 at 9280 (a real one reads 2.691) | drift 0.151 | gap -0.231 -> -0.192 (grows by 0.039) | in one piece 1.0 | relations/event 16.00 | 4s
+grid3D rho 16 seed 2 | reading 2.341 at 4858 -> 2.498 at 9424 (a real one reads 2.691) | drift 0.157 | gap -0.238 -> -0.193 (grows by 0.045) | in one piece 1.0 | relations/event 16.00 | 4s
+grid3D rho 16 seed 3 | reading 2.366 at 4770 -> 2.589 at 9371 (a real one reads 2.691) | drift 0.223 | gap -0.213 -> -0.102 (grows by 0.111) | in one piece 1.0 | relations/event 16.00 | 4s
+ring   rho 2 seed 1 | 0.995 -> 1.016 (a real one reads 0.998) | drift 0.021 | md 1044.9 | small world False | in one piece 1.0 | relations/event 2.00
+ring   rho 2 seed 2 | 1.004 -> 0.999 (a real one reads 0.998) | drift -0.005 | md 1055.8 | small world False | in one piece 1.0 | relations/event 2.00
+ring   rho 2 seed 3 | 1.004 -> 1.017 (a real one reads 0.998) | drift 0.013 | md 1065.1 | small world False | in one piece 1.0 | relations/event 2.00
+ring   rho 3 seed 1 | 0.991 -> 0.99 (a real one reads 0.998) | drift -0.001 | md 671.6 | small world False | in one piece 1.0 | relations/event 3.00
+ring   rho 3 seed 2 | 0.986 -> 1.0 (a real one reads 0.998) | drift 0.014 | md 676.6 | small world False | in one piece 1.0 | relations/event 3.00
+ring   rho 3 seed 3 | 1.008 -> 1.007 (a real one reads 0.998) | drift -0.001 | md 673.0 | small world False | in one piece 1.0 | relations/event 3.00
+ring   rho 4 seed 1 | 0.983 -> 0.994 (a real one reads 0.998) | drift 0.011 | md 569.7 | small world False | in one piece 1.0 | relations/event 4.00
+ring   rho 4 seed 2 | 1.006 -> 1.01 (a real one reads 0.998) | drift 0.004 | md 559.3 | small world False | in one piece 1.0 | relations/event 4.00
+ring   rho 4 seed 3 | 1.003 -> 1.017 (a real one reads 0.998) | drift 0.014 | md 564.9 | small world False | in one piece 1.0 | relations/event 4.00
+ring   rho 5 seed 1 | 0.98 -> 0.986 (a real one reads 0.998) | drift 0.006 | md 524.8 | small world False | in one piece 1.0 | relations/event 5.00
+ring   rho 5 seed 2 | 0.996 -> 1.002 (a real one reads 0.998) | drift 0.006 | md 522.4 | small world False | in one piece 1.0 | relations/event 5.00
+ring   rho 5 seed 3 | 1.003 -> 0.994 (a real one reads 0.998) | drift -0.009 | md 521.0 | small world False | in one piece 1.0 | relations/event 5.00
+ring   rho 6 seed 1 | 0.976 -> 0.976 (a real one reads 0.998) | drift 0.0 | md 512.5 | small world False | in one piece 1.0 | relations/event 6.00
+ring   rho 6 seed 2 | 0.995 -> 1.004 (a real one reads 0.998) | drift 0.009 | md 509.6 | small world False | in one piece 1.0 | relations/event 6.00
+ring   rho 6 seed 3 | 1.002 -> 0.994 (a real one reads 0.998) | drift -0.008 | md 513.6 | small world False | in one piece 1.0 | relations/event 6.00
+ring   rho 8 seed 1 | 0.976 -> 1.004 (a real one reads 0.998) | drift 0.028 | md 502.1 | small world False | in one piece 1.0 | relations/event 8.00
+ring   rho 8 seed 2 | 0.995 -> 0.989 (a real one reads 0.998) | drift -0.006 | md 500.7 | small world False | in one piece 1.0 | relations/event 8.00
+ring   rho 8 seed 3 | 1.002 -> 0.982 (a real one reads 0.998) | drift -0.02 | md 503.6 | small world False | in one piece 1.0 | relations/event 8.00
+ring   rho 12 seed 1 | 0.976 -> 0.991 (a real one reads 0.998) | drift 0.015 | md 499.6 | small world False | in one piece 1.0 | relations/event 11.99
+ring   rho 12 seed 2 | 0.995 -> 0.988 (a real one reads 0.998) | drift -0.007 | md 498.4 | small world False | in one piece 1.0 | relations/event 12.00
+ring   rho 12 seed 3 | 1.002 -> 0.981 (a real one reads 0.998) | drift -0.021 | md 500.8 | small world False | in one piece 1.0 | relations/event 12.00
+ring   rho 16 seed 1 | 0.976 -> 0.991 (a real one reads 0.998) | drift 0.015 | md 499.6 | small world False | in one piece 1.0 | relations/event 11.99
+ring   rho 16 seed 2 | 0.995 -> 0.988 (a real one reads 0.998) | drift -0.007 | md 498.4 | small world False | in one piece 1.0 | relations/event 12.03
+ring   rho 16 seed 3 | 1.002 -> 0.981 (a real one reads 0.998) | drift -0.021 | md 500.8 | small world False | in one piece 1.0 | relations/event 12.37
+grid3D rho 2 seed 1 | 3.008 -> 3.396 (a real one reads 2.579) | drift 0.388 | md 13.7 | small world False | in one piece 0.471 | relations/event 2.59
+grid3D rho 2 seed 2 | 2.962 -> 3.331 (a real one reads 2.579) | drift 0.369 | md 13.5 | small world False | in one piece 0.475 | relations/event 2.58
+grid3D rho 2 seed 3 | 2.995 -> 3.295 (a real one reads 2.579) | drift 0.3 | md 13.5 | small world False | in one piece 0.468 | relations/event 2.58
+grid3D rho 3 seed 1 | 2.957 -> 3.317 (a real one reads 2.67) | drift 0.36 | md 11.9 | small world False | in one piece 0.649 | relations/event 3.69
+grid3D rho 3 seed 2 | 2.904 -> 3.241 (a real one reads 2.67) | drift 0.337 | md 11.8 | small world False | in one piece 0.653 | relations/event 3.68
+grid3D rho 3 seed 3 | 2.92 -> 3.252 (a real one reads 2.67) | drift 0.332 | md 12.2 | small world False | in one piece 0.654 | relations/event 3.68
+grid3D rho 4 seed 1 | 2.902 -> 3.237 (a real one reads 2.67) | drift 0.335 | md 11.6 | small world False | in one piece 0.824 | relations/event 4.44
+grid3D rho 4 seed 2 | 2.906 -> 3.363 (a real one reads 2.67) | drift 0.457 | md 12.0 | small world False | in one piece 0.824 | relations/event 4.44
+grid3D rho 4 seed 3 | 2.912 -> 3.283 (a real one reads 2.67) | drift 0.371 | md 11.9 | small world False | in one piece 0.827 | relations/event 4.44
+grid3D rho 5 seed 1 | 2.917 -> 3.21 (a real one reads 2.691) | drift 0.293 | md 11.7 | small world False | in one piece 0.99 | relations/event 5.03
+grid3D rho 5 seed 2 | 2.96 -> 3.175 (a real one reads 2.691) | drift 0.215 | md 11.8 | small world False | in one piece 0.987 | relations/event 5.04
+grid3D rho 5 seed 3 | 2.905 -> 3.311 (a real one reads 2.691) | drift 0.406 | md 11.6 | small world False | in one piece 0.986 | relations/event 5.05
+grid3D rho 6 seed 1 | 2.897 -> 3.251 (a real one reads 2.691) | drift 0.354 | md 10.6 | small world False | in one piece 1.0 | relations/event 6.00
+grid3D rho 6 seed 2 | 2.915 -> 3.247 (a real one reads 2.691) | drift 0.332 | md 10.6 | small world False | in one piece 1.0 | relations/event 6.00
+grid3D rho 6 seed 3 | 2.888 -> 3.169 (a real one reads 2.691) | drift 0.281 | md 10.5 | small world False | in one piece 1.0 | relations/event 6.00
+grid3D rho 8 seed 1 | 2.717 -> 3.005 (a real one reads 2.691) | drift 0.288 | md 10.1 | small world False | in one piece 1.0 | relations/event 8.00
+grid3D rho 8 seed 2 | 2.721 -> 3.015 (a real one reads 2.691) | drift 0.294 | md 10.1 | small world False | in one piece 1.0 | relations/event 8.00
+grid3D rho 8 seed 3 | 2.684 -> 3.089 (a real one reads 2.691) | drift 0.405 | md 10.2 | small world False | in one piece 1.0 | relations/event 8.00
+grid3D rho 12 seed 1 | 2.389 -> 2.712 (a real one reads 2.691) | drift 0.323 | md 9.8 | small world False | in one piece 1.0 | relations/event 12.00
+grid3D rho 12 seed 2 | 2.387 -> 2.747 (a real one reads 2.691) | drift 0.36 | md 9.8 | small world False | in one piece 1.0 | relations/event 12.00
+grid3D rho 12 seed 3 | 2.391 -> 2.698 (a real one reads 2.691) | drift 0.307 | md 9.8 | small world False | in one piece 1.0 | relations/event 12.00
+grid3D rho 16 seed 1 | 2.348 -> 2.499 (a real one reads 2.691) | drift 0.151 | md 9.7 | small world True | in one piece 1.0 | relations/event 16.00
+grid3D rho 16 seed 2 | 2.341 -> 2.498 (a real one reads 2.691) | drift 0.157 | md 9.7 | small world True | in one piece 1.0 | relations/event 16.00
+grid3D rho 16 seed 3 | 2.366 -> 2.589 (a real one reads 2.691) | drift 0.223 | md 9.7 | small world True | in one piece 1.0 | relations/event 16.00
+[ring] how fast the gap to a real shape grows, against rho (patterns in one piece only): [(2, 0.009), (3, 0.003), (4, 0.008), (5, -0.0), (6, -0.001), (8, -0.001), (12, -0.006), (16, -0.006)]
+[ring] B1 (drift changes sign - a balance point) False
+[grid3D] how fast the gap to a real shape grows, against rho (patterns in one piece only): [(2, None), (3, None), (4, None), (5, 0.193), (6, 0.21), (8, 0.217), (12, 0.218), (16, 0.065)]
+[grid3D] B1 (drift changes sign - a balance point) False

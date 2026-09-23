@@ -1,0 +1,47 @@
+A0 {"d3": [{"kind": "flat", "V": 216, "counted": {"merge": 3024, "split": 3024, "f23": 2592, "f32": 0}, "brute": {"merge": 3024, "split": 3024, "f23": 2592, "f32": 0}, "match": {"merge": true, "split": true, "f23": true, "f32": true}}, {"kind": "rand", "V": 216, "counted": {"merge": 70, "split": 6406, "f23": 1961, "f32": 737}, "brute": {"merge": 70, "split": 6406, "f23": 1961, "f32": 737}, "match": {"merge": true, "split": true, "f23": true, "f32": true}}, {"kind": "grown", "V": 210, "counted": {"merge": 1020, "split": 2890, "f23": 1486, "f32": 162}, "brute": {"merge": 1020, "split": 2890, "f23": 1486, "f32": 162}, "match": {"merge": true, "split": true, "f23": true, "f32": true}}], "d2": [{"kind": "flat", "V": 64, "counted": {"merge": 384, "split": 960, "flip": 192}, "brute": {"merge": 384, "split": 960, "flip": 192}, "match": {"merge": true, "split": true, "flip": true}}, {"kind": "rand", "V": 64, "counted": {"merge": 256, "split": 1342, "flip": 147}, "brute": {"merge": 256, "split": 1342, "flip": 147}, "match": {"merge": true, "split": true, "flip": true}}, {"kind": "grown", "V": 41, "counted": {"merge": 134, "split": 794, "flip": 87}, "brute": {"merge": 134, "split": 794, "flip": 87}, "match": {"merge": true, "split": true, "flip": true}}]}
+  3D_F1_s1.json 202 s (elapsed 0.09 h)
+  3D_F1_s0.json 203 s (elapsed 0.09 h)
+  2D_U_s1.json 225 s (elapsed 0.10 h)
+  2D_U_s0.json 225 s (elapsed 0.10 h)
+multiprocessing.pool.RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "C:\Users\allen\AppData\Local\Programs\Python\Python312\Lib\multiprocessing\pool.py", line 125, in worker
+    result = (True, func(*args, **kwds))
+                    ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\allen\Desktop\ED_Restart\ED_Attempt_10\model\sa_count.py", line 407, in do_job
+    M, ok = slice3(kind, 24, seed)
+            ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\allen\Desktop\ED_Restart\ED_Attempt_10\model\sa_count.py", line 222, in slice3
+    M.flip_randomize(50)
+  File "C:\Users\allen\Desktop\ED_Restart\ED_Attempt_09\model\..\..\ED_Attempt_08\model\p3.py", line 1130, in flip_randomize
+    raise RuntimeError('capacity overflow in flip_randomize: code %d' % int(self.S.ctr[C_OVER]))
+RuntimeError: capacity overflow in flip_randomize: code 3
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\allen\Desktop\ED_Restart\ED_Attempt_10\model\sa_count.py", line 453, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "C:\Users\allen\Desktop\ED_Restart\ED_Attempt_10\model\sa_count.py", line 446, in main
+    for path, sec in p.imap_unordered(do_job, order):
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\allen\AppData\Local\Programs\Python\Python312\Lib\multiprocessing\pool.py", line 873, in next
+    raise value
+RuntimeError: capacity overflow in flip_randomize: code 3
+A0 {"d3": [{"kind": "flat", "V": 216, "counted": {"merge": 3024, "split": 3024, "f23": 2592, "f32": 0}, "brute": {"merge": 3024, "split": 3024, "f23": 2592, "f32": 0}, "match": {"merge": true, "split": true, "f23": true, "f32": true}}, {"kind": "rand", "V": 216, "counted": {"merge": 70, "split": 6406, "f23": 1961, "f32": 737}, "brute": {"merge": 70, "split": 6406, "f23": 1961, "f32": 737}, "match": {"merge": true, "split": true, "f23": true, "f32": true}}, {"kind": "grown", "V": 210, "counted": {"merge": 1020, "split": 2890, "f23": 1486, "f32": 162}, "brute": {"merge": 1020, "split": 2890, "f23": 1486, "f32": 162}, "match": {"merge": true, "split": true, "f23": true, "f32": true}}], "d2": [{"kind": "flat", "V": 64, "counted": {"merge": 384, "split": 960, "flip": 192}, "brute": {"merge": 384, "split": 960, "flip": 192}, "match": {"merge": true, "split": true, "flip": true}}, {"kind": "rand", "V": 64, "counted": {"merge": 256, "split": 1342, "flip": 147}, "brute": {"merge": 256, "split": 1342, "flip": 147}, "match": {"merge": true, "split": true, "flip": true}}, {"kind": "grown", "V": 41, "counted": {"merge": 134, "split": 794, "flip": 87}, "brute": {"merge": 134, "split": 794, "flip": 87}, "match": {"merge": true, "split": true, "flip": true}}]}
+  3D_F1_s0.json 0 s (elapsed 0.00 h)
+  3D_F1_s1.json 0 s (elapsed 0.00 h)
+  2D_U_s0.json 0 s (elapsed 0.00 h)
+  2D_U_s1.json 0 s (elapsed 0.00 h)
+  3D_FRc_s0.json 100 s (elapsed 0.03 h)
+  3D_FL_s0.json 122 s (elapsed 0.03 h)
+  2D_F_s0.json 2 s (elapsed 0.03 h)
+  3D_FR_s0.json 74 s (elapsed 0.05 h)
+  2D_R_s0.json 54 s (elapsed 0.05 h)
+  2D_Q1_s1.json 621 s (elapsed 0.17 h)
+  2D_Q1_s0.json 625 s (elapsed 0.17 h)
+  3D_W1_s1.json 926 s (elapsed 0.26 h)
+  3D_W1_s0.json 933 s (elapsed 0.26 h)

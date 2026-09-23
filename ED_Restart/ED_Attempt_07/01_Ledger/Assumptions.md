@@ -50,6 +50,8 @@
 | D44 | Run the sync threshold scan. Allen: 'run the threshold scan'. Labelled as a diagnostic, not pre-registered; C3g run 1's verdict stands. | 2026-09-19 | C101 |
 | D45 | Record the wall and close road C. Allen: 'what is the wall? record the wall and conclude road C'. Attempt 7 stays open for the write-up and stock-take. | 2026-09-19 | C103 |
 | D46 | Update the attempt 7 plain-language write-up to cover road C end to end. Allen: 'do the write-up'. | 2026-09-19 | — |
+| D47 | Take stock of attempt 7 as a whole. Allen: 'take stock of attempt 7'. Options put to Allen: (a) conclude attempt 7 and open attempt 8 around a compiled model, (b) stay in attempt 7 and do the port here, (c) conclude and open attempt 8 on a different road, (d) pause. | 2026-09-19 | C104 |
+| D48 | Conclude attempt 7 and open attempt 8, with the compiled model as its opening road. Allen: 'a, conclude attempt 7 and open attempt 8.' | 2026-09-19 | C104, C105 |
 
 ## Rule decisions (RD)
 
@@ -109,3 +111,5 @@
 | RD52 | D44, C100 | Threshold scan run and recorded (C101): the push does not saturate but runs from crumpled to branched with no flat middle at these sizes; what that settles for road C3 (C102); note 29 given a scan section. | 2026-09-19 |
 | RD53 | D45, C102 | Road C closed with its verdict recorded (note 30, `Road_C_Verdict.md`, C103); What_ED_Needs and the attempt README updated. | 2026-09-19 |
 | RD54 | D46, C103 | `Attempt_07_Plain_Language.md` rewritten for the closed road: what the attempt was for; C1, Budgeted Causality and Synced Now; the 2D attempt and the static check; the five 3D runs and what each taught; the wall; where the attempt stands; honest limits including Claude's nine recorded specification and code errors and the resolution limit; and the four items carried forward. | 2026-09-19 |
+| RD55 | D47, C104 | `Taking_Stock_3.md` written (note 31): what attempt 7 set out to do and what it reached, the ledger and the compute cost, the census, the five walls before and after, what the attempt is worth and what is deducted, five items carried forward, and the four options. | 2026-09-19 |
+| RD56 | D48, C105 | Attempt 7 concluded: road C closed with its verdict (C103), the attempt stock-taken (C104), and the record left as it stands. ED_Attempt_08 opened with note 1 `Carry_Forward.md` (A8 C1), its README and its ledger; opening road E, resolution. | 2026-09-19 |

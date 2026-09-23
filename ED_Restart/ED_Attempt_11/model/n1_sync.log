@@ -1,0 +1,25 @@
+ring 2000 K_c None 31s
+ring 4000 K_c None 55s
+ring 8000 K_c None 90s
+ring 16000 K_c None 156s
+torus2 2025 K_c 1.875 116s
+torus2 3969 K_c 5.0 249s
+torus2 7921 K_c 4.375 403s
+torus2 15876 K_c 7.375 849s
+torus3 2197 K_c 0.75 202s
+torus3 4096 K_c 0.875 319s
+torus3 8000 K_c 0.875 570s
+torus3 15625 K_c 0.75 1087s
+web 2000 K_c None 259s
+web 4000 K_c None 489s
+web 8000 K_c None 1028s
+web 16000 K_c None 2397s
+ring    sizes [2000, 4000, 8000, 16000] | K_c [None, None, None, None] | growth exponent None
+torus2  sizes [2025, 3969, 7921, 15876] | K_c [1.875, 5.0, 4.375, 7.375] | growth exponent 0.577
+torus3  sizes [2197, 4096, 8000, 15625] | K_c [0.75, 0.875, 0.875, 0.75] | growth exponent -0.002
+web     sizes [2000, 4000, 8000, 16000] | K_c [None, None, None, None] | growth exponent None
+ring    rises: True (expected True)
+torus2  rises: True (expected True)
+torus3  rises: False (expected False)
+web     rises: True (expected False)
+N0 False

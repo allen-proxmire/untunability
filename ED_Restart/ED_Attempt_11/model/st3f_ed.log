@@ -1,0 +1,18 @@
+  done L20_ed_flat.json
+  done L20_ed_crowded.json
+  done L20_ext.json
+  done L28_ed_flat.json
+  done L20_col.json
+  done L28_ed_crowded.json
+  done L28_ext.json
+  done L28_col.json
+L20 col         tau 0.008 | slice rate 0.385 md 4.01 | sizes 7-4956 | spacetime nan | blocks 20 | fails [['link too large for the check buffer (vertex 0)']]
+L20 ed_crowded  tau 0.333 | slice rate 0.456 md 4.51 | sizes 293-489 | spacetime nan | blocks 20 | fails []
+L20 ed_flat     tau 0.333 | slice rate 0.305 md 4.25 | sizes 317-489 | spacetime nan | blocks 20 | fails []
+L20 ext         tau 0.344 | slice rate 0.282 md 4.35 | sizes 345-485 | spacetime nan | blocks 20 | fails []
+L28 col         tau 0.004 | slice rate 0.377 md 5.47 | sizes 15-7386 | spacetime nan | blocks 20 | fails [['link too large for the check buffer (vertex 0)']]
+L28 ed_crowded  tau 0.333 | slice rate 0.204 md 5.95 | sizes 666-892 | spacetime nan | blocks 20 | fails []
+L28 ed_flat     tau 0.333 | slice rate 0.290 md 5.15 | sizes 633-878 | spacetime nan | blocks 20 | fails []
+L28 ext         tau 0.346 | slice rate 0.318 md 5.16 | sizes 674-892 | spacetime nan | blocks 20 | fails []
+E2 (ED matches the extended phase) False | E3 (ED's starts agree) False
+VERDICT: ED's starts disagree - still not settled

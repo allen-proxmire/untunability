@@ -1,0 +1,4 @@
+E4-0a gate: PASS
+  n=24  FC d_s 3.050-3.050 (spread 0.000) d_H 2.657-2.657 radii>=4.0 | RC d_s undefined d_H undefined | E4-0a PASS | E4-0b separates on: NOTHING (limitation carried, C28/C29)
+  n=32  FC d_s 3.024-3.024 (spread 0.000) d_H 2.740-2.740 radii>=5.0 | RC d_s 3.604-3.649 d_H 3.245-3.257 | E4-0a PASS | E4-0b separates on: d_H, d_s
+  n=52  FC d_s 3.007-3.007 (spread 0.000) d_H 2.850-2.850 radii>=8.0 | RC d_s 3.072-3.082 d_H 3.286-3.295 | E4-0a PASS | E4-0b separates on: d_H, d_s

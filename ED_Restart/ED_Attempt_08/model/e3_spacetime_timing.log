@@ -1,0 +1,34 @@
+tick  1  43.9 s  V 140840
+tick  2  45.7 s  V 140535
+tick  3  41.2 s  V 141563
+tick  4  36.8 s  V 140627
+tick  5  36.0 s  V 141062
+tick  6  35.8 s  V 141253
+tick  7  35.2 s  V 140143
+tick  8  35.0 s  V 140838
+tick  9  34.1 s  V 140273
+tick 10  33.9 s  V 141017
+tick 11  33.7 s  V 138918
+tick 12  32.8 s  V 139181
+tick 13  33.0 s  V 141056
+tick 14  33.0 s  V 138786
+tick 15  32.5 s  V 139491
+tick 16  32.4 s  V 141353
+tick 17  32.6 s  V 141120
+tick 18  32.8 s  V 140904
+tick 19  32.3 s  V 139875
+tick 20  32.1 s  V 140906
+tick 21  32.6 s  V 141605
+{
+ "n": 52,
+ "V0": 140608,
+ "build_seconds": 7.302787000022363,
+ "mean_tick_seconds": 34.09088367368033,
+ "spacetime_events": 3091954.0,
+ "spacetime_links": 21895345.0,
+ "spacetime_seconds": 459.2043193000136,
+ "d_H": 5.673246087346187,
+ "r_lo": 4.0,
+ "r_max": 8.0
+}
+n=52: torus build 7 s, tick 34.1 s, spacetime pattern 3091954.0 events / 21895345.0 links from 22 slices, reading 459 s (d_H 5.673246087346187, radii 4.0-8.0)

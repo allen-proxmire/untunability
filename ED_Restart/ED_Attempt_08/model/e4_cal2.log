@@ -1,0 +1,11 @@
+cal cal_FC_n24.json 0 s
+cal cal_FC_n32.json 0 s
+cal cal_RC_n24.json 38 s
+cal cal_FC_n52.json 0 s
+cal cal_RC_n32.json 60 s
+cal cal_RC_n52.json 215 s
+E4-0 gate: FAIL
+  n=24  FC d_H 2.657   (ok)  d_s 3.05    (ok)  diam 18.0  radii 3.0-6.0 | RC d_H None  meandeg 29.2 (ok)
+  n=32  FC d_H 2.74    (ok)  d_s 3.024   (ok)  diam 24.0  radii 4.0-8.0 | RC d_H 3.250666530948647 meandeg 29.2 (FAIL)
+  n=52  FC d_H 2.85    (ok)  d_s 3.007   (ok)  diam 39.0  radii 7.0-14.0 | RC d_H 3.2856195519260596 meandeg 29.3 (FAIL)
+GATE FAILED - no growth run starts (note 5's exit rule).

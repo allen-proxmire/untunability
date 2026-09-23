@@ -1,0 +1,58 @@
+ring   grow 4x seed 1 | n   8442 | ED DIRECTIONS 1.0 | groups [2, 2, 2] | gap 3.763 | 2s
+ring   grow 4x seed 2 | n   8400 | ED DIRECTIONS 1.0 | groups [2, 2, 2] | gap 3.677 | 2s
+ring   grow 4x seed 3 | n   8608 | ED DIRECTIONS 1.0 | groups [2, 2, 2] | gap 3.854 | 2s
+ring   grow 4x seed 4 | n   8458 | ED DIRECTIONS 1.0 | groups [2, 2, 2] | gap 3.795 | 2s
+ring   grow 4x seed 5 | n   8485 | ED DIRECTIONS 1.0 | groups [2, 2, 2] | gap 3.742 | 2s
+ring   grow 4x seed 6 | n   8182 | ED DIRECTIONS 1.0 | groups [2, 2, 2] | gap 3.702 | 2s
+ring   grow 4x seed 7 | n   8376 | ED DIRECTIONS 1.0 | groups [2, 2, 2] | gap 3.796 | 2s
+ring   grow 4x seed 8 | n   8536 | ED DIRECTIONS 1.0 | groups [2, 2, 2] | gap 3.547 | 2s
+ring   grow 8x seed 1 | n  16628 | ED DIRECTIONS 1.0 | groups [2, 2, 2] | gap 3.609 | 7s
+ring   grow 8x seed 2 | n  16516 | ED DIRECTIONS 1.0 | groups [2, 2, 2] | gap 3.688 | 7s
+ring   grow 8x seed 3 | n  16890 | ED DIRECTIONS 1.0 | groups [2, 2, 2] | gap 3.671 | 7s
+ring   grow 8x seed 4 | n  16240 | ED DIRECTIONS 1.0 | groups [2, 2, 2] | gap 3.683 | 7s
+ring   grow 8x seed 5 | n  16407 | ED DIRECTIONS 1.0 | groups [2, 2, 2] | gap 3.71 | 7s
+ring   grow 8x seed 6 | n  17263 | ED DIRECTIONS 1.0 | groups [2, 2, 2] | gap 3.5 | 8s
+ring   grow 8x seed 7 | n  16429 | ED DIRECTIONS 1.0 | groups [2, 2, 2] | gap 3.836 | 7s
+ring   grow 8x seed 8 | n  16460 | ED DIRECTIONS 1.0 | groups [2, 2, 2] | gap 3.371 | 7s
+grid3D grow 4x seed 1 | n   9339 | ED DIRECTIONS None | groups [5, 6, 6] | gap 1.631 | 11s
+grid3D grow 4x seed 2 | n   9266 | ED DIRECTIONS None | groups [4, 6, 6] | gap 1.562 | 10s
+grid3D grow 4x seed 3 | n   9358 | ED DIRECTIONS 3.0 | groups [6, 6, 6] | gap 1.676 | 10s
+grid3D grow 4x seed 4 | n   9060 | ED DIRECTIONS None | groups [4, 6, 6] | gap 1.57 | 10s
+grid3D grow 4x seed 5 | n   9161 | ED DIRECTIONS None | groups [5, 6, 6] | gap 1.605 | 10s
+grid3D grow 4x seed 6 | n   9305 | ED DIRECTIONS None | groups [5, 6, 6] | gap 1.614 | 10s
+grid3D grow 4x seed 7 | n   9078 | ED DIRECTIONS None | groups [4, 6, 6] | gap 1.509 | 10s
+grid3D grow 4x seed 8 | n   9157 | ED DIRECTIONS None | groups [5, 6, 6] | gap 1.571 | 10s
+grid3D grow 8x seed 1 | n  18421 | ED DIRECTIONS 3.0 | groups [6, 6, 6] | gap 1.595 | 51s
+grid3D grow 8x seed 2 | n  18039 | ED DIRECTIONS None | groups [4, 6, 6] | gap 1.531 | 49s
+grid3D grow 8x seed 3 | n  18332 | ED DIRECTIONS None | groups [5, 6, 6] | gap 1.605 | 51s
+grid3D grow 8x seed 4 | n  17688 | ED DIRECTIONS None | groups [4, 6, 6] | gap 1.465 | 42s
+grid3D grow 8x seed 5 | n  17995 | ED DIRECTIONS None | groups [4, 6, 6] | gap 1.616 | 48s
+grid3D grow 8x seed 6 | n  17954 | ED DIRECTIONS None | groups [5, 6, 6] | gap 1.593 | 42s
+grid3D grow 8x seed 7 | n  17656 | ED DIRECTIONS None | groups [4, 6, 6] | gap 1.48 | 42s
+grid3D grow 8x seed 8 | n  17691 | ED DIRECTIONS None | groups [5, 6, 6] | gap 1.547 | 50s
+web    grow 4x seed 1 | n   8321 | ED DIRECTIONS None | groups [13, 25, 29] | gap 1.006 | 28s
+web    grow 4x seed 2 | n   8373 | ED DIRECTIONS None | groups [12, 24, 29] | gap 1.015 | 27s
+web    grow 4x seed 3 | n   8286 | ED DIRECTIONS None | groups [13, 26, 29] | gap 1.007 | 29s
+web    grow 4x seed 4 | n   8337 | ED DIRECTIONS None | groups [13, 28, 29] | gap 1.006 | 31s
+web    grow 4x seed 5 | n   8208 | ED DIRECTIONS None | groups [10, 22, 29] | gap 1.005 | 29s
+web    grow 4x seed 6 | n   8447 | ED DIRECTIONS None | groups [13, 27, 29] | gap 1.01 | 29s
+web    grow 4x seed 7 | n   8455 | ED DIRECTIONS None | groups [12, 28, 29] | gap 1.006 | 28s
+web    grow 4x seed 8 | n   8358 | ED DIRECTIONS None | groups [12, 27, 29] | gap 1.004 | 27s
+web    grow 8x seed 1 | n  16296 | ED DIRECTIONS None | groups [14, 29, 29] | gap inf | 205s
+web    grow 8x seed 2 | n  16300 | ED DIRECTIONS None | groups [1, 1, 1] | gap 1.965 | 206s
+web    grow 8x seed 3 | n  16148 | ED DIRECTIONS None | groups [1, 1, 1] | gap 2.017 | 200s
+web    grow 8x seed 4 | n  16137 | ED DIRECTIONS None | groups [1, 1, 1] | gap 1.998 | 205s
+web    grow 8x seed 5 | n  16257 | ED DIRECTIONS None | groups [4, 10, 25] | gap 1.01 | 217s
+web    grow 8x seed 6 | n  16820 | ED DIRECTIONS None | groups [10, 23, 29] | gap 1.008 | 224s
+web    grow 8x seed 7 | n  16610 | ED DIRECTIONS None | groups [2, 4, 13] | gap 1.043 | 209s
+web    grow 8x seed 8 | n  16281 | ED DIRECTIONS None | groups [3, 9, 24] | gap 1.021 | 208s
+ring   at 4x (n about 8442) | definite in 8 of 8 | values [1.0] | gap ratios 3.55 to 3.85
+ring   at 8x (n about 16628) | definite in 8 of 8 | values [1.0] | gap ratios 3.37 to 3.84
+grid3D at 4x (n about 9339) | definite in 1 of 8 | values [3.0] | gap ratios 1.51 to 1.68
+grid3D at 8x (n about 18421) | definite in 1 of 8 | values [3.0] | gap ratios 1.47 to 1.62
+web    at 4x (n about 8321) | definite in 0 of 8 | values [] | gap ratios 1.00 to 1.01
+web    at 8x (n about 16296) | definite in 0 of 8 | values [] | gap ratios 1.01 to inf
+
+S1 (ring reads 1 in at least 7 of 8, at both sizes) True   {4.0: 8, 8.0: 8}
+S2 (cubic torus reads 3 in at least 5 of 8, at both sizes) False   {4.0: 1, 8.0: 1}
+S3 (web reads nothing definite, 8 of 8, at both sizes) True

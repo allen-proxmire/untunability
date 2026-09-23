@@ -191,3 +191,21 @@
 - **Row 6, three dimensions:** unchanged. Three consistent reasons stand; none is a derivation.
 - **Carried forward:** larger sizes via a compiled model; the 2D result judged on the grown spacetime; road D on whether ED's balance needs genuine chance; and whether sync can act other than move by move.
 - **Inputs supplied: 3** (unchanged).
+- **Attempt 7 concluded 2026-09-19** (A7 C105); **attempt 8 opened** on road E, resolution: whether a flat three-dimensional middle exists at slices about ten times larger, which needs a compiled model.
+
+## Update 2026-09-21: attempt 8 concluded (A8 C52)
+
+- **Row 23, growth:** the wall is **the rule, not the patch size.** ED cannot crumple (the link budget and the no-infinities ceiling each forbid it); its local, step-by-step, positive-weight growth makes compact, stringy slices at every reachable size; bigger sizes cannot change that (reach grows as V^0.101); and the slices cannot hold a common "now".
+- **Meanings decided:** sync means a whole slice agreeing (A8 D10); once something has happened it is fixed but many things could have happened (A8 D11); the present does not know its own past, so ED is an ensemble theory (A8 D12).
+- **Inputs supplied: 3** (unchanged). **Attempt 9 opened** on road H, what kind of rule.
+
+## Update 2026-09-21: attempt 9 concluded (A9 C43)
+
+- **Row 23, growth:** the rule is **missing one ingredient** — nothing in ED's growth prefers an extended shape. Without the commitment and curvature costs, slices feel three-dimensional up close (spectral dimension 2.8–3.0), but any random change drifts them into crammed small worlds within a few dozen ticks, and no weak preference reverses it; beating that needs a strong preference that grows with slice size.
+- **Meanings decided:** commitment is passed on and already expressed by the link budget; curvature and quadratic energy are conditions, not costs; sync means rates able to match across the whole pattern, with no shared "now"; ED weighs whole histories; an event has mostly exactly one child.
+- **Inputs supplied: 3** (unchanged). **Attempt 10 opened** on road S, what sets the shape.
+
+## Update 2026-09-22: attempt 10 concluded (A10 C34)
+
+- **Row 23, growth:** no conserved total is left to set shape; ED already conserves both slice totals at flat (Budgeted Causality extended). Counting histories gives a size-scaling push with no tuned strength, and its direction is set by what can happen in one tick: general moves favour crowded slices, **narrow moves (adopted) favour flat, per tick**. Whole-history counting could not be completed: under ED's rules large-scale shape barely moves.
+- **Inputs supplied: 3** (unchanged). **Attempt 11 opened** on road L, what is one tick.

@@ -1,6 +1,6 @@
 # ED_Attempt_07
 
-**Started 2026-09-16 (RD1).** The seventh attempt. Allen: "open attempt 7. lets do it, im excited."
+**Started 2026-09-16 (RD1). Concluded 2026-09-19 (RD56).** See [Road_C_Verdict.md](Road_C_Verdict.md), [Taking_Stock_3.md](Taking_Stock_3.md) and [Attempt_07_Plain_Language.md](Attempt_07_Plain_Language.md). Handed to [ED_Attempt_08](../ED_Attempt_08/). The seventh attempt. Allen: "open attempt 7. lets do it, im excited."
 
 **What it starts from:**
 - **Attempt 6's carry-forward** (A6-ledger C90, RD30): three inputs supplied, the meanings decided through attempt 6, five walls, reusable tools. See [Carry_Forward.md](Carry_Forward.md).
@@ -45,6 +45,7 @@
 | [C3f_Results.md](C3f_Results.md) | Note 28: C3f results. The balances and structure hold at last, but the sync condition never fired (it only screens links being created), slices were too small to measure, and every grown spacetime read 5.5–6.4 where flat 3+1 should read about 4 |
 | [C3g_Results.md](C3g_Results.md) | Note 29: C3g results. With the units fixed, sync as a condition fires and widens slices for the first time (diameters 12.5 → 15.0 against flat 18; spacetime 6.44 → 6.33 against 4), though every slice is still too small to measure |
 | [Road_C_Verdict.md](Road_C_Verdict.md) | Note 30: road C closed. The wall — ED's local growth rules run from crumpled to branched with no flat middle at these sizes; the counts are solved, the shape is not — with what was reached, what is solved, and what is carried forward |
+| [Taking_Stock_3.md](Taking_Stock_3.md) | Note 31: stock-take of attempt 7 as a whole — four passes and the wall, the cost, the census, the five walls before and after, what the attempt is worth, and what is carried forward |
 | [checks](checks/) | Scripts behind computed claims, with recorded outputs |
 | [model](model/) | Model code for road C (C1): tree build, runs, timing, readings copied from A6, implementation notes written before any run |
 | [01_Ledger](01_Ledger/) | This attempt's ledger: claims, Allen's ideas and decisions, a dated log |

@@ -1,0 +1,15 @@
+  n12_flat.json 3.20 h
+  n12_crowded.json 3.21 h
+  n16_flat.json 4.66 h
+  n16_crowded.json 5.13 h
+n12 flat    V 2036: md start 5.847 -> last-third mean 5.820 (settled True) | deg sd 3.20 max 18 | acc 0.200 | spacetime None | fails [] | done True
+    md by sweep: 0:5.85 10:5.83 20:5.83 30:5.83 40:5.83 50:5.82 60:5.83 70:5.83 80:5.82 90:5.82 100:5.82 110:5.82 120:5.82 130:5.82 140:5.82 150:5.82 160:5.83 170:5.82 180:5.83 190:5.82 200:5.82 210:5.82 220:5.82 230:5.82 240:5.81 250:5.82 260:5.82 270:5.82 280:5.82 290:5.82 300:5.82
+n12 crowded V 2036: md start 3.633 -> last-third mean 3.628 (settled True) | deg sd 15.33 max 60 | acc 0.069 | spacetime None | fails [] | done True
+    md by sweep: 0:3.63 10:3.62 20:3.63 30:3.63 40:3.64 50:3.62 60:3.63 70:3.63 80:3.64 90:3.61 100:3.63 110:3.61 120:3.62 130:3.62 140:3.63 150:3.62 160:3.64 170:3.62 180:3.64 190:3.63 200:3.61 210:3.62 220:3.63 230:3.65 240:3.63 250:3.62 260:3.63 270:3.63 280:3.63 290:3.62 300:3.63
+n16 flat    V 4824: md start 7.763 -> last-third mean 7.723 (settled True) | deg sd 3.20 max 18 | acc 0.200 | spacetime 3.594746376663712 | fails [] | done True
+    md by sweep: 0:7.76 10:7.73 20:7.73 30:7.73 40:7.73 50:7.72 60:7.72 70:7.73 80:7.72 90:7.72 100:7.72 110:7.73 120:7.72 130:7.72 140:7.72 150:7.72 160:7.73 170:7.72 180:7.73 190:7.72 200:7.72
+n16 crowded V 4824: md start 4.054 -> last-third mean 4.043 (settled True) | deg sd 15.17 max 60 | acc 0.080 | spacetime 4.892361453109172 | fails [] | done True
+    md by sweep: 0:4.05 10:4.05 20:4.06 30:4.05 40:4.06 50:4.05 60:4.04 70:4.06 80:4.03 90:4.07 100:4.04 110:4.05 120:4.04 130:4.05 140:4.04 150:4.05 160:4.04 170:4.04 180:4.04 190:4.06 200:4.03
+growth rate flat 0.328 crowded 0.126 (flat stack 0.327; small worlds about 0.12-0.15)
+spacetime n16 flat 3.594746376663712 crowded 4.892361453109172 (flat stack 3.562)
+VERDICT: starts disagree: not settled, or the sampler does not reach every history (settled flags: True)

@@ -1,0 +1,16 @@
+random   seed 1 | gen 0 (n 2197): 3.0 [gap 2.0] -> gen 3 (n 2937): 3.0 [gap 1.772] -> gen 6 (n 3946): None [gap 1.677] -> gen 9 (n 5251): None [gap 1.66] -> gen 12 (n 6959): None [gap 1.647] -> gen 15 (n 9339): None [gap 1.631]
+random   seed 2 | gen 0 (n 2197): 3.0 [gap 2.0] -> gen 3 (n 2924): 3.0 [gap 1.776] -> gen 6 (n 3906): 3.0 [gap 1.684] -> gen 9 (n 5182): None [gap 1.626] -> gen 12 (n 6915): None [gap 1.076] -> gen 15 (n 9266): None [gap 1.562]
+random   seed 3 | gen 0 (n 2197): 3.0 [gap 2.0] -> gen 3 (n 2982): 3.0 [gap 1.816] -> gen 6 (n 3984): 3.0 [gap 1.755] -> gen 9 (n 5326): 3.0 [gap 1.725] -> gen 12 (n 7085): 3.0 [gap 1.73] -> gen 15 (n 9358): 3.0 [gap 1.676]
+coherent seed 1 | gen 0 (n 2197): 3.0 [gap 2.0] -> gen 3 (n 2958): 3.0 [gap 1.783] -> gen 6 (n 3930): 3.0 [gap 1.727] -> gen 9 (n 5212): None [gap 1.662] -> gen 12 (n 6928): None [gap 1.583] -> gen 15 (n 9220): None [gap 1.564]
+coherent seed 2 | gen 0 (n 2197): 3.0 [gap 2.0] -> gen 3 (n 2974): 3.0 [gap 1.782] -> gen 6 (n 3948): 3.0 [gap 1.734] -> gen 9 (n 5315): None [gap 1.644] -> gen 12 (n 7043): None [gap 1.568] -> gen 15 (n 9325): None [gap 1.552]
+coherent seed 3 | gen 0 (n 2197): 3.0 [gap 2.0] -> gen 3 (n 2993): 3.0 [gap 1.781] -> gen 6 (n 3989): None [gap 1.616] -> gen 9 (n 5402): None [gap 1.548] -> gen 12 (n 7230): None [gap 1.527] -> gen 15 (n 9526): None [gap 1.51]
+random   seed 1 | gen 0 (n 2197): 3.0 [gap 2.0] -> gen 3 (n 2937): 3.0 [gap 1.772] -> gen 6 (n 3946): None [gap 1.677] -> gen 9 (n 5251): None [gap 1.66] -> gen 12 (n 6959): None [gap 1.647] -> gen 15 (n 9339): None [gap 1.631]
+random   seed 2 | gen 0 (n 2197): 3.0 [gap 2.0] -> gen 3 (n 2924): 3.0 [gap 1.776] -> gen 6 (n 3906): 3.0 [gap 1.684] -> gen 9 (n 5182): None [gap 1.626] -> gen 12 (n 6915): None [gap 1.076] -> gen 15 (n 9266): None [gap 1.562]
+random   seed 3 | gen 0 (n 2197): 3.0 [gap 2.0] -> gen 3 (n 2982): 3.0 [gap 1.816] -> gen 6 (n 3984): 3.0 [gap 1.755] -> gen 9 (n 5326): 3.0 [gap 1.725] -> gen 12 (n 7085): 3.0 [gap 1.73] -> gen 15 (n 9358): 3.0 [gap 1.676]
+coherent seed 1 | gen 0 (n 2197): 3.0 [gap 2.0] -> gen 3 (n 2958): 3.0 [gap 1.783] -> gen 6 (n 3930): 3.0 [gap 1.727] -> gen 9 (n 5212): None [gap 1.662] -> gen 12 (n 6928): None [gap 1.583] -> gen 15 (n 9220): None [gap 1.564]
+coherent seed 2 | gen 0 (n 2197): 3.0 [gap 2.0] -> gen 3 (n 2974): 3.0 [gap 1.782] -> gen 6 (n 3948): 3.0 [gap 1.734] -> gen 9 (n 5315): None [gap 1.644] -> gen 12 (n 7043): None [gap 1.568] -> gen 15 (n 9325): None [gap 1.552]
+coherent seed 3 | gen 0 (n 2197): 3.0 [gap 2.0] -> gen 3 (n 2993): 3.0 [gap 1.781] -> gen 6 (n 3989): None [gap 1.616] -> gen 9 (n 5402): None [gap 1.548] -> gen 12 (n 7230): None [gap 1.527] -> gen 15 (n 9526): None [gap 1.51]
+
+M1 (random pairing loses the reading) False   finals [None, None, 3.0]
+M2 (coherent pairing keeps 3.0 throughout) False   finals [None, None, None]
+** Coherent pairing does NOT rescue three dimensions, so random splitting is not the cause. Reported without a guess attached. **

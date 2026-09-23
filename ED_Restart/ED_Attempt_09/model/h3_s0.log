@@ -1,0 +1,47 @@
+S0-a floor (pass iff strain <= 14.65):
+  flat                             strain   7.304  mean distance 11.491  -> PASS
+  stringy (A8 costs on)            strain  12.708  mean distance 5.571  -> PASS
+  small world (conditions only)    strain   9.734  mean distance 4.583  -> PASS
+  tick  1: plain 4.496 | best-of-8 4.573 (8/8 pass floor) | 1000 s
+  tick  2: plain 4.476 | best-of-8 4.535 (8/8 pass floor) | 1034 s
+  tick  3: plain 4.477 | best-of-8 4.502 (8/8 pass floor) | 1067 s
+  tick  4: plain 4.467 | best-of-8 4.551 (7/8 pass floor) | 1099 s
+  tick  5: plain 4.529 | best-of-8 4.583 (6/8 pass floor) | 1131 s
+  tick  6: plain 4.485 | best-of-8 4.581 (8/8 pass floor) | 1162 s
+  tick  7: plain 4.539 | best-of-8 4.540 (7/8 pass floor) | 1194 s
+  tick  8: plain 4.467 | best-of-8 4.580 (7/8 pass floor) | 1226 s
+  tick  9: plain 4.479 | best-of-8 4.547 (6/8 pass floor) | 1258 s
+  tick 10: plain 4.434 | best-of-8 4.578 (7/8 pass floor) | 1290 s
+  tick 11: plain 4.471 | best-of-8 4.520 (8/8 pass floor) | 1322 s
+  tick 12: plain 4.473 | best-of-8 4.531 (7/8 pass floor) | 1354 s
+  tick 13: plain 4.536 | best-of-8 4.521 (8/8 pass floor) | 1386 s
+  tick 14: plain 4.443 | best-of-8 4.502 (8/8 pass floor) | 1417 s
+  tick 15: plain 4.521 | best-of-8 4.543 (6/8 pass floor) | 1449 s
+  tick 16: plain 4.469 | best-of-8 4.558 (8/8 pass floor) | 1481 s
+  tick 17: plain 4.499 | best-of-8 4.521 (6/8 pass floor) | 1513 s
+  tick 18: plain 4.509 | best-of-8 4.506 (8/8 pass floor) | 1544 s
+  tick 19: plain 4.451 | best-of-8 4.555 (8/8 pass floor) | 1576 s
+  tick 20: plain 4.514 | best-of-8 4.582 (6/8 pass floor) | 1608 s
+  tick 21: plain 4.527 | best-of-8 4.527 (8/8 pass floor) | 1641 s
+  tick 22: plain 4.445 | best-of-8 4.578 (7/8 pass floor) | 1674 s
+  tick 23: plain 4.478 | best-of-8 4.509 (8/8 pass floor) | 1706 s
+  tick 24: plain 4.466 | best-of-8 4.549 (7/8 pass floor) | 1739 s
+  tick 25: plain 4.467 | best-of-8 4.561 (7/8 pass floor) | 1772 s
+  tick 26: plain 4.492 | best-of-8 4.533 (7/8 pass floor) | 1804 s
+  tick 27: plain 4.468 | best-of-8 4.587 (8/8 pass floor) | 1837 s
+  tick 28: plain 4.475 | best-of-8 4.537 (8/8 pass floor) | 1869 s
+  tick 29: plain 4.455 | best-of-8 4.533 (6/8 pass floor) | 1902 s
+  tick 30: plain 4.419 | best-of-8 4.585 (8/8 pass floor) | 1934 s
+H3 S0 at n = 24
+
+S0-a floor (pass iff largest steady link strain <= 14.65 = 2 x flat):
+  flat                             strain   7.304  mean distance 11.491  -> PASS
+  stringy (A8 costs on)            strain  12.708  mean distance 5.571  -> PASS
+  small world (conditions only)    strain   9.734  mean distance 4.583  -> PASS
+
+S0-b responsiveness over 30 ticks from the same state:
+  plain run mean distance 4.496 -> 4.419 (tick-to-tick spread 0.0449)
+  best-of-8  mean distance 4.573 -> 4.585
+  gain 0.165 against 3 x spread = 0.1347 -> MOVED
+  flat slice mean distance at this size: 11.491
+  total 1934 s

@@ -1,0 +1,26 @@
+ring   seed 1 | n  2000 ->  8237 | reading 0.993 -> 4.671 (a real one reads 0.998) | kept False | in one piece 1.0 | relations/event 2.00 -> 3.03 | added 13780 dissolved 12601 | 27s
+ring   seed 2 | n  2000 ->  8435 | reading 0.993 -> 4.728 (a real one reads 0.998) | kept False | in one piece 1.0 | relations/event 2.00 -> 3.00 | added 13870 dissolved 12834 | 25s
+ring   seed 3 | n  2000 ->  8302 | reading 0.993 -> 4.947 (a real one reads 0.998) | kept False | in one piece 1.0 | relations/event 2.00 -> 3.01 | added 13919 dissolved 12844 | 24s
+grid3D seed 1 | n  2197 ->  9065 | reading 2.362 -> 4.825 (a real one reads 2.691) | kept False | in one piece 1.0 | relations/event 6.00 -> 3.02 | added 13364 dissolved 17008 | 25s
+grid3D seed 2 | n  2197 ->  9167 | reading 2.362 -> 4.653 (a real one reads 2.691) | kept False | in one piece 1.0 | relations/event 6.00 -> 3.04 | added 13487 dissolved 17054 | 25s
+grid3D seed 3 | n  2197 ->  9179 | reading 2.362 -> 5.015 (a real one reads 2.691) | kept False | in one piece 1.0 | relations/event 6.00 -> 3.05 | added 13831 dissolved 17347 | 45s
+web    seed 1 | n  2000 ->  8185 | reading None -> 4.627 (a real one reads None) | kept False | in one piece 1.0 | relations/event 6.00 -> 3.06 | added 12303 dissolved 15429 | 41s
+web    seed 2 | n  2000 ->  8392 | reading None -> 4.813 (a real one reads None) | kept False | in one piece 1.0 | relations/event 6.00 -> 3.05 | added 12845 dissolved 16016 | 26s
+web    seed 3 | n  2000 ->  8373 | reading None -> 4.771 (a real one reads None) | kept False | in one piece 1.0 | relations/event 6.00 -> 3.06 | added 12631 dissolved 15742 | 27s
+grid3D pull 0.5 | reading 4.701 (a real one reads 2.691) | relations/event 4.50 | added 25052 dissolved 26855
+grid3D pull 2.0 | reading 4.634 (a real one reads 2.691) | relations/event 2.36 | added 5761 dissolved 10183
+ring   seed 1 pull 1.0 | 0.993 -> 4.671 (a real one reads 0.998) | md 500.0 -> 7.7 | small world False -> True | kept False | in one piece 1.0 | relations/event 2.00 -> 3.03 | added 13780 dissolved 12601
+ring   seed 2 pull 1.0 | 0.993 -> 4.728 (a real one reads 0.998) | md 500.0 -> 7.9 | small world False -> True | kept False | in one piece 1.0 | relations/event 2.00 -> 3.00 | added 13870 dissolved 12834
+ring   seed 3 pull 1.0 | 0.993 -> 4.947 (a real one reads 0.998) | md 500.0 -> 7.8 | small world False -> False | kept False | in one piece 1.0 | relations/event 2.00 -> 3.01 | added 13919 dissolved 12844
+grid3D seed 1 pull 1.0 | 2.362 -> 4.825 (a real one reads 2.691) | md 9.7 -> 7.8 | small world True -> True | kept False | in one piece 1.0 | relations/event 6.00 -> 3.02 | added 13364 dissolved 17008
+grid3D seed 2 pull 1.0 | 2.362 -> 4.653 (a real one reads 2.691) | md 9.7 -> 7.8 | small world True -> True | kept False | in one piece 1.0 | relations/event 6.00 -> 3.04 | added 13487 dissolved 17054
+grid3D seed 3 pull 1.0 | 2.362 -> 5.015 (a real one reads 2.691) | md 9.7 -> 7.6 | small world True -> True | kept False | in one piece 1.0 | relations/event 6.00 -> 3.05 | added 13831 dissolved 17347
+web    seed 1 pull 1.0 | None -> 4.627 (a real one reads None) | md 4.6 -> 7.8 | small world True -> True | kept False | in one piece 1.0 | relations/event 6.00 -> 3.06 | added 12303 dissolved 15429
+web    seed 2 pull 1.0 | None -> 4.813 (a real one reads None) | md 4.6 -> 7.7 | small world True -> True | kept False | in one piece 1.0 | relations/event 6.00 -> 3.05 | added 12845 dissolved 16016
+web    seed 3 pull 1.0 | None -> 4.771 (a real one reads None) | md 4.6 -> 7.8 | small world True -> True | kept False | in one piece 1.0 | relations/event 6.00 -> 3.06 | added 12631 dissolved 15742
+grid3D seed 1 pull 0.5 | 2.362 -> 4.701 (a real one reads 2.691) | md 9.7 -> 5.9 | small world True -> True | kept False | in one piece 1.0 | relations/event 6.00 -> 4.50 | added 25052 dissolved 26855
+grid3D seed 1 pull 2.0 | 2.362 -> 4.634 (a real one reads 2.691) | md 9.7 -> 11.2 | small world True -> True | kept False | in one piece 1.0 | relations/event 6.00 -> 2.36 | added 5761 dissolved 10183
+L1 (patterns hold together without fragmenting) True
+L2 (the ring and the 3D grid still read as themselves) False
+L3 (a small-world start sheds relations and reads lower) True
+L4 relations per event: {'ring': 3.01, 'grid3D': 3.04, 'web': 3.06}

@@ -1,0 +1,2 @@
+n=52: torus build 7 s, tick 34.1 s, spacetime pattern 3091954.0 events / 21895345.0 links from 22 slices, reading 459 s (d_H 5.673246087346187, radii 4.0-8.0)
+{"n": 52, "V0": 140608, "build_seconds": 7.302787000022363, "mean_tick_seconds": 34.09088367368033, "spacetime_events": 3091954.0, "spacetime_links": 21895345.0, "spacetime_seconds": 459.2043193000136, "d_H": 5.673246087346187, "r_lo": 4.0, "r_max": 8.0}

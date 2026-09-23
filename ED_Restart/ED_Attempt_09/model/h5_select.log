@@ -1,0 +1,30 @@
+  B-F tick  10: mean distance 6.796 (8/8 pass floor) 94 s
+  B-F tick  20: mean distance 5.923 (8/8 pass floor) 183 s
+  B-F tick  30: mean distance 5.600 (8/8 pass floor) 273 s
+  B-F tick  40: mean distance 5.345 (6/8 pass floor) 365 s
+  B-F tick  50: mean distance 5.224 (7/8 pass floor) 458 s
+  B-F tick  60: mean distance 5.221 (8/8 pass floor) 553 s
+  B-F tick  70: mean distance 5.002 (8/8 pass floor) 651 s
+  B-W tick  10: mean distance 4.497 (8/8 pass floor) 683 s
+  B-F tick  80: mean distance 4.967 (8/8 pass floor) 751 s
+  B-W tick  20: mean distance 4.461 (8/8 pass floor) 781 s
+  B-F tick  90: mean distance 4.883 (7/8 pass floor) 850 s
+  B-W tick  30: mean distance 4.488 (8/8 pass floor) 876 s
+  B-F tick 100: mean distance 4.805 (8/8 pass floor) 948 s
+  B-W tick  40: mean distance 4.509 (8/8 pass floor) 973 s
+  B-F.json done 983 s
+  B-W tick  50: mean distance 4.563 (8/8 pass floor) 1054 s
+  B-W tick  60: mean distance 4.479 (8/8 pass floor) 1131 s
+  B-W tick  70: mean distance 4.489 (8/8 pass floor) 1207 s
+  B-W tick  80: mean distance 4.538 (7/8 pass floor) 1283 s
+  B-W tick  90: mean distance 4.470 (8/8 pass floor) 1358 s
+  B-W tick 100: mean distance 4.445 (8/8 pass floor) 1432 s
+  B-W.json done 1461 s
+H5: best-of-8 selection at q = 0.1, n = 24, 100 ticks. Flat: mean distance 11.491, spacetime 3.608.
+
+B-W: start 4.431 -> end 4.445 | slope over last 50 ticks -0.0015/tick | plain W1 at tick 100: 4.414 | gain +0.032 | gap to flat closed 0% | H5-1 does not accumulate
+    end slice: d_H None d_s None diameter 11.0 mean degree 15.68 strain 9.57 | spacetime 5.3 -> does not
+    selected mean distance every 10 ticks: 0:4.43  10:4.50  20:4.46  30:4.49  40:4.51  50:4.56  60:4.48  70:4.49  80:4.54  90:4.47  100:4.45
+B-F: start 11.491 -> end 4.805 | slope over last 50 ticks -0.0085/tick | plain F1 at tick 100: 4.734 | gain +0.071 | gap to flat closed 1% | H5-1 does not accumulate
+    end slice: d_H None d_s None diameter 10.0 mean degree 14.87 strain 9.16 | spacetime 5.047 -> does not
+    selected mean distance every 10 ticks: 0:11.49  10:6.80  20:5.92  30:5.60  40:5.35  50:5.22  60:5.22  70:5.00  80:4.97  90:4.88  100:4.80

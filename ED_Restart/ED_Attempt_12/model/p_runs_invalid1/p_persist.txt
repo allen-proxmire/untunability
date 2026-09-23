@@ -1,0 +1,29 @@
+ring   seed 1 filter True  | n  2000 ->  8331 | d_H 0.993 -> None | md 500.0 -> 5.7 | small world False -> True | relations/event 2.00 -> 19.12 | survives False | destroyed False | repairs 2438
+ring   seed 2 filter True  | n  2000 ->  8415 | d_H 0.993 -> None | md 500.0 -> 5.8 | small world False -> True | relations/event 2.00 -> 18.85 | survives False | destroyed False | repairs 2367
+ring   seed 3 filter True  | n  2000 ->  8540 | d_H 0.993 -> None | md 500.0 -> 5.6 | small world False -> True | relations/event 2.00 -> 19.78 | survives False | destroyed False | repairs 2621
+grid2D seed 1 filter True  | n  2025 ->  8515 | d_H 1.85 -> 2.458 | md 22.5 -> 7.6 | small world False -> True | relations/event 4.00 -> 21.23 | survives False | destroyed False | repairs 364
+grid2D seed 2 filter True  | n  2025 ->  8542 | d_H 1.85 -> 2.909 | md 22.5 -> 6.6 | small world False -> True | relations/event 4.00 -> 21.56 | survives False | destroyed False | repairs 622
+grid2D seed 3 filter True  | n  2025 ->  8660 | d_H 1.85 -> None | md 22.5 -> 5.7 | small world False -> True | relations/event 4.00 -> 22.19 | survives False | destroyed False | repairs 1321
+grid3D seed 1 filter True  | n  2197 ->  9241 | d_H 2.362 -> 2.298 | md 9.7 -> 9.7 | small world True -> True | relations/event 6.00 -> 27.82 | survives True | destroyed False | repairs 0
+grid3D seed 2 filter True  | n  2197 ->  9226 | d_H 2.362 -> 2.792 | md 9.7 -> 6.6 | small world True -> True | relations/event 6.00 -> 27.86 | survives False | destroyed False | repairs 189
+grid3D seed 3 filter True  | n  2197 ->  9427 | d_H 2.362 -> 2.354 | md 9.7 -> 9.7 | small world True -> True | relations/event 6.00 -> 28.03 | survives True | destroyed False | repairs 0
+web    seed 1 filter True  | n  2000 ->  8480 | d_H None -> None | md 4.6 -> 4.6 | small world True -> True | relations/event 6.00 -> 27.96 | survives True | destroyed False | repairs 0
+web    seed 2 filter True  | n  2000 ->  8223 | d_H None -> None | md 4.6 -> 4.6 | small world True -> True | relations/event 6.00 -> 27.17 | survives True | destroyed False | repairs 0
+web    seed 3 filter True  | n  2000 ->  8366 | d_H None -> None | md 4.6 -> 4.6 | small world True -> True | relations/event 6.00 -> 27.54 | survives True | destroyed False | repairs 0
+ring   seed 1 filter False | n  2000 ->  8332 | d_H 0.993 -> 0.993 | md 500.0 -> 499.7 | small world False -> False | relations/event 2.00 -> 12.65 | survives True | destroyed False | repairs 0
+ring   seed 2 filter False | n  2000 ->  8485 | d_H 0.993 -> 1.001 | md 500.0 -> 499.0 | small world False -> False | relations/event 2.00 -> 12.90 | survives True | destroyed False | repairs 0
+ring   seed 3 filter False | n  2000 ->  8739 | d_H 0.993 -> 0.991 | md 500.0 -> 500.2 | small world False -> False | relations/event 2.00 -> 13.20 | survives True | destroyed False | repairs 0
+grid2D seed 1 filter False | n  2025 ->  8523 | d_H 1.85 -> 1.837 | md 22.5 -> 22.5 | small world False -> False | relations/event 4.00 -> 20.27 | survives True | destroyed False | repairs 0
+grid2D seed 2 filter False | n  2025 ->  8548 | d_H 1.85 -> 1.848 | md 22.5 -> 22.5 | small world False -> False | relations/event 4.00 -> 20.14 | survives True | destroyed False | repairs 0
+grid2D seed 3 filter False | n  2025 ->  8572 | d_H 1.85 -> 1.863 | md 22.5 -> 22.5 | small world False -> False | relations/event 4.00 -> 20.14 | survives True | destroyed False | repairs 0
+grid3D seed 1 filter False | n  2197 ->  9237 | d_H 2.362 -> 2.355 | md 9.7 -> 9.7 | small world True -> True | relations/event 6.00 -> 27.94 | survives True | destroyed False | repairs 0
+grid3D seed 2 filter False | n  2197 ->  9235 | d_H 2.362 -> 2.364 | md 9.7 -> 9.7 | small world True -> True | relations/event 6.00 -> 27.76 | survives True | destroyed False | repairs 0
+grid3D seed 3 filter False | n  2197 ->  9421 | d_H 2.362 -> 2.342 | md 9.7 -> 9.7 | small world True -> True | relations/event 6.00 -> 28.01 | survives True | destroyed False | repairs 0
+web    seed 1 filter False | n  2000 ->  8468 | d_H None -> None | md 4.6 -> 4.6 | small world True -> True | relations/event 6.00 -> 27.77 | survives True | destroyed False | repairs 0
+web    seed 2 filter False | n  2000 ->  8240 | d_H None -> None | md 4.6 -> 4.6 | small world True -> True | relations/event 6.00 -> 27.08 | survives True | destroyed False | repairs 0
+web    seed 3 filter False | n  2000 ->  8384 | d_H None -> None | md 4.6 -> 4.6 | small world True -> True | relations/event 6.00 -> 27.66 | survives True | destroyed False | repairs 0
+P0 (3D grid and web hold at every generation) True
+P1 (line and flat grid do NOT survive as themselves) True
+P2 (3D grid survives within 0.3) False
+P3 relations per event, filter on: {'ring': 19.25, 'grid2D': 21.66, 'grid3D': 27.9, 'web': 27.56}
+P4 (control: all four keep their shapes with the filter off) True

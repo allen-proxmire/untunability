@@ -1,0 +1,9 @@
+# claim IDs | working directory | command
+C7 (curvature calibration) | ED_Attempt_09/model | python h1_calibrate.py  (writes h1_calibrate.txt, h1_calibrate.json)
+H1 conditions-only growth | ED_Attempt_09/model | python h1_run.py  (writes h1_runs/*.json, h1_run.txt); imports ../../ED_Attempt_08/model
+C13-C15 (H1 results) | ED_Attempt_09/model | python h1_run.py  (writes h1_runs/*.json, h1_run.txt)
+C20-C21 (H2 step 1, spacetime) | ED_Attempt_09/model | python h2_spacetime.py  (writes h2_runs/*.json, h2_spacetime.txt)
+C30-C32 (H3 S0) | ED_Attempt_09/model | python h3_s0.py  (writes h3_s0.txt, h3_s0.json)
+C34 (p9 build check) | ED_Attempt_09/model | inline: q=1, flip_frac=1 against Slice3P.tick over 10 ticks at n=12
+C36 (H4) | ED_Attempt_09/model | python h4_run.py  (writes h4_runs/*.json, h4_run.txt)
+C40 (H5) | ED_Attempt_09/model | python h5_select.py  (writes h5_runs/*.json, h5_select.txt)

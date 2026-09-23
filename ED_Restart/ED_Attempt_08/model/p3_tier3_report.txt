@@ -1,0 +1,24 @@
+setting A: port 8 seeds, attempt 7 2 seeds
+  T1 structure/budgets/ceiling/flips, all seeds survived: clean
+                           port (8 seeds)               attempt 7 (2 seeds)          tier 3
+  links_per_event              5.14 - 5.17     (m   5.16)      5.14 - 5.16      inside (2-seed criterion)
+  tets_per_event               4.14 - 4.17     (m   4.16)      4.14 - 4.16      inside (2-seed criterion)
+  diameter                    12.00 - 22.00    (m  14.25)     12.00 - 13.00     inside (2-seed criterion)
+  spacetime_d_H                6.16 - 6.57     (m   6.38)      6.41 - 6.47      inside (2-seed criterion)
+  refused_sync_per_tick        0.00 - 0.00     (m   0.00)      0.00 - 0.00      inside (2-seed criterion)
+  merges_per_tick           8056.37 - 8095.11  (m 8078.82)   8085.47 - 8087.69   inside (2-seed criterion)
+  splits_per_tick           8055.09 - 8094.43  (m 8079.07)   8086.25 - 8088.95   inside (2-seed criterion)
+  forced_or_split_refused      0.10 - 0.17     (m   0.13)      0.11 - 0.14      inside (2-seed criterion)
+setting B: port 8 seeds, attempt 7 8 seeds
+  T1 structure/budgets/ceiling/flips, all seeds survived: clean
+                           port (8 seeds)               attempt 7 (8 seeds)          tier 3
+  links_per_event              5.10 - 5.14     (m     5.11)      5.09 - 5.12     (m     5.11)  overlap yes, |dmean| 0.002 vs sd 0.013, U p=0.798  pass
+  tets_per_event               4.10 - 4.14     (m     4.11)      4.09 - 4.12     (m     4.11)  overlap yes, |dmean| 0.002 vs sd 0.013, U p=0.798  pass
+  diameter                    14.00 - 22.00    (m    15.88)     14.00 - 17.00    (m    15.25)  overlap yes, |dmean| 0.625 vs sd 2.455, U p=0.652  pass
+  spacetime_d_H                5.98 - 6.61     (m     6.30)      6.16 - 6.47     (m     6.34)  overlap yes, |dmean| 0.033 vs sd 0.157, U p=0.721  pass
+  refused_sync_per_tick      998.01 - 1671.79  (m  1402.09)   1264.53 - 1498.95  (m  1390.87)  overlap yes, |dmean| 11.219 vs sd 166.773, U p=0.645  pass
+  merges_per_tick           8038.53 - 8093.59  (m  8064.15)   8038.34 - 8090.29  (m  8063.47)  overlap yes, |dmean| 0.678 vs sd 16.563, U p=0.798  pass
+  splits_per_tick           8041.35 - 8093.14  (m  8065.15)   8041.75 - 8093.26  (m  8066.20)  overlap yes, |dmean| 1.057 vs sd 16.353, U p=0.878  pass
+  forced_or_split_refused      0.25 - 0.31     (m     0.28)      0.17 - 0.33     (m     0.27)  overlap yes, |dmean| 0.010 vs sd 0.041, U p=0.673  pass
+
+TIER 3: PASS

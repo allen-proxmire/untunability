@@ -1,0 +1,23 @@
+{
+ "classes": 49,
+ "aut_counts": {
+  "1": 48,
+  "12": 1
+ },
+ "samples": 200000,
+ "visited": 13,
+ "missing": 36,
+ "extra": 0,
+ "replay_failures": 0,
+ "max_abs_z": Infinity,
+ "n_z_over_3": 49,
+ "chi2": 598735.18647125,
+ "dof": 48,
+ "acceptance": 0.009247,
+ "why": {
+  "right overlap": 216080,
+  "bundle overlap": 1333910,
+  "left overlap": 431516
+ },
+ "seconds": 136.77704429998994
+}

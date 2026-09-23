@@ -1,0 +1,38 @@
+ring   seed  1 | reading 3.834 | md 7.8 | small world True | relations/event 3.36 | spread x0.49 | void False | 15s
+ring   seed  2 | reading 3.984 | md 8.2 | small world True | relations/event 3.36 | spread x0.51 | void False | 11s
+ring   seed  3 | reading 4.141 | md 7.7 | small world True | relations/event 3.44 | spread x0.53 | void False | 12s
+ring   seed  4 | reading 4.049 | md 7.5 | small world True | relations/event 3.49 | spread x0.54 | void False | 16s
+ring   seed  5 | reading 4.163 | md 7.8 | small world True | relations/event 3.40 | spread x0.52 | void False | 13s
+ring   seed  6 | reading 3.8 | md 7.7 | small world True | relations/event 3.33 | spread x0.49 | void False | 11s
+ring   seed  7 | reading 4.744 | md 8.0 | small world False | relations/event 3.40 | spread x0.52 | void False | 11s
+ring   seed  8 | reading 4.112 | md 7.8 | small world True | relations/event 3.43 | spread x0.52 | void False | 13s
+ring   seed  9 | reading 4.034 | md 7.7 | small world True | relations/event 3.40 | spread x0.52 | void False | 14s
+ring   seed 10 | reading 4.1 | md 7.8 | small world True | relations/event 3.45 | spread x0.53 | void False | 14s
+grid3D seed  1 | reading 4.566 | md 9.2 | small world False | relations/event 3.23 | spread x0.48 | void False | 11s
+grid3D seed  2 | reading 4.832 | md 8.4 | small world False | relations/event 3.13 | spread x0.46 | void False | 11s
+grid3D seed  3 | reading 4.408 | md 8.9 | small world False | relations/event 3.22 | spread x0.48 | void False | 13s
+grid3D seed  4 | reading 4.695 | md 9.0 | small world True | relations/event 3.31 | spread x0.51 | void False | 11s
+grid3D seed  5 | reading 4.328 | md 8.9 | small world False | relations/event 3.21 | spread x0.48 | void False | 10s
+grid3D seed  6 | reading 4.736 | md 8.4 | small world False | relations/event 3.19 | spread x0.47 | void False | 12s
+grid3D seed  7 | reading 4.436 | md 9.0 | small world True | relations/event 3.22 | spread x0.47 | void False | 18s
+grid3D seed  8 | reading 4.456 | md 8.9 | small world True | relations/event 3.24 | spread x0.48 | void False | 13s
+grid3D seed  9 | reading 4.658 | md 8.9 | small world True | relations/event 3.25 | spread x0.48 | void False | 12s
+grid3D seed 10 | reading 4.695 | md 8.4 | small world False | relations/event 3.19 | spread x0.48 | void False | 12s
+web    seed  1 | reading 4.405 | md 8.8 | small world True | relations/event 3.11 | spread x0.47 | void False | 11s
+web    seed  2 | reading 4.712 | md 8.2 | small world False | relations/event 3.23 | spread x0.48 | void False | 12s
+web    seed  3 | reading 4.578 | md 8.8 | small world True | relations/event 3.14 | spread x0.48 | void False | 11s
+web    seed  4 | reading 4.438 | md 8.7 | small world False | relations/event 3.17 | spread x0.47 | void False | 11s
+web    seed  5 | reading 4.839 | md 8.5 | small world False | relations/event 3.22 | spread x0.48 | void False | 12s
+web    seed  6 | reading 4.717 | md 8.6 | small world False | relations/event 3.23 | spread x0.49 | void False | 12s
+web    seed  7 | reading 4.765 | md 8.4 | small world False | relations/event 3.19 | spread x0.48 | void False | 11s
+web    seed  8 | reading 4.814 | md 8.7 | small world False | relations/event 3.14 | spread x0.48 | void False | 12s
+web    seed  9 | reading 4.496 | md 8.9 | small world False | relations/event 3.13 | spread x0.48 | void False | 11s
+web    seed 10 | reading 4.547 | md 8.5 | small world False | relations/event 3.23 | spread x0.50 | void False | 10s
+ring   | reading 4.096  95% interval [3.936, 4.256] from 10 runs (0 gave no reading) | small world in 9 of 10 | relations/event 3.41
+grid3D | reading 4.581  95% interval [4.478, 4.684] from 10 runs (0 gave no reading) | small world in 4 of 10 | relations/event 3.22
+web    | reading 4.631  95% interval [4.533, 4.729] from 10 runs (0 gave no reading) | small world in 2 of 10 | relations/event 3.18
+
+G2a (ring's reading lower than the 3D grid's, intervals not overlapping) True
+G2b ring vs grid3D: gap 0.485, intervals [3.936, 4.256] and [4.478, 4.684], separated True
+G2b ring vs web: gap 0.535, intervals [3.936, 4.256] and [4.533, 4.729], separated True
+G2b grid3D vs web: gap 0.050, intervals [4.478, 4.684] and [4.533, 4.729], separated False

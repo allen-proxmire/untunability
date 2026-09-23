@@ -1,0 +1,14 @@
+H1: growth with the conditions only (budget + ceiling; no costs, no veto)
+
+  thresholds fixed before growth: common now needs tilt <= -0.280 ; curvature bounded below needs median >= -0.250
+  flat slice at n=24/32/52: d_s 3.05/3.02/3.01, d_H 2.66/2.74/2.85, diameter 18/24/39, mean degree 14.0
+
+  slice    status     ev/V0 meandeg maxdeg    diam     d_H      d_s      tilt    curv med
+  n=24 s0  survived   0.934   14.34     60     9.0       -        -         -   -0.166 ok
+  n=24 s1  survived   0.919   14.20     60    10.0       -        -         -   -0.135 ok
+  n=32 s0  survived   0.930   14.26     60    13.0       -        -         -   -0.159 ok
+        d_s by distance: r1.6:3.04  r2.4:3.04  r3.3:3.11  r4.1:3.59  r4.6:3.33  r4.7:2.46  r4.7:1.07
+  n=32 s1  survived   0.943   14.10     60    11.0       -        -         -   -0.167 ok
+  n=52 s0  survived   0.937   14.19     60    15.0   5.539    2.806         -   -0.173 ok
+        d_s by distance: r1.6:2.92  r2.3:2.79  r3.3:2.89  r4.4:3.30  r5.5:3.28  r6.0:4.38  r6.1:3.08
+  n=52 s1  survived   0.937   14.20     60    15.0   5.458    2.966 -0.631 ok   -0.175 ok

@@ -1,0 +1,10 @@
+ring   at 4x (n about 8442) | definite in 8 of 8 | values [1.0] | gap ratios 3.55 to 3.85
+ring   at 8x (n about 16628) | definite in 8 of 8 | values [1.0] | gap ratios 3.37 to 3.84
+grid3D at 4x (n about 9339) | definite in 1 of 8 | values [3.0] | gap ratios 1.51 to 1.68
+grid3D at 8x (n about 18421) | definite in 1 of 8 | values [3.0] | gap ratios 1.47 to 1.62
+web    at 4x (n about 8321) | definite in 0 of 8 | values [] | gap ratios 1.00 to 1.01
+web    at 8x (n about 16296) | definite in 0 of 8 | values [] | gap ratios 1.01 to inf
+
+S1 (ring reads 1 in at least 7 of 8, at both sizes) True   {4.0: 8, 8.0: 8}
+S2 (cubic torus reads 3 in at least 5 of 8, at both sizes) False   {4.0: 1, 8.0: 1}
+S3 (web reads nothing definite, 8 of 8, at both sizes) True

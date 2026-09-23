@@ -1,0 +1,12 @@
+{"bit_for_bit": true, "narrow_pairs": 2456, "narrow_agree": 2456}
+  N2.json 77 s
+  N1.json 77 s
+  NW.json 642 s
+Narrow-merge forward growth (q = 0.1, n = 24, T = 150). Flat mean distance 11.491, spacetime 3.608. A9 H4 (general merges): flat starts 4.55, 4.53 at tick 150; small-world start 4.34.
+G0 {'bit_for_bit': True, 'narrow_pairs': 2456, 'narrow_agree': 2456}
+N1 (flat start): ok True | V 13824 (1.000 of start) meandeg 14.00 | merges/tick 0.0 forced/tick 692.8 refused/tick 5175.2 | slice d_H 2.657346587736972 d_s 3.049728735458363 | spacetime 3.607962271946312
+    mean distance (size) by tick: 0:11.49(13824)  10:11.49(13824)  20:11.49(13824)  30:11.49(13824)  40:11.49(13824)  50:11.49(13824)  60:11.49(13824)  70:11.49(13824)  80:11.49(13824)  90:11.49(13824)  100:11.49(13824)  110:11.49(13824)  120:11.49(13824)  130:11.49(13824)  140:11.49(13824)  150:11.49(13824)
+N2 (flat start): ok True | V 13824 (1.000 of start) meandeg 14.00 | merges/tick 0.0 forced/tick 692.8 refused/tick 5199.3 | slice d_H 2.657346587736972 d_s 3.049728735458363 | spacetime 3.6118607259578046
+    mean distance (size) by tick: 0:11.49(13824)  10:11.49(13824)  20:11.49(13824)  30:11.49(13824)  40:11.49(13824)  50:11.49(13824)  60:11.49(13824)  70:11.49(13824)  80:11.49(13824)  90:11.49(13824)  100:11.49(13824)  110:11.49(13824)  120:11.49(13824)  130:11.49(13824)  140:11.49(13824)  150:11.49(13824)
+NW (small start): ok True | V 11601 (0.839 of start) meandeg 15.96 | merges/tick 60.0 forced/tick 629.4 refused/tick 5644.1 | slice d_H None d_s None | spacetime 5.2571895660373995
+    mean distance (size) by tick: 0:4.43(12909)  10:4.43(12845)  20:4.42(12744)  30:4.51(12660)  40:4.47(12555)  50:4.39(12465)  60:4.44(12372)  70:4.43(12280)  80:4.40(12194)  90:4.43(12104)  100:4.43(12015)  110:4.41(11928)  120:4.41(11863)  130:4.42(11776)  140:4.44(11689)  150:4.43(11601)
