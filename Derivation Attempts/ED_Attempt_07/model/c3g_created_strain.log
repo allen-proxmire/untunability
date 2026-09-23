@@ -1,4 +1,0 @@
-flat calibration at V=8000: largest link strain 6.461
-tick   5: all links mean 0.86, 95th 2.77, max 7.28 (1.13x flat) | created links this window: 2085407, mean 0.74, 95th 2.43, 99th 3.53, max 7.99
-tick  15: all links mean 1.01, 95th 3.56, max 10.24 (1.59x flat) | created links this window: 5330110, mean 1.30, 95th 3.94, 99th 5.72, max 14.63
-tick  25: all links mean 1.11, 95th 4.16, max 13.47 (2.08x flat) | created links this window: 1164906, mean 2.20, 95th 6.59, 99th 9.61, max 20.32

@@ -1,7 +1,0 @@
-3D random geometric (mean 12): AS EXPECTED  N=16000 (component 16000), mean degree=11.986, radii 4..7, d_H=2.919, beta=0.687, d_s=2.903, d_w=2.185, R5=0.230, small_world=False, walk window t=30..100 (capped False), 8.7 s
-3D cubic grid 25^3: AS EXPECTED  N=15625 (component 15625), mean degree=6.000, radii 5..10, d_H=2.758, beta=0.674, d_s=3.025, d_w=1.962, R5=0.214, small_world=False, walk window t=23..90 (capped False), 4.2 s
-2D random geometric (mean 8): AS EXPECTED  N=15957 (component 15957), mean degree=8.044, radii 10..20, d_H=2.038, beta=0.512, d_s=2.030, d_w=2.159, R5=0.143, small_world=False, walk window t=337..1506 (capped False), 102.3 s
-random 12-regular: AS EXPECTED  N=16000 (component 16000), mean degree=12.000, radii 2..3, d_H=nan, beta=nan, d_s=nan, d_w=nan, R5=nan, small_world=True, walk window t=None..None (capped False), 1.3 s
-HELD-OUT 3D random geometric (mean 8, seed 11): AS EXPECTED  N=15989 (component 15989), mean degree=8.007, radii 5..9, d_H=3.005, beta=0.692, d_s=2.958, d_w=2.167, R5=0.185, small_world=False, walk window t=47..166 (capped False), 13.0 s
-HELD-OUT 2D square grid 126^2: AS EXPECTED  N=15876 (component 15876), mean degree=4.000, radii 14..27, d_H=1.948, beta=0.500, d_s=2.000, d_w=1.998, R5=0.050, small_world=False, walk window t=240..892 (capped False), 33.7 s
-E0 (run 2): ALL AS EXPECTED

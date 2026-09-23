@@ -1,6 +1,6 @@
 ﻿# Untunability: a conservation law fixes the three totals CDT tunes
 
-*Allen Proxmire, 2026-09-23. Written for readers who know causal dynamical triangulations. The plain-language version is in [RESULTS.md](RESULTS.md); the full working is in [Derivation Attempts/ED_Attempt_11](Derivation%20Attempts/ED_Attempt_11/).*
+*Allen Proxmire, 2026-09-23. Written for readers who know causal dynamical triangulations. The plain-language version is in [RESULTS.md](RESULTS.md); the full working is in [ED-generative](https://github.com/allen-proxmire/ED-generative), `ED_Attempt_11`.*
 
 ---
 
@@ -101,7 +101,7 @@ It reproduced the published behaviour: τ falling steadily — 0.473, 0.403, 0.2
 - Predict any new measurable quantity.
 - Derive CDT, or show that spacetime is a triangulation.
 - Determine the placement in 3+1 — and the published measurement nearest to the relevant point runs against it, by a factor of about three in vertex density.
-- Escape its modelling choices. Identifying the ontology's budgets with N0 and N3S, and its forward links with N1T, follows from stated decisions about what a tick is. Those decisions are recorded as decisions, in `Derivation Attempts/ED_Attempt_11/01_Ledger/Assumptions.md` (D3–D6).
+- Escape its modelling choices. Identifying the ontology's budgets with N0 and N3S, and its forward links with N1T, follows from stated decisions about what a tick is. Those decisions are recorded as decisions, in `ED_Attempt_11/01_Ledger/Assumptions.md` (D3–D6).
 
 **Not peer-reviewed, and not seen by anyone who works on CDT.**
 

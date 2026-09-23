@@ -58,8 +58,9 @@ The open question it reaches from every direction: **ED says what may happen, no
 | [RESULTS.md](RESULTS.md) | the findings, each with its scope |
 | [CDT_Constraint.md](CDT_Constraint.md) | result 1 in full, written for readers who know causal dynamical triangulations |
 | [Constraints.md](Constraints.md) | what ED forbids, what it fixes, what it leaves open |
+| [Negative_Results.md](Negative_Results.md) | what ED was tested for and did not do, and how thoroughly that was checked |
 | [Handedness/](Handedness/) | the theorem: statement, proof, assumptions, and a script that checks it |
-| [Derivation Attempts/](Derivation%20Attempts/) | the working record — thirteen model builds with their ledgers, dated notes and data |
+| [ED-generative](https://github.com/allen-proxmire/ED-generative) | the working record — thirteen model builds with their ledgers, dated notes and data, under `Derivation Attempts/` |
 
 ## Check the theorem yourself
 
@@ -71,7 +72,7 @@ Needs Python with numpy. It tests the theorem for up to six lanes, for random mi
 
 ## Method
 
-Tests were specified before they were run, with expected results recorded in advance. Published work was checked before claiming anything. Settings chosen to make something work are labelled as tuned. The complete working record, including every model that didn't work, is in [Derivation Attempts/](Derivation%20Attempts/).
+Tests were specified before they were run, with expected results recorded in advance. Published work was checked before claiming anything. Settings chosen to make something work are labelled as tuned. The complete working record, including every model that didn't work, is in [the ED-generative repository](https://github.com/allen-proxmire/ED-generative).
 
 ## Further reading
 

@@ -1,9 +1,0 @@
-N0 True [{'slice': 'flat', 'merges': 0, 'merge_bad': 0, 'splits': 840, 'split_bad': 0}, {'slice': 'grown', 'merges': 204, 'merge_bad': 0, 'splits': 815, 'split_bad': 0}]
-FREF2 s0 V 16280 s 0.64931 a_mean 25.699 a_sd 4.296 | narrow merges 14724, share of events able to merge 0.151 | deg sd 3.19 max 18 | md 11.594 | ok True
-FL    s0 V 13824 s 0.65041 a_mean 26.000 a_sd 0.000 | narrow merges 0, share of events able to merge 0.000 | deg sd 0.00 max 14 | md 11.491 | ok True
-F1    s0 V 11453 s 0.62593 a_mean 21.460 a_sd 22.036 | narrow merges 4302, share of events able to merge 0.136 | deg sd 16.59 max 60 | md 4.504 | ok True
-F1    s1 V 11554 s 0.62343 a_mean 20.952 a_sd 21.650 | narrow merges 4350, share of events able to merge 0.134 | deg sd 16.55 max 60 | md 4.514 | ok True
-W1    s0 V 11301 s 0.60637 a_mean 17.596 a_sd 17.759 | narrow merges 4442, share of events able to merge 0.139 | deg sd 17.89 max 60 | md 4.388 | ok True
-W1    s1 V 11500 s 0.60279 a_mean 16.918 a_sd 16.624 | narrow merges 4438, share of events able to merge 0.139 | deg sd 17.61 max 60 | md 4.425 | ok True
-margin 0.00717; grown - FREF2: F1_s0 -0.02338, F1_s1 -0.02587, W1_s0 -0.04293, W1_s1 -0.04652
-VERDICT: narrow both ways: counting leans toward flat at one tick -> to Allen (adopt (i)?).

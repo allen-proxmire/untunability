@@ -1,4 +1,0 @@
-E1 after 50 steps, |G rho_B* G - rho_A|: 4.5e-17
-E2 A150 from mapped start 0: v +1.57480e-01, largest change per step over last 50 steps 3.4e-15
-E2 A150 from mapped start 1: v +1.57480e-01, largest change per step over last 50 steps 3.7e-15
-exit 0

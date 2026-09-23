@@ -1,8 +1,0 @@
-  done C:\Users\allen\Desktop\ED_Restart\ED_Attempt_10\model\sb_short_runs\crowded.json
-  done C:\Users\allen\Desktop\ED_Restart\ED_Attempt_10\model\sb_short_runs\flat.json
-flat    md 5.843 -> last-fifth 5.822 | deg sd 3.19 -> 3.20 | max deg 18 | acc 0.200 | fails []
-    md: 0:5.84 100:5.82 200:5.82 300:5.82 400:5.82 500:5.81 600:5.82 700:5.82 800:5.82 900:5.83 1000:5.81
-crowded md 3.663 -> last-fifth 3.642 | deg sd 15.33 -> 15.33 | max deg 60 | acc 0.069 | fails []
-    md: 0:3.66 100:3.63 200:3.64 300:3.64 400:3.60 500:3.62 600:3.65 700:3.61 800:3.59 900:3.65 1000:3.63
-gap 2.180 -> 2.180 (shrank -0.0 per cent)
-VERDICT: FROZEN: even with short loops, the moves cannot reshape a history at this rate

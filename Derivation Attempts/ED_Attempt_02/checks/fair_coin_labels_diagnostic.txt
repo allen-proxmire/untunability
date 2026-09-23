@@ -1,2 +1,0 @@
-B F  phi    0.00  a-b removable by gauge: True   from 18 of 36 relabellings, e.g. rows (0, 1, 2) columns (0, 1, 2)
-B F* phi    0.00  a-b removable by gauge: True   from 18 of 36 relabellings, e.g. rows (0, 1, 2) columns (0, 2, 1)

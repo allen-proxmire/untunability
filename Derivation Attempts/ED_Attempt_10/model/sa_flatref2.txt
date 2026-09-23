@@ -1,4 +1,0 @@
-reference: V 16280 (splits 2456), links 109054 / target 109054, structure True, grid pairs shorter 0, mean distance 11.594 (grid pairs 11.495; grid 11.491), a_mean 38.192 a_sd 9.559, degree mean 13.397 sd 3.186 max 18
-s reference 0.68874 (grid 0.69348); totals {'merge': 218108, 'split': 218108, 'f23': 185548.0, 'f32': 0}
-delta s grown - reference: F1_s0 -0.04749 (V*ds +0), F1_s1 -0.04942 (V*ds +0), W1_s0 -0.06436 (V*ds +0), W1_s1 -0.06727 (V*ds +0)
-VERDICT: counting leans toward flat at one tick -> spec stage B in 3D on paper.

@@ -1,7 +1,0 @@
-attempt 7 code, n=24, setting B, seeds (2, 3, 4, 5, 6, 7), threshold 9.985
-[1/6] grow_B_n24_s4.json 5201 s (elapsed 1.45 h)
-[2/6] grow_B_n24_s2.json 5226 s (elapsed 1.45 h)
-[3/6] grow_B_n24_s3.json 5237 s (elapsed 1.46 h)
-[4/6] grow_B_n24_s5.json 4231 s (elapsed 2.62 h)
-[5/6] grow_B_n24_s6.json 4235 s (elapsed 2.63 h)
-[6/6] grow_B_n24_s7.json 4234 s (elapsed 2.63 h)

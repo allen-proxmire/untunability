@@ -1,5 +1,0 @@
-3D random geometric (mean 12): AS EXPECTED  N=16000 (component 16000), mean degree=11.986, r_max=7, d_H=2.732, beta=0.701, d_s=2.769, d_w=2.180, R5=0.263, small_world=False, R2 power/exp=0.9983/0.9800, cv_mid=0.141, t_end=157 (capped False), 12.7 s
-3D cubic grid 25^3: NOT AS EXPECTED  N=15625 (component 15625), mean degree=6.000, r_max=10, d_H=2.589, beta=0.684, d_s=3.049, d_w=1.945, R5=0.386, small_world=False, R2 power/exp=0.9985/0.9655, cv_mid=0.000, t_end=129 (capped False), 5.0 s
-2D random geometric (mean 8): NOT AS EXPECTED  N=15957 (component 15957), mean degree=8.044, r_max=20, d_H=1.909, beta=0.535, d_s=1.777, d_w=2.214, R5=0.052, small_world=False, R2 power/exp=0.9978/0.9363, cv_mid=0.128, t_end=1694 (capped False), 96.0 s
-random 12-regular: AS EXPECTED  N=16000 (component 16000), mean degree=12.000, r_max=3, d_H=5.806, beta=0.964, d_s=8.994, d_w=4.898, R5=6.623, small_world=True, R2 power/exp=1.0000/1.0000, cv_mid=0.005, t_end=18 (capped False), 2.2 s
-E0: SOME NOT AS EXPECTED (exit rule X0 applies)

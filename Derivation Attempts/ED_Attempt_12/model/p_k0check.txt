@@ -1,3 +1,0 @@
-pull 0.50 | n 2000 -> 8558 | d_H None | relations per event 9.60 | repairs 12966 | 409s
-pull 1.00 | n 2000 -> 8120 | d_H 4.208 | relations per event 6.21 | repairs 7019 | 188s
-pull 2.00 | n 2000 -> 8294 | d_H 4.091 | relations per event 5.94 | repairs 6704 | 272s

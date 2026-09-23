@@ -1,8 +1,0 @@
-Flat reference pilots (sa_flatref.to_budget, n = 24, seed 0; grid: 96,768 links, BL = 92,602, mean distance 11.491, degree sd 0)
-beta  2: did not reach BL in 1.5M attempts (links rose to 108,239; 933,933 flips), degree sd 10.48, mean distance 6.102
-beta  4: reached BL, 271,136 flips of 397,618 attempts, degree sd 5.473, mean distance 8.459 (-26%)
-beta  6: reached BL, 225,100 flips of 614,112 attempts, degree sd 4.455, mean distance 8.967 (-22%)
-beta  8: reached BL, 218,202 flips of 2,834,784 attempts, degree sd 4.297, mean distance 9.042 (-21%)
-beta 12: did not reach BL in 3M attempts (links 96,023; 102,227 flips), degree sd 2.435, mean distance 9.685 (-16%)
-R0 (mean distance within 5% of 11.491 at BL): FAILS for every beta that reaches BL. By the rule: not a flat reference; stop and report.
-No count was taken on these slices.

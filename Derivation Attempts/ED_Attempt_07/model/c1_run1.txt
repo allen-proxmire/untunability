@@ -1,8 +1,0 @@
-F0 flat strip (40000 events): AS EXPECTED  d_H=1.897, d_s=1.884, d_w=2.065, beta=0.460, radii 19..37, structure notes: none  (196 s)
-E2 slice length (1,000 seeds): AS EXPECTED  slope=2.052, intercept=0.24; mean L at t=50,100,199: 102.6, 203.2, 413.9 (1+2t: 101, 201, 399)  (3 s)
-E1 structure exact in all 10 runs: AS EXPECTED
-E3 median d_H = 2.166: AS EXPECTED
-E4 median d_s = 1.893: AS EXPECTED
-E5 median d_w = 2.412 (reported; >= 1.8): AS EXPECTED
-EXIT: PASS: C1: ED's causal growth with no splitting reproduces 2D CDT: the causal half checked.
-total 1529 s

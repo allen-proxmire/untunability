@@ -1,5 +1,0 @@
-# claim IDs | run from (relative to 01_Ledger) | command
-C19 | ../checks | python coin_shape_check.py
-C30 | ../checks | python strong_field_check.py
-C33 | ../checks | python escape_check.py
-C42 | ../checks | python feedback_weights_check.py

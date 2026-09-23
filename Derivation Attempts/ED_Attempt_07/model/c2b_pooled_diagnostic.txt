@@ -1,8 +1,0 @@
-exact grid expectation (persistent, sigma 0.0005):
-  d=1: sqrt<W^2> 0.03821, 0.108, 0.3053, 0.8635; slope 1.499; tilt ratio 2.825
-  d=2: sqrt<W^2> 0.004097, 0.008032, 0.01596, 0.03186; slope 0.987; tilt ratio 0.972
-  d=3: sqrt<W^2> 0.001851, 0.002552, 0.003095, 0.003555; slope 0.471; tilt ratio 0.480
-persistent G: d=1 pooled beta 1.456, pooled tilt ratio 2.582, per-seed beta median 1.322 sd 0.287 | d=2 pooled beta 1.083, pooled tilt ratio 1.163, per-seed beta median 1.057 sd 0.123 | d=3 pooled beta 0.456, pooled tilt ratio 0.462, per-seed beta median 0.455 sd 0.083
-persistent R: d=1 pooled beta 1.678, pooled tilt ratio 4.337, per-seed beta median 1.709 sd 0.481 | d=2 pooled beta 0.897, pooled tilt ratio 0.811, per-seed beta median 0.854 sd 0.154 | d=3 pooled beta 0.555, pooled tilt ratio 0.536, per-seed beta median 0.566 sd 0.116
-fresh G: d=1 pooled beta 0.483, pooled tilt ratio 0.339, per-seed beta median 0.495 sd 0.076 | d=2 pooled beta 0.112, pooled tilt ratio 0.158, per-seed beta median 0.108 sd 0.016 | d=3 pooled beta 0.022, pooled tilt ratio 0.258, per-seed beta median 0.022 sd 0.011
-fresh R: d=1 pooled beta 0.574, pooled tilt ratio 0.407, per-seed beta median 0.570 sd 0.094 | d=2 pooled beta 0.124, pooled tilt ratio 0.162, per-seed beta median 0.130 sd 0.026 | d=3 pooled beta 0.040, pooled tilt ratio 0.264, per-seed beta median 0.045 sd 0.013

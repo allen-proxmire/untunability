@@ -1,1 +1,0 @@
-pooled over 3 seeds: refusals/tick ref 115.9 port 96.9 (ratio 0.836); max strain ref 8.500 port 7.993; links over threshold ref 2.5 port 1.2

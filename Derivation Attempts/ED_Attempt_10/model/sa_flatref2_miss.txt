@@ -1,4 +1,0 @@
-reference: V 16276 (splits 2452), links 109028 / target 109027, structure True, grid pairs shorter 0, mean distance 11.595 (grid pairs 11.495; grid 11.491), a_mean 38.192 a_sd 9.553, degree mean 13.397 sd 3.184 max 18
-s reference 0.68888 (grid 0.69348); totals {'merge': 218056, 'split': 218056, 'f23': 185504.0, 'f32': 0}
-delta s grown - reference: F1_s0 -0.04763 (V*ds +0), F1_s1 -0.04956 (V*ds +0), W1_s0 -0.06450 (V*ds +0), W1_s1 -0.06742 (V*ds +0)
-VERDICT: B0 or B1 failed - recorded, stop and report.
