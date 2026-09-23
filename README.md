@@ -1,10 +1,10 @@
 ﻿# Event Density
 
-**Event Density (ED) is an ontology** — an account of what the world is made of, underneath physics. It starts from one conviction: **time only runs one way.** Once something has really happened, it can't be undone.
+**Event Density (ED) is an ontology** — an account of what the world is made of, underneath physics. It starts from one conviction: **time only runs one way.** Once something has happened, it can't be undone.
 
-It is not a theory of gravity and not a candidate theory of everything. It asks a different question: *what must be true for anything to have a structure at all?*
+It is not a theory of gravity or a theory of everything. It asks a different question: *what must be true for anything to have a structure at all?*
 
-**Untunability** is the part that has been tested and held: **quantities other frameworks leave free turn out to be fixed by what ED conserves.**
+**Untunability** is the part of ED that has been tested and held. These are quantities other frameworks must *tune*, turn out to be fixed by what ED conserves.**
 
 This repository holds what survived testing, and the complete record of thirteen attempts that produced it — including everything that failed.
 

@@ -145,7 +145,7 @@ Three things, in order of how much they would settle:
 
 ## How to read the record
 
-Each attempt has its own folder under `ED_Restart/`, with a `README.md` listing its notes in order, and an `01_Ledger/` holding three files: **Claims** (what was established, with status and evidence), **Assumptions** (Allen's decisions, and the road decisions taken from them), and a dated **Log**. Attempts are closed records: referenced, never edited.
+Each attempt has its own folder under `Derivation Attempts/`, with a `README.md` listing its notes in order, and an `01_Ledger/` holding three files: **Claims** (what was established, with status and evidence), **Assumptions** (Allen's decisions, and the road decisions taken from them), and a dated **Log**. Attempts are closed records: referenced, never edited.
 
 The most load-bearing notes, if you read only a few:
 

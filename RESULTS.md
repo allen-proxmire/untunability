@@ -4,7 +4,7 @@
 
 **Event Density (ED) is an ontology** — an account of what the world is made of, from which physics is supposed to follow. **Untunability** is the name for the part of it that has been tested and held: the claim that quantities other frameworks leave free are fixed by what ED conserves.
 
-Everything below was specified before it was run. The record, including everything that failed, is in [ED_Restart/](ED_Restart/).
+Everything below was specified before it was run. The record, including everything that failed, is in [Derivation Attempts/](Derivation%20Attempts/).
 
 ---
 
@@ -36,7 +36,7 @@ So ED's own content rules out one and two dimensions.
 
 **What it doesn't show.** It doesn't pick three — three and everything above it pass equally. And it says nothing about where a pattern's shape comes from.
 
-*Where: [ED_Restart/ED_Attempt_11](ED_Restart/ED_Attempt_11/), C21.*
+*Where: [Derivation Attempts/ED_Attempt_11](Derivation%20Attempts/ED_Attempt_11/), C21.*
 
 ---
 
@@ -46,7 +46,7 @@ A proved theorem, checked by a script in this repository: in a hopping model, **
 
 **What it doesn't show.** The mathematics is simple and something close to it is already known (Nielsen–Ninomiya). ED's own rules can settle into a handed state, but only with three ingredients added by hand; three attempts to make ED supply the key one all failed.
 
-*Where: [handedness/](handedness/).*
+*Where: [Handedness/](Handedness/).*
 
 ---
 
@@ -62,7 +62,7 @@ ED carries a dimension it is given, blurs it as the pattern grows, and never mak
 
 **This is not a surprise, and it shouldn't be read as one.** 3+1 is a **declared primitive** of the ontology, not something it ever claimed to derive. What the testing adds is that the declaration is honest: dimension really is an input, not something quietly assumed and then presented as a result. Many frameworks cannot say that.
 
-*Where: [ED_Restart/ED_Attempt_13](ED_Restart/ED_Attempt_13/), C10, C11, C15.*
+*Where: [Derivation Attempts/ED_Attempt_13](Derivation%20Attempts/ED_Attempt_13/), C10, C11, C15.*
 
 ---
 
@@ -96,4 +96,4 @@ That distinction is kept deliberately. A result counts as a reduction only if ED
 
 Tests specified before they were run. Every failure recorded, including mistakes in the test code. Literature checked before claiming. Tuned settings labelled as tuned. **Five results were withdrawn on their own checks**, including one that matched a number to within 8% and was dropped within the hour once it moved when a setting moved.
 
-The record is in [ED_Restart/Project_Write_Up.md](ED_Restart/Project_Write_Up.md), with thirteen attempts behind it.
+The record is in [Derivation Attempts/Project_Write_Up.md](Derivation%20Attempts/Project_Write_Up.md), with thirteen attempts behind it.

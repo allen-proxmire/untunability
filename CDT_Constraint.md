@@ -1,6 +1,6 @@
 ﻿# Untunability: a conservation law fixes the three totals CDT tunes
 
-*Allen Proxmire, 2026-09-23. Written for readers who know causal dynamical triangulations. The plain-language version is in [RESULTS.md](RESULTS.md); the full working is in [ED_Restart/ED_Attempt_11](ED_Restart/ED_Attempt_11/).*
+*Allen Proxmire, 2026-09-23. Written for readers who know causal dynamical triangulations. The plain-language version is in [RESULTS.md](RESULTS.md); the full working is in [Derivation Attempts/ED_Attempt_11](Derivation%20Attempts/ED_Attempt_11/).*
 
 ---
 
@@ -51,11 +51,11 @@ Each is a conserved quantity of the ontology, stated before this calculation and
 | | ED | CDT phase C |
 |---|---|---|
 | **N32/N41** | **1.00** | **1.26** at (k₀, Δ) = (2.2, 0.6) — [arXiv:1203.3591](https://arxiv.org/abs/1203.3591) Table 2, from N4 = 2.2625·N41 |
-| **N0/N4** | **0.044** | no absolute value published at that point |
+| **N0/N4** | **0.044** | no value published at that point; **0.152–0.164 at the nearest measured boundary** — see below |
 
-For N0/N4 the comparison is a bound rather than a measurement: with N32/N41 = 1.26 and at least 3 four-simplices per vertex in a slice, N0/N4 ≤ 1/(6 × 2.26) = 0.074. **ED's 0.044 lies inside it.** At the A–C transition (k₀ = 4.711, Δ = 0.6) the literature gives N0/N4 ≈ 0.154–0.162 ([arXiv:1802.10434](https://arxiv.org/abs/1802.10434) Table 1), but with N32/N41 small, so it is not a like-for-like comparison.
+For N0/N4 the comparison was originally a bound rather than a measurement: with N32/N41 = 1.26 and at least 3 four-simplices per vertex in a slice, N0/N4 ≤ 1/(6 × 2.26) = 0.074, and ED's 0.044 lies inside it.
 
-**Honest status in 3+1: close on N32/N41 (1.00 against 1.26), placement not determined.**
+**That bound turned out to be the weaker statement.** A published *measurement* of N0/N4 exists at the A–C transition, and it is three times ED's value. **See "What the literature says", question 2 — this is where the 3+1 claim currently stands or falls.**
 
 ### 2+1: inside the extended phase, with nothing tuned
 
@@ -75,7 +75,9 @@ The same conservation laws — events conserved, spatial links automatic, forwar
 
 **So in 2+1 these rules are microcanonical 3D CDT at a point on the extended side, away from the transition, with nothing tuned.**
 
-**Caveat, stated plainly:** τ = 1/3 lies beyond the plotted range. It is inferred from the monotone trend and from the absence of a reported further phase at low k₀. That inference is the weakest link in this section.
+**Caveat as originally stated:** τ = 1/3 lies beyond the range plotted in AJL's figure, and was inferred from the monotone trend and the absence of a reported further phase at low k₀.
+
+**That caveat has since been discharged** — the validated program reaches τ = 1/3 directly, at about k₀ = 3.2. See "What the literature says", question 3.
 
 ---
 
@@ -98,8 +100,8 @@ It reproduced the published behaviour: τ falling steadily — 0.473, 0.403, 0.2
 **Does not:**
 - Predict any new measurable quantity.
 - Derive CDT, or show that spacetime is a triangulation.
-- Determine the placement in 3+1 — only one of two order parameters is comparable, and the other has no published value at the relevant point.
-- Escape its modelling choices. Identifying the ontology's budgets with N0 and N3S, and its forward links with N1T, follows from stated decisions about what a tick is. Those decisions are recorded as decisions, in `ED_Restart/ED_Attempt_11/01_Ledger/Assumptions.md` (D3–D6).
+- Determine the placement in 3+1 — and the published measurement nearest to the relevant point runs against it, by a factor of about three in vertex density.
+- Escape its modelling choices. Identifying the ontology's budgets with N0 and N3S, and its forward links with N1T, follows from stated decisions about what a tick is. Those decisions are recorded as decisions, in `Derivation Attempts/ED_Attempt_11/01_Ledger/Assumptions.md` (D3–D6).
 
 **Not peer-reviewed, and not seen by anyone who works on CDT.**
 

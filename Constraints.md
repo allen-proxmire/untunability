@@ -83,4 +83,4 @@ Every test was specified before it was run. Every failure is written down, inclu
 
 That is not modesty for its own sake. An ontology that cannot be wrong about anything is not saying anything, and the only way to show that this one *can* be wrong is to keep the cases where it was.
 
-The full record: [ED_Restart/Project_Write_Up.md](ED_Restart/Project_Write_Up.md), and thirteen attempts behind it in [ED_Restart/](ED_Restart/).
+The full record: [Derivation Attempts/Project_Write_Up.md](Derivation%20Attempts/Project_Write_Up.md), and thirteen attempts behind it in [Derivation Attempts/](Derivation%20Attempts/).
