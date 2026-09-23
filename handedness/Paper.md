@@ -131,10 +131,10 @@ So the theorem separates two cases. ED's arrow makes handed transport possible, 
 
 ## 5. Numerical check
 
-The script `tools/check_result.py` (requires numpy) checks the theorem and both controls directly.
+The script `check_result.py` (requires numpy) checks the theorem and both controls directly.
 
 ```
-python tools/check_result.py
+python check_result.py
 ```
 
 It has two parts.

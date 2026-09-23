@@ -39,7 +39,7 @@ So the theorem separates two cases: ED's arrow makes handed transport possible, 
 
 ## Check
 
-    python tools/check_result.py
+    python check_result.py
 
 The script checks the theorem for N = 1 to 6. Part 1 uses nearest-neighbour hops with S reversing the channel order. Part 2 uses random reflections S (S² = 1, generally not unitary) and hops reaching R = 1, 2 and 3 loci. In every case it confirms that the determinant is even and that the winding is zero. It also runs the two controls above, showing winding RN for one-way hopping and zero for Hermitian transport.
 
