@@ -4,96 +4,77 @@
 
 It is not a theory of gravity or a theory of everything. It asks a different question: *what must be true for anything to have a structure at all?*
 
-**Untunability** is the part of ED that has been tested and held. These are quantities other frameworks must *tune*, turn out to be fixed by what ED conserves.**
-
-This repository holds what survived testing, and the complete record of thirteen attempts that produced it — including everything that failed.
-
 ---
 
 ## The idea
 
 - **The world is a web of places,** called *loci*. The web keeps growing: new places keep being born.
-- **Things spread across the web like ripples,** trying out many paths at once.
-- **When a ripple meets something already settled,** it leaves a mark. Once that mark can't be brought back, something definite has happened — a *commitment*.
+- **Things spread across the web like ripples,** trying many paths at once.
+- **When a ripple meets something already settled** it leaves a mark. Once that mark can't be brought back, something definite has happened — a **commitment**.
 - **Commitments use up a budget,** so near a lot of settled matter, clocks and motion slow down.
 
-That's the picture. Everything else is working out what it implies.
+Everything else is working out what that implies.
 
 ---
 
-## What survived testing
+## What was tested
 
-**1. A conservation law fixes three numbers a rival framework tunes by hand.** Causal dynamical triangulations has three totals that must be tuned until the spacetime it produces looks right. ED's conserved budgets fix all three, exactly, with no new free parameters.
+ED was turned into exact rules a computer can run, and tested against three questions:
 
-**Checked against the literature, this splits.** In **2+1 it holds**: the value ED fixes is reachable, inside the phase where space doesn't collapse, on a program validated against published results. In **3+1 it is unresolved and leaning against**: ED needs a vertex density of 0.044 where published measurements near the nearest phase boundary are 0.152–0.164. One number decides it. → **[CDT_Constraint.md](CDT_Constraint.md)**
+1. **Does ED's structure constrain the free parameters of an established theory of quantum spacetime?**
+2. **Does ED's requirement that clocks keep time together restrict the shape space can take?**
+3. **Can ED's rules produce three-dimensional space, rather than being given it?**
 
-**2. Below three dimensions, clocks can't hold together.** Argued first, then measured: in one and two dimensions the pull needed to hold a pattern's clocks together rises without limit as it grows; at three and above it settles. ED's own content rules out one and two — it does not pick three.
-
-**3. The handedness theorem.** Mirror-symmetric rules give exactly zero drift, so handedness can't be written into them. Proved, and checked by a script here.
-
-**And a well-defended negative: nothing in ED creates a dimension.** Tested with ED's own definition of dimension, calibrated on known shapes, in the regime ED's own papers specify — sixteen runs, from a pattern with no dimension, and none ever appeared. **3+1 is a declared primitive of the ontology, not something it claimed to derive.** What the testing adds is that the declaration is honest.
-
-**Full statements with their limits: [RESULTS.md](RESULTS.md). The framing: [Constraints.md](Constraints.md).**
+Every test had its expected results written down before it ran.
 
 ---
 
-## What didn't work
+## What we conclude
 
-A lot, and every failure is written down.
+**1. ED's conservation laws fix three numbers that causal dynamical triangulations tunes by hand.** CDT has three totals that must be tuned until the spacetime it produces looks right. ED's conserved budgets fix all three — exactly, by arithmetic, with no new free parameters. In 2+1 dimensions the point they fix is reachable and sits inside the phase where space does not collapse.
 
-- **Dark energy.** ED's distinctive versions were ruled out or disfavoured by astronomical data. What fits is the ordinary constant version.
-- **Gravity.** Every simpler version of the budget failed a real measurement, and each fix made ED more like Einstein's theory.
-- **Space.** Thirteen attempts could not get three dimensions out of ED, including the last one, which asked in ED's own terms with ED's own instrument.
-- **Handedness in ED's own rules.** ED can settle into a handed state, but only with three ingredients added by hand. Three attempts to make ED supply the key one all failed.
-- **The gap behind all of it.** ED says what may happen, not **where a new event goes.** Every attempt reached that same wall from a different direction.
+**2. Below three dimensions, clocks cannot keep time together.** A patch's timing surplus grows faster than the connections available to shed it through, so in one or two dimensions large patches always break away. Measured, not just argued: the coupling needed rises without limit in one and two dimensions, and settles at three and above.
+
+**3. Handedness cannot be written into mirror-symmetric rules.** A proved theorem, checked by a script here: symmetric rules give exactly zero drift. If the world has a handedness — and it does — its state picked it, not its laws.
+
+**4. ED conditions space; it does not produce it.** Three-plus-one is a declared primitive of the ontology. Testing confirms the declaration is honest: ED carries a dimension it is given and never manufactures one. What it adds is that the primitive is *partly forced* — result 2 rules out one and two dimensions from ED's own content.
+
+**Full statements with their scope: [RESULTS.md](RESULTS.md). The technical case for result 1: [CDT_Constraint.md](CDT_Constraint.md). What ED forbids, fixes and leaves open: [Constraints.md](Constraints.md).**
 
 ---
 
 ## Where it stands
 
-- **ED is an ontology:** a consistent, runnable account that agrees with known physics and constrains what is possible.
-- **It doesn't tell us something about nature we didn't already know** — no new measurable prediction has come out of it.
-- **Its lasting contributions:**
-  - the untunability result: three tuned numbers of an established framework are not free — established in 2+1, open in 3+1;
-  - the rate-matching floor, turned from an argument into a measurement;
-  - the handedness theorem;
-  - a clear, physical account of what makes a measurement final;
-  - an unusually complete record of what doesn't work, and why.
+ED is a consistent, runnable ontology that agrees with known physics and constrains what is possible. It has produced no new measurable prediction, and it doesn't claim to — its founding statement is that it supplies *"the conditions of possibility, not the full catalogue of outcomes."*
+
+The open question it reaches from every direction: **ED says what may happen, not where a new event goes.**
 
 ---
 
-## How the work was done
-
-- **Tests set up in advance,** so results couldn't be quietly reinterpreted afterwards.
-- **Every failure recorded,** including mistakes in the test code itself.
-- **Literature checked first,** before claiming anything.
-- **Tuned settings labelled** as tuned.
-- **Results withdrawn when they didn't hold.** Five were, including one that matched a number to within 8% and was dropped within the hour once it moved when a setting moved.
-- **An exit rule agreed ahead of time:** "if three honest attempts fail, stop and write it up."
-
----
-
-## What's in this repository
+## What's here
 
 | | |
 |---|---|
-| **Results** | [RESULTS.md](RESULTS.md) — what survived, each with what it does not show |
-| **The untunability result** | [CDT_Constraint.md](CDT_Constraint.md) — written for readers who know causal dynamical triangulations |
-| **The framing** | [Constraints.md](Constraints.md) — what ED forbids, fixes and leaves open |
-| **The thirteen attempts** | [ED_Restart/Project_Write_Up.md](ED_Restart/Project_Write_Up.md), with the attempts themselves in [ED_Restart/](ED_Restart/) — each with its notes and a ledger of claims, decisions and a dated log. Attempts are closed records: referenced, never edited |
-| **What ED needs** | [ED_Restart/What_ED_Needs.md](ED_Restart/What_ED_Needs.md) — what physics assumes, against what ED supplies |
-| **The handedness theorem** | [handedness/](handedness/) — the one-page statement, the full proof, its assumptions, and a script that checks it |
+| [RESULTS.md](RESULTS.md) | the findings, each with its scope |
+| [CDT_Constraint.md](CDT_Constraint.md) | result 1 in full, written for readers who know causal dynamical triangulations |
+| [Constraints.md](Constraints.md) | what ED forbids, what it fixes, what it leaves open |
+| [Handedness/](Handedness/) | the theorem: statement, proof, assumptions, and a script that checks it |
+| [Derivation Attempts/](Derivation%20Attempts/) | the working record — thirteen model builds with their ledgers, dated notes and data |
 
 ## Check the theorem yourself
 
 ```
-python handedness/check_result.py
+python Handedness/check_result.py
 ```
 
 Needs Python with numpy. It tests the theorem for up to six lanes, for random mirrors, and for hops reaching several places at once, plus two edge cases: traffic that only hops forward, and traffic without one-way time.
 
+## Method
+
+Tests were specified before they were run, with expected results recorded in advance. Published work was checked before claiming anything. Settings chosen to make something work are labelled as tuned. The complete working record, including every model that didn't work, is in [Derivation Attempts/](Derivation%20Attempts/).
+
 ## Further reading
 
 - H. B. Nielsen and M. Ninomiya, "A no-go theorem for regularizing chiral fermions," *Physics Letters B* 105, 219 (1981).
-- J. Ambjørn, J. Jurkiewicz and R. Loll, on causal dynamical triangulations — the identities used in the untunability result are from [hep-th/0105267](https://arxiv.org/abs/hep-th/0105267).
-- The full reference list is in [handedness/Paper.md](handedness/Paper.md).
+- J. Ambjørn, J. Jurkiewicz and R. Loll on causal dynamical triangulations; the identities used in result 1 are from [hep-th/0105267](https://arxiv.org/abs/hep-th/0105267).
+- Full references in [Handedness/PAPER_Reflection-Symmetric Transport Carries No Handedness.md](Handedness/PAPER_Reflection-Symmetric%20Transport%20Carries%20No%20Handedness.md).
