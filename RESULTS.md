@@ -10,9 +10,9 @@ Each result below had its expected outcome recorded before it was tested. The wo
 
 ## 1. Untunability: a conservation law fixes three numbers CDT tunes
 
-Causal dynamical triangulations is a well-developed approach to quantum spacetime. Its bulk counts leave **three totals free**, and those are what its couplings are tuned against.
+Causal dynamical triangulations is a well-developed approach to quantum spacetime. Its bulk counts leave **three totals free** — **N₀**, the corner points; **N₄₁**, the blocks with four corners on one time-slice and one on the next; and **N₃₂**, the blocks with three on one slice and two on the next. Those three are what its couplings κ₀, Δ and κ₄ are tuned against.
 
-**ED's conserved budgets fix all three.** The offspring budget fixes one, the spatial link budget fixes another, and conserving forward links fixes the third through an exact identity. The result is a single point with nothing tuned — and in 2+1 dimensions that point sits **inside the phase where space doesn't collapse**, rather than the collapsed one.
+**ED's conserved budgets fix all three.** The event budget fixes N₀, the link budget fixes N₄₁, and conserving forward links fixes N₃₂ through an exact identity, N₁ᵀ = 2N₀ + N₃₂/2. The result is a single point with nothing tuned — and in 2+1 dimensions that point sits **inside the phase where space doesn't collapse**, rather than the collapsed one.
 
 Exact algebra. No new free parameters.
 
