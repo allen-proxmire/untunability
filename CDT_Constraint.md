@@ -1,6 +1,6 @@
 ﻿# Untunability: a conservation law fixes the three totals CDT tunes
 
-*Allen Proxmire, 2026-09-23. Written for readers who know causal dynamical triangulations. The plain-language version is in [RESULTS.md](RESULTS.md); the full working is in [ED-generative](https://github.com/allen-proxmire/ED-generative), `ED_Attempt_11`.*
+*Allen Proxmire, 2026-09-23. Written for readers who know causal dynamical triangulations. The plain-language version is in [RESULTS.md](RESULTS.md); the full working — ledgers, notes, code and data — is held separately and available on request.*
 
 ---
 

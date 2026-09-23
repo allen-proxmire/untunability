@@ -4,7 +4,7 @@
 
 **Event Density (ED) is an ontology** — an account of what the world is made of, from which physics is supposed to follow. **Untunability** is the name for the part of it that has been tested and held: the claim that quantities other frameworks leave free are fixed by what ED conserves.
 
-Each result below had its expected outcome recorded before it was tested. The working record is in [the ED-generative repository](https://github.com/allen-proxmire/ED-generative).
+Each result below had its expected outcome recorded before it was tested. The working record is held separately and available on request.
 
 ---
 
@@ -36,7 +36,7 @@ So ED's own content rules out one and two dimensions.
 
 **Scope.** It doesn't pick three — three and everything above it pass equally. And it says nothing about where a pattern's shape comes from.
 
-*Where: [ED-generative](https://github.com/allen-proxmire/ED-generative), `ED_Attempt_11`, C21.*
+*Working record: attempt 11, claim C21.*
 
 ---
 
@@ -62,7 +62,7 @@ ED carries a dimension it is given, blurs it as the pattern grows, and never mak
 
 **3+1 is a declared primitive of the ontology**, not something it claimed to derive. What the testing adds is that the declaration is honest: dimension is genuinely an input, not something assumed and then presented as a result. Taken with result 2, the primitive is *partly forced* — one and two dimensions are excluded by ED's own content, narrowing the input from any number of dimensions to three or more.
 
-*Where: [ED-generative](https://github.com/allen-proxmire/ED-generative), `ED_Attempt_13`, C10, C11, C15.*
+*Working record: attempt 13, claims C10, C11, C15.*
 
 ---
 
@@ -97,4 +97,4 @@ That distinction is kept deliberately. A result counts as a reduction only if ED
 
 Every test was specified before it ran, with its expected outcome recorded in advance and its instruments calibrated against objects whose answers were already known. Published work was checked before anything was claimed. Settings chosen to make something work are labelled as tuned.
 
-The working record — thirteen model builds with their ledgers, dated notes and data — is in [the ED-generative repository](https://github.com/allen-proxmire/ED-generative), summarised in [the ED-generative repository](https://github.com/allen-proxmire/ED-generative).
+The working record — thirteen model builds with their ledgers, dated notes, code and data — is held separately and available on request.

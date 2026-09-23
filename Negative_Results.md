@@ -1,6 +1,6 @@
 ﻿# Negative results: what ED was tested for and did not do
 
-*Allen Proxmire, 2026-09-23. A companion to [RESULTS.md](RESULTS.md). The working record behind it is in the [ED-generative repository](https://github.com/allen-proxmire/ED-generative), under `Derivation Attempts/`.*
+*Allen Proxmire, 2026-09-23. A companion to [RESULTS.md](RESULTS.md). The working record behind it is held separately and available on request.*
 
 ---
 
@@ -75,4 +75,4 @@ Thirteen model builds, each with its meanings fixed and its expected results rec
 
 **Five results were withdrawn on their own checks**, including one that matched a number to within 8% and was dropped once it moved when a setting moved, and one that rested on three correlated seeds and did not survive eight independent ones.
 
-The complete record — ledgers, dated notes, code and data — is in the [ED-generative repository](https://github.com/allen-proxmire/ED-generative) under `Derivation Attempts/`.
+The complete record — ledgers, dated notes, code and data — is held separately and available on request.
