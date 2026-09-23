@@ -23,7 +23,9 @@ That's the picture. Everything else is working out what it implies.
 
 ## What survived testing
 
-**1. A conservation law fixes three numbers a rival framework tunes by hand.** Causal dynamical triangulations has three totals that must be tuned until the spacetime it produces looks right. ED's conserved budgets fix all three, exactly, with no new free parameters — and in 2+1 dimensions the point it lands on sits *inside* the phase where space doesn't collapse. → **[CDT_Constraint.md](CDT_Constraint.md)**
+**1. A conservation law fixes three numbers a rival framework tunes by hand.** Causal dynamical triangulations has three totals that must be tuned until the spacetime it produces looks right. ED's conserved budgets fix all three, exactly, with no new free parameters.
+
+**Checked against the literature, this splits.** In **2+1 it holds**: the value ED fixes is reachable, inside the phase where space doesn't collapse, on a program validated against published results. In **3+1 it is unresolved and leaning against**: ED needs a vertex density of 0.044 where published measurements near the nearest phase boundary are 0.152–0.164. One number decides it. → **[CDT_Constraint.md](CDT_Constraint.md)**
 
 **2. Below three dimensions, clocks can't hold together.** Argued first, then measured: in one and two dimensions the pull needed to hold a pattern's clocks together rises without limit as it grows; at three and above it settles. ED's own content rules out one and two — it does not pick three.
 
@@ -52,7 +54,7 @@ A lot, and every failure is written down.
 - **ED is an ontology:** a consistent, runnable account that agrees with known physics and constrains what is possible.
 - **It doesn't tell us something about nature we didn't already know** — no new measurable prediction has come out of it.
 - **Its lasting contributions:**
-  - the untunability result: three tuned numbers of an established framework are not free;
+  - the untunability result: three tuned numbers of an established framework are not free — established in 2+1, open in 3+1;
   - the rate-matching floor, turned from an argument into a measurement;
   - the handedness theorem;
   - a clear, physical account of what makes a measurement final;

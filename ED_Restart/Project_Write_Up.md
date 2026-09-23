@@ -32,6 +32,14 @@ Exact algebra, not a simulation. No new free numbers. And it is exactly the kind
 
 *(Attempt 11, C5, C8. The program that produced the surrounding runs was checked against published CDT results and reproduced them, including a known phase transition — attempt 11, C17.)*
 
+**Added 2026-09-23, after the attempts were concluded, from a literature check.** Three questions were put to the literature rather than left open, and the answers split this result:
+
+- **The identities are standard; the reading is not.** In CDT these totals are *ensemble* variables whose averages the couplings fix. ED fixes the counts themselves, so the claim is **microcanonical**: ED picks a definite point, and the open question is whether CDT's ensemble reaches it. That is a sharper and more falsifiable statement than "ED sits at a point of CDT's map".
+- **In 2+1 the claim strengthens.** The value ED fixes (τ = 1/3) is reachable at about k₀ = 3.2, inside the extended phase — measured on the validated program rather than extrapolated, which was the earlier caveat.
+- **In 3+1 the claim is unresolved and leaning against.** ED requires a vertex density N0/N4 of 0.044. The published order parameter near the A–C transition measures 0.152–0.164 ([arXiv:1203.3591](https://arxiv.org/abs/1203.3591), Fig. 21) — about three times larger. No value is published at CDT's canonical point, and that single number decides it.
+
+*Recorded here rather than in attempt 11's ledger, which is a closed record.*
+
 ### 2. Below three dimensions, clocks cannot hold together
 
 ED says events carry rates, and that rates must be able to match across a pattern. Attempt 6 argued that this needs more than two dimensions: a patch's rate surplus grows like the square root of its size, the relations crossing its edge grow more slowly in one or two dimensions, so large patches always break away.
