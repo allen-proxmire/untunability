@@ -38,9 +38,19 @@ Before believing any "law" that emerges, run the identical analysis on a deliber
 
 These show up in almost any model, so finding them means nothing: diffusion; exponential decay; damped oscillation; symmetry echoes (a square box gives four-fold patterns); area laws.
 
-### 5. Settings are not laws
+### 5. Settings are not laws — but a knob is not a sin
 
 If a pattern depends on a number you chose in the code — a threshold, a weight of 1.0, a target of 0.5 — the pattern belongs to that choice. Names for the parts your simulation needs are software components, not physics.
+
+**That is not an argument for zero free parameters.** Physics is full of knobs: the Standard Model, inflation, ΛCDM, general relativity's constants. Nobody demands a theory have none. What matters is whether a knob is doing work.
+
+**A good parameter** corresponds to something meaningful, changes behaviour predictably, could in principle be measured, and ties several observations together.
+
+**A bad parameter** was moved from 0.37 to 0.42 because the graph looked wrong.
+
+**And the distinction worth protecting is which knobs are ontology and which are engineering.** An ontology names what is fundamental. The operational rules that generate familiar structure from it — neighbour selection, thresholds, stability criteria, transport laws — are a separate layer, and adding them is not a betrayal of the ontology. *Matter curves spacetime* is an ontological claim; the field equations are an operational model, and they arrived a decade apart.
+
+Keep the two layers labelled. That, rather than a parameter count, is what stops a model from quietly becoming a fit.
 
 ### 6. Three kinds of "accurate"
 

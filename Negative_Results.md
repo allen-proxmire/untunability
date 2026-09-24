@@ -1,4 +1,4 @@
-﻿# Negative results: what ED was tested for and did not do
+﻿# Negative results: what the tested rules did not do
 
 *Allen Proxmire, 2026-09-23. A companion to [RESULTS.md](RESULTS.md). The working record behind it is held separately and available on request.*
 
@@ -12,9 +12,9 @@ They are here rather than in the main results because they are a different kind 
 
 ---
 
-## 1. ED does not produce a spatial dimension
+## 1. The rules tested do not produce a spatial dimension
 
-**The test.** Grow a pattern under every rule ED supplies — events passing on a conserved budget, commitments that persist, neighbourhoods inherited from parents, rates that pass on and diffuse, patches required to shed their timing surplus through their own edges — starting from a pattern that has **no dimension at all** (a random web). Then measure whether one appears.
+**The test.** Grow a pattern under ED's rules as formalised here — events passing on a conserved budget, commitments that persist, neighbourhoods inherited from parents, rates that pass on and diffuse, patches required to shed their timing surplus through their own edges — starting from a pattern that has **no dimension at all** (a random web). Then measure whether one appears.
 
 **How it was measured.** With ED's own definition of dimension, from the ontology's own papers: *the number of independent participation directions available at scale.* On a pattern of events and connections this is a definite quantity — the slowest modes come in groups, two per independent direction. **Calibrated first on shapes whose answers are known:** a ring reads 1, a flat grid 2, a cubic grid 3, a random web nothing.
 
@@ -22,11 +22,13 @@ They are here rather than in the main results because they are a different kind 
 
 **Controls in the same runs:** a ring start read exactly 1 in sixteen of sixteen, with a clean separation. So the instrument was working; there was simply nothing to find.
 
-**What this is not.** It is not evidence against the ontology. **3+1 is a declared primitive of ED**, not something it claimed to derive. What the test establishes is that the declaration is honest — dimension is genuinely an input, not something assumed and later presented as a result.
+**What this is and is not.** It establishes that *this* formalisation contains no dimension-generating mechanism. It does not establish that no ED mechanism could — that would require a much stronger argument than any run can give.
+
+And it is not evidence against the ontology. **3+1 is a declared primitive of ED**, not something it claimed to derive. What the test establishes is that the declaration is honest — dimension is genuinely an input here, not something assumed and later presented as a result.
 
 ---
 
-## 2. ED's growth degrades directional structure
+## 2. The growth rule tested degrades directional structure
 
 **The test.** Take a pattern that *does* have a dimension — a three-dimensional grid — and grow it under ED's rules. Does it keep its shape?
 
@@ -34,7 +36,7 @@ They are here rather than in the main results because they are a different kind 
 
 **Checked against the alternatives.** Not an artefact of thickness: a clean lattice reads exactly 3 at every connection density tested. Not ordinary noise: a lattice survives having 100% of its connections locally re-pointed. Not the randomness in how a parent's neighbourhood is divided: making that division consistent changes nothing.
 
-**What it says.** ED's growth is corrosive to directional structure generally, at a similar relative rate whatever the dimension. It is not selectively hostile to three.
+**What it says.** This growth rule is corrosive to directional structure generally, at a similar relative rate whatever the dimension. It is not selectively hostile to three. A different rule for how a neighbourhood passes on could behave differently; none was found, but none was ruled out either.
 
 ---
 

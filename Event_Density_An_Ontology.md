@@ -15,7 +15,7 @@ The universe is made of activity before it is made of things. Beneath the famili
 
 From that primitive, time is the accumulation of becoming, space is the pattern of stable relations left by persistent gradients, and spacetime is what those look like coarse-grained. Gravity is the architecture of gradients. Quantum behaviour is thin participation. Laws are what stable participation looks like from far away. Nothing is added to make any of this work.
 
-What is new here is that the account has been tested rather than only argued. Three things held. ED's conservation laws fix three numbers that an established theory of quantum spacetime tunes by hand. Below three dimensions, clocks provably cannot keep time together. Handedness cannot be written into mirror-symmetric rules. What did not hold is stated with equal clarity: ED conditions space, and does not produce it.
+What is new here is that the account has been tested rather than only argued. Three things held. ED's conservation laws fix three numbers that an established theory of quantum spacetime tunes by hand. Below three dimensions, clocks provably cannot keep time together. Handedness cannot be written into mirror-symmetric rules. What did not hold is stated with equal clarity: on the rules tested, ED conditions space rather than producing it.
 
 ED is not a theory of everything. It is an account of why anything can have a structure at all.
 
@@ -288,7 +288,9 @@ An ontology should say what it assumes. ED assumes:
 
 Nothing has been derived, in the strict sense: the list has not got shorter.
 
-On the third item, testing added something worth stating. ED **carries** a dimension it is given and never manufactures one — sixteen independent runs, measured with ED's own definition of dimension, starting from a pattern with no dimension at all. None ever appeared.
+On the third item, testing added something worth stating. The rules as formalised **carry** a dimension they are given and never manufacture one — sixteen independent runs, measured with ED's own definition of dimension, starting from a pattern with no dimension at all. None ever appeared.
+
+That is a statement about the formalisation tested, not a proof that no mechanism exists. An ontology names what is fundamental; the operational rules that generate familiar structure from it are usually found later, and separately. *Matter curves spacetime* preceded the field equations by a decade.
 
 That is not a failure of the ontology. It is confirmation that the declaration is honest. Dimension is genuinely an input, not something assumed quietly and presented later as a result.
 

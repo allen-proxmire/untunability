@@ -49,7 +49,7 @@ CDT builds spacetime from two kinds of four-dimensional block, stacked in time-s
 
 **3. Handedness cannot be written into mirror-symmetric rules.** A proved theorem, checked by a script here: symmetric rules give exactly zero drift. If the world has a handedness — and it does — its state picked it, not its laws.
 
-**4. ED conditions space; it does not produce it.** Three-plus-one is a declared primitive of the ontology. Testing confirms the declaration is honest: ED carries a dimension it is given and never manufactures one. What it adds is that the primitive is *partly forced* — result 2 rules out one and two dimensions from ED's own content.
+**4. On the rules tested, ED conditions space rather than producing it.** Three-plus-one is a declared primitive of the ontology. Testing confirms the declaration is honest: the rules as formalised carry a dimension they are given and never manufacture one. That is a result about this formalisation, not a proof that no ED mechanism could. What it adds is that the primitive is *partly forced* — result 2 rules out one and two dimensions from ED's own content.
 
 **Full statements with their scope: [RESULTS.md](RESULTS.md). The technical case for result 1: [CDT_Constraint.md](CDT_Constraint.md). What ED forbids, fixes and leaves open: [Constraints.md](Constraints.md).**
 

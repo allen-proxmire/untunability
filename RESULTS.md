@@ -50,15 +50,15 @@ A proved theorem, checked by a script in this repository: in a hopping model, **
 
 ---
 
-## 4. ED conditions space; it does not produce it
+## 4. On the rules tested, ED conditions space rather than producing it
 
-**Nothing in ED creates a dimension.**
+**No dimension appeared under any rule set tested.**
 
 This was tested in the regime ED's own papers specify (thick participation, not the sparse minimum), with **ED's own definition of dimension** — *"the number of independent participation directions available at scale"* — calibrated first on shapes already known: a ring reads 1, a flat grid 2, a cubic grid 3, a random web nothing.
 
 Then, starting from a pattern with no dimension and growing it under every rule ED supplies: **sixteen runs, two sizes, eight seeds — none ever appears.**
 
-ED carries a dimension it is given, blurs it as the pattern grows, and never makes one.
+These rules carry a dimension they are given, blur it as the pattern grows, and never make one. That is a result about this formalisation; it is not a proof that no ED mechanism could.
 
 **3+1 is a declared primitive of the ontology**, not something it claimed to derive. What the testing adds is that the declaration is honest: dimension is genuinely an input, not something assumed and then presented as a result. Taken with result 2, the primitive is *partly forced* — one and two dimensions are excluded by ED's own content, narrowing the input from any number of dimensions to three or more.
 
