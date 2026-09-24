@@ -73,8 +73,6 @@ What it does add is that the primitive is **partly forced**: the rate-matching f
 | **What it constrains** | one and two dimensions; over-sparse patterns; handedness in symmetric rules; collapse; and three free parameters of an established framework |
 | **What it cannot yet say** | where a new event goes |
 
-**That is a smaller claim than a theory of everything, and it is the claim the founding paper makes.** The thirteen attempts in this repository were, for most of their length, grading the ontology against the other standard — asking it to *derive* three dimensions rather than to *condition* them. The evidence kept landing on the first.
-
 ---
 
 ## Why the record is kept the way it is
