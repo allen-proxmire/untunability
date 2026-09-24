@@ -374,4 +374,6 @@ The ontology in Parts I, II, III and VIII carries forward *Event Density and the
 
 Parts IV, V and VI report testing carried out in 2026: thirteen model builds, each with its meanings fixed and its expected results recorded before anything ran, and with instruments calibrated against objects whose answers were already known. Scope statements accompany each result rather than following it.
 
-Supporting documents — the untunability result in technical form, the negative results, and the working rules the testing was held to — accompany this paper.
+Supporting documents — the untunability result in technical form, the negative results, and the working rules the testing was held to — are at **github.com/allen-proxmire/untunability**, along with the handedness theorem and a script that checks it.
+
+The working record behind the testing — thirteen model builds with their ledgers, dated notes, code and data — is held separately and available on request.
