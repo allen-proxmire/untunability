@@ -68,10 +68,10 @@ These rules carry a dimension they are given, blur it as the pattern grows, and 
 
 ## 5. Further findings
 
-- **Patterns fragment below about five connections per event.** A threshold on how sparse a web can be and still hold together. *(Attempt 12, C7.)*
-- **ED never collapses.** In the 2+1 runs, from either starting condition, it never produced the collapsed phase CDT falls into outside its tuned window. *(Attempt 11, C20.)*
+- **Patterns fragment below about five connections per event.** A threshold on how sparse a web can be and still hold together. *(Working record: attempt 12, claim C7.)*
+- **ED never collapses.** In the 2+1 runs, from either starting condition, it never produced the collapsed phase CDT falls into outside its tuned window. *(Working record: attempt 11, claim C20.)*
 - **A regular lattice cannot be ED's substrate.** On a grid, the connections crossing a surface depend on which way it faces (1.00, 1.41, 1.73), which would make gravity direction-dependent. ED's connections must point every way equally.
-- **ED's growth degrades directional structure as it grows** — at a similar rate whatever the dimension. *(Attempt 13, C15.)*
+- **ED's growth degrades directional structure as it grows** — at a similar rate whatever the dimension. *(Working record: attempt 13, claim C15.)*
 
 ---
 

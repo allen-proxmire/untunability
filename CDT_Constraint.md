@@ -87,7 +87,7 @@ The program used for the surrounding simulations was run as **plain CDT** before
 
 It reproduced the published behaviour: τ falling steadily — 0.473, 0.403, 0.295, 0.210 at k₀ = 0, 2, 4, 5 — then dropping sharply to 0.041 at k₀ = 6 and 0.021, 0.016, 0.012, 0.011 at 7, 8, 10, 12. **A steady fall then a sharp drop**, the known first-order behaviour (AJL Fig. 7 gives ≈ 0.25 at k₀ = 5.25 with the transition near 6.6 for spherical slices; ours are toroidal, so a shift is expected). Above the drop the universe collapses into a single slice, as published.
 
-*(Attempt 11, C17. An earlier, shorter run failed to equilibrate and showed no drop; that was recorded and the run redone 100× longer rather than reported.)*
+*(Working record: attempt 11, claim C17. An earlier, shorter run failed to equilibrate and showed no drop; that was recorded and the run redone 100× longer rather than reported.)*
 
 ---
 
@@ -101,7 +101,7 @@ It reproduced the published behaviour: τ falling steadily — 0.473, 0.403, 0.2
 - Predict any new measurable quantity.
 - Derive CDT, or show that spacetime is a triangulation.
 - Determine the placement in 3+1 — and the published measurement nearest to the relevant point runs against it, by a factor of about three in vertex density.
-- Escape its modelling choices. Identifying the ontology's budgets with N0 and N3S, and its forward links with N1T, follows from stated decisions about what a tick is. Those decisions are recorded as decisions, in `ED_Attempt_11/01_Ledger/Assumptions.md` (D3–D6).
+- Escape its modelling choices. Identifying the ontology's budgets with N0 and N3S, and its forward links with N1T, follows from stated decisions about what a tick is. Those decisions are recorded as decisions in the working record (attempt 11, D3–D6), held separately and available on request.
 
 **Not peer-reviewed, and not seen by anyone who works on CDT.**
 

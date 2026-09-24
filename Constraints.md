@@ -35,7 +35,7 @@ An ontology earns its keep by ruling things out. These are the exclusions that s
 
 **A regular lattice as the substrate.** If ED's connections lay on a regular grid, the number crossing a surface would depend on which way the surface faced — measured at 1.00, 1.41 and 1.73 for surfaces facing along an edge, a face diagonal and a body diagonal. Read through Jacobson's thermodynamic derivation of Einstein's equations, that would give **different gravity in different directions**. So ED's connections have to point every way equally: a random web, not a grid.
 
-*(From a numerical check with its expectations fixed first, in the area-law note; the note's larger claim — that ED supplies Jacobson's one assumption — rested on ED's web being smooth and three-dimensional at large scales, which the thirteen attempts showed it cannot supply. The constraint above does not depend on that and stands on its own.)*
+*(From a numerical check with its expectations fixed first. It came out of an earlier reading in which ED supplies the one physical assumption in Jacobson's derivation — a reading that rested on ED's web being smooth and three-dimensional at large scales, which the rules tested could not supply. The constraint above does not depend on that reading and stands on its own.)*
 
 ---
 
