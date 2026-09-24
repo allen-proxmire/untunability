@@ -67,6 +67,7 @@ The open question it reaches from every direction: **ED says what may happen, no
 
 | | |
 |---|---|
+| [Event_Density_An_Ontology.md](Event_Density_An_Ontology.md) | **the paper** — what ED is, what follows from it, and what testing established |
 | [RESULTS.md](RESULTS.md) | the findings, each with its scope |
 | [CDT_Constraint.md](CDT_Constraint.md) | result 1 in full, written for readers who know causal dynamical triangulations |
 | [Constraints.md](Constraints.md) | what ED forbids, what it fixes, what it leaves open |
