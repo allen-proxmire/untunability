@@ -25,7 +25,7 @@ An ontology is judged differently from a theory. A theory is asked *what will ha
 
 An ontology earns its keep by ruling things out. These are the exclusions that survived testing.
 
-**One and two dimensions.** Events carry rates, and rates must be able to match across a pattern. A patch's surplus grows like the square root of its size while its edge grows more slowly in low dimensions, so large patches always break away. Measured, not just argued: in one and two dimensions the pull needed rises without limit as the pattern grows; at three and above it settles.
+**One and two dimensions.** Events carry rates, and rates must be able to match across a pattern. A patch's surplus grows like the square root of its size while its edge grows more slowly in low dimensions, so large patches always break away. Measured, not just argued: in one and two dimensions the pull needed rises without limit as the pattern grows; at three and above it rises at most very slowly, with a large majority of clocks staying locked. A flat triangular sheet with the same six connections per event as the three-dimensional grid still fails, so this reads the dimension and not the number of connections.
 
 **Patterns too sparse to hold together.** Below about five relations per event, a growing pattern fragments. Above it, it holds and copies itself more faithfully.
 

@@ -45,7 +45,7 @@ CDT builds spacetime from two kinds of four-dimensional block, stacked in time-s
 
 **ED's conserved budgets fix all three.** Its event budget fixes N₀, its link budget fixes N₄₁, and conserving forward links fixes N₃₂ through an exact identity, N₁ᵀ = 2N₀ + N₃₂/2. Arithmetic, no new free parameters. In 2+1 dimensions the point they fix is reachable and sits inside the phase where space does not collapse.
 
-**2. Below three dimensions, clocks cannot keep time together.** A patch's timing surplus grows faster than the connections available to shed it through, so in one or two dimensions large patches always break away. Measured, not just argued: the coupling needed rises without limit in one and two dimensions, and settles at three and above.
+**2. Below three dimensions, clocks cannot keep time together.** A patch's timing surplus grows faster than the connections available to shed it through, so in one or two dimensions large patches always break away. Measured, not just argued: the coupling needed rises without limit in one and two dimensions, and at three and above rises at most very slowly, with a large majority of clocks staying locked. Checked since against the objection that this reads the number of connections rather than the dimension: a flat triangular sheet with the same six connections per event as the three-dimensional grid still fails.
 
 **3. Handedness cannot be written into mirror-symmetric rules.** A proved theorem, checked by a script here: symmetric rules give exactly zero drift. If the world has a handedness — and it does — its state picked it, not its laws.
 
@@ -93,4 +93,6 @@ The standards in full are in [STANDARDS.md](STANDARDS.md). The complete working 
 
 - H. B. Nielsen and M. Ninomiya, "A no-go theorem for regularizing chiral fermions," *Physics Letters B* 105, 219 (1981).
 - J. Ambjørn, J. Jurkiewicz and R. Loll on causal dynamical triangulations; the identities used in result 1 are from [hep-th/0105267](https://arxiv.org/abs/hep-th/0105267).
+- S. H. Strogatz and R. E. Mirollo, "Phase-locking and critical phenomena in lattices of coupled nonlinear oscillators with random intrinsic frequencies," *Physica D* 31, 143 (1988) — the patch argument behind result 2, and the theorem that locking every oscillator eventually fails in any dimension.
+- H. Hong, H. Chaté, H. Park and L.-H. Tang, "Entrainment Transition in Populations of Random Frequency Oscillators," *Phys. Rev. Lett.* 99, 184101 ([2007](https://dx.doi.org/10.1103/PhysRevLett.99.184101)) — two dimensions as the borderline for a large locked majority.
 - Full references in [Handedness/PAPER_Reflection-Symmetric Transport Carries No Handedness.md](Handedness/PAPER_Reflection-Symmetric%20Transport%20Carries%20No%20Handedness.md).

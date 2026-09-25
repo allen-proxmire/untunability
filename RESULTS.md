@@ -30,11 +30,17 @@ Exact algebra. No new free parameters.
 
 ED says events carry rates that must be able to match across a pattern. The argument: a patch's rate surplus grows like the square root of its size, the relations crossing its edge grow more slowly in one or two dimensions, so large patches always break away.
 
-**That was turned from an argument into a measurement.** On a line and on a flat grid, the pull needed to hold the clocks together **rises without limit** as the pattern grows. On a three-dimensional grid and on a random web, it **settles** and stops rising.
+**That was turned from an argument into a measurement.** On a line and on a flat grid, the pull needed to hold **every** clock together **rises without limit** as the pattern grows. On a three-dimensional grid and on a random web it rises **at most very slowly** — below what the measurement could resolve across the sizes tested.
+
+The share of clocks that lock together tells the same story more sharply. At a coupling of 0.5, across an eightfold range of sizes, it collapses on flat patterns — 0.98 → 0.23 on a triangular sheet, 0.40 → 0.07 on a square grid — while staying high in three dimensions (0.99 → 0.88) and on a random web (0.96 → 0.98). *The coupling matters: at 1.0 and above every pattern locks fully and the measure says nothing.*
 
 So ED's own content rules out one and two dimensions.
 
-**Scope.** It doesn't pick three — three and everything above it pass equally. And it says nothing about where a pattern's shape comes from.
+**Checked since, against the obvious objection** that this reads the number of connections rather than the dimension. The original comparison used a line with 2 connections per event, a flat grid with 4, and a three-dimensional grid with 6. A **triangular sheet has the same six connections as the three-dimensional grid and still fails** — its pull rises with size (0.625 → 0.812) where the three-dimensional grid's does not. It is the dimension.
+
+**This lands on established physics.** The patch argument is the one Strogatz and Mirollo made for lattices of coupled oscillators ([1988](https://www.sciencedirect.com/science/article/abs/pii/0167278988900747)), and two dimensions is the known borderline for a large locked majority ([Hong, Chaté, Park and Tang, 2007](https://dx.doi.org/10.1103/PhysRevLett.99.184101)). ED arrives at it from its own content.
+
+**Scope.** It doesn't pick three — three and everything above it pass equally. **Locking every single clock eventually fails in any dimension**, by the theorem above; what separates three from two is that a large majority stays locked. And it says nothing about where a pattern's shape comes from.
 
 *Working record: attempt 11, claim C21.*
 
