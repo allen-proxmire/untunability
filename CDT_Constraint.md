@@ -34,7 +34,7 @@ N3T(2,2) = 3·N32/2
 
 | free total | fixed by | how |
 |---|---|---|
-| **N0** | a conserved offspring budget | the number of events per slice is carried forward, not chosen |
+| **N0** | a conserved event budget | the number of events per slice is carried forward, not chosen |
 | **N41** | a conserved spatial link budget | the budget fixes N3S per slice, and N41 = 2·N3S |
 | **N32** | a conserved forward-link count | **N1T = 2·N0 + N32/2** — conserving timelike links fixes N32 given N0 |
 

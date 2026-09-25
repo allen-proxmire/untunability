@@ -265,7 +265,7 @@ Causal dynamical triangulations is a developed approach to quantum spacetime. It
 
 ED does not tune them.
 
-Its commitment budget fixes the first. Its link budget fixes the second. Conserving forward links fixes the third, through an identity that already exists in that framework. **All three are determined, exactly, with no new free parameters.**
+Its event budget fixes the first. Its link budget fixes the second. Conserving forward links fixes the third, through an identity that already exists in that framework. **All three are determined, exactly, with no new free parameters.**
 
 In 2+1 dimensions the point they fix is reachable, and it sits inside the phase where space does not collapse rather than the phase where it does.
 
@@ -306,7 +306,7 @@ ED says what may happen. An event passes on its budget. Commitments stick. Rates
 
 It does not say **where** a new event attaches.
 
-Thirteen independent model builds reached this wall from different directions. It is the reason a shape must be supplied, and it is the single most likely place for the ontology to be extended.
+Fourteen independent model builds reached this wall from different directions. It is the reason a shape must be supplied, and it is the single most likely place for the ontology to be extended.
 
 ## 22. Specific structures
 
@@ -372,8 +372,8 @@ When becoming ceases, the universe is complete.
 
 The ontology in Parts I, II, III and VIII carries forward *Event Density and the Architecture of the Universe* (January 2026), *Event Density and the Emergence of Spacetime* (February 2026) and *Event Density and the Architecture of Physical Law* (February 2026).
 
-Parts IV, V and VI report testing carried out in 2026: thirteen model builds, each with its meanings fixed and its expected results recorded before anything ran, and with instruments calibrated against objects whose answers were already known. Scope statements accompany each result rather than following it.
+Parts IV, V and VI report testing carried out in 2026: fourteen model builds, each with its meanings fixed and its expected results recorded before anything ran, and with instruments calibrated against objects whose answers were already known. Scope statements accompany each result rather than following it.
 
 Supporting documents — the untunability result in technical form, the negative results, and the working rules the testing was held to — are at **github.com/allen-proxmire/untunability**, along with the handedness theorem and a script that checks it.
 
-The working record behind the testing — thirteen model builds with their ledgers, dated notes, code and data — is held separately and available on request.
+The working record behind the testing — fourteen model builds with their ledgers, dated notes, code and data — is held separately and available on request.

@@ -8,7 +8,7 @@
 
 **Consequence for ED.** A transport with net handedness, meaning a nonzero winding, requires S H(k) S⁻¹ ≠ H(−k). ED's rules contain no reflection, so they cannot supply that asymmetry. **If ED's transport carries a handedness, it comes from the state the substrate is in, a spontaneously broken symmetry, and not from its rules.**
 
-The assumptions behind each step are in [Assumptions.md](Assumptions.md). The full account is in [Paper.md](PAPER_Reflection-Symmetric%20Transport%20Carries%20No%20Handedness.md).
+The assumptions behind each step are in [Assumptions.md](Assumptions.md). The full account is in [the paper](PAPER_Reflection-Symmetric%20Transport%20Carries%20No%20Handedness.md).
 
 ## Proof
 

@@ -53,7 +53,7 @@ The full statement, with the identities, the numbers and what would settle it, i
 
 ## What ED leaves open
 
-**Where a new event goes.** ED says what may happen — an event passes on its budget, commitments stick, rates must be able to match — but not *where*. Thirteen attempts reached this wall from different directions. It is the single gap behind every negative result in the record.
+**Where a new event goes.** ED says what may happen — an event passes on its budget, commitments stick, rates must be able to match — but not *where*. Fourteen attempts reached this wall from different directions. It is the single gap behind every negative result in the record.
 
 **Which shape space has.** 3+1 is a declared primitive. The testing confirms that the declaration is honest rather than decorative: ED carries a dimension it is given and never manufactures one, in sixteen runs using ED's own definition of dimension.
 
@@ -81,4 +81,4 @@ Every test was specified before it was run. Every failure is written down, inclu
 
 That is not modesty for its own sake. An ontology that cannot be wrong about anything is not saying anything, and the only way to show that this one *can* be wrong is to keep the cases where it was.
 
-The full record — thirteen model builds with their ledgers, dated notes, code and data — is held separately and available on request.
+The full record — fourteen model builds with their ledgers, dated notes, code and data — is held separately and available on request.

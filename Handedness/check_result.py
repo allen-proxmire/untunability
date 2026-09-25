@@ -1,4 +1,4 @@
-"""Numerical check of the result in Paper.md and Result.md.
+"""Numerical check of the result in the paper and Result.md.
 
 For H(k) = sum over m from -R to R of e^{imk} C_m, with N channels:
   symmetric case    C_{-m} = S C_m S^-1  -> det H(k) even in k, winding 0
@@ -9,7 +9,7 @@ Part 1 checks nearest-neighbour hops (R = 1) with S the reversal of the channel 
 Part 2 checks the general case: S any reflection (any matrix with S^2 = 1), and hops
 reaching R = 1, 2 or 3 loci.
 
-    python tools/check_result.py
+    python Handedness/check_result.py
 
 Requires numpy.
 """

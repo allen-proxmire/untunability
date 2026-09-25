@@ -42,7 +42,7 @@ ED has thirteen primitives. The result uses five of them.
 | **P03** | **Indexing and spatial homogeneity.** Channels and loci carry discrete indices, and the substrate's rules are the same at every locus. | Transport is the same at every locus, so it can be written in terms of a wavenumber k. |
 | **P05** | **Polarity transport.** Polarity is carried along the edges between neighbouring loci. | Transport is made of hops between loci. A single step reaches a neighbouring locus; transport built from several steps reaches further. |
 | **P07** | **Channels are basic objects.** Two channels at the same locus are distinct even when their contents coincide. | A family of N distinct channels, so each hop is an N × N matrix. |
-| **P09** | **Polarity is a U(1) phase.** Each channel at each locus carries a phase e^{iπ}. | Hop amplitudes are complex numbers. |
+| **P09** | **Polarity is a U(1) phase.** Each channel at each locus carries a phase e^{iθ}. | Hop amplitudes are complex numbers. |
 | **P11** | **Commitment is irreversible.** No operation of the substrate undoes a commitment. | Forward and backward hops need not mirror each other, so transport need not be Hermitian. |
 
 ### 2.2 One property of the primitive list

@@ -43,7 +43,7 @@ CDT builds spacetime from two kinds of four-dimensional block, stacked in time-s
 | **N₄₁** | blocks with four corners on one slice and one on the next | Δ |
 | **N₃₂** | blocks with three corners on one slice and two on the next | κ₄ |
 
-**ED's conserved budgets fix all three.** Its commitment budget fixes N₀, its link budget fixes N₄₁, and conserving forward links fixes N₃₂ through an exact identity, N₁ᵀ = 2N₀ + N₃₂/2. Arithmetic, no new free parameters. In 2+1 dimensions the point they fix is reachable and sits inside the phase where space does not collapse.
+**ED's conserved budgets fix all three.** Its event budget fixes N₀, its link budget fixes N₄₁, and conserving forward links fixes N₃₂ through an exact identity, N₁ᵀ = 2N₀ + N₃₂/2. Arithmetic, no new free parameters. In 2+1 dimensions the point they fix is reachable and sits inside the phase where space does not collapse.
 
 **2. Below three dimensions, clocks cannot keep time together.** A patch's timing surplus grows faster than the connections available to shed it through, so in one or two dimensions large patches always break away. Measured, not just argued: the coupling needed rises without limit in one and two dimensions, and settles at three and above.
 

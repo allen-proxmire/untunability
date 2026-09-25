@@ -44,7 +44,7 @@ And it is not evidence against the ontology. **3+1 is a declared primitive of ED
 
 **The finding behind the other two.** ED specifies what may happen — an event passes on its budget, commitments stick, rates must be able to match — but not **where** a new event attaches.
 
-Thirteen independent model builds reached this from different directions. It is the reason a starting shape has to be supplied in every model, and the single most likely place for the ontology to be extended.
+Fourteen independent model builds reached this from different directions. It is the reason a starting shape has to be supplied in every model, and the single most likely place for the ontology to be extended.
 
 ---
 
@@ -73,7 +73,7 @@ This distinction is kept deliberately: a result counts as a reduction only if ED
 
 ## 6. How thoroughly this was checked
 
-Thirteen model builds, each with its meanings fixed and its expected results recorded before anything ran. Instruments were calibrated against objects with known answers before being used to measure anything unknown, and two were found wanting and replaced.
+Fourteen model builds, each with its meanings fixed and its expected results recorded before anything ran. Instruments were calibrated against objects with known answers before being used to measure anything unknown, and two were found wanting and replaced.
 
 **Five results were withdrawn on their own checks**, including one that matched a number to within 8% and was dropped once it moved when a setting moved, and one that rested on three correlated seeds and did not survive eight independent ones.
 

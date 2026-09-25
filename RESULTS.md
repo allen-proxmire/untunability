@@ -87,7 +87,7 @@ That distinction is kept deliberately. A result counts as a reduction only if ED
 
 ## What would change the picture
 
-1. **Something in ED that says where a new event goes.** Thirteen attempts each reached this wall from a different direction. ED specifies what may happen, not where. Until it does, a shape must be supplied.
+1. **Something in ED that says where a new event goes.** Fourteen attempts each reached this wall from a different direction. ED specifies what may happen, not where. Until it does, a shape must be supplied.
 2. **A second untunability result** of the same form: *a free parameter of an established framework is not free, given this conservation.*
 3. **A checkable difference from the standard account.** None has been produced.
 
@@ -97,4 +97,4 @@ That distinction is kept deliberately. A result counts as a reduction only if ED
 
 Every test was specified before it ran, with its expected outcome recorded in advance and its instruments calibrated against objects whose answers were already known. Published work was checked before anything was claimed. Settings chosen to make something work are labelled as tuned.
 
-The working record — thirteen model builds with their ledgers, dated notes, code and data — is held separately and available on request.
+The working record — fourteen model builds with their ledgers, dated notes, code and data — is held separately and available on request.
